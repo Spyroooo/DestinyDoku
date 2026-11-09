@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import Weapons from './games/weapons/Weapons'
 
 const games = [
   {
@@ -86,7 +87,9 @@ function App() {
       </header>
 
       <main id="main-content">
-        {currentGame ? (
+        {currentGame?.id === 'weapons' ? (
+          <Weapons />
+        ) : currentGame ? (
           <section className="game-placeholder" key={currentGame.id}>
             <p className="eyebrow">Destiny 2 · Coming soon</p>
             <h1>{currentGame.title}</h1>

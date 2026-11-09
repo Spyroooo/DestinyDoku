@@ -1,0 +1,722 @@
+[
+  {
+    "id": "gnawing-hunger",
+    "name": "Gnawing Hunger",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "drifter",
+    "currentVersionId": "gnawing-hunger-monument",
+    "versions": [
+      {
+        "id": "gnawing-hunger-monument",
+        "releaseId": "monument",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "gambit",
+          "name": "Gambit"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/214545213/gnawing-hunger/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "First introduced in Season of the Drifter; later reprised in Arrivals and Monument of Triumph. Tier changes do not change rarity."
+      }
+    ],
+    "icon": "images/weapons/gnawing-hunger.jpg"
+  },
+  {
+    "id": "the-palindrome",
+    "name": "The Palindrome",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Palindrome"
+    ],
+    "firstReleaseId": "chosen",
+    "currentVersionId": "the-palindrome-heresy",
+    "versions": [
+      {
+        "id": "the-palindrome-chosen",
+        "releaseId": "chosen",
+        "weaponType": "hand-cannon",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "nightfall",
+          "name": "Nightfall"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/432476743/the-palindrome/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "Legacy Void version. Champion data uses the current sandbox rules, not the rules at its release."
+      },
+      {
+        "id": "the-palindrome-heresy",
+        "releaseId": "heresy",
+        "weaponType": "hand-cannon",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "nightfall",
+          "name": "Nightfall"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/2876244791/the-palindrome/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "The Heresy version is Arc. The original Destiny 2 version is Void; these are separate versions, not a multi-element weapon."
+      }
+    ],
+    "icon": "images/weapons/the-palindrome.jpg"
+  },
+  {
+    "id": "ammit-ar2",
+    "name": "Ammit AR2",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Ammit"
+    ],
+    "firstReleaseId": "plunder",
+    "currentVersionId": "ammit-ar2-plunder",
+    "versions": [
+      {
+        "id": "ammit-ar2-plunder",
+        "releaseId": "plunder",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Legendary engrams / Foundry Resonance"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/2119346509/ammit-ar2/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/ammit-ar2.jpg"
+  },
+  {
+    "id": "funnelweb",
+    "name": "Funnelweb",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "funnelweb-witch-queen",
+    "versions": [
+      {
+        "id": "funnelweb-witch-queen",
+        "releaseId": "witch-queen",
+        "weaponType": "submachine-gun",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Lightweight Frame",
+        "champion": {
+          "counters": [
+            "overload"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Legendary engrams"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/3341893443/funnelweb/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/funnelweb.jpg"
+  },
+  {
+    "id": "bxr-55-battler",
+    "name": "BxR-55 Battler",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "BXR",
+      "BXR-55",
+      "Battler"
+    ],
+    "firstReleaseId": "anniversary",
+    "currentVersionId": "bxr-55-battler-anniversary",
+    "versions": [
+      {
+        "id": "bxr-55-battler-anniversary",
+        "releaseId": "anniversary",
+        "weaponType": "pulse-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Legacy PR-55 Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "activity",
+          "name": "Xûr’s Treasure Hoard / Dares of Eternity"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/2708806099/bxr-55-battler/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "Crafting and perk refreshes update this item without changing its original introduction."
+      }
+    ],
+    "icon": "images/weapons/bxr-55-battler.jpg"
+  },
+  {
+    "id": "riptide",
+    "name": "Riptide",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "haunted",
+    "currentVersionId": "riptide-renegades",
+    "versions": [
+      {
+        "id": "riptide-renegades",
+        "releaseId": "renegades",
+        "weaponType": "fusion-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "counters": [
+            "overload"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "crucible",
+          "name": "Crucible / Lord Shaxx"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/1323862250/riptide/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "Counter is the frame capability; random-roll perks such as Chill Clip are excluded."
+      }
+    ],
+    "icon": "images/weapons/riptide.jpg"
+  },
+  {
+    "id": "taipan-4fr",
+    "name": "Taipan-4fr",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Taipan"
+    ],
+    "firstReleaseId": "plunder",
+    "currentVersionId": "taipan-4fr-plunder",
+    "versions": [
+      {
+        "id": "taipan-4fr-plunder",
+        "releaseId": "plunder",
+        "weaponType": "linear-fusion-rifle",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Legendary engrams / Foundry Shaping"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/1911060537/taipan-4fr/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/taipan-4fr.jpg"
+  },
+  {
+    "id": "deliverance",
+    "name": "Deliverance",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "deliverance-witch-queen",
+    "versions": [
+      {
+        "id": "deliverance-witch-queen",
+        "releaseId": "witch-queen",
+        "weaponType": "fusion-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Vow of the Disciple"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/768621510/deliverance/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/deliverance.jpg"
+  },
+  {
+    "id": "cataclysmic",
+    "name": "Cataclysmic",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "cataclysmic-witch-queen",
+    "versions": [
+      {
+        "id": "cataclysmic-witch-queen",
+        "releaseId": "witch-queen",
+        "weaponType": "linear-fusion-rifle",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Vow of the Disciple"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/999767358/cataclysmic/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/cataclysmic.jpg"
+  },
+  {
+    "id": "trustee",
+    "name": "Trustee",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "trustee-monument",
+    "versions": [
+      {
+        "id": "trustee-monument",
+        "releaseId": "monument",
+        "weaponType": "scout-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "counters": [
+            "overload"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Deep Stone Crypt"
+        },
+        "referenceUrls": [
+          "https://owlsector.net/weapons",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/trustee.jpg"
+  },
+  {
+    "id": "heritage",
+    "name": "Heritage",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "heritage-seraph",
+    "versions": [
+      {
+        "id": "heritage-seraph",
+        "releaseId": "seraph",
+        "weaponType": "shotgun",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Pinpoint Slug Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Deep Stone Crypt"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/4241468884/heritage/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "Slug frame is also described as Precision in older references; verify the displayed frame name when importing the Manifest."
+      }
+    ],
+    "icon": "images/weapons/heritage.jpg"
+  },
+  {
+    "id": "commemoration",
+    "name": "Commemoration",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "commemoration-seraph",
+    "versions": [
+      {
+        "id": "commemoration-seraph",
+        "releaseId": "seraph",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Deep Stone Crypt"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/4230965989/commemoration/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/commemoration.jpg"
+  },
+  {
+    "id": "apex-predator",
+    "name": "Apex Predator",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Apex"
+    ],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "apex-predator-deep",
+    "versions": [
+      {
+        "id": "apex-predator-deep",
+        "releaseId": "deep",
+        "weaponType": "rocket-launcher",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "raid",
+          "name": "Last Wish"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/1851777734/apex-predator/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/apex-predator.jpg"
+  },
+  {
+    "id": "wish-ender",
+    "name": "Wish-Ender",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Wish Ender",
+      "Wishender"
+    ],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "wish-ender-forsaken",
+    "versions": [
+      {
+        "id": "wish-ender-forsaken",
+        "releaseId": "forsaken",
+        "weaponType": "combat-bow",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Queen’s Wrath",
+        "champion": {
+          "counters": [
+            "barrier"
+          ],
+          "basis": "exotic-intrinsic"
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "The Shattered Throne / Exotic quest"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/814876684/wish-ender/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/wish-ender.jpg"
+  },
+  {
+    "id": "hard-light",
+    "name": "Hard Light",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Hardlight"
+    ],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "hard-light-red-war",
+    "versions": [
+      {
+        "id": "hard-light-red-war",
+        "releaseId": "red-war",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc",
+          "solar",
+          "void"
+        ],
+        "frame": "Volatile Light",
+        "champion": {
+          "counters": null,
+          "basis": "frame"
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Exotic engrams"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/4124984448/hard-light/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+          "https://masterworked.gg/database/weapons/4124984448/hard-light"
+        ],
+        "notes": "Switches between Arc, Solar, and Void. Champion counter is unconfirmed: indexed Light.gg listings and Masterworked disagree. Excluded from the ready pool until verified in-game or against the current Manifest."
+      }
+    ],
+    "icon": "images/weapons/hard-light.jpg"
+  },
+  {
+    "id": "thunderlord",
+    "name": "Thunderlord",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "thunderlord-forsaken",
+    "versions": [
+      {
+        "id": "thunderlord-forsaken",
+        "releaseId": "forsaken",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Reign Havoc",
+        "champion": {
+          "counters": [
+            "overload"
+          ],
+          "basis": "exotic-intrinsic"
+        },
+        "source": {
+          "category": "event",
+          "name": "Festival of the Lost 2018 / Exotic quest"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/3325463374/thunderlord/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ],
+        "notes": "Source records its original introduction; it subsequently entered the Exotic world loot pool."
+      }
+    ],
+    "icon": "images/weapons/thunderlord.jpg"
+  },
+  {
+    "id": "leviathans-breath",
+    "name": "Leviathan’s Breath",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Leviathan's Breath",
+      "Leviathans Breath"
+    ],
+    "firstReleaseId": "undying",
+    "currentVersionId": "leviathans-breath-undying",
+    "versions": [
+      {
+        "id": "leviathans-breath-undying",
+        "releaseId": "undying",
+        "weaponType": "combat-bow",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Big-Game Hunter",
+        "champion": {
+          "counters": [
+            "unstoppable"
+          ],
+          "basis": "exotic-intrinsic"
+        },
+        "source": {
+          "category": "quest",
+          "name": "Make Bows, Not War"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/2591746970/leviathans-breath/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/leviathans-breath.jpg"
+  },
+  {
+    "id": "final-warning",
+    "name": "Final Warning",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [],
+    "firstReleaseId": "lightfall",
+    "currentVersionId": "final-warning-lightfall",
+    "versions": [
+      {
+        "id": "final-warning-lightfall",
+        "releaseId": "lightfall",
+        "weaponType": "sidearm",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "strand"
+        ],
+        "frame": "All at Once",
+        "champion": {
+          "counters": [
+            "overload"
+          ],
+          "basis": "frame"
+        },
+        "source": {
+          "category": "quest",
+          "name": "The Final Strand"
+        },
+        "referenceUrls": [
+          "https://www.light.gg/db/items/3121540812/final-warning/",
+          "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0"
+        ]
+      }
+    ],
+    "icon": "images/weapons/final-warning.jpg"
+  }
+]

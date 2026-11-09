@@ -1,0 +1,123 @@
+.weapons-page { min-width: 0; }
+.weapons-description, .round-summary span, .weapon-rules { color: #aab7c9; }
+.round-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin: 28px 0; font-size: 14px; }
+.weapons-page button, .weapons-page input { font: inherit; border-radius: 6px; }
+.weapons-page button { cursor: pointer; border: 1px solid #6f8cab; background: #bad6ee; color: #0b1724; padding: 11px 18px; font-weight: 650; }
+.weapons-page button:hover { background: #d8e9f8; }
+.weapons-page button:focus-visible, .weapons-page input:focus-visible, .table-scroll:focus-visible, .weapon-rules summary:focus-visible { outline: 2px solid #e9ce99; outline-offset: 4px; }
+.weapon-picker { position: relative; padding: 10px; border: 1px solid #344255; border-radius: 10px; background: #111d2c; }
+
+.guess-controls { display: flex; gap: 8px; }
+.guess-controls input { flex: 1; min-width: 0; padding: 10px; border: 1px solid #61758e; background: #0b1019; color: #edf1f7; }
+.guess-error, .storage-note { color: #ffb9b2; margin-top: 12px; }
+.table-scroll { overflow-x: auto; border: 1px solid #344255; border-radius: 8px; }
+.guess-table { width: 100%; min-width: 1100px; border-collapse: collapse; font-size: 13px; text-align: left; }
+.guess-table caption { text-align: left; padding: 14px 16px; font-weight: 650; background: #111d2c; }
+.guess-table th, .guess-table td { padding: 14px 12px; border: 1px solid #344255; }
+.guess-table thead th { font-size: 11px; letter-spacing: .6px; text-transform: uppercase; color: #b6c6da; background: #101a28; }
+.guess-table tbody th { min-width: 155px; background: #111d2c; }
+.guess-number { color: #91a7c0; }
+.clue-value, .clue-feedback { display: block; }
+.clue-feedback { font-size: 11px; margin-top: 6px; }
+.clue-exact { background: #173d32; color: #cbf5de; }
+.clue-partial { background: #493c1a; color: #ffe8a6; }
+.clue-wrong { background: #3b232c; color: #f3c9d2; }
+.empty-history { color: #aab7c9; height: 90px; }
+.round-result { border: 1px solid #537b6b; border-radius: 10px; background: #142d28; padding: 28px; }
+.round-result h2 { margin: 10px 0; }
+.round-result button { margin-top: 20px; }
+.weapon-rules { font-size: 13px; margin-top: 24px; }
+.weapon-rules summary { cursor: pointer; color: #d9bb7e; }
+.weapon-rules p { margin-top: 12px; }
+@media (max-width: 600px) {
+  .guess-controls { flex-direction: column; }
+  .weapon-picker { padding: 8px; }
+}
+
+/* Separate comparison tiles inspired by the reference guessing games. */
+.weapons-page { text-align: center; }
+.weapons-description { max-width: 620px; margin: 0 auto; }
+.weapon-picker { max-width: 520px; margin: 0 auto; text-align: left; border-color: #897c53; background: #101820; }
+.guess-controls input { border-color: #d9bb7e; }
+.round-summary { justify-content: center; gap: 8px 24px; }
+.table-scroll { border: 0; border-radius: 0; padding: 10px 0 20px; }
+.guess-table { border-collapse: separate; border-spacing: 7px 10px; table-layout: fixed; min-width: 1100px; text-align: center; }
+.guess-table caption { background: none; text-align: center; color: #aab7c9; font-size: 12px; }
+.guess-table th, .guess-table td { border: 0; }
+.guess-table thead th { background: none; color: #edf1f7; border-bottom: 3px solid #c4cbd4; padding: 12px 4px; font-size: 11px; }
+.guess-table tbody th, .guess-table tbody td:not(.empty-history) { height: 116px; padding: 8px 5px; border: 1px solid #b6a976; box-shadow: inset 0 0 0 3px #0b10194d, inset 0 0 20px #0005; vertical-align: middle; }
+.guess-table tbody th { min-width: 0; background: #111a25; }
+.guess-table tbody td.clue-exact { background: linear-gradient(145deg, #377a49, #285f38); color: #fff; }
+.guess-table tbody td.clue-partial { background: linear-gradient(145deg, #a27e29, #795a1c); color: #fff; }
+.guess-table tbody td.clue-wrong { background: linear-gradient(145deg, #8c3d3e, #642c33); color: #fff; }
+.clue-icons { display: flex; justify-content: center; gap: 5px; margin-bottom: 6px; }
+.clue-icons img { object-fit: contain; width: 24px; height: 24px; }
+.ammo-special { filter: brightness(0) saturate(100%) invert(86%) sepia(24%) saturate(615%) hue-rotate(65deg); }
+.ammo-heavy, .rarity-legendary { filter: brightness(0) saturate(100%) invert(81%) sepia(39%) saturate(1087%) hue-rotate(206deg); }
+.rarity-exotic { filter: brightness(0) saturate(100%) invert(91%) sepia(60%) saturate(605%) hue-rotate(341deg); }
+.clue-value { font-size: 12px; font-weight: 650; line-height: 1.3; overflow-wrap: anywhere; }
+.clue-feedback { font-size: 10px; line-height: 1.3; opacity: .9; }
+.weapon-portrait { display: inline-flex; position: relative; max-width: 100%; outline-offset: 5px; }
+.weapon-portrait > img { width: 80px; height: 80px; max-width: 100%; object-fit: cover; border: 1px solid #c9c0a2; }
+.weapon-portrait:focus-visible { outline: 2px solid #e9ce99; }
+.weapon-tooltip { position: absolute; z-index: 3; bottom: 100%; left: 0; padding: 6px 10px; margin-bottom: 7px; background: #080d15; border: 1px solid #d9bb7e; color: #fff; font-size: 12px; white-space: nowrap; visibility: hidden; pointer-events: none; }
+.weapon-portrait:hover .weapon-tooltip, .weapon-portrait:focus .weapon-tooltip { visibility: visible; }
+.weapon-portrait .guess-number { position: absolute; bottom: 2px; right: 2px; background: #080d15dd; color: #eee; font-size: 10px; padding: 0 5px; }
+.round-result { max-width: 700px; margin: 0 auto; }
+.weapon-rules { text-align: left; }
+
+main:has(.weapons-page) { width: min(1220px, 100%); padding-top: 40px; padding-bottom: 40px; }
+.weapons-page h1 { font-size: clamp(30px, 4vw, 44px); margin: 12px 0; }
+.weapons-description { font-size: 14px; max-width: 530px; }
+.weapons-page .round-summary { margin: 20px 0; font-size: 12px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.guess-table { min-width: 1100px; }
+.guess-table tbody th, .guess-table tbody td:not(.empty-history) { height: 116px; }
+.clue-icons.icons-type img { width: 54px; height: 36px; }
+.clue-icons img.white-symbol { filter: brightness(0) invert(1); }
+.clue-icons img.stasis-symbol { filter: brightness(0) saturate(100%) invert(42%) sepia(83%) saturate(1248%) hue-rotate(200deg) brightness(92%) contrast(98%); }
+.weapons-page .category-heading { background: none; border: 0; color: inherit; padding: 4px 0; font-size: inherit; letter-spacing: inherit; text-transform: inherit; border-radius: 0; width: 100%; }
+.weapons-page .category-heading:hover { background: none; color: #e9ce99; }
+.category-heading span { color: #d9bb7e; font-size: 12px; }
+.category-dialog { width: min(800px, calc(100% - 32px)); max-height: calc(100svh - 48px); padding: 0; border: 1px solid #b99c58; background: #0c1118; color: #edf1f7; text-align: left; box-shadow: 0 24px 100px #0009; overflow-y: auto; }
+.category-dialog::backdrop { background: #02060cbb; backdrop-filter: blur(5px); }
+.category-dialog-content { padding: 32px; }
+.category-dialog h2 { font-size: 30px; margin: 12px 0 18px; }
+.category-dialog p { color: #b8c0cb; line-height: 1.75; }
+.category-dialog ul { padding-left: 22px; margin: 24px 0; }
+.category-dialog li { padding-left: 5px; margin: 14px 0; }
+.category-dialog li::marker { color: #d9bb7e; }
+.category-examples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.category-examples article { padding: 18px; border: 1px solid #ffffff20; background: #ffffff03; }
+.category-examples h3 { margin: 0 0 10px; font-size: 18px; }
+.category-examples p { font-size: 14px; }
+.category-dialog-footer { position: sticky; bottom: 0; padding: 20px; margin: 0; background: #0c1118; border-top: 1px solid #ffffff20; text-align: center; }
+.category-dialog-footer button { background: #c5a34e; border-color: #c5a34e; padding: 12px 32px; }
+@media (max-width: 600px) {
+  .category-dialog-content { padding: 24px 20px; }
+  .category-examples { grid-template-columns: 1fr; }
+}
+
+.weapon-suggestions { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; right: 0; list-style: none; margin: 0; padding: 8px; box-shadow: 0 18px 40px #000a; border: 1px solid #a99254; background: #090e15; max-height: min(350px, 50svh); overscroll-behavior: contain; overflow-y: auto; }
+.weapon-suggestion { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 12px; border-radius: 8px; text-align: left; }
+.weapon-suggestion:hover, .weapon-suggestion:focus-within { background: #ffffff08; }
+.weapon-suggestion > img { width: 48px; height: 48px; object-fit: cover; border: 1px solid #d9bb7e; outline: 1px solid #7a6b43; outline-offset: 3px; }
+.weapon-suggestion > span { font-size: 17px; font-weight: 500; overflow-wrap: anywhere; }
+.weapons-page .weapon-suggestion button { padding: 8px 18px; border-radius: 0; border: 1px solid #8d7d50; color: #f2e9d4; background: linear-gradient(90deg, #514a2e, #25241b 24%, #25241b 76%, #514a2e); }
+.weapons-page .weapon-suggestion button:hover { border-color: #e9ce99; background: #51482e; }
+.no-suggestions { padding: 18px; color: #aab7c9; }
+.weapon-picker + .table-scroll, .round-result + .table-scroll { margin-top: 28px; }
+@media (max-width: 600px) {
+  .weapon-suggestion { grid-template-columns: 48px minmax(0, 1fr) auto; gap: 12px; padding: 12px 6px; }
+  .weapon-suggestion > img { width: 48px; height: 48px; }
+  .weapon-suggestion > span { font-size: 16px; }
+  .weapons-page .weapon-suggestion button { padding: 8px 10px; font-size: 13px; }
+}
+
+.guess-controls { font-size: 14px; }
+.guess-controls button { padding: 9px 12px; white-space: nowrap; }
+@media (max-width: 600px) {
+  .guess-controls { flex-direction: row; }
+  main:has(.weapons-page) { padding: 28px 12px; }
+}

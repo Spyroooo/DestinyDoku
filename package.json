@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run data:check && tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:check": "node scripts/validate-weapon-data.mjs",
+    "test": "node --test scripts/test-weapons.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

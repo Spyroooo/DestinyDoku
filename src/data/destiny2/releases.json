@@ -1,0 +1,138 @@
+[
+  {
+    "id": "red-war",
+    "edition": "destiny2",
+    "name": "The Red War",
+    "kind": "base-game",
+    "year": 2017,
+    "order": 100
+  },
+  {
+    "id": "forsaken",
+    "edition": "destiny2",
+    "name": "Forsaken / Season of the Outlaw",
+    "kind": "expansion",
+    "year": 2018,
+    "order": 400
+  },
+  {
+    "id": "drifter",
+    "edition": "destiny2",
+    "name": "Season of the Drifter",
+    "kind": "season",
+    "year": 2019,
+    "order": 600
+  },
+  {
+    "id": "undying",
+    "edition": "destiny2",
+    "name": "Shadowkeep / Season of the Undying",
+    "kind": "expansion",
+    "year": 2019,
+    "order": 800
+  },
+  {
+    "id": "arrivals",
+    "edition": "destiny2",
+    "name": "Season of Arrivals",
+    "kind": "season",
+    "year": 2020,
+    "order": 1100
+  },
+  {
+    "id": "beyond-light",
+    "edition": "destiny2",
+    "name": "Beyond Light / Season of the Hunt",
+    "kind": "expansion",
+    "year": 2020,
+    "order": 1200
+  },
+  {
+    "id": "chosen",
+    "edition": "destiny2",
+    "name": "Season of the Chosen",
+    "kind": "season",
+    "year": 2021,
+    "order": 1300
+  },
+  {
+    "id": "anniversary",
+    "edition": "destiny2",
+    "name": "Bungie 30th Anniversary",
+    "kind": "update",
+    "year": 2021,
+    "order": 1550
+  },
+  {
+    "id": "witch-queen",
+    "edition": "destiny2",
+    "name": "The Witch Queen / Season of the Risen",
+    "kind": "expansion",
+    "year": 2022,
+    "order": 1600
+  },
+  {
+    "id": "haunted",
+    "edition": "destiny2",
+    "name": "Season of the Haunted",
+    "kind": "season",
+    "year": 2022,
+    "order": 1700
+  },
+  {
+    "id": "plunder",
+    "edition": "destiny2",
+    "name": "Season of Plunder",
+    "kind": "season",
+    "year": 2022,
+    "order": 1800
+  },
+  {
+    "id": "seraph",
+    "edition": "destiny2",
+    "name": "Season of the Seraph",
+    "kind": "season",
+    "year": 2022,
+    "order": 1900
+  },
+  {
+    "id": "lightfall",
+    "edition": "destiny2",
+    "name": "Lightfall / Season of Defiance",
+    "kind": "expansion",
+    "year": 2023,
+    "order": 2000
+  },
+  {
+    "id": "deep",
+    "edition": "destiny2",
+    "name": "Season of the Deep",
+    "kind": "season",
+    "year": 2023,
+    "order": 2100
+  },
+  {
+    "id": "heresy",
+    "edition": "destiny2",
+    "name": "Episode: Heresy",
+    "kind": "episode",
+    "year": 2025,
+    "order": 2600
+  },
+  {
+    "id": "renegades",
+    "edition": "destiny2",
+    "name": "Renegades",
+    "kind": "expansion",
+    "year": 2025,
+    "order": 2800
+  },
+  {
+    "id": "monument",
+    "edition": "destiny2",
+    "name": "Monument of Triumph",
+    "kind": "update",
+    "year": 2026,
+    "order": 2900
+  }
+]
