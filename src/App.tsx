@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import './App.css'
-import Weapons from './games/weapons/Weapons'
+import Feedback from './Feedback'
+const Weapons = lazy(() => import('./games/weapons/Weapons'))
 
 const games = [
   {
@@ -65,7 +66,7 @@ function App() {
     return () => window.removeEventListener('hashchange', updatePage)
   }, [])
 
-  const currentGame = games.find((game) => page === `/${game.id}`)
+  const currentGame = games.find((game) => page === `/${game.id}` || game.id === 'weapons' && ['/weapons/practice', '/weapons/daily'].includes(page))
 
   return (
     <div className="app">
@@ -87,8 +88,8 @@ function App() {
       </header>
 
       <main id="main-content">
-        {currentGame?.id === 'weapons' ? (
-          <Weapons />
+        {page === '/feedback' ? <Feedback /> : currentGame?.id === 'weapons' ? (
+          <Suspense fallback={<p role="status">Loading weapon challenges…</p>}><Weapons mode={page === '/weapons/daily' ? 'daily' : 'practice'} /></Suspense>
         ) : currentGame ? (
           <section className="game-placeholder" key={currentGame.id}>
             <p className="eyebrow">Destiny 2 · Coming soon</p>
@@ -118,7 +119,10 @@ function App() {
         )}
       </main>
 
-      <footer>DestinyDoku · An unofficial Destiny fan project</footer>
+      <footer>
+        <p>DestinyDoku · An unofficial Destiny fan project</p>
+        <p className="feedback-prompt">Found a bug, spotted incorrect data, or have an idea? <a href="#/feedback">Send feedback or suggest an improvement →</a></p>
+      </footer>
     </div>
   )
 }

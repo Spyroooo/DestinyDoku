@@ -1,6 +1,7 @@
 import type { Weapon } from '../../types/weapon'
 import { currentVersion } from './logic'
 import type { Column } from './logic'
+import { assetUrl } from './assets'
 
 const weaponIcons: Record<string, string> = {
   'auto-rifle': 'auto_rifle', 'scout-rifle': 'scout_rifle', 'pulse-rifle': 'pulse_rifle',
@@ -9,10 +10,6 @@ const weaponIcons: Record<string, string> = {
   'fusion-rifle': 'fusion_rifle', 'linear-fusion-rifle': 'fusion_rifle',
   'trace-rifle': 'trace_rifle', 'grenade-launcher': 'grenade_launcher',
   'rocket-launcher': 'rocket_launcher', 'machine-gun': 'machinegun', sword: 'sword_heavy', glaive: 'glaive',
-}
-
-export function assetUrl(path: string) {
-  return `${import.meta.env.BASE_URL}${path}`
 }
 
 export default function ClueIcons({ column, weapon }: { column: Column; weapon: Weapon }) {
@@ -25,7 +22,7 @@ export default function ClueIcons({ column, weapon }: { column: Column; weapon: 
     case 'slot': icons = [version.slot === 'kinetic' ? 'damage_kinetic' : `${version.slot}_weapon`]; break
     case 'rarity': icons = ['engram']; break
     case 'champion': icons = (version.champion.counters ?? []).map((counter) => ({ barrier: 'pierce', overload: 'overload', unstoppable: 'stagger' })[counter]); break
-    case 'source': icons = [version.source.category === 'raid' ? 'raid' : version.source.category === 'quest' || version.source.category === 'dungeon' ? 'quest' : version.source.category === 'nightfall' ? 'strike' : 'ghost']; break
+    case 'source': icons = [version.source.category === 'exotic-archive' ? 'collections' : version.source.category === 'tenet-engram' ? 'engram' : version.source.category === 'raid' ? 'raid' : version.source.category === 'quest' || version.source.category === 'dungeon' ? 'quest' : version.source.category === 'nightfall' ? 'strike' : 'ghost']; break
     case 'release': icons = ['collections']; break
   }
   return (

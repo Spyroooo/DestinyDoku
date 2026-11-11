@@ -52,7 +52,7 @@ test('damage compares unordered sets with overlap; Champion requires exact sets'
 test('release arrows point toward answer; reissues use current damage and original release', () => {
   const clues = logic.evaluateGuess(find('the-palindrome'), find('final-warning'), releases)
   assert.equal(clues.find((clue) => clue.column === 'release').direction, 'later')
-  assert.equal(clues.find((clue) => clue.column === 'release').value, 'Season of the Chosen (2021)')
+  assert.equal(clues.find((clue) => clue.column === 'release').value, 'S13 · Season of the Chosen (2021)')
   assert.equal(clues.find((clue) => clue.column === 'damage').value, 'Arc')
   const reverse = logic.evaluateGuess(find('final-warning'), find('the-palindrome'), releases)
   assert.equal(reverse.find((clue) => clue.column === 'release').direction, 'earlier')
@@ -74,15 +74,34 @@ test('save restoration accepts valid rounds and rejects corrupt, stale or imposs
   for (const raw of [null, '{', 'null', save(round, 'old'), save({ ...round, answerId: 'removed' }),
     save({ ...round, guessIds: ['ammit-ar2', 'ammit-ar2'] }),
     save({ ...round, guessIds: ['wish-ender', 'ammit-ar2'] }),
-    save({ ...round, guessIds: [7] }), save({ ...round, guessIds: ['hard-light'] })]) {
+    save({ ...round, guessIds: [7] }), save({ ...round, guessIds: ['not-in-playable-pool'] })]) {
     assert.equal(logic.restoreRound(raw, pool, signature), null)
   }
   assert.notEqual(logic.catalogSignature(pool.slice(1), releases), signature)
 })
 
 test('answer selection uses the pool and reaches both ends', () => {
-  assert.equal(logic.createRound(pool, () => 0).answerId, pool[0].id)
-  assert.equal(logic.createRound(pool, () => 0.999999).answerId, pool.at(-1).id)
+  const answers=pool.filter(logic.canBeAnswer)
+  assert.equal(logic.createRound(pool, () => 0).answerId, answers[0].id)
+  assert.equal(logic.createRound(pool, () => 0.999999).answerId, answers.at(-1).id)
+})
+
+test('unreleased discoveries can be searched, guessed and restored but never selected as answers',()=>{
+ const discovery=find('bushwhacker'),answer=find('wish-ender')
+ assert(discovery)
+ assert.equal(logic.currentVersion(discovery).source.category,'unreleased')
+ assert.equal(logic.canBeAnswer(discovery),false)
+ assert(logic.searchWeapons(pool,'bushwhacker',[]).some((w)=>w.id===discovery.id))
+ const mixed=[discovery,answer,discovery]
+ for(const random of [0,0.25,0.5,0.999999,1])assert.equal(logic.createRound(mixed,()=>random).answerId,answer.id)
+ assert.throws(()=>logic.createRound([discovery]))
+ const round=logic.submitGuess({answerId:answer.id,guessIds:[]},discovery.id,pool)
+ assert.deepEqual(round.guessIds,[discovery.id])
+ const signature=logic.catalogSignature(pool,releases)
+ const save=(round)=>JSON.stringify({version:1,signature,round})
+ assert.deepEqual(logic.restoreRound(save(round),pool,signature),round)
+ assert.equal(logic.restoreRound(save({answerId:discovery.id,guessIds:[]}),pool,signature),null)
+ assert.deepEqual(logic.evaluateGuess(discovery,answer,releases).find(c=>c.column==='release'),{column:'release',value:'Unreleased',match:'wrong'})
 })
 
 test('long rounds restore and stored chronology is preserved', () => {
@@ -160,4 +179,57 @@ test('category dialog stays open through the StrictMode effect replay', () => {
   assert.equal(dismissals, 1, 'User dismissal still notifies the parent')
   finalCleanup()
   assert.equal(body.style.overflow, 'auto')
+})
+
+test('playable gate rejects incomplete clues, missing images and broken release references', async () => {
+  const source = readFileSync(new URL('../src/data/weapon-readiness.ts', import.meta.url), 'utf8')
+  const { outputText } = ts.transpileModule(source, { compilerOptions: { target: ts.ScriptTarget.ES2023, module: ts.ModuleKind.ESNext } })
+  const { weaponReadinessIssues } = await import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`)
+  const good = structuredClone(find('ammit-ar2'))
+  assert.deepEqual(weaponReadinessIssues(good, releases), [])
+  for (const mutate of [
+    (weapon) => { delete weapon.icon },
+    (weapon) => { weapon.icon = '../outside.jpg' },
+    (weapon) => { weapon.firstReleaseId = 'unknown' },
+    (weapon) => { weapon.currentVersionId = 'missing' },
+    (weapon) => { logic.currentVersion(weapon).damageTypes = [] },
+    (weapon) => { logic.currentVersion(weapon).source.name = '' },
+    (weapon) => { logic.currentVersion(weapon).champion.counters = null },
+  ]) {
+    const bad = structuredClone(good)
+    mutate(bad)
+    assert(weaponReadinessIssues(bad, releases).length > 0)
+  }
+})
+
+
+test('share summary contains all eight clues per guess, oldest first, without spoilers', () => {
+  const round = { answerId: 'ammit-ar2', guessIds: ['wish-ender', 'riptide', 'ammit-ar2'] }
+  const grid = logic.buildGuessGrid(round, pool, releases)
+  assert.equal(grid.length, 3)
+  assert(grid.every((row) => row.length === 8))
+  assert.equal(grid[1].at(-1).match, 'partial')
+  const share = logic.buildShareText(round, pool, releases)
+  const lines = share.split('\n')
+  assert(lines[0].includes('Practice · 3 guesses'))
+  assert.equal(lines[3], '🟩'.repeat(8))
+  assert(!share.includes('Ammit'))
+  assert(!share.includes('Wish-Ender'))
+  assert.equal(logic.buildShareText({ ...round, guessIds: ['wish-ender'] }, pool, releases), '')
+})
+
+test('season display preserves exact release matching and saved rounds', () => {
+  assert.equal(logic.formatRelease(releases.find((r) => r.id === 'forsaken')), 'S4 · Forsaken / Season of the Outlaw (2018)')
+  const plain = releases.map(({ seasonNumber, ...release }) => release)
+  assert.equal(logic.catalogSignature(pool, releases), logic.catalogSignature(pool, plain))
+})
+
+
+test('user-confirmed weapon corrections are reflected in playable clues', () => {
+  assert.deepEqual(logic.currentVersion(find('hard-light')).champion.counters, ['overload'])
+  assert.equal(find('a-good-shout').firstReleaseId, 'renegades')
+  assert.equal(logic.currentVersion(find('a-good-shout')).source.name, 'Zavala weapon set')
+  assert.equal(logic.currentVersion(find('a-sudden-death')).source.name, 'Prophecy')
+  assert.equal(logic.currentVersion(find('adamantite')).source.name, 'Pit of Heresy')
+  assert.equal(logic.currentVersion(find('adored')).source.name, 'Pinnacle Ops')
 })

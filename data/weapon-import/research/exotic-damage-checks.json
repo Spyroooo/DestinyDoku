@@ -1,0 +1,4560 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "manifestVersion": "245114.26.10.13.2000-1-bnet.66137",
+  "componentPaths": {
+    "DestinyInventoryItemDefinition": "/common/destiny2_content/json/en/DestinyInventoryItemDefinition-e677f6ea-2a1e-48d4-a8c8-700a39a62585.json",
+    "DestinyPlugSetDefinition": "/common/destiny2_content/json/en/DestinyPlugSetDefinition-e677f6ea-2a1e-48d4-a8c8-700a39a62585.json",
+    "DestinySandboxPerkDefinition": "/common/destiny2_content/json/en/DestinySandboxPerkDefinition-e677f6ea-2a1e-48d4-a8c8-700a39a62585.json"
+  },
+  "policy": [
+    "Use the supported direct weapon-firing elements of the selected current item definition, including alternate firing modes, inherent multi-element projectiles and fixed catalyst element conversion.",
+    "For a current item with variable-element drops, include its supported roll elements; never combine historical reissue elements.",
+    "Exclude elemental subclass buffs, optional random-roll conversion perks, incidental kill-triggered secondary explosions, reflected enemy attacks and ordinary Glaive melee. Fixed Exotic catalyst conversion such as Traveler's Chosen Osmosis is included.",
+    "Tessellation and Ergo Sum have Kinetic placeholder data in the generic Manifest preview; replace it with supported firing elements."
+  ],
+  "checks": [
+    {
+      "id": "alethonym",
+      "name": "Alethonym",
+      "itemHash": "2350354266",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1498917124",
+        "2302094943",
+        "2405598968",
+        "2785409843",
+        "2822142346",
+        "2931483505",
+        "3809316345",
+        "38912240",
+        "3941269100",
+        "470163129",
+        "887402982"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2350354266/"
+      ]
+    },
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "itemHash": "2376481550",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1178660677",
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2360347339",
+        "2822142346",
+        "2931483505",
+        "3264152240",
+        "3465198467",
+        "3525010810",
+        "389268985",
+        "3925195811"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2376481550/"
+      ]
+    },
+    {
+      "id": "arbalest",
+      "name": "Arbalest",
+      "itemHash": "2130065553",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1467527085",
+        "1498917124",
+        "1683379515",
+        "1880379474",
+        "2302094943",
+        "2564164194",
+        "2931483505",
+        "2969185026",
+        "299539105",
+        "3465198467",
+        "3763220133",
+        "38912240",
+        "4229892878",
+        "581152885"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2130065553/"
+      ]
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "itemHash": "2816212794",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "12695374",
+        "12695375",
+        "1324340508",
+        "1498917124",
+        "1866048759",
+        "2302094943",
+        "2931483505",
+        "3177308360",
+        "3250034553",
+        "3568479471",
+        "3802939618",
+        "38912240",
+        "4004944400",
+        "4267945040"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2816212794/"
+      ]
+    },
+    {
+      "id": "barrow-dyad",
+      "name": "Barrow-Dyad",
+      "itemHash": "1481594633",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1012699414",
+        "1087426260",
+        "1219897208",
+        "1392496348",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1524069046",
+        "1555922475",
+        "1649663920",
+        "1840239774",
+        "1885400500",
+        "1961918267",
+        "1963279224",
+        "1963279225",
+        "1963279230",
+        "1963279231",
+        "2244041240",
+        "2302094943",
+        "2420895100",
+        "2503665585",
+        "2931483505",
+        "3142289711",
+        "3230963543",
+        "3250034553",
+        "3326204863",
+        "3438534621",
+        "3471414563",
+        "366474809",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "38912240",
+        "3917450714",
+        "4043342755",
+        "4090651448",
+        "4127881474",
+        "4204405032",
+        "4204405033",
+        "4204405034",
+        "4204405035",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "862848869"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1481594633/"
+      ]
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "itemHash": "2415517654",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1186480754",
+        "1498917124",
+        "1687452232",
+        "171163996",
+        "2302094943",
+        "2931483505",
+        "3250034553",
+        "3465198467",
+        "38912240",
+        "4190643473",
+        "4273298922"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2415517654/"
+      ]
+    },
+    {
+      "id": "black-talon",
+      "name": "Black Talon",
+      "itemHash": "3766045777",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "2117927723",
+        "2240097604",
+        "2285636663",
+        "2349202967",
+        "2590710093",
+        "2931483505",
+        "3615976865",
+        "3705817207",
+        "3810173190",
+        "4072668471",
+        "468010077",
+        "938542991"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3766045777/"
+      ]
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "itemHash": "3141979347",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "solar",
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "2199703228",
+        "2282260620",
+        "2420895100",
+        "2931483505",
+        "3081173348",
+        "3115221584",
+        "3244015567",
+        "3838841051",
+        "4090651448",
+        "501717180",
+        "702668825",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "The Fundamentals cycles the weapon between the three Light elements.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3141979347/"
+      ]
+    },
+    {
+      "id": "buried-bloodline",
+      "name": "Buried Bloodline",
+      "itemHash": "3886719505",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1380830409",
+        "1498917124",
+        "1733558474",
+        "2199828458",
+        "2931483505",
+        "3230963543",
+        "3244015567",
+        "571791574",
+        "90392189",
+        "905869860",
+        "981914802",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3886719505/"
+      ]
+    },
+    {
+      "id": "centrifuse",
+      "name": "Centrifuse",
+      "itemHash": "1912669214",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "104264659",
+        "1087426260",
+        "1385166695",
+        "1498917124",
+        "1547782973",
+        "2804762401",
+        "2931483505",
+        "3244015567",
+        "3393068241",
+        "3415496404",
+        "4090651448",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1912669214/"
+      ]
+    },
+    {
+      "id": "cerberus-1",
+      "name": "Cerberus+1",
+      "itemHash": "1541131350",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1289604610",
+        "1332244541",
+        "1380383475",
+        "1498917124",
+        "1840239774",
+        "1865779065",
+        "202670084",
+        "2031459823",
+        "2302094943",
+        "2931483505",
+        "3178001277",
+        "3208839961",
+        "38912240"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1541131350/"
+      ]
+    },
+    {
+      "id": "choir-of-one",
+      "name": "Choir of One",
+      "itemHash": "3698448090",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1067908860",
+        "1134447515",
+        "1219897208",
+        "1392496348",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1649663920",
+        "1840239774",
+        "1931951168",
+        "1931951169",
+        "1931951170",
+        "1961918267",
+        "1967250736",
+        "1967250737",
+        "1967250742",
+        "202670084",
+        "2503665585",
+        "2931483505",
+        "2976676960",
+        "3142289711",
+        "3177308360",
+        "3230963543",
+        "3244015567",
+        "3250034553",
+        "3465198467",
+        "3661387068",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "4043342755",
+        "4090651448",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "437618171",
+        "619537267",
+        "679225683",
+        "78973341",
+        "839105230",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3698448090/"
+      ]
+    },
+    {
+      "id": "cloudstrike",
+      "name": "Cloudstrike",
+      "itemHash": "2603483885",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1409312565",
+        "1431678320",
+        "1498917124",
+        "1840239774",
+        "2909403175",
+        "2931483505",
+        "3117514172",
+        "3244015567",
+        "4116539322",
+        "4258327739",
+        "452729034",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2603483885/"
+      ]
+    },
+    {
+      "id": "coldheart",
+      "name": "Coldheart",
+      "itemHash": "1345867571",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1036269296",
+        "1467527085",
+        "1716717668",
+        "2482418662",
+        "2680121939",
+        "2931483505",
+        "3244015567",
+        "3434280692",
+        "3458554860",
+        "3886232477",
+        "4067547603",
+        "544137184",
+        "747033132",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1345867571/"
+      ]
+    },
+    {
+      "id": "collective-obligation",
+      "name": "Collective Obligation",
+      "itemHash": "3505113722",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "141738604",
+        "1498917124",
+        "1868384995",
+        "2234507197",
+        "2395713912",
+        "2931483505",
+        "3230963543",
+        "3244015567",
+        "3441203855",
+        "839105230",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3505113722/"
+      ]
+    },
+    {
+      "id": "conditional-finality",
+      "name": "Conditional Finality",
+      "itemHash": "3371017761",
+      "status": "verified",
+      "damageTypes": [
+        "solar",
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1105347996",
+        "1277605939",
+        "1431678320",
+        "1498917124",
+        "2302094943",
+        "2931483505",
+        "3492498209",
+        "3616546635",
+        "371705660",
+        "3787406018",
+        "38912240",
+        "3917450714",
+        "4013202920"
+      ],
+      "notes": "The two barrels fire Solar and Stasis pellets.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3371017761/"
+      ]
+    },
+    {
+      "id": "crimson",
+      "name": "Crimson",
+      "itemHash": "3437746471",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012699414",
+        "1030990989",
+        "1152053821",
+        "1482024992",
+        "1690229508",
+        "2302094943",
+        "2383960413",
+        "2790377728",
+        "2931483505",
+        "3142289711",
+        "3474614844",
+        "3546298141",
+        "38912240",
+        "432606867",
+        "889398080"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3437746471/"
+      ]
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "itemHash": "603721696",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1023764762",
+        "1385518514",
+        "1392496348",
+        "1498917124",
+        "2302094943",
+        "2931483505",
+        "3549553800",
+        "3868766766",
+        "38912240",
+        "862848869",
+        "986191425"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/603721696/"
+      ]
+    },
+    {
+      "id": "cull-s-shadow",
+      "name": "Cull's Shadow",
+      "itemHash": "2200470033",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "136208450",
+        "1498917124",
+        "1523111792",
+        "1523111793",
+        "1523111794",
+        "1523111795",
+        "1561002382",
+        "1840239774",
+        "1980732122",
+        "1998413516",
+        "2302094943",
+        "2931483505",
+        "38912240",
+        "695800688"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2200470033/"
+      ]
+    },
+    {
+      "id": "d-a-r-c-i",
+      "name": "D.A.R.C.I.",
+      "itemHash": "3141979346",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1467527085",
+        "2240097604",
+        "2282260621",
+        "2285636663",
+        "2404516638",
+        "2412488653",
+        "2420895100",
+        "2931483505",
+        "2943778709",
+        "3115221585",
+        "3417548187",
+        "4048567870",
+        "938999636",
+        "939227542"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3141979346/"
+      ]
+    },
+    {
+      "id": "dead-man-s-tale",
+      "name": "Dead Man's Tale",
+      "itemHash": "2188764214",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1064669306",
+        "1064669307",
+        "1064669309",
+        "1067908860",
+        "1134447515",
+        "1168162263",
+        "1219897208",
+        "1319823571",
+        "1354429876",
+        "1392496348",
+        "1395580616",
+        "1410194939",
+        "1467527085",
+        "1482024992",
+        "1546637391",
+        "1561002382",
+        "1649663920",
+        "1780436207",
+        "1840239774",
+        "1885400500",
+        "1961918267",
+        "1968497646",
+        "202670084",
+        "2302094943",
+        "2450788523",
+        "2452241573",
+        "247725512",
+        "2478595126",
+        "2503665585",
+        "2931483505",
+        "3142289711",
+        "3177308360",
+        "3230963543",
+        "3250034553",
+        "3465198467",
+        "3661387068",
+        "3674581496",
+        "3700496672",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "38912240",
+        "4043342755",
+        "4090651448",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "499501121",
+        "588594999",
+        "671806388",
+        "679225683",
+        "839105230",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2188764214/"
+      ]
+    },
+    {
+      "id": "dead-messenger",
+      "name": "Dead Messenger",
+      "itemHash": "46125926",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "solar",
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1134447515",
+        "1219897208",
+        "1426122122",
+        "1441682018",
+        "1478423395",
+        "1649663920",
+        "1844523823",
+        "1961918267",
+        "2503665585",
+        "2620589274",
+        "2726471870",
+        "2733244971",
+        "2822142346",
+        "2931483505",
+        "3057124503",
+        "3108830275",
+        "3189860891",
+        "3244015567",
+        "3465198467",
+        "3492396210",
+        "3523296417",
+        "3525010810",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3798852852",
+        "3809316345",
+        "4043342755",
+        "4133742354",
+        "4133742355",
+        "4133742357",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "469511105",
+        "478593030",
+        "819232495",
+        "905869860",
+        "981914802",
+        "990298390"
+      ],
+      "notes": "The Fundamentals cycles the weapon between the three Light elements.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/46125926/"
+      ]
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "itemHash": "2232171099",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1298151900",
+        "1478423395",
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2985827016",
+        "3333994164",
+        "3438514430",
+        "3465198467",
+        "411799453",
+        "567817402"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2232171099/"
+      ]
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "itemHash": "374573733",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1208312843",
+        "1498917124",
+        "1687452232",
+        "1719307618",
+        "1840239774",
+        "1879832548",
+        "2585427437",
+        "2931483505",
+        "3244015567",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/374573733/"
+      ]
+    },
+    {
+      "id": "deterministic-chaos",
+      "name": "Deterministic Chaos",
+      "itemHash": "449318888",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1392496348",
+        "1468523096",
+        "1498917124",
+        "1787190130",
+        "1885400500",
+        "1964414318",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "3465198467",
+        "3638234982"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/449318888/"
+      ]
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "itemHash": "3824106094",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1059301209",
+        "1467527085",
+        "1498917124",
+        "204713420",
+        "2732252706",
+        "2737100193",
+        "2931483505",
+        "2969185026",
+        "3244015567",
+        "334466122",
+        "3438534621",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3824106094/"
+      ]
+    },
+    {
+      "id": "divinity",
+      "name": "Divinity",
+      "itemHash": "4103414242",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1185480639",
+        "1392496348",
+        "1498917124",
+        "1517802577",
+        "1797707170",
+        "2931483505",
+        "3093486579",
+        "3244015567",
+        "3465198467",
+        "3868766766",
+        "4231724739",
+        "534742271",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4103414242/"
+      ]
+    },
+    {
+      "id": "dragon-s-breath",
+      "name": "Dragon's Breath",
+      "itemHash": "17096506",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1478423395",
+        "1498917124",
+        "1996142143",
+        "2240097604",
+        "2285636663",
+        "2440389870",
+        "2727957645",
+        "2901750059",
+        "2924294393",
+        "2931483505"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/17096506/"
+      ]
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "itemHash": "3460576091",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1431678320",
+        "1498917124",
+        "1929437677",
+        "2931483505",
+        "3244015567",
+        "3591914291",
+        "3756164435",
+        "3937312904",
+        "4090651448",
+        "536517534",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3460576091/"
+      ]
+    },
+    {
+      "id": "edge-of-action",
+      "name": "Edge of Action",
+      "itemHash": "2535142413",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1065371964",
+        "1067908860",
+        "1087426260",
+        "1134515006",
+        "1263609309",
+        "1431678320",
+        "1649663920",
+        "1807273211",
+        "1834828808",
+        "1890997540",
+        "1900919151",
+        "1934171651",
+        "1961918267",
+        "2154730217",
+        "2364577709",
+        "2379536009",
+        "2420895100",
+        "2713678205",
+        "2719770986",
+        "3020906571",
+        "3142289711",
+        "3244015567",
+        "3267421167",
+        "3355117577",
+        "3465198467",
+        "3721627275",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "4043342755",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "550838496",
+        "5699512",
+        "580685494",
+        "594346985",
+        "679225683",
+        "714384243",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2535142413/"
+      ]
+    },
+    {
+      "id": "edge-of-concurrence",
+      "name": "Edge of Concurrence",
+      "itemHash": "542203595",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1065371964",
+        "1067908860",
+        "1087426260",
+        "1263609309",
+        "1431678320",
+        "1649663920",
+        "1731191722",
+        "1807273211",
+        "1834828808",
+        "1890997540",
+        "1934171651",
+        "1961918267",
+        "2154730217",
+        "2364577709",
+        "2420895100",
+        "2713678205",
+        "2719770986",
+        "3020906571",
+        "3142289711",
+        "3244015567",
+        "3267421167",
+        "3355117577",
+        "3465198467",
+        "3551884421",
+        "3721627275",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "4043342755",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "550838496",
+        "5699512",
+        "580685494",
+        "594346985",
+        "679225683",
+        "714384243",
+        "844190854",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/542203595/"
+      ]
+    },
+    {
+      "id": "edge-of-intent",
+      "name": "Edge of Intent",
+      "itemHash": "14194600",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1065371964",
+        "1067908860",
+        "1087426260",
+        "1263609309",
+        "1431678320",
+        "1649663920",
+        "1807273211",
+        "1834828808",
+        "1890997540",
+        "1934171651",
+        "1961918267",
+        "2038196759",
+        "2154730217",
+        "2364577709",
+        "2420895100",
+        "2713678205",
+        "2719770986",
+        "3020906571",
+        "3024740338",
+        "3142289711",
+        "3244015567",
+        "3267421167",
+        "3355117577",
+        "3465198467",
+        "3492337375",
+        "3721627275",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "4043342755",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "550838496",
+        "5699512",
+        "580685494",
+        "594346985",
+        "679225683",
+        "714384243",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/14194600/"
+      ]
+    },
+    {
+      "id": "ergo-sum",
+      "name": "Ergo Sum",
+      "itemHash": "1681583613",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "solar",
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1059427817",
+        "125241418",
+        "1261178282",
+        "1327961177",
+        "1497627200",
+        "1498024248",
+        "1498917124",
+        "1522566605",
+        "1726251414",
+        "1812118660",
+        "1959135343",
+        "2273483223",
+        "2338887882",
+        "2349202967",
+        "2557881346",
+        "269888150",
+        "2753228730",
+        "2827049491",
+        "289811733",
+        "2931483505",
+        "2963428707",
+        "3034060702",
+        "3244015567",
+        "3325420353",
+        "3551049142",
+        "3625355092",
+        "3653484343",
+        "3666208348",
+        "3728733956",
+        "3853428074",
+        "3885243590",
+        "3923000764",
+        "3949068808",
+        "3959569796",
+        "4126105782",
+        "4267445637",
+        "4270598587",
+        "436053704",
+        "461437088",
+        "519046634",
+        "52780822",
+        "599007201",
+        "766579919",
+        "905869860",
+        "938542991"
+      ],
+      "notes": "Current item can drop with any Light element. Kinetic in the generic Manifest preview is a placeholder, not a supported roll.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1681583613/",
+        "https://www.destinypedia.com/Ergo_Sum"
+      ]
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "itemHash": "3524313097",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1173052383",
+        "1465571843",
+        "1467527085",
+        "1498917124",
+        "1687327062",
+        "2931483505",
+        "2939609184",
+        "2984240082",
+        "3142289711",
+        "3145596224",
+        "3174300811",
+        "3244015567",
+        "862848869",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3524313097/"
+      ]
+    },
+    {
+      "id": "euphony",
+      "name": "Euphony",
+      "itemHash": "3284383335",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1180907940",
+        "1498917124",
+        "210156316",
+        "2302094943",
+        "2931483505",
+        "3703325290",
+        "3868766766",
+        "38912240",
+        "3894668351",
+        "839105230"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3284383335/"
+      ]
+    },
+    {
+      "id": "ex-diris",
+      "name": "Ex Diris",
+      "itemHash": "3821409356",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1478423395",
+        "1498917124",
+        "1826222780",
+        "1992365846",
+        "2005566727",
+        "2931483505",
+        "3174376906",
+        "3183537623",
+        "3244015567",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3821409356/"
+      ]
+    },
+    {
+      "id": "eyes-of-tomorrow",
+      "name": "Eyes of Tomorrow",
+      "itemHash": "2399110176",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1061828070",
+        "1281243303",
+        "1498917124",
+        "2200569208",
+        "2240097604",
+        "2285636663",
+        "2835258088",
+        "2931483505",
+        "2985827016",
+        "3798852852",
+        "3991681308",
+        "4259401308",
+        "512458769"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2399110176/"
+      ]
+    },
+    {
+      "id": "fafnir",
+      "name": "Fafnir",
+      "itemHash": "2197778303",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2969185026",
+        "2981089390",
+        "3223187793",
+        "3250034553",
+        "328747420",
+        "640169129",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2197778303/"
+      ]
+    },
+    {
+      "id": "fighting-lion",
+      "name": "Fighting Lion",
+      "itemHash": "3549153978",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1344619701",
+        "2003108620",
+        "2858348497",
+        "2931483505",
+        "3020272562",
+        "3034617041",
+        "3244015567",
+        "3436915924",
+        "3492396210",
+        "3809316345",
+        "4058838904",
+        "425960662",
+        "796633253",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3549153978/"
+      ]
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "itemHash": "331231237",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1498917124",
+        "2223032959",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "3868766766",
+        "4225634636",
+        "626115084",
+        "818149482",
+        "839105230"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/331231237/"
+      ]
+    },
+    {
+      "id": "forerunner",
+      "name": "Forerunner",
+      "itemHash": "2179048386",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1080813018",
+        "1263222790",
+        "1482024992",
+        "1498917124",
+        "1657691139",
+        "2293905440",
+        "2302094943",
+        "2795311559",
+        "2931483505",
+        "2984682260",
+        "3230963543",
+        "3326204863",
+        "3593477432",
+        "38912240",
+        "674410190"
+      ],
+      "notes": "Kinetic shots. The Rock catalyst also creates a Kinetic grenade.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2179048386/",
+        "https://www.light.gg/db/items/674410190/forerunner-catalyst/"
+      ]
+    },
+    {
+      "id": "gjallarhorn",
+      "name": "Gjallarhorn",
+      "itemHash": "1363886209",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1478423395",
+        "1498917124",
+        "2173404085",
+        "2240097604",
+        "2285636663",
+        "2417206937",
+        "2526801077",
+        "2768498166",
+        "2768498167",
+        "2931483505",
+        "2962361451",
+        "2985827016",
+        "3874977694"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1363886209/"
+      ]
+    },
+    {
+      "id": "grand-overture",
+      "name": "Grand Overture",
+      "itemHash": "1763584999",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1408800487",
+        "1498917124",
+        "2078240126",
+        "2094761202",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2940035732",
+        "3142289711",
+        "3250034553",
+        "3341687311",
+        "682653408",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1763584999/"
+      ]
+    },
+    {
+      "id": "graviton-lance",
+      "name": "Graviton Lance",
+      "itemHash": "3628991658",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1620506139",
+        "1856805547",
+        "2381230784",
+        "2433900295",
+        "2931483505",
+        "3142289711",
+        "320534106",
+        "3244015567",
+        "3250034553",
+        "3547298847",
+        "3905543891",
+        "4133608609",
+        "4259401308",
+        "67652813",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3628991658/"
+      ]
+    },
+    {
+      "id": "graviton-spike",
+      "name": "Graviton Spike",
+      "itemHash": "648595258",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1012699414",
+        "106909392",
+        "1087426260",
+        "1219897208",
+        "1259444143",
+        "1392496348",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1649663920",
+        "1840239774",
+        "1961918267",
+        "202670084",
+        "2420895100",
+        "2503665585",
+        "2764916656",
+        "282266464",
+        "282266465",
+        "282266466",
+        "282266467",
+        "2931483505",
+        "3142289711",
+        "3177308360",
+        "3230963543",
+        "3235313314",
+        "3235313315",
+        "3235313316",
+        "3244015567",
+        "3250034553",
+        "3326204863",
+        "3438534621",
+        "360865966",
+        "3661387068",
+        "366474809",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "3917450714",
+        "4043342755",
+        "4090651448",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "839105230",
+        "862848869",
+        "905869860"
+      ],
+      "notes": "Temporal Manipulation switches between Arc and Stasis firing modes.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/648595258/"
+      ]
+    },
+    {
+      "id": "hawkmoon",
+      "name": "Hawkmoon",
+      "itemHash": "3856705927",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012699414",
+        "1047830412",
+        "111235976",
+        "1124871858",
+        "1147230557",
+        "1332244541",
+        "1392496348",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1498917124",
+        "1840239774",
+        "1866048759",
+        "1871180748",
+        "1932356121",
+        "1987021001",
+        "202670084",
+        "213689231",
+        "2302094943",
+        "2450788523",
+        "2468053986",
+        "2846385770",
+        "2860123632",
+        "2931483505",
+        "3048246338",
+        "3170445300",
+        "3170445301",
+        "3250034553",
+        "3311319252",
+        "3326204863",
+        "3399528164",
+        "3436462433",
+        "3438534621",
+        "3661387068",
+        "383825919",
+        "38912240",
+        "3917450714",
+        "3966296580",
+        "4090651448",
+        "47981717",
+        "588594999",
+        "699525795",
+        "706527188",
+        "712324018",
+        "839105230",
+        "862848869",
+        "957782887"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3856705927/"
+      ]
+    },
+    {
+      "id": "heartshadow",
+      "name": "Heartshadow",
+      "itemHash": "3664831848",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1100877327",
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2954623542",
+        "3072857252",
+        "3625355092",
+        "3666208348",
+        "873883409"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3664831848/"
+      ]
+    },
+    {
+      "id": "heir-apparent",
+      "name": "Heir Apparent",
+      "itemHash": "2084878005",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1087426260",
+        "1185273366",
+        "1324556594",
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2608508147",
+        "2931483505",
+        "3044160466",
+        "3438534621",
+        "3673548752",
+        "4090651448"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2084878005/"
+      ]
+    },
+    {
+      "id": "heirloom",
+      "name": "Heirloom",
+      "itemHash": "1685137410",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1040380121",
+        "1067908860",
+        "1220787353",
+        "1258693557",
+        "1498917124",
+        "1946186791",
+        "1992979813",
+        "2496039278",
+        "2931483505",
+        "3244015567",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1685137410/"
+      ]
+    },
+    {
+      "id": "hierarchy-of-needs",
+      "name": "Hierarchy of Needs",
+      "itemHash": "4174431791",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "122307549",
+        "1396812221",
+        "1498917124",
+        "2226793914",
+        "229534486",
+        "2801223209",
+        "2931483505",
+        "3244015567",
+        "3429800428",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4174431791/"
+      ]
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "itemHash": "1111334348",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1649009138",
+        "2848175214",
+        "2931483505",
+        "3013531032",
+        "3142289711",
+        "3244015567",
+        "3465198467",
+        "4045752130",
+        "4090651448",
+        "744619683",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1111334348/"
+      ]
+    },
+    {
+      "id": "izanagi-s-burden",
+      "name": "Izanagi's Burden",
+      "itemHash": "3211806999",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1070100196",
+        "1498917124",
+        "1904833599",
+        "2302094943",
+        "2866798147",
+        "2931483505",
+        "3142289711",
+        "3465198467",
+        "3661387068",
+        "3844102542",
+        "38912240",
+        "4074521886",
+        "529188544"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3211806999/"
+      ]
+    },
+    {
+      "id": "j-tunn",
+      "name": "Jötunn",
+      "itemHash": "417164956",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1360105767",
+        "1498917124",
+        "1656957541",
+        "1687452232",
+        "2272772784",
+        "2931483505",
+        "3244015567",
+        "3275789089",
+        "332773068",
+        "525967465",
+        "862513617",
+        "862848869",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/417164956/"
+      ]
+    },
+    {
+      "id": "khvostov-7g-0x",
+      "name": "Khvostov 7G-0X",
+      "itemHash": "4129629253",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1431678320",
+        "1498917124",
+        "2063193740",
+        "2135276011",
+        "2302094943",
+        "2931483505",
+        "3111271686",
+        "3250034553",
+        "34498892",
+        "3465198467",
+        "3700496672",
+        "38912240",
+        "4008804369"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4129629253/"
+      ]
+    },
+    {
+      "id": "le-monarque",
+      "name": "Le Monarque",
+      "itemHash": "3588934839",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "16392701",
+        "1784898267",
+        "2186532310",
+        "2931483505",
+        "296103153",
+        "3244015567",
+        "3287498059",
+        "3804935529",
+        "466834938",
+        "905869860",
+        "957782887"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3588934839/"
+      ]
+    },
+    {
+      "id": "legend-of-acrius",
+      "name": "Legend of Acrius",
+      "itemHash": "3580904580",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1650852150",
+        "202670084",
+        "2079505485",
+        "2240097604",
+        "2285636663",
+        "2912834745",
+        "2931483505",
+        "2988259322",
+        "3142289711",
+        "372430833",
+        "4233905577",
+        "4259401308",
+        "914313861"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3580904580/"
+      ]
+    },
+    {
+      "id": "lodestar",
+      "name": "Lodestar",
+      "itemHash": "3725585710",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1197675940",
+        "1498917124",
+        "1629848687",
+        "1840239774",
+        "2018366981",
+        "2174503023",
+        "2931483505",
+        "3244015567",
+        "3465198467",
+        "3505000148",
+        "538751803",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3725585710/"
+      ]
+    },
+    {
+      "id": "lord-of-wolves",
+      "name": "Lord of Wolves",
+      "itemHash": "3413860063",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1673894252",
+        "2420895100",
+        "2473969109",
+        "2931483505",
+        "299272945",
+        "3244015567",
+        "3465198467",
+        "3661387068",
+        "4115107119",
+        "431220296",
+        "481338655",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3413860063/"
+      ]
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "itemHash": "3761898871",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1352091900",
+        "1498917124",
+        "1690446783",
+        "2680121939",
+        "2881100038",
+        "2931483505",
+        "3244015567",
+        "3465198467",
+        "3789077741",
+        "550118262",
+        "839105230",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3761898871/"
+      ]
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "itemHash": "3512014804",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1541998888",
+        "2144092201",
+        "2271572658",
+        "2302094943",
+        "2931483505",
+        "3142289711",
+        "3661387068",
+        "38912240",
+        "743139589",
+        "862848869"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3512014804/"
+      ]
+    },
+    {
+      "id": "malfeasance",
+      "name": "Malfeasance",
+      "itemHash": "204878059",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012699414",
+        "1206295112",
+        "1234111636",
+        "1473300982",
+        "1498917124",
+        "1791592647",
+        "2014761391",
+        "2130042297",
+        "2302094943",
+        "2420895100",
+        "27125004",
+        "2931483505",
+        "38912240",
+        "4090651448",
+        "569609522"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/204878059/"
+      ]
+    },
+    {
+      "id": "merciless",
+      "name": "Merciless",
+      "itemHash": "4190156464",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1014060907",
+        "1156021168",
+        "1750365155",
+        "1902452687",
+        "2333607307",
+        "2420895100",
+        "2931483505",
+        "3244015567",
+        "3661387068",
+        "3804992459",
+        "4259401308",
+        "656200654",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4190156464/"
+      ]
+    },
+    {
+      "id": "microcosm",
+      "name": "Microcosm",
+      "itemHash": "4207066264",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1345240784",
+        "1498917124",
+        "2240097604",
+        "2285636663",
+        "2292872001",
+        "2680121939",
+        "2767894946",
+        "2931483505",
+        "3250034553",
+        "4100080019",
+        "877533329",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4207066264/"
+      ]
+    },
+    {
+      "id": "mida-multi-tool",
+      "name": "MIDA Multi-Tool",
+      "itemHash": "1331482397",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1135501644",
+        "1561002382",
+        "1959648454",
+        "2005782761",
+        "2162261876",
+        "2195305504",
+        "2302094943",
+        "3100590152",
+        "377257911",
+        "3807808621",
+        "38912240",
+        "4090651448",
+        "433219358",
+        "467730932",
+        "545668653",
+        "800074992",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1331482397/"
+      ]
+    },
+    {
+      "id": "monte-carlo",
+      "name": "Monte Carlo",
+      "itemHash": "4068264807",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1180846762",
+        "1484442054",
+        "1498917124",
+        "1561002382",
+        "1840239774",
+        "1981661519",
+        "2302094943",
+        "2609637836",
+        "2814973067",
+        "2816578262",
+        "2931483505",
+        "3465198467",
+        "38912240",
+        "4073089126",
+        "519687404"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4068264807/"
+      ]
+    },
+    {
+      "id": "necrochasm",
+      "name": "Necrochasm",
+      "itemHash": "1034055198",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "138477739",
+        "1498917124",
+        "1885400500",
+        "1931066670",
+        "202527151",
+        "2302094943",
+        "2931483505",
+        "38912240",
+        "4184462049",
+        "525593296",
+        "839105230",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1034055198/"
+      ]
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "itemHash": "2581676735",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1168481099",
+        "1498917124",
+        "1579100415",
+        "218281600",
+        "2302094943",
+        "2861049498",
+        "2931483505",
+        "3015697469",
+        "3142289711",
+        "38912240",
+        "935202422",
+        "957782887"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2581676735/"
+      ]
+    },
+    {
+      "id": "new-malpais",
+      "name": "New Malpais",
+      "itemHash": "1736135946",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "106909392",
+        "1498917124",
+        "1899803992",
+        "2302094943",
+        "2575933030",
+        "2931483505",
+        "3250034553",
+        "3466807461",
+        "38912240",
+        "4259401308",
+        "912845486",
+        "912845487"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1736135946/"
+      ]
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "itemHash": "1594120904",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "104934846",
+        "1083910840",
+        "1498917124",
+        "1840239774",
+        "2145198832",
+        "2302094943",
+        "2779035018",
+        "2931483505",
+        "2949710074",
+        "3142289711",
+        "3556949035",
+        "3837077246",
+        "38912240"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1594120904/"
+      ]
+    },
+    {
+      "id": "one-thousand-voices",
+      "name": "One Thousand Voices",
+      "itemHash": "2069224589",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1467527085",
+        "1498917124",
+        "1503941894",
+        "1657056865",
+        "1687452232",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "3504197951",
+        "4259401308",
+        "476682455",
+        "568877018",
+        "82994288"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2069224589/"
+      ]
+    },
+    {
+      "id": "osteo-striga",
+      "name": "Osteo Striga",
+      "itemHash": "46524085",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "106909392",
+        "1087426260",
+        "1392496348",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1534363612",
+        "1649663920",
+        "1840239774",
+        "1961918267",
+        "202670084",
+        "2132353550",
+        "229096166",
+        "2302094943",
+        "2325054640",
+        "2420895100",
+        "2931483505",
+        "2965975126",
+        "3142289711",
+        "3177308360",
+        "3230963543",
+        "3250034553",
+        "3465198467",
+        "3661387068",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "38912240",
+        "4015745376",
+        "403878807",
+        "4043342755",
+        "4090651448",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "839105230",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/46524085/"
+      ]
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "itemHash": "400096939",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1168162263",
+        "1467527085",
+        "1498917124",
+        "1513177792",
+        "1763562841",
+        "1871253230",
+        "1871253231",
+        "2302094943",
+        "2779903514",
+        "2931483505",
+        "3038888553",
+        "3142289711",
+        "3242533954",
+        "3352275956",
+        "38912240",
+        "4208418110"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/400096939/"
+      ]
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "itemHash": "2812324400",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1049881217",
+        "1174163613",
+        "1380253176",
+        "1478423395",
+        "1498917124",
+        "1679262379",
+        "1781082581",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2971678083",
+        "3465198467",
+        "4259872957"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2812324400/"
+      ]
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "itemHash": "3413074534",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1000724343",
+        "106909392",
+        "1282339605",
+        "1482024992",
+        "178451227",
+        "2036459008",
+        "2387244414",
+        "2408641879",
+        "2931483505",
+        "3244015567",
+        "346961818",
+        "4259401308",
+        "669988236",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3413074534/"
+      ]
+    },
+    {
+      "id": "praxic-blade",
+      "name": "Praxic Blade",
+      "itemHash": "3049715579",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "107372144",
+        "107372146",
+        "107372147",
+        "1498917124",
+        "1530603180",
+        "1530603181",
+        "1530603182",
+        "1596190497",
+        "1596190498",
+        "1596190499",
+        "1742690744",
+        "1773007616",
+        "1773007617",
+        "1773007618",
+        "1773007619",
+        "1773007620",
+        "1773007621",
+        "1773007622",
+        "1773007623",
+        "1773007630",
+        "1808259048",
+        "1808259049",
+        "1808259050",
+        "1808259051",
+        "1958555234",
+        "2100631068",
+        "2287797791",
+        "2302094943",
+        "2931483505",
+        "3017226694",
+        "3224071925",
+        "3268768924",
+        "3268768926",
+        "3268768927",
+        "3295115440",
+        "3297559996",
+        "3320668100",
+        "3514694513",
+        "3794918801",
+        "3846969568",
+        "3846969569",
+        "3846969570",
+        "38912240",
+        "4026309323",
+        "458552176",
+        "640727985",
+        "697983358",
+        "749248212",
+        "749248213",
+        "749248215",
+        "89777927",
+        "898360256",
+        "898360257",
+        "898360259"
+      ],
+      "notes": "Kinetic blade damage. Elemental debuffs applied by its cores do not convert its base weapon element.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3049715579/",
+        "https://www.light.gg/db/items/3049715579/praxic-blade/"
+      ]
+    },
+    {
+      "id": "prometheus-lens",
+      "name": "Prometheus Lens",
+      "itemHash": "19024058",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "2004366751",
+        "2250482732",
+        "2397436643",
+        "2920072631",
+        "2931483505",
+        "2969185026",
+        "3244015567",
+        "3373357626",
+        "3373357627",
+        "3465198467",
+        "3470828242",
+        "3661387068",
+        "3867277431",
+        "571267712",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/19024058/"
+      ]
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "itemHash": "4293613902",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic",
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1326838584",
+        "1498917124",
+        "1561002382",
+        "1613428620",
+        "2302094943",
+        "25023897",
+        "2931483505",
+        "3131590896",
+        "3229426560",
+        "3602718766",
+        "38912240",
+        "4090651448",
+        "4118865571",
+        "990298390"
+      ],
+      "notes": "Kinetic without its catalyst; Nano-entanglement converts it to Strand. Old Arc rocket behavior was removed by update 6.3.0.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4293613902/",
+        "https://www.light.gg/db/items/25023897/quicksilver-storm-catalyst/",
+        "https://www.bungie.net/7/en/News/article/destiny2_update_630"
+      ]
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "itemHash": "2362471601",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "106909392",
+        "1482024992",
+        "1535205434",
+        "2121086290",
+        "2302094943",
+        "2599526136",
+        "2673643645",
+        "2931483505",
+        "3326204863",
+        "3384861888",
+        "3546470356",
+        "38912240",
+        "3925009772",
+        "670974744",
+        "861489047"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2362471601/"
+      ]
+    },
+    {
+      "id": "red-death-reformed",
+      "name": "Red Death Reformed",
+      "itemHash": "427899681",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1561002382",
+        "1833111001",
+        "202670084",
+        "2931483505",
+        "3244015567",
+        "3255310006",
+        "3632437946",
+        "4259401308",
+        "818393196",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/427899681/"
+      ]
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "itemHash": "1473821207",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1067908860",
+        "1087426260",
+        "1134447515",
+        "1219897208",
+        "1266037484",
+        "1266037485",
+        "1266037486",
+        "1266037487",
+        "1392496348",
+        "1428297954",
+        "1431678320",
+        "1467527085",
+        "1482024992",
+        "1546637391",
+        "1561002382",
+        "1649663920",
+        "1821614984",
+        "1840239774",
+        "1885400500",
+        "1961918267",
+        "1968497646",
+        "202670084",
+        "2206869417",
+        "2302094943",
+        "2420895100",
+        "2503665585",
+        "2931483505",
+        "3230963543",
+        "3250034553",
+        "3465198467",
+        "3511092054",
+        "3603558141",
+        "3661387068",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "3834106778",
+        "38912240",
+        "4043342755",
+        "4090651448",
+        "4152458172",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "588594999",
+        "679225683",
+        "699525795",
+        "839105230",
+        "891750160",
+        "891750166",
+        "891750167",
+        "91797877",
+        "91797878",
+        "91797879",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1473821207/"
+      ]
+    },
+    {
+      "id": "riskrunner",
+      "name": "Riskrunner",
+      "itemHash": "3089417789",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "109428985",
+        "1445854248",
+        "1530804125",
+        "2420895100",
+        "2516532331",
+        "2617688849",
+        "2744195002",
+        "2931483505",
+        "301177215",
+        "3244015567",
+        "3520552272",
+        "3815768596",
+        "3969043896",
+        "839105230",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3089417789/"
+      ]
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "itemHash": "1363238943",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "116193775",
+        "1206010521",
+        "1498917124",
+        "1657401727",
+        "2931483505",
+        "3244015567",
+        "3250034553",
+        "3465198467",
+        "3868766766",
+        "584392035",
+        "798520364",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1363238943/"
+      ]
+    },
+    {
+      "id": "salvation-s-grip",
+      "name": "Salvation's Grip",
+      "itemHash": "370712896",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1315870387",
+        "1441682018",
+        "1498917124",
+        "1522454198",
+        "1549056416",
+        "2240097604",
+        "2285636663",
+        "2359854504",
+        "2931483505",
+        "2985827016",
+        "862848869"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/370712896/"
+      ]
+    },
+    {
+      "id": "service-of-luzaku",
+      "name": "Service of Luzaku",
+      "itemHash": "4284533075",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1244242902",
+        "1498917124",
+        "1818108773",
+        "1840239774",
+        "2057080438",
+        "2240097604",
+        "2285636663",
+        "232908218",
+        "2931483505",
+        "3142289711",
+        "595355908",
+        "595355909",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4284533075/"
+      ]
+    },
+    {
+      "id": "skyburner-s-oath",
+      "name": "Skyburner's Oath",
+      "itemHash": "4255268456",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1467527085",
+        "1748595581",
+        "176919422",
+        "2420895100",
+        "2741975068",
+        "2757144557",
+        "2931483505",
+        "2990167832",
+        "3244015567",
+        "332630382",
+        "400177089",
+        "680163197",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4255268456/"
+      ]
+    },
+    {
+      "id": "slayer-s-fang",
+      "name": "Slayer's Fang",
+      "itemHash": "1047932517",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1007199041",
+        "1067908860",
+        "1134447515",
+        "1219897208",
+        "1392496348",
+        "1467527085",
+        "1649663920",
+        "1961918267",
+        "202670084",
+        "2420895100",
+        "2503665585",
+        "2565885237",
+        "2607392828",
+        "2883096192",
+        "2883096193",
+        "2883096194",
+        "2883096195",
+        "2919190144",
+        "2919190145",
+        "2919190151",
+        "2931483505",
+        "3142289711",
+        "3177308360",
+        "3230963543",
+        "3244015567",
+        "3250034553",
+        "3465198467",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "4043342755",
+        "4173887325",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "791862061",
+        "839105230",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1047932517/"
+      ]
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "itemHash": "4036115577",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1392496348",
+        "1742941198",
+        "2142466730",
+        "2215010466",
+        "2240097604",
+        "2257492093",
+        "2285636663",
+        "2409312095",
+        "2738497971",
+        "2931483505",
+        "3230963543",
+        "3386680334",
+        "3465198467",
+        "3884127242",
+        "588594999"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4036115577/"
+      ]
+    },
+    {
+      "id": "still-hunt",
+      "name": "Still Hunt",
+      "itemHash": "2905188646",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012780539",
+        "1067908860",
+        "1392496348",
+        "1498917124",
+        "1753262462",
+        "2402948371",
+        "266631099",
+        "2931483505",
+        "2993090545",
+        "3244015567",
+        "905869860",
+        "928399924"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2905188646/"
+      ]
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "itemHash": "2907129556",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1321987864",
+        "1467527085",
+        "20859173",
+        "223776601",
+        "2238035098",
+        "2302094943",
+        "2396888157",
+        "2420895100",
+        "2931483505",
+        "3438534621",
+        "3541765687",
+        "354293077",
+        "38912240",
+        "4113676118",
+        "507151084"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2907129556/"
+      ]
+    },
+    {
+      "id": "sunshot",
+      "name": "Sunshot",
+      "itemHash": "2907129557",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1409366784",
+        "1630611952",
+        "1960441750",
+        "223776600",
+        "2704911691",
+        "2931483505",
+        "3142289711",
+        "3244015567",
+        "354293076",
+        "3617228241",
+        "3661387068",
+        "3686084858",
+        "3917450714",
+        "4045839491",
+        "4115637021",
+        "683481680",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2907129557/"
+      ]
+    },
+    {
+      "id": "suros-regime",
+      "name": "SUROS Regime",
+      "itemHash": "2856683562",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "106909392",
+        "1378047685",
+        "1672094182",
+        "2302094943",
+        "2482603977",
+        "2626423393",
+        "279743042",
+        "2931483505",
+        "2949664689",
+        "3250034553",
+        "3694029530",
+        "38912240",
+        "4012962526",
+        "4280582304",
+        "640411453",
+        "944506345",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2856683562/"
+      ]
+    },
+    {
+      "id": "sweet-business",
+      "name": "Sweet Business",
+      "itemHash": "1345867570",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1392496348",
+        "1853177948",
+        "1968497646",
+        "2110420504",
+        "2302094943",
+        "2610892819",
+        "2931483505",
+        "3056315074",
+        "3171649853",
+        "3363257468",
+        "3465198467",
+        "3755070117",
+        "38912240",
+        "544137185",
+        "747033133"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1345867570/"
+      ]
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "itemHash": "4017959782",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "127335543",
+        "1498917124",
+        "2066724468",
+        "2931483505",
+        "3244015567",
+        "3250034553",
+        "3465198467",
+        "3584258155",
+        "3868766766",
+        "3900166436",
+        "4185339856",
+        "4218954970",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4017959782/"
+      ]
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "itemHash": "3110698812",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1467527085",
+        "1498917124",
+        "1968497646",
+        "2540536653",
+        "2931483505",
+        "3244015567",
+        "3351002503",
+        "343223696",
+        "3759764174",
+        "806209283",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3110698812/"
+      ]
+    },
+    {
+      "id": "telesto",
+      "name": "Telesto",
+      "itemHash": "2208405142",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1835787579",
+        "1891148055",
+        "1927916065",
+        "2356548547",
+        "2931483505",
+        "2969185026",
+        "3244015567",
+        "3449188806",
+        "3556728490",
+        "3970637031",
+        "640058316",
+        "862848869",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2208405142/"
+      ]
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "itemHash": "3561203890",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "solar",
+        "void",
+        "stasis",
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1056130093",
+        "1392496348",
+        "1498917124",
+        "1645318917",
+        "2024652627",
+        "2538516770",
+        "2769013282",
+        "2931483505",
+        "2969185026",
+        "3244015567",
+        "3465198467",
+        "905869860"
+      ],
+      "notes": "Adopts the equipped grenade element; its generic Kinetic preview is not a normal firing element. Artifact-induced bugs are excluded.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3561203890/",
+        "https://www.light.gg/db/items/3561203890/tessellation/"
+      ]
+    },
+    {
+      "id": "the-chaperone",
+      "name": "The Chaperone",
+      "itemHash": "3413860062",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1394384862",
+        "1498917124",
+        "1658733671",
+        "1869157938",
+        "204467717",
+        "2302094943",
+        "2515377971",
+        "2931483505",
+        "3009090211",
+        "3142289711",
+        "3250034553",
+        "38912240",
+        "431220297",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3413860062/"
+      ]
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony",
+      "itemHash": "3899270607",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1441682018",
+        "179202986",
+        "2019952880",
+        "2240097604",
+        "2285636663",
+        "269320354",
+        "2822142346",
+        "2931483505",
+        "3465198467",
+        "3913463509",
+        "396328063",
+        "4252160794",
+        "854868710",
+        "898795824",
+        "907775118"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3899270607/"
+      ]
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "itemHash": "1665952087",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "2223914385",
+        "2826187530",
+        "2931483505",
+        "3244015567",
+        "3547626308",
+        "3802742250",
+        "407549716",
+        "4259401308",
+        "791862061",
+        "839105230",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1665952087/"
+      ]
+    },
+    {
+      "id": "the-huckleberry",
+      "name": "The Huckleberry",
+      "itemHash": "2286143274",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1075867128",
+        "1102224360",
+        "1840239774",
+        "1885400500",
+        "2101754671",
+        "2302094943",
+        "2775242452",
+        "2931483505",
+        "3551326236",
+        "38912240",
+        "630329983",
+        "837509459",
+        "917657364"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2286143274/"
+      ]
+    },
+    {
+      "id": "the-jade-rabbit",
+      "name": "The Jade Rabbit",
+      "itemHash": "3844694310",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1259278657",
+        "1392496348",
+        "1447921738",
+        "1561002382",
+        "172636124",
+        "1772382457",
+        "1970437989",
+        "2302094943",
+        "2931483505",
+        "3000111575",
+        "3668782036",
+        "3700496672",
+        "3824105627",
+        "38912240",
+        "959098413"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3844694310/"
+      ]
+    },
+    {
+      "id": "the-lament",
+      "name": "The Lament",
+      "itemHash": "3487253372",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1138782604",
+        "1141818699",
+        "1218164788",
+        "1498917124",
+        "2179914730",
+        "2240097604",
+        "2285636663",
+        "2321971501",
+        "2590710093",
+        "290014589",
+        "2931483505",
+        "3666208348",
+        "3803099167",
+        "396425346",
+        "599007201"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3487253372/"
+      ]
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "itemHash": "1364093401",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1119316141",
+        "1498917124",
+        "1606218149",
+        "1866048759",
+        "2302094943",
+        "2770223582",
+        "2931483505",
+        "3142289711",
+        "3227439259",
+        "3274907024",
+        "38912240",
+        "3917450714",
+        "4090651448",
+        "844227660"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1364093401/"
+      ]
+    },
+    {
+      "id": "the-manticore",
+      "name": "The Manticore",
+      "itemHash": "219145368",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1880238324",
+        "1885400500",
+        "228577175",
+        "2656694271",
+        "2797384170",
+        "2931483505",
+        "3244015567",
+        "4259401308",
+        "839105230",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/219145368/"
+      ]
+    },
+    {
+      "id": "the-navigator",
+      "name": "The Navigator",
+      "itemHash": "1441805468",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "202670084",
+        "2302094943",
+        "2749775325",
+        "2931483505",
+        "3116569677",
+        "3172115769",
+        "3465198467",
+        "38912240",
+        "4620383",
+        "73064000"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1441805468/"
+      ]
+    },
+    {
+      "id": "the-prospector",
+      "name": "The Prospector",
+      "itemHash": "3549153979",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1344619700",
+        "1478423395",
+        "1771897777",
+        "2240097604",
+        "2285636663",
+        "2858348496",
+        "2931483505",
+        "2977709078",
+        "3151260458",
+        "3319386964",
+        "3628862572",
+        "3866441869",
+        "4267945040",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3549153979/"
+      ]
+    },
+    {
+      "id": "the-queenbreaker",
+      "name": "The Queenbreaker",
+      "itemHash": "2044500762",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1061006937",
+        "1408087974",
+        "1408087975",
+        "1498917124",
+        "1531126198",
+        "1866048759",
+        "2020179519",
+        "2240097604",
+        "2285636663",
+        "2515305906",
+        "2680121939",
+        "2931483505",
+        "3127513084",
+        "4259401308",
+        "706527188"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2044500762/"
+      ]
+    },
+    {
+      "id": "the-wardcliff-coil",
+      "name": "The Wardcliff Coil",
+      "itemHash": "1508896098",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1178686995",
+        "1478423395",
+        "1678902463",
+        "1728120036",
+        "2240097604",
+        "2285636663",
+        "2420895100",
+        "2473404935",
+        "2533771627",
+        "2583504679",
+        "2634511221",
+        "2931483505",
+        "3465198467",
+        "3697492370",
+        "669267835"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1508896098/"
+      ]
+    },
+    {
+      "id": "third-iteration",
+      "name": "Third Iteration",
+      "itemHash": "2973900274",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1482024992",
+        "1498917124",
+        "167605063",
+        "2144580852",
+        "2451540357",
+        "2530798804",
+        "2931483505",
+        "3244015567",
+        "3465198467",
+        "364132014",
+        "505341189",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2973900274/"
+      ]
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "itemHash": "3973202132",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1532753063",
+        "1863355414",
+        "2302094943",
+        "2921090754",
+        "2931483505",
+        "3142289711",
+        "3426600741",
+        "3432171457",
+        "3575125069",
+        "38912240",
+        "3917450714",
+        "4090651448",
+        "4091235251"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3973202132/"
+      ]
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "itemHash": "3260753130",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1163145340",
+        "1196733167",
+        "1498917124",
+        "2528315727",
+        "2931483505",
+        "3239299468",
+        "3244015567",
+        "3298446480",
+        "3827198035",
+        "3978937353",
+        "46339337",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3260753130/"
+      ]
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "itemHash": "776191470",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "2420895100",
+        "2931483505",
+        "3244015567",
+        "3250034553",
+        "3772485195",
+        "4001063065",
+        "859354675",
+        "905869860",
+        "961505134",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/776191470/"
+      ]
+    },
+    {
+      "id": "touch-of-malice",
+      "name": "Touch of Malice",
+      "itemHash": "1802135586",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic",
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1392496348",
+        "1498917124",
+        "1557274655",
+        "2094939076",
+        "2302094943",
+        "2724693746",
+        "2931483505",
+        "3066440557",
+        "3230963543",
+        "38912240",
+        "757170832",
+        "990298390"
+      ],
+      "notes": "Normal rounds are Kinetic; Charged with Blight fires an Arc impact projectile.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1802135586/",
+        "https://www.light.gg/db/items/2094939076/charged-with-blight/"
+      ]
+    },
+    {
+      "id": "tractor-cannon",
+      "name": "Tractor Cannon",
+      "itemHash": "3580904581",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1210807262",
+        "1229065205",
+        "1467527085",
+        "2079505484",
+        "2240097604",
+        "2285636663",
+        "25692695",
+        "2919419217",
+        "2931483505",
+        "3071174732",
+        "3465198467",
+        "384923539",
+        "3868766766",
+        "4130628226",
+        "4233905576",
+        "4236694804"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3580904581/"
+      ]
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "itemHash": "1853180924",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic",
+        "arc",
+        "solar",
+        "void",
+        "stasis",
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1498917124",
+        "1968497646",
+        "2302094943",
+        "24925370",
+        "2720745558",
+        "2931483505",
+        "3365127084",
+        "3753648496",
+        "38912240",
+        "3967134106",
+        "445755707",
+        "975429949"
+      ],
+      "notes": "Kinetic normally; its fixed catalyst grants Osmosis, allowing conversion to each grenade element.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1853180924/",
+        "https://www.light.gg/db/items/3967134106/travelers-chosen-catalyst/"
+      ]
+    },
+    {
+      "id": "trespasser",
+      "name": "Trespasser",
+      "itemHash": "1234150730",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1271851280",
+        "1498917124",
+        "1885400500",
+        "1934353448",
+        "202670084",
+        "2641107734",
+        "2895039606",
+        "2931483505",
+        "3184365082",
+        "3244015567",
+        "3326204863",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1234150730/"
+      ]
+    },
+    {
+      "id": "trinity-ghoul",
+      "name": "Trinity Ghoul",
+      "itemHash": "814876685",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1573888036",
+        "16392701",
+        "200829441",
+        "287295296",
+        "2931483505",
+        "2972088291",
+        "3046205073",
+        "3244015567",
+        "3371775011",
+        "3457865914",
+        "3977461550",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/814876685/"
+      ]
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "itemHash": "1201830623",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1478423395",
+        "1498917124",
+        "2182432903",
+        "2240097604",
+        "2285636663",
+        "2347594371",
+        "2491817779",
+        "2822142346",
+        "2911329003",
+        "2931483505",
+        "3022822431",
+        "3465198467",
+        "726894353"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1201830623/"
+      ]
+    },
+    {
+      "id": "turncoat",
+      "name": "Turncoat",
+      "itemHash": "253843484",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012699414",
+        "1017906546",
+        "1482024992",
+        "1498917124",
+        "1621116596",
+        "1621116597",
+        "2931483505",
+        "3142289711",
+        "3244015567",
+        "4170056386",
+        "651256110",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/253843484/"
+      ]
+    },
+    {
+      "id": "two-tailed-fox",
+      "name": "Two-Tailed Fox",
+      "itemHash": "2694576561",
+      "status": "verified",
+      "damageTypes": [
+        "arc",
+        "solar",
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1644978187",
+        "1844523823",
+        "2240097604",
+        "2285636663",
+        "2493223474",
+        "2822142346",
+        "2931483505",
+        "2982346244",
+        "316937992",
+        "3465198467",
+        "3649430342",
+        "4079681314",
+        "777637181"
+      ],
+      "notes": "Void and Solar rockets; the Third Tail catalyst adds an Arc rocket.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2694576561/",
+        "https://www.light.gg/db/items/4079681314/third-tail/"
+      ]
+    },
+    {
+      "id": "verglas-curve",
+      "name": "Verglas Curve",
+      "itemHash": "3659414143",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1784898267",
+        "2000464223",
+        "2302094943",
+        "2636679416",
+        "2689511581",
+        "2931483505",
+        "3827198035",
+        "38912240",
+        "863074675"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3659414143/"
+      ]
+    },
+    {
+      "id": "vex-mythoclast",
+      "name": "Vex Mythoclast",
+      "itemHash": "4289226715",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "185041502",
+        "1871823355",
+        "2539359118",
+        "2931483505",
+        "314669087",
+        "3244015567",
+        "3610750208",
+        "4294938474",
+        "806917387",
+        "838219733",
+        "839105230",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4289226715/"
+      ]
+    },
+    {
+      "id": "vexcalibur",
+      "name": "Vexcalibur",
+      "itemHash": "3118061005",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1067908860",
+        "1087426260",
+        "1134447515",
+        "1219897208",
+        "1232390730",
+        "1263609309",
+        "1431678320",
+        "1496718000",
+        "1496718001",
+        "1649663920",
+        "1692473496",
+        "1934171651",
+        "1961918267",
+        "2171805903",
+        "2329953306",
+        "2420895100",
+        "2503665585",
+        "2713678205",
+        "2751656639",
+        "2898674457",
+        "2898674462",
+        "2898674463",
+        "2931483505",
+        "3142289711",
+        "3146691100",
+        "3146691101",
+        "3146691103",
+        "3244015567",
+        "3465198467",
+        "3721627275",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3803329707",
+        "4033765969",
+        "4043342755",
+        "4183635599",
+        "4259401308",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "5699512",
+        "580685494",
+        "594346985",
+        "679225683",
+        "905869860",
+        "990298390"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3118061005/"
+      ]
+    },
+    {
+      "id": "vigilance-wing",
+      "name": "Vigilance Wing",
+      "itemHash": "3628991659",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1431678320",
+        "1620506138",
+        "1772168355",
+        "1948715072",
+        "2302094943",
+        "2307143135",
+        "2760478958",
+        "2931483505",
+        "3465198467",
+        "3547298846",
+        "3844549116",
+        "38912240",
+        "4090651448",
+        "4146729347",
+        "4288562036"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3628991659/"
+      ]
+    },
+    {
+      "id": "wavesplitter",
+      "name": "Wavesplitter",
+      "itemHash": "1852863732",
+      "status": "verified",
+      "damageTypes": [
+        "void"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1392496348",
+        "1498917124",
+        "2306441428",
+        "2680121939",
+        "2931483505",
+        "3142425843",
+        "3156882011",
+        "3244015567",
+        "4259401308",
+        "459441288",
+        "730568919",
+        "905869860"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1852863732/"
+      ]
+    },
+    {
+      "id": "whirling-ovation",
+      "name": "Whirling Ovation",
+      "itemHash": "1202007252",
+      "status": "verified",
+      "damageTypes": [
+        "solar",
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1687452232",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "2972633230",
+        "3200860608",
+        "3465198467",
+        "3496051160",
+        "4199529752",
+        "981914802"
+      ],
+      "notes": "Base rocket deals Strand damage; charged shots carry a delayed Solar payload.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1202007252/",
+        "https://www.light.gg/db/items/3200860608/coronal-culmination/"
+      ]
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "itemHash": "1891561814",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1277486053",
+        "1340292993",
+        "1392496348",
+        "1906359096",
+        "1906359097",
+        "2240097604",
+        "2285636663",
+        "281315705",
+        "2931483505",
+        "3142289711",
+        "3337692349",
+        "3373365218",
+        "3855774718",
+        "4175323631",
+        "4259401308"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1891561814/"
+      ]
+    },
+    {
+      "id": "wicked-implement",
+      "name": "Wicked Implement",
+      "itemHash": "940371471",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1266604956",
+        "1498917124",
+        "2302094943",
+        "2763305228",
+        "2931483505",
+        "3142289711",
+        "3782773412",
+        "38912240",
+        "4090651448",
+        "4259401308",
+        "657879882",
+        "961827406"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/940371471/"
+      ]
+    },
+    {
+      "id": "winterbite",
+      "name": "Winterbite",
+      "itemHash": "3118061004",
+      "status": "verified",
+      "damageTypes": [
+        "stasis"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1207608520",
+        "1431678320",
+        "1498917124",
+        "1934171651",
+        "2240097604",
+        "2285636663",
+        "2931483505",
+        "3526486541",
+        "3671432115",
+        "580005458",
+        "75282108"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3118061004/"
+      ]
+    },
+    {
+      "id": "wish-keeper",
+      "name": "Wish-Keeper",
+      "itemHash": "2910326942",
+      "status": "verified",
+      "damageTypes": [
+        "strand"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1012699414",
+        "1196733167",
+        "1219897208",
+        "1500996326",
+        "16392701",
+        "1649663920",
+        "1784898267",
+        "1961918267",
+        "214670074",
+        "2154191829",
+        "2302094943",
+        "2503665585",
+        "2655147888",
+        "2655147894",
+        "2655147895",
+        "2799667909",
+        "2801223209",
+        "2931483505",
+        "3074755706",
+        "3311977193",
+        "3326204863",
+        "3371775011",
+        "3429800428",
+        "3471922734",
+        "366474809",
+        "3674581496",
+        "372672208",
+        "372672209",
+        "372672210",
+        "372672211",
+        "3768438372",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3827198035",
+        "38912240",
+        "3917450714",
+        "4043342755",
+        "4067834857",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "489304975",
+        "852209214",
+        "862848869"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2910326942/"
+      ]
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "itemHash": "2357297366",
+      "status": "verified",
+      "damageTypes": [
+        "kinetic"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1498917124",
+        "1996142143",
+        "2109129768",
+        "2302094943",
+        "2877175449",
+        "2888418988",
+        "2931483505",
+        "3063320916",
+        "3465198467",
+        "3620946736",
+        "3809316345",
+        "38912240",
+        "609666430",
+        "745965939",
+        "899855954"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2357297366/"
+      ]
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "itemHash": "1753923263",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1127992351",
+        "1166233619",
+        "1219897208",
+        "1261178282",
+        "1303792749",
+        "1649663920",
+        "1779961758",
+        "1961918267",
+        "2240097604",
+        "2285636663",
+        "2493618392",
+        "2493618393",
+        "2493618399",
+        "2503665585",
+        "2827049491",
+        "2836298415",
+        "2931483505",
+        "2936056926",
+        "3377448506",
+        "3553394349",
+        "3666208348",
+        "3674581496",
+        "3794465704",
+        "3794465705",
+        "3794465708",
+        "3794465710",
+        "3794465711",
+        "3865920552",
+        "3865920553",
+        "3865920554",
+        "3865920555",
+        "4043342755",
+        "4275472608",
+        "4275472612",
+        "4275472613",
+        "4275472614",
+        "4275472615",
+        "436053704",
+        "938542991"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1753923263/"
+      ]
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "itemHash": "1864563948",
+      "status": "verified",
+      "damageTypes": [
+        "arc"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "1637046321",
+        "1998569185",
+        "2240097604",
+        "2285636663",
+        "2363751990",
+        "2425317590",
+        "2590710093",
+        "2603105938",
+        "2931483505",
+        "354401740",
+        "3642491337",
+        "388458229",
+        "938542991"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1864563948/"
+      ]
+    },
+    {
+      "id": "xenophage",
+      "name": "Xenophage",
+      "itemHash": "1395261499",
+      "status": "verified",
+      "damageTypes": [
+        "solar"
+      ],
+      "method": "Manifest base damage plus review of bound intrinsic/trait/catalyst definitions; explicit exceptions checked separately",
+      "reviewedPlugHashes": [
+        "116918307",
+        "1498917124",
+        "1561002382",
+        "202670084",
+        "2113691818",
+        "2240097604",
+        "2261491232",
+        "2285636663",
+        "2846385770",
+        "2931483505",
+        "2991424415",
+        "3205431489",
+        "3465198467",
+        "4159445096"
+      ],
+      "notes": "Retained base firing element after reviewing the attached intrinsic, traits and catalyst plugs. No additional weapon-firing element identified under this review policy.",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1395261499/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1827 @@
+[
+  {
+    "id": "1000-yard-stare",
+    "name": "1000 Yard Stare",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "anniversary",
+    "currentVersionId": "1000-yard-stare-1648948519",
+    "icon": "images/weapons/1000-yard-stare.jpg",
+    "versions": [
+      {
+        "id": "1000-yard-stare-1648948519",
+        "releaseId": "monument",
+        "weaponType": "sniper-rifle",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "\"Grasp of Avarice\" Dungeon"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1648948519/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "18-kelvins",
+    "name": "18 Kelvins",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "warmind",
+    "currentVersionId": "18-kelvins-1798874854",
+    "icon": "images/weapons/18-kelvins.jpg",
+    "versions": [
+      {
+        "id": "18-kelvins-1798874854",
+        "releaseId": "warmind",
+        "weaponType": "sidearm",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Complete activities and earn rank-up packages on Mars."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1798874854/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "21-delirium",
+    "name": "21% Delirium",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "drifter",
+    "currentVersionId": "21-delirium-3001598094",
+    "icon": "images/weapons/21-delirium.jpg",
+    "versions": [
+      {
+        "id": "21-delirium-3001598094",
+        "releaseId": "monument",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "gambit",
+          "name": "gambit (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3001598094/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-cold-sweat",
+    "name": "A Cold Sweat",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "osiris",
+    "currentVersionId": "a-cold-sweat-2071412133",
+    "icon": "images/weapons/a-cold-sweat.jpg",
+    "versions": [
+      {
+        "id": "a-cold-sweat-2071412133",
+        "releaseId": "osiris",
+        "weaponType": "hand-cannon",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "crucible",
+          "name": "Complete Trials tickets and earn rank-up packages from the Emissary of the Nine."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2071412133/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-distant-pull",
+    "name": "A Distant Pull",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "deep",
+    "currentVersionId": "a-distant-pull-1769847435",
+    "icon": "images/weapons/a-distant-pull.jpg",
+    "versions": [
+      {
+        "id": "a-distant-pull-1769847435",
+        "releaseId": "deep",
+        "weaponType": "sniper-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "Season of the Deep activities"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1769847435/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-fine-memorial",
+    "name": "A Fine Memorial",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "undying",
+    "currentVersionId": "a-fine-memorial-3211332727",
+    "icon": "images/weapons/a-fine-memorial.jpg",
+    "versions": [
+      {
+        "id": "a-fine-memorial-3211332727",
+        "releaseId": "monument",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "moon (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3211332727/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-single-clap",
+    "name": "A Single Clap",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "a-single-clap-3312073052",
+    "icon": "images/weapons/a-single-clap.jpg",
+    "versions": [
+      {
+        "id": "a-single-clap-3312073052",
+        "releaseId": "red-war",
+        "weaponType": "sniper-rifle",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Complete activities and earn rank-up packages on Saturn's Moon, Titan."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3312073052/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-swift-verdict",
+    "name": "A Swift Verdict",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "a-swift-verdict-1626503676",
+    "icon": "images/weapons/a-swift-verdict.jpg",
+    "versions": [
+      {
+        "id": "a-swift-verdict-1626503676",
+        "releaseId": "lost",
+        "weaponType": "sidearm",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "\"Prophecy\" Dungeon"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1626503676/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aberrant-action",
+    "name": "Aberrant Action",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "echoes",
+    "currentVersionId": "aberrant-action-2198166292",
+    "icon": "images/weapons/aberrant-action.jpg",
+    "versions": [
+      {
+        "id": "aberrant-action-2198166292",
+        "releaseId": "echoes",
+        "weaponType": "sidearm",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Micro-Missile Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "Episode: Echoes Activities"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2198166292/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abide-the-return",
+    "name": "Abide the Return",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "abide-the-return-1291270049",
+    "icon": "images/weapons/abide-the-return.jpg",
+    "versions": [
+      {
+        "id": "abide-the-return-1291270049",
+        "releaseId": "monument",
+        "weaponType": "sword",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "dreaming (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1291270049/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abyss-defiant",
+    "name": "Abyss Defiant",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch",
+    "currentVersionId": "abyss-defiant-833898322",
+    "icon": "images/weapons/abyss-defiant.jpg",
+    "versions": [
+      {
+        "id": "abyss-defiant-833898322",
+        "releaseId": "witch",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "High-Impact Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Crota's End\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/833898322/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abyssal-edge",
+    "name": "Abyssal Edge",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "heresy",
+    "currentVersionId": "abyssal-edge-2599520828",
+    "icon": "images/weapons/abyssal-edge.jpg",
+    "versions": [
+      {
+        "id": "abyssal-edge-2599520828",
+        "releaseId": "monument",
+        "weaponType": "sword",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "strand"
+        ],
+        "frame": "Wave Sword Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "heresy (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2599520828/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acantha-d",
+    "name": "Acantha-D",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "acantha-d-896923850",
+    "icon": "images/weapons/acantha-d.jpg",
+    "versions": [
+      {
+        "id": "acantha-d-896923850",
+        "releaseId": "red-war",
+        "weaponType": "grenade-launcher",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Earn rank-up packages from Banshee-44."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/896923850/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acantha-d-xk8434",
+    "name": "Acantha-D XK8434",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "forge",
+    "currentVersionId": "acantha-d-xk8434-1757129747",
+    "icon": "images/weapons/acantha-d-xk8434.jpg",
+    "versions": [
+      {
+        "id": "acantha-d-xk8434-1757129747",
+        "releaseId": "forge",
+        "weaponType": "grenade-launcher",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "Crafted in a Black Armory forge."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1757129747/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acasia-s-dejection",
+    "name": "Acasia's Dejection",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "lightfall",
+    "currentVersionId": "acasia-s-dejection-1471212226",
+    "icon": "images/weapons/acasia-s-dejection.jpg",
+    "versions": [
+      {
+        "id": "acasia-s-dejection-1471212226",
+        "releaseId": "lightfall",
+        "weaponType": "trace-rifle",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Root of Nightmares\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1471212226/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accelerando-42",
+    "name": "Accelerando-42",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "monument",
+    "currentVersionId": "accelerando-42-3610531207",
+    "icon": "images/weapons/accelerando-42.jpg",
+    "versions": [
+      {
+        "id": "accelerando-42-3610531207",
+        "releaseId": "monument",
+        "weaponType": "fusion-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "strand"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "event",
+          "name": "Sparrow Racing League"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3610531207/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accrued-redemption",
+    "name": "Accrued Redemption",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "undying",
+    "currentVersionId": "accrued-redemption-3621336854",
+    "icon": "images/weapons/accrued-redemption.jpg",
+    "versions": [
+      {
+        "id": "accrued-redemption-3621336854",
+        "releaseId": "revenant",
+        "weaponType": "combat-bow",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Garden of Salvation\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3621336854/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ace-of-spades",
+    "name": "Ace of Spades",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "ace-of-spades-347366834",
+    "icon": "images/weapons/ace-of-spades.jpg",
+    "versions": [
+      {
+        "id": "ace-of-spades-347366834",
+        "releaseId": "forsaken",
+        "weaponType": "hand-cannon",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Memento Mori",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "quest",
+          "name": "Cayde\u2019s Will"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/347366834/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acosmic",
+    "name": "Acosmic",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch",
+    "currentVersionId": "acosmic-1106017703",
+    "icon": "images/weapons/acosmic.jpg",
+    "versions": [
+      {
+        "id": "acosmic-1106017703",
+        "releaseId": "monument",
+        "weaponType": "grenade-launcher",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "event",
+          "name": "Festival of the Lost"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1106017703/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "action-item",
+    "name": "Action Item",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "renegades",
+    "currentVersionId": "action-item-527989828",
+    "icon": "images/weapons/action-item.jpg",
+    "versions": [
+      {
+        "id": "action-item-527989828",
+        "releaseId": "renegades",
+        "weaponType": "trace-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "event",
+          "name": "Events"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/527989828/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adhortative",
+    "name": "Adhortative",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "undying",
+    "currentVersionId": "adhortative-2993554824",
+    "icon": "images/weapons/adhortative.jpg",
+    "versions": [
+      {
+        "id": "adhortative-2993554824",
+        "releaseId": "wish",
+        "weaponType": "pulse-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "Season of the Wish Activities"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2993554824/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adjudicator",
+    "name": "Adjudicator",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "adjudicator-140914741",
+    "icon": "images/weapons/adjudicator.jpg",
+    "versions": [
+      {
+        "id": "adjudicator-140914741",
+        "releaseId": "monument",
+        "weaponType": "submachine-gun",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "\"Prophecy\" Dungeon"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/140914741/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "admetus-d",
+    "name": "Admetus-D",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "heresy",
+    "currentVersionId": "admetus-d-3156551029",
+    "icon": "images/weapons/admetus-d.jpg",
+    "versions": [
+      {
+        "id": "admetus-d-3156551029",
+        "releaseId": "monument",
+        "weaponType": "scout-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "High-Impact Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "legendaryengram (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3156551029/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adverse-possession-ix",
+    "name": "Adverse Possession IX",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "osiris",
+    "currentVersionId": "adverse-possession-ix-1890332078",
+    "icon": "images/weapons/adverse-possession-ix.jpg",
+    "versions": [
+      {
+        "id": "adverse-possession-ix-1890332078",
+        "releaseId": "echoes",
+        "weaponType": "scout-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Open Legendary engrams and earn faction rank-up packages."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1890332078/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afterlight",
+    "name": "Afterlight",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "heresy",
+    "currentVersionId": "afterlight-3228630258",
+    "icon": "images/weapons/afterlight.jpg",
+    "versions": [
+      {
+        "id": "afterlight-3228630258",
+        "releaseId": "heresy",
+        "weaponType": "fusion-rifle",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "seasonal",
+          "name": "Episode: Heresy Activities"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3228630258/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agamid",
+    "name": "Agamid",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "warmind",
+    "currentVersionId": "agamid-1406475890",
+    "icon": "images/weapons/agamid.jpg",
+    "versions": [
+      {
+        "id": "agamid-1406475890",
+        "releaseId": "warmind",
+        "weaponType": "hand-cannon",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Aggressive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Earn rank-up packages from Arach Jalaal."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1406475890/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agape",
+    "name": "Agape",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "edge-of-fate",
+    "currentVersionId": "agape-4124362340",
+    "icon": "images/weapons/agape.jpg",
+    "versions": [
+      {
+        "id": "agape-4124362340",
+        "releaseId": "edge-of-fate",
+        "weaponType": "hand-cannon",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Heavy Burst",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Exploring Kepler"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4124362340/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "age-old-bond",
+    "name": "Age-Old Bond",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "age-old-bond-424291879",
+    "icon": "images/weapons/age-old-bond.jpg",
+    "versions": [
+      {
+        "id": "age-old-bond-424291879",
+        "releaseId": "deep",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "High-Impact Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "Last Wish"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/424291879/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ammit-ar2",
+    "name": "Ammit AR2",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Ammit"
+    ],
+    "firstReleaseId": "plunder",
+    "currentVersionId": "ammit-ar2-2119346509",
+    "icon": "images/weapons/ammit-ar2.jpg",
+    "versions": [
+      {
+        "id": "ammit-ar2-2119346509",
+        "releaseId": "plunder",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Open Legendary engrams and earn faction rank-up packages."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2119346509/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apex-predator",
+    "name": "Apex Predator",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Apex",
+      "Predator"
+    ],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "apex-predator-1851777734",
+    "icon": "images/weapons/apex-predator.jpg",
+    "versions": [
+      {
+        "id": "apex-predator-1851777734",
+        "releaseId": "deep",
+        "weaponType": "rocket-launcher",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "Last Wish"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1851777734/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bxr-55-battler",
+    "name": "BxR-55 Battler",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "BXR",
+      "BXR-55",
+      "Battler"
+    ],
+    "firstReleaseId": "anniversary",
+    "currentVersionId": "bxr-55-battler-2708806099",
+    "icon": "images/weapons/bxr-55-battler.jpg",
+    "versions": [
+      {
+        "id": "bxr-55-battler-2708806099",
+        "releaseId": "anniversary",
+        "weaponType": "pulse-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Legacy PR-55 Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "X\u00fbr's Treasure Hoard in Eternity"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2708806099/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cataclysmic",
+    "name": "Cataclysmic",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "cataclysmic-999767358",
+    "icon": "images/weapons/cataclysmic.jpg",
+    "versions": [
+      {
+        "id": "cataclysmic-999767358",
+        "releaseId": "witch-queen",
+        "weaponType": "linear-fusion-rifle",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Vow of the Disciple\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/999767358/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commemoration",
+    "name": "Commemoration",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "commemoration-4230965989",
+    "icon": "images/weapons/commemoration.jpg",
+    "versions": [
+      {
+        "id": "commemoration-4230965989",
+        "releaseId": "beyond-light",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Deep Stone Crypt\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4230965989/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deliverance",
+    "name": "Deliverance",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "deliverance-768621510",
+    "icon": "images/weapons/deliverance.jpg",
+    "versions": [
+      {
+        "id": "deliverance-768621510",
+        "releaseId": "witch-queen",
+        "weaponType": "fusion-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Vow of the Disciple\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/768621510/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "final-warning",
+    "name": "Final Warning",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [],
+    "firstReleaseId": "lightfall",
+    "currentVersionId": "final-warning-3121540812",
+    "icon": "images/weapons/final-warning.jpg",
+    "versions": [
+      {
+        "id": "final-warning-3121540812",
+        "releaseId": "lightfall",
+        "weaponType": "sidearm",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "strand"
+        ],
+        "frame": "All at Once",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "quest",
+          "name": "\"The Final Strand\" Exotic Quest"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3121540812/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funnelweb",
+    "name": "Funnelweb",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "witch-queen",
+    "currentVersionId": "funnelweb-3341893443",
+    "icon": "images/weapons/funnelweb.jpg",
+    "versions": [
+      {
+        "id": "funnelweb-3341893443",
+        "releaseId": "witch-queen",
+        "weaponType": "submachine-gun",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Lightweight Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Open Legendary engrams and earn faction rank-up packages."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3341893443/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gnawing-hunger",
+    "name": "Gnawing Hunger",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "drifter",
+    "currentVersionId": "gnawing-hunger-214545213",
+    "icon": "images/weapons/gnawing-hunger.jpg",
+    "versions": [
+      {
+        "id": "gnawing-hunger-214545213",
+        "releaseId": "monument",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "gambit",
+          "name": "Gambit"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/214545213/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hard-light",
+    "name": "Hard Light",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Hardlight"
+    ],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "hard-light-4124984448",
+    "icon": "images/weapons/hard-light.jpg",
+    "versions": [
+      {
+        "id": "hard-light-4124984448",
+        "releaseId": "red-war",
+        "weaponType": "auto-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc",
+          "solar",
+          "void"
+        ],
+        "frame": "Volatile Light",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Exotic engrams; extremely rare world drops."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4124984448/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heritage",
+    "name": "Heritage",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "heritage-4248569242",
+    "icon": "images/weapons/heritage.jpg",
+    "versions": [
+      {
+        "id": "heritage-4248569242",
+        "releaseId": "beyond-light",
+        "weaponType": "shotgun",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Pinpoint Slug Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Deep Stone Crypt\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4248569242/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leviathans-breath",
+    "name": "Leviathan's Breath",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Leviathan's Breath",
+      "Leviathans Breath"
+    ],
+    "firstReleaseId": "undying",
+    "currentVersionId": "leviathans-breath-2591746970",
+    "icon": "images/weapons/leviathans-breath.jpg",
+    "versions": [
+      {
+        "id": "leviathans-breath-2591746970",
+        "releaseId": "undying",
+        "weaponType": "combat-bow",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Big-Game Hunter",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "quest",
+          "name": "Make Bows, Not War"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2591746970/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "riptide",
+    "name": "Riptide",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "haunted",
+    "currentVersionId": "riptide-2297554989",
+    "icon": "images/weapons/riptide.jpg",
+    "versions": [
+      {
+        "id": "riptide-2297554989",
+        "releaseId": "renegades",
+        "weaponType": "fusion-rifle",
+        "slot": "kinetic",
+        "ammoType": "special",
+        "damageTypes": [
+          "stasis"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "crucible",
+          "name": "crucible (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2297554989/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taipan-4fr",
+    "name": "Taipan-4fr",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Taipan"
+    ],
+    "firstReleaseId": "plunder",
+    "currentVersionId": "taipan-4fr-1911060537",
+    "icon": "images/weapons/taipan-4fr.jpg",
+    "versions": [
+      {
+        "id": "taipan-4fr-1911060537",
+        "releaseId": "plunder",
+        "weaponType": "linear-fusion-rifle",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Precision Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "world-loot",
+          "name": "Open Legendary engrams and earn faction rank-up packages."
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1911060537/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-palindrome",
+    "name": "The Palindrome",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Palindrome"
+    ],
+    "firstReleaseId": "chosen",
+    "currentVersionId": "the-palindrome-739029152",
+    "icon": "images/weapons/the-palindrome.jpg",
+    "versions": [
+      {
+        "id": "the-palindrome-739029152",
+        "releaseId": "monument",
+        "weaponType": "hand-cannon",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "nightfall",
+          "name": "nightfall (DIM curated source group)"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/739029152/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thunderlord",
+    "name": "Thunderlord",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "thunderlord-3325463374",
+    "icon": "images/weapons/thunderlord.jpg",
+    "versions": [
+      {
+        "id": "thunderlord-3325463374",
+        "releaseId": "forsaken",
+        "weaponType": "machine-gun",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Reign Havoc",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "event",
+          "name": "Festival of the Lost 2018 / Exotic quest"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3325463374/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "trustee",
+    "name": "Trustee",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "trustee-1392919471",
+    "icon": "images/weapons/trustee.jpg",
+    "versions": [
+      {
+        "id": "trustee-1392919471",
+        "releaseId": "beyond-light",
+        "weaponType": "scout-rifle",
+        "slot": "energy",
+        "ammoType": "primary",
+        "damageTypes": [
+          "solar"
+        ],
+        "frame": "Rapid-Fire Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "raid",
+          "name": "\"Deep Stone Crypt\" Raid"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1392919471/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wish-ender",
+    "name": "Wish-Ender",
+    "edition": "destiny2",
+    "rarity": "exotic",
+    "aliases": [
+      "Wish Ender",
+      "Wishender"
+    ],
+    "firstReleaseId": "forsaken",
+    "currentVersionId": "wish-ender-814876684",
+    "icon": "images/weapons/wish-ender.jpg",
+    "versions": [
+      {
+        "id": "wish-ender-814876684",
+        "releaseId": "forsaken",
+        "weaponType": "combat-bow",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "kinetic"
+        ],
+        "frame": "Queen's Wrath",
+        "champion": {
+          "basis": "exotic-intrinsic",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "The Shattered Throne / Hunter\u2019s Remembrance"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/814876684/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-good-shout",
+    "name": "A Good Shout",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [
+      "Shout"
+    ],
+    "firstReleaseId": "renegades",
+    "currentVersionId": "a-good-shout-3615748501",
+    "icon": "images/weapons/a-good-shout.jpg",
+    "versions": [
+      {
+        "id": "a-good-shout-3615748501",
+        "releaseId": "renegades",
+        "weaponType": "combat-bow",
+        "slot": "power",
+        "ammoType": "heavy",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "High-Impact Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Zavala weapon set"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3615748501/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-sudden-death",
+    "name": "A Sudden Death",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "red-war",
+    "currentVersionId": "a-sudden-death-2489016648",
+    "icon": "images/weapons/a-sudden-death.jpg",
+    "versions": [
+      {
+        "id": "a-sudden-death-2489016648",
+        "releaseId": "monument",
+        "weaponType": "shotgun",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "void"
+        ],
+        "frame": "Aggressive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "unstoppable"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "Prophecy"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2489016648/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adamantite",
+    "name": "Adamantite",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "heresy",
+    "currentVersionId": "adamantite-621450049",
+    "icon": "images/weapons/adamantite.jpg",
+    "versions": [
+      {
+        "id": "adamantite-621450049",
+        "releaseId": "monument",
+        "weaponType": "auto-rifle",
+        "slot": "kinetic",
+        "ammoType": "primary",
+        "damageTypes": [
+          "strand"
+        ],
+        "frame": "Support Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "overload"
+          ]
+        },
+        "source": {
+          "category": "dungeon",
+          "name": "Pit of Heresy"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/621450049/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adored",
+    "name": "Adored",
+    "edition": "destiny2",
+    "rarity": "legendary",
+    "aliases": [],
+    "firstReleaseId": "beyond-light",
+    "currentVersionId": "adored-1405095983",
+    "icon": "images/weapons/adored.jpg",
+    "versions": [
+      {
+        "id": "adored-1405095983",
+        "releaseId": "monument",
+        "weaponType": "sniper-rifle",
+        "slot": "energy",
+        "ammoType": "special",
+        "damageTypes": [
+          "arc"
+        ],
+        "frame": "Adaptive Frame",
+        "champion": {
+          "basis": "frame",
+          "counters": [
+            "barrier"
+          ]
+        },
+        "source": {
+          "category": "activity",
+          "name": "Pinnacle Ops"
+        },
+        "referenceUrls": [
+          "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1405095983/"
+        ]
+      }
+    ]
+  }
+]

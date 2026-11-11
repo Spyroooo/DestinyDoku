@@ -1,0 +1,16 @@
+.feedback-page { max-width: 640px; margin: 0 auto; }
+.feedback-page > p:not(.eyebrow) { color: #bdcadb; }
+.feedback-form { margin-top: 28px; padding: 24px; border: 1px solid #43546b; border-radius: 10px; background: #101a28ed; }
+.feedback-form fieldset { display: grid; gap: 10px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.feedback-form label { margin-top: 10px; font-weight: 600; }
+.feedback-form label span { color: #aab7c9; font-weight: 400; }
+.feedback-form input, .feedback-form select, .feedback-form textarea { width: 100%; min-width: 0; padding: 12px; border: 1px solid #61758e; border-radius: 6px; background: #0b1019; color: #edf1f7; font: inherit; }
+.feedback-form textarea { resize: vertical; }
+.feedback-form button { justify-self: start; margin-top: 10px; padding: 12px 24px; border: 1px solid #d9bb7e; border-radius: 6px; background: #d9bb7e; color: #101820; font: inherit; font-weight: 650; cursor: pointer; }
+.feedback-form button:hover { background: #e9ce99; }
+.feedback-form :is(input, select, textarea, button):focus-visible { outline: 2px solid #e9ce99; outline-offset: 4px; }
+.feedback-form :disabled { opacity: .6; cursor: not-allowed; }
+.feedback-privacy { color: #aab7c9; font-size: 12px; }
+.feedback-notice { margin-top: 20px; padding: 14px; border-left: 2px solid #d9bb7e; background: #101a28ed; }
+.feedback-honeypot { display: none; }
+@media (max-width: 600px) { .feedback-form { padding: 18px; } }

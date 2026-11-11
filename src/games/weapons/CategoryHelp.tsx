@@ -26,8 +26,8 @@ const help: Record<HelpCategory, Help> = {
   },
   damage: {
     title: 'Damage type', description: 'The damage types available on a single selected weapon version.',
-    rules: ['Green: the complete sets match, regardless of order.', 'Yellow: at least one damage type overlaps, but the sets differ. Red: no overlap.', 'Different elements from historical reissues are never combined into one set.'],
-    examples: [{ title: 'Single damage type', text: 'The selected Palindrome is Arc; its older Void version does not make this a multi-element answer.' }, { title: 'Multiple damage types', text: 'Hard Light can switch between Arc, Solar, and Void. It is currently excluded from the playable pool while its Champion counter is reviewed.' }],
+    rules: ['Green: the complete sets match, regardless of order.', 'Yellow: at least one damage type overlaps, but the sets differ. Red: no overlap.', 'Built-in firing modes, multi-element projectiles, and fixed catalyst conversions are included. Variable-element drops use their supported element set.', 'Subclass buffs, incidental kill-triggered explosions, reflected attacks, optional random-roll conversion perks, and ordinary Glaive melee do not add elements here.', 'Different elements from historical reissues are never combined into one set.'],
+    examples: [{ title: 'Single damage type', text: 'The selected Palindrome is Arc; its older Void version does not make this a multi-element answer.' }, { title: 'Multiple damage types', text: 'Hard Light switches between Arc, Solar, and Void. Conditional Finality fires Stasis and Solar pellets.' }, { title: 'Catalyst conversion', text: 'Quicksilver Storm is Kinetic without its catalyst and Strand with it, so both are included.' }],
   },
   rarity: {
     title: 'Rarity', description: 'The weapon’s item rarity, rather than its gear tier or release source.',
@@ -35,9 +35,9 @@ const help: Record<HelpCategory, Help> = {
     examples: [{ title: 'Legendary', text: 'Purple rarity, such as Funnelweb or Deliverance.' }, { title: 'Exotic', text: 'Gold rarity, such as Wish-Ender or Thunderlord.' }],
   },
   source: {
-    title: 'Source category', description: 'The broad origin category recorded for the selected weapon version.',
-    rules: ['Green means the same category, even when the exact activity differs.', 'This records an origin, not every place the weapon is currently obtainable.', 'Reissues may have a different source from the original weapon.'],
-    examples: [{ title: 'Raid', text: 'Last Wish and Deep Stone Crypt both count as Raid.' }, { title: 'Other categories', text: 'World Loot, Dungeon, Quest, Seasonal, Crucible, Gambit, Nightfall, Activity, and Event are distinct values.' }],
+    title: 'Source category', description: 'The broad acquisition category recorded for the selected weapon version.',
+    rules: ['Green means the same category, even when the exact activity differs.', 'This records one curated acquisition source. Available Exotic quests or missions are preferred; a verified Exotic Archive purchase can replace a removed source.', 'A removed quest alone does not establish Archive availability. Reissued weapons are checked separately from archived older versions.', 'Reissues may have a different source from the original weapon.'],
+    examples: [{ title: 'Raid', text: 'Last Wish and Deep Stone Crypt both count as Raid.' }, { title: 'Season Pass', text: 'Season or reward pass weapons, including pass Exotics. This is separate from seasonal activity loot.' }, { title: 'Vendor', text: 'Weapons originating from direct vendor purchases. A later vendor sale alone does not replace an established activity origin.' }, { title: 'Tenet Engram', text: 'Weapons sourced from the Monument of Triumph Tenet weapon engrams. Direct Tenet purchases use Vendor.' }, { title: 'Exotic Archive', text: 'Monument to Lost Lights in the Tower, including verified Legacy Gear weapons. This is different from the Quest Archive terminal and the Monument of Triumph Tenet vendors.' }, { title: 'Unreleased', text: 'Exists in the game files but was never obtainable. These discoveries can be guessed and reveal an Easter egg, but cannot be hidden answers.' }, { title: 'Other categories', text: 'World Loot, Dungeon, Quest, Seasonal, Crucible, Gambit, Nightfall, Activity, and Event are distinct values.' }],
   },
   champion: {
     title: 'Champion counter', description: 'The built-in anti-Champion capability of the selected weapon version in the current sandbox.',
@@ -45,8 +45,8 @@ const help: Record<HelpCategory, Help> = {
     examples: [{ title: 'Frame capability', text: 'Ammit AR2’s Precision Frame provides Barrier capability in this dataset.' }, { title: 'Exotic exception', text: 'Wish-Ender has its own built-in Barrier capability.' }],
   },
   release: {
-    title: 'First introduced', description: 'The weapon’s original Destiny 2 release, including its calendar year.',
-    rules: ['Green: the exact release matches.', 'Yellow: a different release in the same calendar year. Red: a different calendar year.', '↑ means the answer was introduced later; ↓ means earlier. Arrows still appear on yellow tiles.', 'Reissues do not change first introduction, and Destiny 1 appearances do not determine this clue.'],
+    title: 'First introduced', description: 'The weapon’s original Destiny 2 release, including its season number and calendar year.',
+    rules: ['Green: the exact release matches.', 'Yellow: a different release in the same calendar year. Red: a different calendar year.', '↑ means the answer was introduced later; ↓ means earlier. Arrows still appear on yellow tiles.', 'S4 means Season 4. Updates can share a season number while remaining separate releases.', 'Reissues do not change first introduction, and Destiny 1 appearances do not determine this clue.', 'Unreleased discoveries show Unreleased instead of a date; their internal catalogue era is not a real launch date.'],
     examples: [{ title: 'Same year, different release', text: 'Season of the Haunted and Season of Plunder are different releases in 2022, so they produce yellow.' }, { title: 'Original introduction', text: 'Gnawing Hunger uses Season of the Drifter, even though the selected version is a later reissue.' }],
   },
 }

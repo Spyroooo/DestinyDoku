@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Development-only Bungie Manifest downloads
+.cache/weapon-import/
+
+# Private workstation-only weapon review editor (never commit or deploy)
+/.local/weapon-review/

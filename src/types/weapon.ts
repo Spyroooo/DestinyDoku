@@ -13,6 +13,8 @@ export type WeaponType =
 export type SourceCategory =
   | 'world-loot' | 'raid' | 'dungeon' | 'quest' | 'seasonal'
   | 'crucible' | 'gambit' | 'nightfall' | 'activity' | 'event'
+  | 'season-pass' | 'vendor' | 'tenet-engram'
+  | 'exotic-archive' | 'unreleased'
 
 export interface Release {
   id: string
@@ -20,6 +22,8 @@ export interface Release {
   name: string
   kind: 'base-game' | 'expansion' | 'season' | 'episode' | 'update'
   year: number
+  /** Season containing this release; updates can share a season number. */
+  seasonNumber?: number
   /** Chronological ordering within the edition; gaps are intentional. */
   order: number
 }
@@ -31,7 +35,7 @@ export interface WeaponVersion {
   weaponType: WeaponType
   slot: WeaponSlot
   ammoType: AmmoType
-  /** Damage available on this version, never elements merged across reissues. */
+  /** Supported firing elements, including fixed catalyst conversion; excludes incidental perk explosions and historical reissues. */
   damageTypes: DamageType[]
   /** Legendary frame name, or the Exotic's intrinsic perk name. */
   frame: string
@@ -40,7 +44,7 @@ export interface WeaponVersion {
     counters: ChampionType[] | null
     basis: 'frame' | 'exotic-intrinsic'
   }
-  /** Origin of this item version, not a live list of all acquisition routes. */
+  /** Curated acquisition source for this version, including verified Archive fallback; not every live acquisition route. */
   source: { category: SourceCategory; name: string }
   referenceUrls: string[]
   notes?: string

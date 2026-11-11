@@ -1,0 +1,4476 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "policy": "For remaining Exotics prefer a confirmed available acquisition quest/mission. Use Exotic Archive only with an exact selected-item match in the kiosk inventory. Quest retirement alone does not prove Archive availability. Check all missing selected weapon sources, including Legendary weapons; do not transfer an older archived definition to its reissue.",
+  "manifestVersion": "245114.26.10.13.2000-1-bnet.66137",
+  "checks": [
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "itemHash": "2376481550",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "raid",
+        "name": "Scourge of the Past"
+      },
+      "inventory": {
+        "itemHash": "2376481550",
+        "name": "Anarchy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2376481550/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "itemHash": "2816212794",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Other Side",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Other Side / Tribute Hall"
+      },
+      "inventory": {
+        "itemHash": "2816212794",
+        "name": "Bad Juju",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2816212794/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "itemHash": "2415517654",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Memento",
+      "originalSource": {
+        "category": "quest",
+        "name": "Memento / Corridors of Time"
+      },
+      "inventory": {
+        "itemHash": "2415517654",
+        "name": "Bastion",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2415517654/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "itemHash": "603721696",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Splicer pass"
+      },
+      "inventory": {
+        "itemHash": "603721696",
+        "name": "Cryosthesia 77K",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/603721696/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "itemHash": "374573733",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Plunder pass"
+      },
+      "inventory": {
+        "itemHash": "374573733",
+        "name": "Delicate Tomb",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/374573733/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "itemHash": "3824106094",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "A Moment in Time",
+      "originalSource": {
+        "category": "quest",
+        "name": "A Moment in Time"
+      },
+      "inventory": {
+        "itemHash": "3824106094",
+        "name": "Devil's Ruin",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3824106094/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "itemHash": "3460576091",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Hunt pass"
+      },
+      "inventory": {
+        "itemHash": "3460576091",
+        "name": "Duality",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3460576091/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "ergo-sum",
+      "name": "Ergo Sum",
+      "itemHash": "1681583613",
+      "status": "verified",
+      "source": {
+        "category": "activity",
+        "name": "Exploring the Pale Heart"
+      },
+      "questStatus": "Destined Heroes acquisition quest and Pale Heart rewards available",
+      "previousQuest": "Destined Heroes",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1681583613/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1681583613/"
+      ],
+      "previousRecordedSource": {
+        "category": "activity",
+        "name": "Exploring the Pale Heart"
+      }
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "itemHash": "3524313097",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Undying pass"
+      },
+      "inventory": {
+        "itemHash": "3524313097",
+        "name": "Eriana's Vow",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3524313097/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "itemHash": "331231237",
+      "status": "verified",
+      "source": {
+        "category": "dungeon",
+        "name": "Sundered Doctrine"
+      },
+      "questStatus": "Dungeon drop; no removed acquisition quest",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/331231237/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "gjallarhorn",
+      "name": "Gjallarhorn",
+      "itemHash": "1363886209",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "And Out Fly the Wolves"
+      },
+      "questStatus": "Quest available",
+      "previousQuest": "And Out Fly the Wolves",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1363886209/",
+        "https://www.light.gg/db/legend/collectibles/4027219968/gjallarhorn/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"And Out Fly the Wolves\" Quest"
+      }
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "itemHash": "1111334348",
+      "status": "verified",
+      "source": {
+        "category": "dungeon",
+        "name": "Vesper’s Host"
+      },
+      "questStatus": "Dungeon drop; no removed acquisition quest",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1111334348/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "itemHash": "3761898871",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Lost pass"
+      },
+      "inventory": {
+        "itemHash": "3761898871",
+        "name": "Lorentz Driver",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3761898871/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "itemHash": "3512014804",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Lumina acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Original Lumina quest"
+      },
+      "inventory": {
+        "itemHash": "3512014804",
+        "name": "Lumina",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3512014804/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "mida-multi-tool",
+      "name": "MIDA Multi-Tool",
+      "itemHash": "1331482397",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Original MIDA acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Enhance! / MIDA acquisition quest"
+      },
+      "inventory": {
+        "itemHash": "1331482397",
+        "name": "MIDA Multi-Tool",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1331482397/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "itemHash": "2581676735",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "The Edge of Fate pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "2581676735",
+        "name": "New Land Beyond",
+        "vendorHash": "523199268",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "523199268",
+            "name": "Fate Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2581676735/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/523199268/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "itemHash": "1594120904",
+      "status": "verified",
+      "source": {
+        "category": "activity",
+        "name": "Beyond Light campaign / Exo Stranger"
+      },
+      "questStatus": "Campaign reward remains available; catalyst quest Soon is separate",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1594120904/",
+        "https://help.bungie.net/hc/en-us/articles/26496467922708-Destiny-2-Beyond-Light-Pack-Guide",
+        "https://www.light.gg/db/vendors/4254652401/exo-stranger/"
+      ],
+      "vendorHash": "4254652401",
+      "previousRecordedSource": null
+    },
+    {
+      "id": "osteo-striga",
+      "name": "Osteo Striga",
+      "itemHash": "46524085",
+      "status": "verified",
+      "source": {
+        "category": "activity",
+        "name": "The Witch Queen campaign / Enclave weapon shaping"
+      },
+      "questStatus": "Crafting unlock available after campaign; no Archive sale",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/46524085/",
+        "https://www.light.gg/db/items/46524085/osteo-striga/",
+        "https://www.bungie.net/en/Forums/Post/263049771"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"Vox Obscura\" Exotic Quest"
+      }
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "itemHash": "400096939",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "Zero Hour (Pinnacle Ops)"
+      },
+      "questStatus": "Original quest wrapper retired; mission available and rewards weapon directly",
+      "previousQuest": "Zero Hour",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/400096939/",
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "itemHash": "2812324400",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "Of Queens and Worms / Parasitic Pilgrimage"
+      },
+      "questStatus": "Quest and concluding mission available",
+      "previousQuest": "Of Queens and Worms",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2812324400/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"Of Queens and Worms\" Exotic Quest"
+      }
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "itemHash": "3413074534",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Nascent Dawn",
+      "originalSource": {
+        "category": "quest",
+        "name": "Nascent Dawn"
+      },
+      "inventory": {
+        "itemHash": "3413074534",
+        "name": "Polaris Lance",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3413074534/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "praxic-blade",
+      "name": "Praxic Blade",
+      "itemHash": "3049715579",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "Fire and Ice"
+      },
+      "questStatus": "Mission available",
+      "previousQuest": "Fire and Ice",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3049715579/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities",
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_5_5"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "itemHash": "4293613902",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "Lightfall pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "4293613902",
+        "name": "Quicksilver Storm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4293613902/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "itemHash": "2362471601",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Rat King's Crew",
+      "originalSource": {
+        "category": "quest",
+        "name": "Rat King's Crew"
+      },
+      "inventory": {
+        "itemHash": "2362471601",
+        "name": "Rat King",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2362471601/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "itemHash": "1473821207",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "Operation: Seraph’s Shield (Pinnacle Ops)"
+      },
+      "questStatus": "Original seasonal quest retired; mission and weapon reward available",
+      "previousQuest": "The Hidden Shape",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1473821207/",
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://www.light.gg/db/items/1473821207/revision-zero/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "itemHash": "1363238943",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Growth",
+      "originalSource": {
+        "category": "quest",
+        "name": "Growth"
+      },
+      "inventory": {
+        "itemHash": "1363238943",
+        "name": "Ruinous Effigy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1363238943/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "itemHash": "4036115577",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Machine's Gun",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Machine's Gun"
+      },
+      "inventory": {
+        "itemHash": "4036115577",
+        "name": "Sleeper Simulant",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4036115577/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "itemHash": "2907129556",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Relics of the Golden Age",
+      "originalSource": {
+        "category": "quest",
+        "name": "Relics of the Golden Age"
+      },
+      "inventory": {
+        "itemHash": "2907129556",
+        "name": "Sturm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2907129556/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "itemHash": "4017959782",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Dawn pass"
+      },
+      "inventory": {
+        "itemHash": "4017959782",
+        "name": "Symmetry",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4017959782/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "itemHash": "3110698812",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "raid",
+        "name": "Crown of Sorrow"
+      },
+      "inventory": {
+        "itemHash": "3110698812",
+        "name": "Tarrabah",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3110698812/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "itemHash": "3561203890",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "The Final Shape pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "3561203890",
+        "name": "Tessellation",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3561203890/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "itemHash": "1665952087",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "In Rides a Pale Horse",
+      "originalSource": {
+        "category": "quest",
+        "name": "In Rides a Pale Horse"
+      },
+      "inventory": {
+        "itemHash": "1665952087",
+        "name": "The Fourth Horseman",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1665952087/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "itemHash": "1364093401",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Draw",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Draw"
+      },
+      "inventory": {
+        "itemHash": "1364093401",
+        "name": "The Last Word",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1364093401/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "itemHash": "3973202132",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Independent Study",
+      "originalSource": {
+        "category": "quest",
+        "name": "Independent Study"
+      },
+      "inventory": {
+        "itemHash": "3973202132",
+        "name": "Thorn",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3973202132/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "itemHash": "3260753130",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Chosen pass"
+      },
+      "inventory": {
+        "itemHash": "3260753130",
+        "name": "Ticuu's Divination",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3260753130/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "itemHash": "776191470",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Worthy pass"
+      },
+      "inventory": {
+        "itemHash": "776191470",
+        "name": "Tommy's Matchbook",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/776191470/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "itemHash": "1853180924",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Exodus: Evacuation",
+      "originalSource": {
+        "category": "quest",
+        "name": "Exodus: Evacuation"
+      },
+      "inventory": {
+        "itemHash": "1853180924",
+        "name": "Traveler's Chosen",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1853180924/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "itemHash": "1201830623",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Truth acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Original Truth treasure-hunt quest"
+      },
+      "inventory": {
+        "itemHash": "1201830623",
+        "name": "Truth",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1201830623/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "itemHash": "1891561814",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "The Whisper (Pinnacle Ops)"
+      },
+      "questStatus": "Original quest wrapper retired; mission available and rewards weapon directly",
+      "previousQuest": "The Whisper",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1891561814/",
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "itemHash": "2357297366",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Arrivals pass"
+      },
+      "inventory": {
+        "itemHash": "2357297366",
+        "name": "Witherhoard",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2357297366/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "itemHash": "1753923263",
+      "status": "verified",
+      "source": {
+        "category": "quest",
+        "name": "Heliostat"
+      },
+      "questStatus": "Mission available",
+      "previousQuest": "Heliostat",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1753923263/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities",
+        "https://www.light.gg/db/legend/triumphs/2249784217/wolfsbane-catalyst/",
+        "https://www.destinypedia.com/Heliostat"
+      ],
+      "previousRecordedSource": null
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "itemHash": "1864563948",
+      "status": "verified",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "activity",
+        "name": "Mars latent-memory rewards"
+      },
+      "inventory": {
+        "itemHash": "1864563948",
+        "name": "Worldline Zero",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1864563948/",
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null
+    }
+  ],
+  "exoticReviews": [
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "itemHash": "2376481550",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "raid",
+        "name": "Scourge of the Past"
+      },
+      "inventory": {
+        "itemHash": "2376481550",
+        "name": "Anarchy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "itemHash": "2816212794",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Other Side",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Other Side / Tribute Hall"
+      },
+      "inventory": {
+        "itemHash": "2816212794",
+        "name": "Bad Juju",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "itemHash": "2415517654",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Memento",
+      "originalSource": {
+        "category": "quest",
+        "name": "Memento / Corridors of Time"
+      },
+      "inventory": {
+        "itemHash": "2415517654",
+        "name": "Bastion",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "itemHash": "3141979347",
+      "source": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "questStatus": "World-loot Exotic; no acquisition quest identified",
+      "previousQuest": null,
+      "referenceUrls": [],
+      "previousRecordedSource": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "itemHash": "603721696",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Splicer pass"
+      },
+      "inventory": {
+        "itemHash": "603721696",
+        "name": "Cryosthesia 77K",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "itemHash": "374573733",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Plunder pass"
+      },
+      "inventory": {
+        "itemHash": "374573733",
+        "name": "Delicate Tomb",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "itemHash": "3824106094",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "A Moment in Time",
+      "originalSource": {
+        "category": "quest",
+        "name": "A Moment in Time"
+      },
+      "inventory": {
+        "itemHash": "3824106094",
+        "name": "Devil's Ruin",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "itemHash": "3460576091",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Hunt pass"
+      },
+      "inventory": {
+        "itemHash": "3460576091",
+        "name": "Duality",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "ergo-sum",
+      "name": "Ergo Sum",
+      "itemHash": "1681583613",
+      "source": {
+        "category": "activity",
+        "name": "Exploring the Pale Heart"
+      },
+      "questStatus": "Destined Heroes acquisition quest and Pale Heart rewards available",
+      "previousQuest": "Destined Heroes",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1681583613/"
+      ],
+      "previousRecordedSource": {
+        "category": "activity",
+        "name": "Exploring the Pale Heart"
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "itemHash": "3524313097",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Undying pass"
+      },
+      "inventory": {
+        "itemHash": "3524313097",
+        "name": "Eriana's Vow",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "itemHash": "331231237",
+      "source": {
+        "category": "dungeon",
+        "name": "Sundered Doctrine"
+      },
+      "questStatus": "Dungeon drop; no removed acquisition quest",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "gjallarhorn",
+      "name": "Gjallarhorn",
+      "itemHash": "1363886209",
+      "source": {
+        "category": "quest",
+        "name": "And Out Fly the Wolves"
+      },
+      "questStatus": "Quest available",
+      "previousQuest": "And Out Fly the Wolves",
+      "referenceUrls": [
+        "https://www.light.gg/db/legend/collectibles/4027219968/gjallarhorn/",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"And Out Fly the Wolves\" Quest"
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "itemHash": "1111334348",
+      "source": {
+        "category": "dungeon",
+        "name": "Vesper’s Host"
+      },
+      "questStatus": "Dungeon drop; no removed acquisition quest",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "itemHash": "3761898871",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Lost pass"
+      },
+      "inventory": {
+        "itemHash": "3761898871",
+        "name": "Lorentz Driver",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "itemHash": "3512014804",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Lumina acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Original Lumina quest"
+      },
+      "inventory": {
+        "itemHash": "3512014804",
+        "name": "Lumina",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "mida-multi-tool",
+      "name": "MIDA Multi-Tool",
+      "itemHash": "1331482397",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Original MIDA acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Enhance! / MIDA acquisition quest"
+      },
+      "inventory": {
+        "itemHash": "1331482397",
+        "name": "MIDA Multi-Tool",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "itemHash": "2581676735",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "The Edge of Fate pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "2581676735",
+        "name": "New Land Beyond",
+        "vendorHash": "523199268",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "523199268",
+            "name": "Fate Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/523199268/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "itemHash": "1594120904",
+      "source": {
+        "category": "activity",
+        "name": "Beyond Light campaign / Exo Stranger"
+      },
+      "questStatus": "Campaign reward remains available; catalyst quest Soon is separate",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/26496467922708-Destiny-2-Beyond-Light-Pack-Guide",
+        "https://www.light.gg/db/vendors/4254652401/exo-stranger/"
+      ],
+      "vendorHash": "4254652401",
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "osteo-striga",
+      "name": "Osteo Striga",
+      "itemHash": "46524085",
+      "source": {
+        "category": "activity",
+        "name": "The Witch Queen campaign / Enclave weapon shaping"
+      },
+      "questStatus": "Crafting unlock available after campaign; no Archive sale",
+      "previousQuest": null,
+      "referenceUrls": [
+        "https://www.light.gg/db/items/46524085/osteo-striga/",
+        "https://www.bungie.net/en/Forums/Post/263049771"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"Vox Obscura\" Exotic Quest"
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "itemHash": "400096939",
+      "source": {
+        "category": "quest",
+        "name": "Zero Hour (Pinnacle Ops)"
+      },
+      "questStatus": "Original quest wrapper retired; mission available and rewards weapon directly",
+      "previousQuest": "Zero Hour",
+      "referenceUrls": [
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "itemHash": "2812324400",
+      "source": {
+        "category": "quest",
+        "name": "Of Queens and Worms / Parasitic Pilgrimage"
+      },
+      "questStatus": "Quest and concluding mission available",
+      "previousQuest": "Of Queens and Worms",
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": {
+        "category": "quest",
+        "name": "\"Of Queens and Worms\" Exotic Quest"
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "itemHash": "3413074534",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Nascent Dawn",
+      "originalSource": {
+        "category": "quest",
+        "name": "Nascent Dawn"
+      },
+      "inventory": {
+        "itemHash": "3413074534",
+        "name": "Polaris Lance",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "praxic-blade",
+      "name": "Praxic Blade",
+      "itemHash": "3049715579",
+      "source": {
+        "category": "quest",
+        "name": "Fire and Ice"
+      },
+      "questStatus": "Mission available",
+      "previousQuest": "Fire and Ice",
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities",
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_5_5"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "itemHash": "4293613902",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "Lightfall pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "4293613902",
+        "name": "Quicksilver Storm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "itemHash": "2362471601",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Rat King's Crew",
+      "originalSource": {
+        "category": "quest",
+        "name": "Rat King's Crew"
+      },
+      "inventory": {
+        "itemHash": "2362471601",
+        "name": "Rat King",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "itemHash": "1473821207",
+      "source": {
+        "category": "quest",
+        "name": "Operation: Seraph’s Shield (Pinnacle Ops)"
+      },
+      "questStatus": "Original seasonal quest retired; mission and weapon reward available",
+      "previousQuest": "The Hidden Shape",
+      "referenceUrls": [
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://www.light.gg/db/items/1473821207/revision-zero/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "itemHash": "1363238943",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Growth",
+      "originalSource": {
+        "category": "quest",
+        "name": "Growth"
+      },
+      "inventory": {
+        "itemHash": "1363238943",
+        "name": "Ruinous Effigy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "itemHash": "4036115577",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Machine's Gun",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Machine's Gun"
+      },
+      "inventory": {
+        "itemHash": "4036115577",
+        "name": "Sleeper Simulant",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "itemHash": "2907129556",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Relics of the Golden Age",
+      "originalSource": {
+        "category": "quest",
+        "name": "Relics of the Golden Age"
+      },
+      "inventory": {
+        "itemHash": "2907129556",
+        "name": "Sturm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "sweet-business",
+      "name": "Sweet Business",
+      "itemHash": "1345867570",
+      "source": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "questStatus": "World-loot Exotic; no acquisition quest identified",
+      "previousQuest": null,
+      "referenceUrls": [],
+      "previousRecordedSource": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "itemHash": "4017959782",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Dawn pass"
+      },
+      "inventory": {
+        "itemHash": "4017959782",
+        "name": "Symmetry",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "itemHash": "3110698812",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "raid",
+        "name": "Crown of Sorrow"
+      },
+      "inventory": {
+        "itemHash": "3110698812",
+        "name": "Tarrabah",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "itemHash": "3561203890",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "vendor",
+        "name": "The Final Shape pre-order delivery"
+      },
+      "inventory": {
+        "itemHash": "3561203890",
+        "name": "Tessellation",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony",
+      "itemHash": "3899270607",
+      "source": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "questStatus": "World-loot Exotic; no acquisition quest identified",
+      "previousQuest": null,
+      "referenceUrls": [],
+      "previousRecordedSource": {
+        "category": "world-loot",
+        "name": "Exotic engrams; extremely rare world drops."
+      },
+      "sourceWasMissing": false
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "itemHash": "1665952087",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "In Rides a Pale Horse",
+      "originalSource": {
+        "category": "quest",
+        "name": "In Rides a Pale Horse"
+      },
+      "inventory": {
+        "itemHash": "1665952087",
+        "name": "The Fourth Horseman",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "itemHash": "1364093401",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "The Draw",
+      "originalSource": {
+        "category": "quest",
+        "name": "The Draw"
+      },
+      "inventory": {
+        "itemHash": "1364093401",
+        "name": "The Last Word",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "itemHash": "3973202132",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Independent Study",
+      "originalSource": {
+        "category": "quest",
+        "name": "Independent Study"
+      },
+      "inventory": {
+        "itemHash": "3973202132",
+        "name": "Thorn",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "itemHash": "3260753130",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Chosen pass"
+      },
+      "inventory": {
+        "itemHash": "3260753130",
+        "name": "Ticuu's Divination",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "itemHash": "776191470",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of the Worthy pass"
+      },
+      "inventory": {
+        "itemHash": "776191470",
+        "name": "Tommy's Matchbook",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "itemHash": "1853180924",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Exodus: Evacuation",
+      "originalSource": {
+        "category": "quest",
+        "name": "Exodus: Evacuation"
+      },
+      "inventory": {
+        "itemHash": "1853180924",
+        "name": "Traveler's Chosen",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "itemHash": "1201830623",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "Original acquisition quest retired; exact weapon offered by Archive",
+      "previousQuest": "Truth acquisition quest",
+      "originalSource": {
+        "category": "quest",
+        "name": "Original Truth treasure-hunt quest"
+      },
+      "inventory": {
+        "itemHash": "1201830623",
+        "name": "Truth",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "itemHash": "1891561814",
+      "source": {
+        "category": "quest",
+        "name": "The Whisper (Pinnacle Ops)"
+      },
+      "questStatus": "Original quest wrapper retired; mission available and rewards weapon directly",
+      "previousQuest": "The Whisper",
+      "referenceUrls": [
+        "https://www.bungie.net/7/en/News/Article/destiny_update_9_7_0",
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "itemHash": "2357297366",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "season-pass",
+        "name": "Season of Arrivals pass"
+      },
+      "inventory": {
+        "itemHash": "2357297366",
+        "name": "Witherhoard",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "itemHash": "1753923263",
+      "source": {
+        "category": "quest",
+        "name": "Heliostat"
+      },
+      "questStatus": "Mission available",
+      "previousQuest": "Heliostat",
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/46668136913172--10-Activities",
+        "https://www.light.gg/db/legend/triumphs/2249784217/wolfsbane-catalyst/",
+        "https://www.destinypedia.com/Heliostat"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "itemHash": "1864563948",
+      "source": {
+        "category": "exotic-archive",
+        "name": "Monument to Lost Lights (Exotic Archive)"
+      },
+      "questStatus": "No former standalone acquisition quest; exact weapon offered by Archive",
+      "previousQuest": null,
+      "originalSource": {
+        "category": "activity",
+        "name": "Mars latent-memory rewards"
+      },
+      "inventory": {
+        "itemHash": "1864563948",
+        "name": "Worldline Zero",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "referenceUrls": [
+        "https://help.bungie.net/hc/en-us/articles/360049202971-Destiny-Content-Vault",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4230408743/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2779423129/"
+      ],
+      "previousRecordedSource": null,
+      "sourceWasMissing": true
+    }
+  ],
+  "missingSourceChecks": [
+    {
+      "id": "all-or-nothing",
+      "name": "All or Nothing",
+      "itemHash": "3984776322",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "allen-05",
+      "name": "ALLEN 05",
+      "itemHash": "423677697",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "itemHash": "2376481550",
+      "exactArchiveMatch": {
+        "itemHash": "2376481550",
+        "name": "Anarchy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ascendancy",
+      "name": "Ascendancy",
+      "itemHash": "1713388226",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "725408022"
+      ]
+    },
+    {
+      "id": "autumn-wind",
+      "name": "Autumn Wind",
+      "itemHash": "2150012407",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "itemHash": "2816212794",
+      "exactArchiveMatch": {
+        "itemHash": "2816212794",
+        "name": "Bad Juju",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "itemHash": "2415517654",
+      "exactArchiveMatch": {
+        "itemHash": "2415517654",
+        "name": "Bastion",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "bushwhacker",
+      "name": "Bushwhacker",
+      "itemHash": "311852248",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "canis-major",
+      "name": "Canis Major",
+      "itemHash": "2966714447",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "chain-of-command",
+      "name": "Chain of Command",
+      "itemHash": "1716620044",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3105930175"
+      ]
+    },
+    {
+      "id": "chivalric-fire",
+      "name": "Chivalric Fire",
+      "itemHash": "938936806",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3438139008"
+      ]
+    },
+    {
+      "id": "chrysura-melo",
+      "name": "Chrysura Melo",
+      "itemHash": "1750388538",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "code-duello",
+      "name": "Code Duello",
+      "itemHash": "2496242052",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "come-to-pass",
+      "name": "Come to Pass",
+      "itemHash": "927567426",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "compact-defender",
+      "name": "Compact Defender",
+      "itemHash": "2819552809",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "convened-recurve",
+      "name": "Convened Recurve",
+      "itemHash": "3667861447",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "itemHash": "603721696",
+      "exactArchiveMatch": {
+        "itemHash": "603721696",
+        "name": "Cryosthesia 77K",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "deadhorse-04",
+      "name": "DEADHORSE 04",
+      "itemHash": "822872238",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "death-by-scorn",
+      "name": "Death by Scorn",
+      "itemHash": "3334276333",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "decatur-02",
+      "name": "DECATUR 02",
+      "itemHash": "1850748385",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "itemHash": "374573733",
+      "exactArchiveMatch": {
+        "itemHash": "374573733",
+        "name": "Delicate Tomb",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "itemHash": "3824106094",
+      "exactArchiveMatch": {
+        "itemHash": "3824106094",
+        "name": "Devil's Ruin",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "diablerets-06",
+      "name": "DIABLERETS 06",
+      "itemHash": "1120206506",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "dimensional-hypotrochoid",
+      "name": "Dimensional Hypotrochoid",
+      "itemHash": "1311684613",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "itemHash": "3460576091",
+      "exactArchiveMatch": {
+        "itemHash": "3460576091",
+        "name": "Duality",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ecliptic-distaff",
+      "name": "Ecliptic Distaff",
+      "itemHash": "1942143745",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3001205424"
+      ]
+    },
+    {
+      "id": "empirical-evidence",
+      "name": "Empirical Evidence",
+      "itemHash": "2607304614",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "itemHash": "3524313097",
+      "exactArchiveMatch": {
+        "itemHash": "3524313097",
+        "name": "Eriana's Vow",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "extraordinary-rendition",
+      "name": "Extraordinary Rendition",
+      "itemHash": "1097616550",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "eyes-unveiled",
+      "name": "Eyes Unveiled",
+      "itemHash": "4147428506",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "fair-judgment",
+      "name": "Fair Judgment",
+      "itemHash": "4113452819",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "4176873718"
+      ]
+    },
+    {
+      "id": "far-future",
+      "name": "Far Future",
+      "itemHash": "893527433",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "father-s-sins",
+      "name": "Father's Sins",
+      "itemHash": "3865728990",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "faustus-decline",
+      "name": "Faustus Decline",
+      "itemHash": "1663482635",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "fel-taradiddle",
+      "name": "Fel Taradiddle",
+      "itemHash": "1399109800",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "itemHash": "331231237",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "folded-root",
+      "name": "Folded Root",
+      "itemHash": "2725894221",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "fractethyst",
+      "name": "Fractethyst",
+      "itemHash": "2993995118",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "itemHash": "1111334348",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "imperial-needle",
+      "name": "Imperial Needle",
+      "itemHash": "3460122497",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "inbound-surveillance",
+      "name": "Inbound Surveillance",
+      "itemHash": "2776506837",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ironwood-03",
+      "name": "IRONWOOD 03",
+      "itemHash": "2041617874",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "jurisprudent",
+      "name": "Jurisprudent",
+      "itemHash": "4090134063",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "last-rite",
+      "name": "Last Rite",
+      "itemHash": "3708636616",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "542573208"
+      ]
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "itemHash": "3761898871",
+      "exactArchiveMatch": {
+        "itemHash": "3761898871",
+        "name": "Lorentz Driver",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "itemHash": "3512014804",
+      "exactArchiveMatch": {
+        "itemHash": "3512014804",
+        "name": "Lumina",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "m-17-fast-talker",
+      "name": "M-17 \"Fast Talker\"",
+      "itemHash": "1419158093",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "malediction",
+      "name": "Malediction",
+      "itemHash": "979721268",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3337727085"
+      ]
+    },
+    {
+      "id": "mida-multi-tool",
+      "name": "MIDA Multi-Tool",
+      "itemHash": "1331482397",
+      "exactArchiveMatch": {
+        "itemHash": "1331482397",
+        "name": "MIDA Multi-Tool",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "mint-retrograde",
+      "name": "Mint Retrograde",
+      "itemHash": "1715391576",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "modified-b-7-pistol",
+      "name": "Modified B-7 Pistol",
+      "itemHash": "3146657388",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "nation-of-beasts",
+      "name": "Nation of Beasts",
+      "itemHash": "70083888",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "itemHash": "2581676735",
+      "exactArchiveMatch": {
+        "itemHash": "2581676735",
+        "name": "New Land Beyond",
+        "vendorHash": "523199268",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "523199268",
+            "name": "Fate Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "itemHash": "1594120904",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "no-turning-back",
+      "name": "No Turning Back",
+      "itemHash": "720351794",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "null-composure",
+      "name": "Null Composure",
+      "itemHash": "2150643740",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "1644680957"
+      ]
+    },
+    {
+      "id": "ouster-engine",
+      "name": "Ouster Engine",
+      "itemHash": "2223968549",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "itemHash": "400096939",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "peace-by-consensus",
+      "name": "Peace by Consensus",
+      "itemHash": "806021398",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "peculiar-charm",
+      "name": "Peculiar Charm",
+      "itemHash": "3620277039",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "perfect-pitch",
+      "name": "Perfect Pitch",
+      "itemHash": "2191451996",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3276304504"
+      ]
+    },
+    {
+      "id": "phyllotactic-spiral",
+      "name": "Phyllotactic Spiral",
+      "itemHash": "3635821806",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "point-of-the-stag",
+      "name": "Point of the Stag",
+      "itemHash": "911019136",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "itemHash": "3413074534",
+      "exactArchiveMatch": {
+        "itemHash": "3413074534",
+        "name": "Polaris Lance",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "positive-outlook",
+      "name": "Positive Outlook",
+      "itemHash": "3625635456",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "praxic-blade",
+      "name": "Praxic Blade",
+      "itemHash": "3049715579",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "psychopomp",
+      "name": "Psychopomp",
+      "itemHash": "1835232052",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "pyroclastic-flow",
+      "name": "Pyroclastic Flow",
+      "itemHash": "3161496501",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "qua-vinctus-iv",
+      "name": "Qua Vinctus IV",
+      "itemHash": "337893613",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "itemHash": "4293613902",
+      "exactArchiveMatch": {
+        "itemHash": "4293613902",
+        "name": "Quicksilver Storm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "itemHash": "2362471601",
+      "exactArchiveMatch": {
+        "itemHash": "2362471601",
+        "name": "Rat King",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "reckless-endangerment",
+      "name": "Reckless Endangerment",
+      "itemHash": "3085559077",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "3216652511"
+      ]
+    },
+    {
+      "id": "red-herring",
+      "name": "Red Herring",
+      "itemHash": "3175851496",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "refurbished-a499",
+      "name": "Refurbished A499",
+      "itemHash": "3661051060",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "refusal-of-the-call",
+      "name": "Refusal of the Call",
+      "itemHash": "1541324871",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "resounding",
+      "name": "Resounding",
+      "itemHash": "3273807888",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "1824586582"
+      ]
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "itemHash": "1473821207",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "romantic-death",
+      "name": "Romantic Death",
+      "itemHash": "4169082039",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "itemHash": "1363238943",
+      "exactArchiveMatch": {
+        "itemHash": "1363238943",
+        "name": "Ruinous Effigy",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "salvager-s-salvo",
+      "name": "Salvager's Salvo",
+      "itemHash": "1692109318",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "2060863616"
+      ]
+    },
+    {
+      "id": "seventh-seraph-carbine",
+      "name": "Seventh Seraph Carbine",
+      "itemHash": "2560370239",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "seventh-seraph-cqc-12",
+      "name": "Seventh Seraph CQC-12",
+      "itemHash": "2308010345",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "seventh-seraph-saw",
+      "name": "Seventh Seraph SAW",
+      "itemHash": "2584201248",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "seventh-seraph-si-2",
+      "name": "Seventh Seraph SI-2",
+      "itemHash": "453798564",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "seventh-seraph-vy-7",
+      "name": "Seventh Seraph VY-7",
+      "itemHash": "1719169808",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "shoreline-dissident",
+      "name": "Shoreline Dissident",
+      "itemHash": "1193318082",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "itemHash": "4036115577",
+      "exactArchiveMatch": {
+        "itemHash": "4036115577",
+        "name": "Sleeper Simulant",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "solemn-lie",
+      "name": "Solemn Lie",
+      "itemHash": "1041028435",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "itemHash": "2907129556",
+      "exactArchiveMatch": {
+        "itemHash": "2907129556",
+        "name": "Sturm",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "itemHash": "4017959782",
+      "exactArchiveMatch": {
+        "itemHash": "4017959782",
+        "name": "Symmetry",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tahoma-01",
+      "name": "TAHOMA 01",
+      "itemHash": "1225851434",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tarnation",
+      "name": "Tarnation",
+      "itemHash": "2721157927",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "itemHash": "3110698812",
+      "exactArchiveMatch": {
+        "itemHash": "3110698812",
+        "name": "Tarrabah",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "techeun-force",
+      "name": "Techeun Force",
+      "itemHash": "3591141932",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "temporal-clause",
+      "name": "Temporal Clause",
+      "itemHash": "3132669561",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "terran-wind",
+      "name": "Terran Wind",
+      "itemHash": "301362380",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "itemHash": "3561203890",
+      "exactArchiveMatch": {
+        "itemHash": "3561203890",
+        "name": "Tessellation",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-enigma",
+      "name": "The Enigma",
+      "itemHash": "2595497736",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "itemHash": "1665952087",
+      "exactArchiveMatch": {
+        "itemHash": "1665952087",
+        "name": "The Fourth Horseman",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-helmsman",
+      "name": "The Helmsman",
+      "itemHash": "2325078119",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "itemHash": "1364093401",
+      "exactArchiveMatch": {
+        "itemHash": "1364093401",
+        "name": "The Last Word",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-ringing-nail",
+      "name": "The Ringing Nail",
+      "itemHash": "3326135421",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-spiteful-fang",
+      "name": "The Spiteful Fang",
+      "itemHash": "1094998581",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "the-supremacy",
+      "name": "The Supremacy",
+      "itemHash": "2884596447",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "itemHash": "3973202132",
+      "exactArchiveMatch": {
+        "itemHash": "3973202132",
+        "name": "Thorn",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "itemHash": "3260753130",
+      "exactArchiveMatch": {
+        "itemHash": "3260753130",
+        "name": "Ticuu's Divination",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "timecard",
+      "name": "Timecard",
+      "itemHash": "1648316470",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "itemHash": "776191470",
+      "exactArchiveMatch": {
+        "itemHash": "776191470",
+        "name": "Tommy's Matchbook",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "traitor-s-fate",
+      "name": "Traitor's Fate",
+      "itemHash": "2683682446",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "transfiguration",
+      "name": "Transfiguration",
+      "itemHash": "3885259140",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "itemHash": "1853180924",
+      "exactArchiveMatch": {
+        "itemHash": "1853180924",
+        "name": "Traveler's Chosen",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "trophy-hunter",
+      "name": "Trophy Hunter",
+      "itemHash": "2566169398",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "itemHash": "1201830623",
+      "exactArchiveMatch": {
+        "itemHash": "1201830623",
+        "name": "Truth",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "tyranny-of-heaven",
+      "name": "Tyranny of Heaven",
+      "itemHash": "3388655311",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "uncivil-discourse",
+      "name": "Uncivil Discourse",
+      "itemHash": "3146657389",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "unloved",
+      "name": "Unloved",
+      "itemHash": "388390591",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "unvoiced",
+      "name": "Unvoiced",
+      "itemHash": "2213885190",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "unworthy",
+      "name": "Unworthy",
+      "itemHash": "1700366811",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "veles-x",
+      "name": "Veles-X",
+      "itemHash": "438540299",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": [
+        "2276328320"
+      ]
+    },
+    {
+      "id": "vestian-dynasty",
+      "name": "Vestian Dynasty",
+      "itemHash": "3334276332",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "volta-bracket",
+      "name": "Volta Bracket",
+      "itemHash": "3920310144",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "vs-chill-inhibitor",
+      "name": "VS Chill Inhibitor",
+      "itemHash": "2452936817",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "vs-gravitic-arrest",
+      "name": "VS Gravitic Arrest",
+      "itemHash": "3102162710",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "vs-pyroelectric-propellant",
+      "name": "VS Pyroelectric Propellant",
+      "itemHash": "2460368549",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "vs-velocity-baton",
+      "name": "VS Velocity Baton",
+      "itemHash": "2452936816",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "vulpecula",
+      "name": "Vulpecula",
+      "itemHash": "3245446311",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "whatchamacallit",
+      "name": "Whatchamacallit",
+      "itemHash": "357669417",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "itemHash": "1891561814",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "willful-hamartia",
+      "name": "Willful Hamartia",
+      "itemHash": "1952295804",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "itemHash": "2357297366",
+      "exactArchiveMatch": {
+        "itemHash": "2357297366",
+        "name": "Witherhoard",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "itemHash": "1753923263",
+      "exactArchiveMatch": null,
+      "olderArchivedVersions": []
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "itemHash": "1864563948",
+      "exactArchiveMatch": {
+        "itemHash": "1864563948",
+        "name": "Worldline Zero",
+        "vendorHash": "2779423129",
+        "route": [
+          {
+            "hash": "4230408743",
+            "name": "Monument to Lost Lights"
+          },
+          {
+            "hash": "2779423129",
+            "name": "Light and Dark Saga Exotics"
+          }
+        ]
+      },
+      "olderArchivedVersions": []
+    }
+  ],
+  "olderVersionArchiveMatches": [
+    {
+      "id": "ascendancy",
+      "name": "Ascendancy",
+      "selectedItemHash": "1713388226",
+      "archivedVersions": [
+        {
+          "itemHash": "725408022",
+          "releaseId": "lost",
+          "inventory": {
+            "itemHash": "725408022",
+            "name": "Ascendancy",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "chain-of-command",
+      "name": "Chain of Command",
+      "selectedItemHash": "1716620044",
+      "archivedVersions": [
+        {
+          "itemHash": "3105930175",
+          "releaseId": "haunted",
+          "inventory": {
+            "itemHash": "3105930175",
+            "name": "Chain of Command",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "chivalric-fire",
+      "name": "Chivalric Fire",
+      "selectedItemHash": "938936806",
+      "archivedVersions": [
+        {
+          "itemHash": "3438139008",
+          "releaseId": "wish",
+          "inventory": {
+            "itemHash": "3438139008",
+            "name": "Chivalric Fire",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "ecliptic-distaff",
+      "name": "Ecliptic Distaff",
+      "selectedItemHash": "1942143745",
+      "archivedVersions": [
+        {
+          "itemHash": "3001205424",
+          "releaseId": "lightfall",
+          "inventory": {
+            "itemHash": "3001205424",
+            "name": "Ecliptic Distaff",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "fair-judgment",
+      "name": "Fair Judgment",
+      "selectedItemHash": "4113452819",
+      "archivedVersions": [
+        {
+          "itemHash": "4176873718",
+          "releaseId": "revenant",
+          "inventory": {
+            "itemHash": "4176873718",
+            "name": "Fair Judgment",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "last-rite",
+      "name": "Last Rite",
+      "selectedItemHash": "3708636616",
+      "archivedVersions": [
+        {
+          "itemHash": "542573208",
+          "releaseId": "deep",
+          "inventory": {
+            "itemHash": "542573208",
+            "name": "Last Rite",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "malediction",
+      "name": "Malediction",
+      "selectedItemHash": "979721268",
+      "archivedVersions": [
+        {
+          "itemHash": "3337727085",
+          "releaseId": "witch",
+          "inventory": {
+            "itemHash": "3337727085",
+            "name": "Malediction",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "null-composure",
+      "name": "Null Composure",
+      "selectedItemHash": "2150643740",
+      "archivedVersions": [
+        {
+          "itemHash": "1644680957",
+          "releaseId": "splicer",
+          "inventory": {
+            "itemHash": "1644680957",
+            "name": "Null Composure",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "perfect-pitch",
+      "name": "Perfect Pitch",
+      "selectedItemHash": "2191451996",
+      "archivedVersions": [
+        {
+          "itemHash": "3276304504",
+          "releaseId": "echoes",
+          "inventory": {
+            "itemHash": "3276304504",
+            "name": "Perfect Pitch",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "reckless-endangerment",
+      "name": "Reckless Endangerment",
+      "selectedItemHash": "3085559077",
+      "archivedVersions": [
+        {
+          "itemHash": "3216652511",
+          "releaseId": "witch-queen",
+          "inventory": {
+            "itemHash": "3216652511",
+            "name": "Reckless Endangerment",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "resounding",
+      "name": "Resounding",
+      "selectedItemHash": "3273807888",
+      "archivedVersions": [
+        {
+          "itemHash": "1824586582",
+          "releaseId": "heresy",
+          "inventory": {
+            "itemHash": "1824586582",
+            "name": "Resounding",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "salvager-s-salvo",
+      "name": "Salvager's Salvo",
+      "selectedItemHash": "1692109318",
+      "archivedVersions": [
+        {
+          "itemHash": "2060863616",
+          "releaseId": "chosen",
+          "inventory": {
+            "itemHash": "2060863616",
+            "name": "Salvager's Salvo",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    },
+    {
+      "id": "veles-x",
+      "name": "Veles-X",
+      "selectedItemHash": "438540299",
+      "archivedVersions": [
+        {
+          "itemHash": "2276328320",
+          "releaseId": "seraph",
+          "inventory": {
+            "itemHash": "2276328320",
+            "name": "Veles-X",
+            "vendorHash": "1092954315",
+            "route": [
+              {
+                "hash": "4230408743",
+                "name": "Monument to Lost Lights"
+              },
+              {
+                "hash": "1092954315",
+                "name": "Legacy Gear"
+              }
+            ]
+          }
+        }
+      ],
+      "note": "Archive membership applies to these exact older definitions only; selected reissue source remains independent."
+    }
+  ]
+}

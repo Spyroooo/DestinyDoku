@@ -1,4 +1,13 @@
 .weapons-page { min-width: 0; }
+.weapon-mode-tabs { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+.weapon-mode-tabs a { padding: 10px 18px; border: 1px solid #43546b; border-radius: 6px; color: #aab7c9; text-decoration: none; background: #101a28; }
+.weapon-mode-tabs a[aria-current="page"] { border-color: #c6a24f; background: #c6a24f19; color: #e4cf94; }
+.weapon-mode-tabs a:hover { color: #fff; border-color: #d9bb7e; }
+.weapon-mode-tabs a:focus-visible, .daily-practice-link:focus-visible { outline: 2px solid #e9ce99; outline-offset: 4px; }
+.daily-schedule { margin: 16px auto; color: #aab7c9; font-size: 12px; line-height: 1.8; }
+.daily-schedule p { margin: 0; }
+.reset-countdown { color: #e4cf94; font-variant-numeric: tabular-nums; }
+.daily-practice-link { display: inline-block; margin-top: 16px; color: #e4cf94; }
 .weapons-description, .round-summary span, .weapon-rules { color: #aab7c9; }
 .round-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin: 28px 0; font-size: 14px; }
 .weapons-page button, .weapons-page input { font: inherit; border-radius: 6px; }
@@ -100,19 +109,21 @@ main:has(.weapons-page) { width: min(1220px, 100%); padding-top: 40px; padding-b
 }
 
 .weapon-suggestions { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; right: 0; list-style: none; margin: 0; padding: 8px; box-shadow: 0 18px 40px #000a; border: 1px solid #a99254; background: #090e15; max-height: min(350px, 50svh); overscroll-behavior: contain; overflow-y: auto; }
-.weapon-suggestion { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 12px; border-radius: 8px; text-align: left; }
-.weapon-suggestion:hover, .weapon-suggestion:focus-within { background: #ffffff08; }
+.weapons-page .weapon-suggestion { display: grid; width: 100%; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 14px; padding: 12px; border: 0; border-radius: 8px; text-align: left; background: transparent; color: #edf1f7; }
+.weapons-page .weapon-suggestion:hover,
+.weapons-page .weapon-suggestion:focus-visible,
+.weapons-page .weapon-suggestion:active { background: #18212d; color: #edf1f7; }
 .weapon-suggestion > img { width: 48px; height: 48px; object-fit: cover; border: 1px solid #d9bb7e; outline: 1px solid #7a6b43; outline-offset: 3px; }
-.weapon-suggestion > span { font-size: 17px; font-weight: 500; overflow-wrap: anywhere; }
-.weapons-page .weapon-suggestion button { padding: 8px 18px; border-radius: 0; border: 1px solid #8d7d50; color: #f2e9d4; background: linear-gradient(90deg, #514a2e, #25241b 24%, #25241b 76%, #514a2e); }
-.weapons-page .weapon-suggestion button:hover { border-color: #e9ce99; background: #51482e; }
+.weapon-suggestion > .suggestion-name { font-size: 17px; font-weight: 500; overflow-wrap: anywhere; }
+.weapon-suggestion .suggestion-select { padding: 8px 18px; border: 1px solid #8d7d50; color: #f2e9d4; background: linear-gradient(90deg, #514a2e, #25241b 24%, #25241b 76%, #514a2e); }
+.weapon-suggestion:hover .suggestion-select { border-color: #e9ce99; background: #51482e; }
 .no-suggestions { padding: 18px; color: #aab7c9; }
 .weapon-picker + .table-scroll, .round-result + .table-scroll { margin-top: 28px; }
 @media (max-width: 600px) {
-  .weapon-suggestion { grid-template-columns: 48px minmax(0, 1fr) auto; gap: 12px; padding: 12px 6px; }
+  .weapons-page .weapon-suggestion { grid-template-columns: 48px minmax(0, 1fr) auto; gap: 12px; padding: 12px 6px; }
   .weapon-suggestion > img { width: 48px; height: 48px; }
-  .weapon-suggestion > span { font-size: 16px; }
-  .weapons-page .weapon-suggestion button { padding: 8px 10px; font-size: 13px; }
+  .weapon-suggestion > .suggestion-name { font-size: 16px; }
+  .weapon-suggestion .suggestion-select { padding: 8px 10px; font-size: 13px; }
 }
 
 .guess-controls { font-size: 14px; }
@@ -120,4 +131,34 @@ main:has(.weapons-page) { width: min(1220px, 100%); padding-top: 40px; padding-b
 @media (max-width: 600px) {
   .guess-controls { flex-direction: row; }
   main:has(.weapons-page) { padding: 28px 12px; }
+}
+
+.win-summary { max-width: 540px; margin: 32px auto; padding: 24px; border: 1px solid #9b8758; border-radius: 8px; background: #101c29; }
+.win-summary h2 { font-size: 23px; margin: 8px 0; }
+.win-summary > p:not(.eyebrow) { color: #afbed1; font-size: 13px; }
+.win-summary .summary-help { margin-top: 8px; font-size: 11px; }
+.share-grid { list-style: none; padding: 0; margin: 22px auto; max-width: 350px; }
+.share-grid li { display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 6px; }
+.summary-guess-number { width: 22px; font-size: 11px; color: #94a9c2; text-align: right; }
+.summary-squares { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 5px; flex: 1; }
+.summary-square { display: block; aspect-ratio: 1; border-radius: 3px; border: 1px solid #ffffff28; }
+.square-exact { background: #377a49; } .square-partial { background: #a27e29; } .square-wrong { background: #8c3d3e; }
+.copy-status { min-height: 20px; margin-top: 10px; }
+.manual-share { display: block; margin-top: 12px; font-size: 12px; text-align: left; }
+.manual-share textarea { display: block; width: 100%; margin-top: 8px; padding: 10px; background: #080f18; color: #edf1f7; border: 1px solid #6d809a; border-radius: 5px; resize: vertical; font: 12px/1.7 monospace; }
+
+.classified-discovery { padding: 0.8rem 1rem; border-left: 2px solid #c6a24f; background: rgb(198 162 79 / 8%); color: #e4cf94; }
+
+/* Stable row keys keep earlier guesses from replaying as new rows are added. */
+.guess-reveal > th,
+.guess-reveal > td { animation: reveal-guess-field 600ms ease-out both; }
+
+@keyframes reveal-guess-field {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guess-reveal > th,
+  .guess-reveal > td { animation: none; }
 }

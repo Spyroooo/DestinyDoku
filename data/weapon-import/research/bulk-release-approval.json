@@ -1,0 +1,2109 @@
+{
+  "confirmedOn": "2026-11-11",
+  "approval": "User accepted all proposed first releases after reviewing earlier batches. This is a user-approved proposal, not newly corroborated Light.gg evidence.",
+  "decisions": [
+    {
+      "id": "alethonym",
+      "name": "Alethonym",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "2350354266",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "allen-05",
+      "name": "ALLEN 05",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "423677697",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "2376481550",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "arbalest",
+      "name": "Arbalest",
+      "firstReleaseId": "drifter",
+      "proposedFromItemHash": "2130065553",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "ascendancy",
+      "name": "Ascendancy",
+      "firstReleaseId": "lost",
+      "proposedFromItemHash": "725408022",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "autumn-wind",
+      "name": "Autumn Wind",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "1674742470",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "firstReleaseId": "opulence",
+      "proposedFromItemHash": "2816212794",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "barrow-dyad",
+      "name": "Barrow-Dyad",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "1481594633",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "firstReleaseId": "dawn",
+      "proposedFromItemHash": "2415517654",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "black-talon",
+      "name": "Black Talon",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3766045777",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "broadsword-launcher",
+      "name": "Broadsword Launcher",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "1392429335",
+      "otherIssues": []
+    },
+    {
+      "id": "buried-bloodline",
+      "name": "Buried Bloodline",
+      "firstReleaseId": "wish",
+      "proposedFromItemHash": "3886719505",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "centrifuse",
+      "name": "Centrifuse",
+      "firstReleaseId": "deep",
+      "proposedFromItemHash": "1912669214",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "cerberus-1",
+      "name": "Cerberus+1",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "1541131350",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "chain-of-command",
+      "name": "Chain of Command",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "3105930175",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "chivalric-fire",
+      "name": "Chivalric Fire",
+      "firstReleaseId": "wish",
+      "proposedFromItemHash": "3438139008",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "chrysura-melo",
+      "name": "Chrysura Melo",
+      "firstReleaseId": "lost",
+      "proposedFromItemHash": "1337707096",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "cloudstrike",
+      "name": "Cloudstrike",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "2603483885",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "code-duello",
+      "name": "Code Duello",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "2496242052",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "collective-obligation",
+      "name": "Collective Obligation",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "3505113722",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "come-to-pass",
+      "name": "Come to Pass",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "927567426",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "conditional-finality",
+      "name": "Conditional Finality",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "3371017761",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "convened-recurve",
+      "name": "Convened Recurve",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2271714488",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "crimson",
+      "name": "Crimson",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "3437746471",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "crooked-fang-4fr",
+      "name": "Crooked Fang-4fr",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "3005879473",
+      "otherIssues": []
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "firstReleaseId": "splicer",
+      "proposedFromItemHash": "603721696",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "cull-s-shadow",
+      "name": "Cull's Shadow",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "2200470033",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "dawn-far-off",
+      "name": "Dawn Far Off",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1484294659",
+      "otherIssues": []
+    },
+    {
+      "id": "dead-man-s-tale",
+      "name": "Dead Man's Tale",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "2188764214",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "dead-messenger",
+      "name": "Dead Messenger",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "46125926",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "deadhorse-04",
+      "name": "DEADHORSE 04",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "822872238",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "death-by-scorn",
+      "name": "Death by Scorn",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3334276333",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Champion counter requires an Exotic/custom-frame exception check"
+      ]
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "2232171099",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "decatur-02",
+      "name": "DECATUR 02",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "1850748385",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "firstReleaseId": "plunder",
+      "proposedFromItemHash": "374573733",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "deterministic-chaos",
+      "name": "Deterministic Chaos",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "449318888",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "firstReleaseId": "dawn",
+      "proposedFromItemHash": "3824106094",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "diablerets-06",
+      "name": "DIABLERETS 06",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "1120206506",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "divinity",
+      "name": "Divinity",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "4103414242",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "dragon-s-breath",
+      "name": "Dragon's Breath",
+      "firstReleaseId": "wish",
+      "proposedFromItemHash": "17096506",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "3460576091",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "ecliptic-distaff",
+      "name": "Ecliptic Distaff",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "3001205424",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "edge-of-action",
+      "name": "Edge of Action",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "2535142413",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "edge-of-concurrence",
+      "name": "Edge of Concurrence",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "542203595",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "edge-of-intent",
+      "name": "Edge of Intent",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "14194600",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "edge-transit",
+      "name": "Edge Transit",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "218335759",
+      "otherIssues": []
+    },
+    {
+      "id": "eighty-six",
+      "name": "Eighty-Six",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2344383760",
+      "otherIssues": []
+    },
+    {
+      "id": "ergo-sum",
+      "name": "Ergo Sum",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "1681583613",
+      "otherIssues": [
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "3524313097",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "euphony",
+      "name": "Euphony",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "3284383335",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "evening-si4",
+      "name": "Evening SI4",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1763361847",
+      "otherIssues": []
+    },
+    {
+      "id": "ex-diris",
+      "name": "Ex Diris",
+      "firstReleaseId": "witch",
+      "proposedFromItemHash": "3821409356",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "exit-strategy",
+      "name": "Exit Strategy",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "4227181568",
+      "otherIssues": []
+    },
+    {
+      "id": "extraordinary-rendition",
+      "name": "Extraordinary Rendition",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "1097616550",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "eyasluna",
+      "name": "Eyasluna",
+      "firstReleaseId": "anniversary",
+      "proposedFromItemHash": "235827225",
+      "otherIssues": []
+    },
+    {
+      "id": "eyes-of-tomorrow",
+      "name": "Eyes of Tomorrow",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "2399110176",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "eyes-unveiled",
+      "name": "Eyes Unveiled",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "615373993",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "fafnir",
+      "name": "Fafnir",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "2197778303",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "fair-judgment",
+      "name": "Fair Judgment",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "4176873718",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "far-future",
+      "name": "Far Future",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "893527433",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "father-s-sins",
+      "name": "Father's Sins",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "3865728990",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "faustus-decline",
+      "name": "Faustus Decline",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1663482635",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "fel-taradiddle",
+      "name": "Fel Taradiddle",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "1399109800",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "felwinter-s-lie",
+      "name": "Felwinter's Lie",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "1179141605",
+      "otherIssues": []
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "331231237",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "firefright",
+      "name": "Firefright",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "2778013407",
+      "otherIssues": []
+    },
+    {
+      "id": "forerunner",
+      "name": "Forerunner",
+      "firstReleaseId": "anniversary",
+      "proposedFromItemHash": "2179048386",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "forgiveness",
+      "name": "Forgiveness",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "2345794502",
+      "otherIssues": []
+    },
+    {
+      "id": "fractethyst",
+      "name": "Fractethyst",
+      "firstReleaseId": "lost",
+      "proposedFromItemHash": "3184681056",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "gjallarhorn",
+      "name": "Gjallarhorn",
+      "firstReleaseId": "anniversary",
+      "proposedFromItemHash": "1363886209",
+      "otherIssues": [
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "grand-overture",
+      "name": "Grand Overture",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "1763584999",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "hardline-cut",
+      "name": "Hardline Cut",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2121132948",
+      "otherIssues": []
+    },
+    {
+      "id": "hawkmoon",
+      "name": "Hawkmoon",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "3856705927",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "heartshadow",
+      "name": "Heartshadow",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "3664831848",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "heir-apparent",
+      "name": "Heir Apparent",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "2084878005",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "hierarchy-of-needs",
+      "name": "Hierarchy of Needs",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "4174431791",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "horror-story",
+      "name": "Horror Story",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3829285960",
+      "otherIssues": []
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "1111334348",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "imperial-needle",
+      "name": "Imperial Needle",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "3460122497",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "inbound-surveillance",
+      "name": "Inbound Surveillance",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2776506837",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "ironwood-03",
+      "name": "IRONWOOD 03",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "2041617874",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "izanagi-s-burden",
+      "name": "Izanagi's Burden",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "3211806999",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "j-tunn",
+      "name": "Jötunn",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "417164956",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "judgment-of-kelgorath",
+      "name": "Judgment of Kelgorath",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "2978226043",
+      "otherIssues": []
+    },
+    {
+      "id": "jurisprudent",
+      "name": "Jurisprudent",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "4090134063",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "khvostov-7g-0x",
+      "name": "Khvostov 7G-0X",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "4129629253",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "last-of-the-legion",
+      "name": "Last of the Legion",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "2084611899",
+      "otherIssues": []
+    },
+    {
+      "id": "last-rite",
+      "name": "Last Rite",
+      "firstReleaseId": "deep",
+      "proposedFromItemHash": "542573208",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "le-monarque",
+      "name": "Le Monarque",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "3588934839",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "liminal-vigil",
+      "name": "Liminal Vigil",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "3138208275",
+      "otherIssues": []
+    },
+    {
+      "id": "lodestar",
+      "name": "Lodestar",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "3725585710",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "lord-of-wolves",
+      "name": "Lord of Wolves",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3413860063",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "firstReleaseId": "lost",
+      "proposedFromItemHash": "3761898871",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "firstReleaseId": "opulence",
+      "proposedFromItemHash": "3512014804",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "magnum-shepherd",
+      "name": "Magnum Shepherd",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "210065223",
+      "otherIssues": []
+    },
+    {
+      "id": "malediction",
+      "name": "Malediction",
+      "firstReleaseId": "witch",
+      "proposedFromItemHash": "3337727085",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "malfeasance",
+      "name": "Malfeasance",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "204878059",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "mechabre",
+      "name": "Mechabre",
+      "firstReleaseId": "plunder",
+      "proposedFromItemHash": "1280894514",
+      "otherIssues": []
+    },
+    {
+      "id": "microcosm",
+      "name": "Microcosm",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "4207066264",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "mida-macro-tool",
+      "name": "MIDA Macro-Tool",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "2699423382",
+      "otherIssues": []
+    },
+    {
+      "id": "mint-retrograde",
+      "name": "Mint Retrograde",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "42435996",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "monody-44",
+      "name": "Monody-44",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "3201200906",
+      "otherIssues": []
+    },
+    {
+      "id": "monte-carlo",
+      "name": "Monte Carlo",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "4068264807",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "mos-athanor-iv",
+      "name": "Mos Athanor IV",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1288422452",
+      "otherIssues": []
+    },
+    {
+      "id": "motif-41",
+      "name": "Motif-41",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1685533876",
+      "otherIssues": []
+    },
+    {
+      "id": "nation-of-beasts",
+      "name": "Nation of Beasts",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "654370424",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "necrochasm",
+      "name": "Necrochasm",
+      "firstReleaseId": "witch",
+      "proposedFromItemHash": "1034055198",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "2581676735",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "new-malpais",
+      "name": "New Malpais",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1736135946",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "1594120904",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "no-turning-back",
+      "name": "No Turning Back",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "720351794",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "nox-sidereal-iv",
+      "name": "Nox Sidereal IV",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "74733286",
+      "otherIssues": []
+    },
+    {
+      "id": "null-composure",
+      "name": "Null Composure",
+      "firstReleaseId": "splicer",
+      "proposedFromItemHash": "1644680957",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "one-thousand-voices",
+      "name": "One Thousand Voices",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "2069224589",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "orewing-s-maul",
+      "name": "Orewing's Maul",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "1870979911",
+      "otherIssues": []
+    },
+    {
+      "id": "orimund-s-anvil",
+      "name": "Orimund's Anvil",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "1369487074",
+      "otherIssues": []
+    },
+    {
+      "id": "osteo-striga",
+      "name": "Osteo Striga",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "46524085",
+      "otherIssues": [
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "ouster-engine",
+      "name": "Ouster Engine",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2223968549",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "firstReleaseId": "drifter",
+      "proposedFromItemHash": "400096939",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "oxygen-sr3",
+      "name": "Oxygen SR3",
+      "firstReleaseId": "drifter",
+      "proposedFromItemHash": "3907337522",
+      "otherIssues": []
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "2812324400",
+      "otherIssues": [
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "peace-by-consensus",
+      "name": "Peace by Consensus",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "806021398",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "peacebond",
+      "name": "Peacebond",
+      "firstReleaseId": "lost",
+      "proposedFromItemHash": "829330711",
+      "otherIssues": []
+    },
+    {
+      "id": "peculiar-charm",
+      "name": "Peculiar Charm",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "3620277039",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "perfect-pitch",
+      "name": "Perfect Pitch",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "3276304504",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "piece-of-mind",
+      "name": "Piece of Mind",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "2097055732",
+      "otherIssues": []
+    },
+    {
+      "id": "pit-launcher",
+      "name": "Pit Launcher",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "4095462486",
+      "otherIssues": []
+    },
+    {
+      "id": "planck-s-stride",
+      "name": "Planck's Stride",
+      "firstReleaseId": "plunder",
+      "proposedFromItemHash": "820890091",
+      "otherIssues": []
+    },
+    {
+      "id": "point-of-the-stag",
+      "name": "Point of the Stag",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "3434944005",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "3413074534",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "positive-outlook",
+      "name": "Positive Outlook",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "3393130645",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "prometheus-lens",
+      "name": "Prometheus Lens",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "19024058",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "psi-aeterna-iv",
+      "name": "Psi Aeterna IV",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "135971347",
+      "otherIssues": []
+    },
+    {
+      "id": "psychopomp",
+      "name": "Psychopomp",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "3840794631",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "pure-recollection",
+      "name": "Pure Recollection",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1956186483",
+      "otherIssues": []
+    },
+    {
+      "id": "pyroclastic-flow",
+      "name": "Pyroclastic Flow",
+      "firstReleaseId": "dawn",
+      "proposedFromItemHash": "1289324202",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "qua-vinctus-iv",
+      "name": "Qua Vinctus IV",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "337893613",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "firstReleaseId": "plunder",
+      "proposedFromItemHash": "4293613902",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "rapid-growth",
+      "name": "Rapid Growth",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "3448712083",
+      "otherIssues": []
+    },
+    {
+      "id": "reckless-endangerment",
+      "name": "Reckless Endangerment",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "3216652511",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "red-death-reformed",
+      "name": "Red Death Reformed",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "427899681",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "refurbished-a499",
+      "name": "Refurbished A499",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "593808239",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "refusal-of-the-call",
+      "name": "Refusal of the Call",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "2671849376",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "resounding",
+      "name": "Resounding",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "1824586582",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "retrofit-escapade",
+      "name": "Retrofit Escapade",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "3103325054",
+      "otherIssues": []
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "1473821207",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "ribbontail",
+      "name": "Ribbontail",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "407150808",
+      "otherIssues": []
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "firstReleaseId": "opulence",
+      "proposedFromItemHash": "2429822976",
+      "otherIssues": []
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "firstReleaseId": "arrivals",
+      "proposedFromItemHash": "1363238943",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "salvager-s-salvo",
+      "name": "Salvager's Salvo",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "2060863616",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "salvation-s-grip",
+      "name": "Salvation's Grip",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "370712896",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "sarpedon-d",
+      "name": "Sarpedon-D",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1242785638",
+      "otherIssues": []
+    },
+    {
+      "id": "scalar-potential",
+      "name": "Scalar Potential",
+      "firstReleaseId": "wish",
+      "proposedFromItemHash": "2563668388",
+      "otherIssues": []
+    },
+    {
+      "id": "senuna-si6",
+      "name": "Senuna SI6",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "5159537",
+      "otherIssues": []
+    },
+    {
+      "id": "service-of-luzaku",
+      "name": "Service of Luzaku",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "4284533075",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "seventh-seraph-carbine",
+      "name": "Seventh Seraph Carbine",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "1561006927",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "seventh-seraph-cqc-12",
+      "name": "Seventh Seraph CQC-12",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "1821724780",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "seventh-seraph-saw",
+      "name": "Seventh Seraph SAW",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "2582755344",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "seventh-seraph-si-2",
+      "name": "Seventh Seraph SI-2",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "3937866388",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "seventh-seraph-vy-7",
+      "name": "Seventh Seraph VY-7",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "766323545",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "shoreline-dissident",
+      "name": "Shoreline Dissident",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1193318082",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "sixth-sense",
+      "name": "Sixth Sense",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "3163473092",
+      "otherIssues": []
+    },
+    {
+      "id": "slayer-s-fang",
+      "name": "Slayer's Fang",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "1047932517",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "4036115577",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "smuggler-s-word",
+      "name": "Smuggler's Word",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "1843044399",
+      "otherIssues": []
+    },
+    {
+      "id": "solemn-lie",
+      "name": "Solemn Lie",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "1041028435",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "something-new",
+      "name": "Something New",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "1856262127",
+      "otherIssues": []
+    },
+    {
+      "id": "something-something",
+      "name": "Something Something",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "690412397",
+      "otherIssues": []
+    },
+    {
+      "id": "stay-frosty",
+      "name": "Stay Frosty",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "2812100428",
+      "otherIssues": []
+    },
+    {
+      "id": "still-hunt",
+      "name": "Still Hunt",
+      "firstReleaseId": "echoes",
+      "proposedFromItemHash": "2905188646",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "suros-regime",
+      "name": "SUROS Regime",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "2856683562",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "firstReleaseId": "dawn",
+      "proposedFromItemHash": "4017959782",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "synanceia",
+      "name": "Synanceia",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1823308496",
+      "otherIssues": []
+    },
+    {
+      "id": "tahoma-01",
+      "name": "TAHOMA 01",
+      "firstReleaseId": "monument",
+      "proposedFromItemHash": "1225851434",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "taraxippos",
+      "name": "Taraxippos",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "1389546626",
+      "otherIssues": []
+    },
+    {
+      "id": "tarnation",
+      "name": "Tarnation",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "2721157927",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "firstReleaseId": "opulence",
+      "proposedFromItemHash": "3110698812",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "techeun-force",
+      "name": "Techeun Force",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "4094657108",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "telesto",
+      "name": "Telesto",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "2208405142",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "temporal-clause",
+      "name": "Temporal Clause",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "3369545945",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "terran-wind",
+      "name": "Terran Wind",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "301362380",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "firstReleaseId": "witch",
+      "proposedFromItemHash": "3561203890",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-chaperone",
+      "name": "The Chaperone",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3413860062",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "3899270607",
+      "otherIssues": [
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "1665952087",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-helmsman",
+      "name": "The Helmsman",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "2325078119",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "the-huckleberry",
+      "name": "The Huckleberry",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "2286143274",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-jade-rabbit",
+      "name": "The Jade Rabbit",
+      "firstReleaseId": "osiris",
+      "proposedFromItemHash": "3844694310",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-lament",
+      "name": "The Lament",
+      "firstReleaseId": "beyond-light",
+      "proposedFromItemHash": "3487253372",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "1364093401",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-manticore",
+      "name": "The Manticore",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "219145368",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-navigator",
+      "name": "The Navigator",
+      "firstReleaseId": "deep",
+      "proposedFromItemHash": "1441805468",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-queenbreaker",
+      "name": "The Queenbreaker",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "2044500762",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "the-ringing-nail",
+      "name": "The Ringing Nail",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "93253474",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "the-spiteful-fang",
+      "name": "The Spiteful Fang",
+      "firstReleaseId": "forge",
+      "proposedFromItemHash": "421573768",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "the-supremacy",
+      "name": "The Supremacy",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "686951703",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "the-title",
+      "name": "The Title",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "294129361",
+      "otherIssues": []
+    },
+    {
+      "id": "the-vision",
+      "name": "The Vision",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "293505772",
+      "otherIssues": []
+    },
+    {
+      "id": "third-iteration",
+      "name": "Third Iteration",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "2973900274",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "firstReleaseId": "drifter",
+      "proposedFromItemHash": "3973202132",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "thoughtless",
+      "name": "Thoughtless",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "4067556514",
+      "otherIssues": []
+    },
+    {
+      "id": "threaded-needle",
+      "name": "Threaded Needle",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "3075224551",
+      "otherIssues": []
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "firstReleaseId": "chosen",
+      "proposedFromItemHash": "3260753130",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "firstReleaseId": "worthy",
+      "proposedFromItemHash": "776191470",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "touch-of-malice",
+      "name": "Touch of Malice",
+      "firstReleaseId": "plunder",
+      "proposedFromItemHash": "1802135586",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "trachinus",
+      "name": "Trachinus",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "2888021252",
+      "otherIssues": []
+    },
+    {
+      "id": "transfiguration",
+      "name": "Transfiguration",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3799980700",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "firstReleaseId": "arrivals",
+      "proposedFromItemHash": "1853180924",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "trespasser",
+      "name": "Trespasser",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "1234150730",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "trinity-ghoul",
+      "name": "Trinity Ghoul",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "814876685",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "trophy-hunter",
+      "name": "Trophy Hunter",
+      "firstReleaseId": "dawn",
+      "proposedFromItemHash": "4166221755",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "firstReleaseId": "opulence",
+      "proposedFromItemHash": "1201830623",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "turncoat",
+      "name": "Turncoat",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "253843484",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "two-tailed-fox",
+      "name": "Two-Tailed Fox",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "2694576561",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "tyranny-of-heaven",
+      "name": "Tyranny of Heaven",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "2721249463",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "under-your-skin",
+      "name": "Under Your Skin",
+      "firstReleaseId": "witch-queen",
+      "proposedFromItemHash": "232928045",
+      "otherIssues": []
+    },
+    {
+      "id": "unexpected-resurgence",
+      "name": "Unexpected Resurgence",
+      "firstReleaseId": "deep",
+      "proposedFromItemHash": "4005780578",
+      "otherIssues": []
+    },
+    {
+      "id": "unfall",
+      "name": "Unfall",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "738446555",
+      "otherIssues": []
+    },
+    {
+      "id": "unloved",
+      "name": "Unloved",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "2485881870",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "unvoiced",
+      "name": "Unvoiced",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "3360937899",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "unworthy",
+      "name": "Unworthy",
+      "firstReleaseId": "heresy",
+      "proposedFromItemHash": "2226158470",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "veles-x",
+      "name": "Veles-X",
+      "firstReleaseId": "seraph",
+      "proposedFromItemHash": "2276328320",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "verglas-curve",
+      "name": "Verglas Curve",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "3659414143",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "vestian-dynasty",
+      "name": "Vestian Dynasty",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "3334276332",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "vex-mythoclast",
+      "name": "Vex Mythoclast",
+      "firstReleaseId": "splicer",
+      "proposedFromItemHash": "4289226715",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "vexcalibur",
+      "name": "Vexcalibur",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "3118061005",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "vs-chill-inhibitor",
+      "name": "VS Chill Inhibitor",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "1762785662",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "vs-gravitic-arrest",
+      "name": "VS Gravitic Arrest",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "93061497",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "vs-pyroelectric-propellant",
+      "name": "VS Pyroelectric Propellant",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "4232480042",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "vs-velocity-baton",
+      "name": "VS Velocity Baton",
+      "firstReleaseId": "revenant",
+      "proposedFromItemHash": "1762785663",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "wavesplitter",
+      "name": "Wavesplitter",
+      "firstReleaseId": "forsaken",
+      "proposedFromItemHash": "1852863732",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "whatchamacallit",
+      "name": "Whatchamacallit",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "149110926",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "1891561814",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "wicked-implement",
+      "name": "Wicked Implement",
+      "firstReleaseId": "deep",
+      "proposedFromItemHash": "940371471",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "willful-hamartia",
+      "name": "Willful Hamartia",
+      "firstReleaseId": "renegades",
+      "proposedFromItemHash": "1952295804",
+      "otherIssues": [
+        "Selected version source is missing or too vague"
+      ]
+    },
+    {
+      "id": "winterbite",
+      "name": "Winterbite",
+      "firstReleaseId": "lightfall",
+      "proposedFromItemHash": "3118061004",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "firstReleaseId": "arrivals",
+      "proposedFromItemHash": "2357297366",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "without-remorse",
+      "name": "Without Remorse",
+      "firstReleaseId": "haunted",
+      "proposedFromItemHash": "1478986057",
+      "otherIssues": []
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "firstReleaseId": "edge-of-fate",
+      "proposedFromItemHash": "1753923263",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Champion counter requires an Exotic/custom-frame exception check",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "firstReleaseId": "warmind",
+      "proposedFromItemHash": "1864563948",
+      "otherIssues": [
+        "Selected version source is missing or too vague",
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    },
+    {
+      "id": "xenophage",
+      "name": "Xenophage",
+      "firstReleaseId": "undying",
+      "proposedFromItemHash": "1395261499",
+      "otherIssues": [
+        "Alternate damage types require an Exotic-specific check"
+      ]
+    }
+  ]
+}

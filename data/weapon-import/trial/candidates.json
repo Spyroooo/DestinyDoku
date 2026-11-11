@@ -1,0 +1,4761 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "mode": "offline",
+    "manifestVersion": null,
+    "itemSha256": "91b27c3900ec58460aa032acecb397e439000021b085ac6c41745d4ec2e3e099"
+  },
+  "summary": {
+    "eligibleManifestItems": 2059,
+    "groupedWeaponNames": 1105,
+    "trialWeapons": 50,
+    "reviewed": 50,
+    "needsReview": 0
+  },
+  "candidates": [
+    {
+      "id": "1000-yard-stare",
+      "name": "1000 Yard Stare",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "anniversary",
+      "currentItemHash": "1648948519",
+      "curatedReferenceId": "1000-yard-stare",
+      "versions": [
+        {
+          "itemHash": "1648948519",
+          "name": "1000 Yard Stare",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "dungeon",
+            "name": "\"Grasp of Avarice\" Dungeon"
+          },
+          "sourceText": "Source: \"Grasp of Avarice\" Dungeon",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/3759e2601c29fef3c6b9a29f95d53694.jpg"
+        },
+        {
+          "itemHash": "4164201232",
+          "name": "1000 Yard Stare",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "lost",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/bcc26708e314306fb2fc8cb98fcbf47e.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v540.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/3759e2601c29fef3c6b9a29f95d53694.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "18-kelvins",
+      "name": "18 Kelvins",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "warmind",
+      "currentItemHash": "1798874854",
+      "curatedReferenceId": "18-kelvins",
+      "versions": [
+        {
+          "itemHash": "1798874854",
+          "name": "18 Kelvins",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sidearm",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "warmind",
+          "source": {
+            "category": "activity",
+            "name": "Complete activities and earn rank-up packages on Mars."
+          },
+          "sourceText": "Source: Complete activities and earn rank-up packages on Mars.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/da5f961ef97b78293cc498978c10e178.png",
+            "traits": [
+              "item.weapon.sidearm",
+              "releases.v320.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/819318069721526dfc9d11785a6686a6.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "21-delirium",
+      "name": "21% Delirium",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "drifter",
+      "currentItemHash": "3001598094",
+      "curatedReferenceId": "21-delirium",
+      "versions": [
+        {
+          "itemHash": "1600633250",
+          "name": "21% Delirium",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "drifter",
+          "source": {
+            "category": "gambit",
+            "name": "Complete this weapon's associated Gambit quest."
+          },
+          "sourceText": "Source: Complete this weapon's associated Gambit quest.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/2c022e452f395db7b1daec1cb44631fc.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "releases.v420.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/e875d248d8e2fece0117e855edc2dc02.jpg"
+        },
+        {
+          "itemHash": "3001598094",
+          "name": "21% Delirium",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "gambit",
+            "name": "gambit (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/e875d248d8e2fece0117e855edc2dc02.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-cold-sweat",
+      "name": "A Cold Sweat",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "osiris",
+      "currentItemHash": "2071412133",
+      "curatedReferenceId": "a-cold-sweat",
+      "versions": [
+        {
+          "itemHash": "2071412133",
+          "name": "A Cold Sweat",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1322370662",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "osiris",
+          "source": {
+            "category": "crucible",
+            "name": "Complete Trials tickets and earn rank-up packages from the Emissary of the Nine."
+          },
+          "sourceText": "Source: Complete Trials tickets and earn rank-up packages from the Emissary of the Nine.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7ba9d804508dd083ec20fcdb8ba0869d.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "activities.trials",
+              "releases.v310.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f104ff7eba062e16d9b1a07377ba4560.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-distant-pull",
+      "name": "A Distant Pull",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "deep",
+      "currentItemHash": "1769847435",
+      "curatedReferenceId": "a-distant-pull",
+      "versions": [
+        {
+          "itemHash": "1769847435",
+          "name": "A Distant Pull",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "deep",
+          "source": {
+            "category": "seasonal",
+            "name": "Season of the Deep activities"
+          },
+          "sourceText": "",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/ae5c7f708a36f754c2f68c65c88ab9aa.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v710.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/e02734a955faef4b4946844301896593.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-fine-memorial",
+      "name": "A Fine Memorial",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "undying",
+      "currentItemHash": "3211332727",
+      "curatedReferenceId": "a-fine-memorial",
+      "versions": [
+        {
+          "itemHash": "3211332727",
+          "name": "A Fine Memorial",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "activity",
+            "name": "moon (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/23085d9f1093d2f52431f0513e2d7443.jpg"
+        },
+        {
+          "itemHash": "3325778512",
+          "name": "A Fine Memorial",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "undying",
+          "source": {
+            "category": "activity",
+            "name": "Exploring the Moon"
+          },
+          "sourceText": "Source: Exploring the Moon",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/a15754752f40aaf7b1b00aadb70a8f35.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "releases.v460.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/23085d9f1093d2f52431f0513e2d7443.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-single-clap",
+      "name": "A Single Clap",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "3312073052",
+      "curatedReferenceId": "a-single-clap",
+      "versions": [
+        {
+          "itemHash": "3312073052",
+          "name": "A Single Clap",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "activity",
+            "name": "Complete activities and earn rank-up packages on Saturn's Moon, Titan."
+          },
+          "sourceText": "Source: Complete activities and earn rank-up packages on Saturn's Moon, Titan.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "foundry.suros",
+              "item.weapon.sniper_rifle",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a4213e7be9ad3ca82baa9497fc3fc450.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-swift-verdict",
+      "name": "A Swift Verdict",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "1626503676",
+      "curatedReferenceId": "a-swift-verdict",
+      "versions": [
+        {
+          "itemHash": "1626503676",
+          "name": "A Swift Verdict",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sidearm",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "lost",
+          "source": {
+            "category": "dungeon",
+            "name": "\"Prophecy\" Dungeon"
+          },
+          "sourceText": "Source: \"Prophecy\" Dungeon",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/914322d11262322c839a5388db2a4943.png",
+            "traits": [
+              "item.weapon.sidearm",
+              "releases.v530.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/200080943f25aee56427767cc80dc40f.jpg"
+        },
+        {
+          "itemHash": "3854037061",
+          "name": "A Swift Verdict",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sidearm",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "crucible",
+            "name": "Complete Trials tickets and earn rank-up packages from the Emissary of the Nine."
+          },
+          "sourceText": "Source: Complete Trials tickets and earn rank-up packages from the Emissary of the Nine.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "item.weapon.sidearm",
+              "activities.trials",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/200080943f25aee56427767cc80dc40f.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "aberrant-action",
+      "name": "Aberrant Action",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "echoes",
+      "currentItemHash": "2198166292",
+      "curatedReferenceId": "aberrant-action",
+      "versions": [
+        {
+          "itemHash": "2198166292",
+          "name": "Aberrant Action",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sidearm",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Micro-Missile Frame",
+          "intrinsicHash": "2928496916",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "echoes",
+          "source": {
+            "category": "seasonal",
+            "name": "Episode: Echoes Activities"
+          },
+          "sourceText": "Source: Episode: Echoes Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/9bfaa5536772e2f3ef1252813a21c4d1.png",
+            "traits": [
+              "item.weapon.sidearm",
+              "item.weapon.sidearm.rocket",
+              "releases.v800.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/fd4ee0fc7c0c6249cb615aed85cd70e7.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "abide-the-return",
+      "name": "Abide the Return",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "1291270049",
+      "curatedReferenceId": "abide-the-return",
+      "versions": [
+        {
+          "itemHash": "250721843",
+          "name": "Abide the Return",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "4172267910",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "wish",
+          "source": {
+            "category": "activity",
+            "name": "Complete activities in the Dreaming City."
+          },
+          "sourceText": "Source: Complete activities in the Dreaming City.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6f17d323d81dd683086d88a9268f8106.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v730.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2085dd8a821e08044d9a7c7b62c3bfd8.jpg"
+        },
+        {
+          "itemHash": "1291270049",
+          "name": "Abide the Return",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "4172267910",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "activity",
+            "name": "dreaming (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2085dd8a821e08044d9a7c7b62c3bfd8.jpg"
+        },
+        {
+          "itemHash": "1644160541",
+          "name": "Abide the Return",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "4172267910",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "activity",
+            "name": "Complete activities in the Dreaming City."
+          },
+          "sourceText": "Source: Complete activities in the Dreaming City.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v400.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a181acd0a1aaa082980cfed6ee2805fe.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "abyss-defiant",
+      "name": "Abyss Defiant",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "witch",
+      "currentItemHash": "833898322",
+      "curatedReferenceId": "abyss-defiant",
+      "versions": [
+        {
+          "itemHash": "833898322",
+          "name": "Abyss Defiant",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "witch",
+          "source": {
+            "category": "raid",
+            "name": "\"Crota's End\" Raid"
+          },
+          "sourceText": "Source: \"Crota's End\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/2dc17f123b7449b14144e76cfbeb2309.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v720.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/3a166cd64dc18fff429e9e5992e44055.jpg"
+        },
+        {
+          "itemHash": "3782662983",
+          "name": "Abyss Defiant (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: \"Crota's End\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/2dc17f123b7449b14144e76cfbeb2309.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v720.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/db7c65c5bd370356d349dcb7ded3c371.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "abyssal-edge",
+      "name": "Abyssal Edge",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "heresy",
+      "currentItemHash": "2599520828",
+      "curatedReferenceId": "abyssal-edge",
+      "versions": [
+        {
+          "itemHash": "547165496",
+          "name": "Abyssal Edge",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Wave Sword Frame",
+          "intrinsicHash": "430173891",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "seasonal",
+            "name": "Episode: Heresy Activities"
+          },
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/ffab9ec9e8e826a703ff1c22c3d0e181.jpg"
+        },
+        {
+          "itemHash": "2599520828",
+          "name": "Abyssal Edge",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Wave Sword Frame",
+          "intrinsicHash": "430173891",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "seasonal",
+            "name": "heresy (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/ffab9ec9e8e826a703ff1c22c3d0e181.jpg"
+        },
+        {
+          "itemHash": "2712683313",
+          "name": "Abyssal Edge (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Wave Sword Frame",
+          "intrinsicHash": "430173891",
+          "championSuggestion": null,
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/0b990bb57e671a8047da3f09d603ba42.jpg"
+        },
+        {
+          "itemHash": "3054597646",
+          "name": "Abyssal Edge (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Wave Sword Frame",
+          "intrinsicHash": "430173891",
+          "championSuggestion": null,
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/0b990bb57e671a8047da3f09d603ba42.jpg"
+        },
+        {
+          "itemHash": "4221591387",
+          "name": "Abyssal Edge",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sword",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Wave Sword Frame",
+          "intrinsicHash": "430173891",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.sword",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/ffab9ec9e8e826a703ff1c22c3d0e181.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "acantha-d",
+      "name": "Acantha-D",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "896923850",
+      "curatedReferenceId": "acantha-d",
+      "versions": [
+        {
+          "itemHash": "896923850",
+          "name": "Acantha-D",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "grenade-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "2353477480",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "world-loot",
+            "name": "Earn rank-up packages from Banshee-44."
+          },
+          "sourceText": "Source: Earn rank-up packages from Banshee-44.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "foundry.hakke",
+              "item.weapon.grenade_launcher",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/3795991f2cc2feb51f990f199343b6f5.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "acantha-d-xk8434",
+      "name": "Acantha-D XK8434",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "forge",
+      "currentItemHash": "1757129747",
+      "curatedReferenceId": "acantha-d-xk8434",
+      "versions": [
+        {
+          "itemHash": "1757129747",
+          "name": "Acantha-D XK8434",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "grenade-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "2353477480",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "forge",
+          "source": {
+            "category": "seasonal",
+            "name": "Crafted in a Black Armory forge."
+          },
+          "sourceText": "Source: Crafted in a Black Armory forge.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e0c16042274fd7d9cbffc4489e340c5d.png",
+            "traits": [
+              "foundry.hakke",
+              "item.weapon.grenade_launcher",
+              "activities.black_armory",
+              "releases.v410.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a84539f79154ed15db5db98d4c80ee5e.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "acasia-s-dejection",
+      "name": "Acasia's Dejection",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "lightfall",
+      "currentItemHash": "1471212226",
+      "curatedReferenceId": "acasia-s-dejection",
+      "versions": [
+        {
+          "itemHash": "1471212226",
+          "name": "Acasia's Dejection",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "lightfall",
+          "source": {
+            "category": "raid",
+            "name": "\"Root of Nightmares\" Raid"
+          },
+          "sourceText": "Source: \"Root of Nightmares\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
+            "traits": [
+              "item.weapon.trace_rifle",
+              "releases.v700.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/255be304412b4f0f3d880cb7e46ca256.jpg"
+        },
+        {
+          "itemHash": "3493494807",
+          "name": "Acasia's Dejection (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: \"Root of Nightmares\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
+            "traits": [
+              "item.weapon.trace_rifle",
+              "releases.v700.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f6714b9eb7c317b8777d457939b0355f.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "accelerando-42",
+      "name": "Accelerando-42",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "monument",
+      "currentItemHash": "3610531207",
+      "curatedReferenceId": "accelerando-42",
+      "versions": [
+        {
+          "itemHash": "1540621132",
+          "name": "Accelerando-42",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "foundry.suros",
+              "item.weapon.fusion_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/df34c800c0d48f08c1ac6bd4db1e25c9.jpg"
+        },
+        {
+          "itemHash": "3610531207",
+          "name": "Accelerando-42",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "event",
+            "name": "Sparrow Racing League"
+          },
+          "sourceText": "Source: Sparrow Racing League",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "foundry.suros",
+              "item.weapon.fusion_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/1c80a801990dc3cebafe4d52de786040.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "accrued-redemption",
+      "name": "Accrued Redemption",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "undying",
+      "currentItemHash": "3621336854",
+      "curatedReferenceId": "accrued-redemption",
+      "versions": [
+        {
+          "itemHash": "3621336854",
+          "name": "Accrued Redemption",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "combat-bow",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "715195141",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "revenant",
+          "source": {
+            "category": "raid",
+            "name": "\"Garden of Salvation\" Raid"
+          },
+          "sourceText": "Source: \"Garden of Salvation\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/5232219633cc4d90570bffda36caccf4.png",
+            "traits": [
+              "item.weapon.bow",
+              "releases.v810.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/adbd4c3544c36a8c94e976bbb806095d.jpg"
+        },
+        {
+          "itemHash": "4095896073",
+          "name": "Accrued Redemption",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "combat-bow",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "715195141",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "undying",
+          "source": {
+            "category": "raid",
+            "name": "\"Garden of Salvation\" Raid"
+          },
+          "sourceText": "Source: \"Garden of Salvation\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/a15754752f40aaf7b1b00aadb70a8f35.png",
+            "traits": [
+              "item.weapon.bow",
+              "releases.v460.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/adbd4c3544c36a8c94e976bbb806095d.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "ace-of-spades",
+      "name": "Ace of Spades",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "347366834",
+      "curatedReferenceId": "ace-of-spades",
+      "versions": [
+        {
+          "itemHash": "347366834",
+          "name": "Ace of Spades",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "hand-cannon",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Memento Mori",
+          "intrinsicHash": "647617635",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "quest",
+            "name": "Cayde\u2019s Will"
+          },
+          "sourceText": "Source: Exotic Archive at the Tower",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "item.weapon.exotic",
+              "releases.v400.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/cdfbfd3f098329a367294f191070f8c4.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "acosmic",
+      "name": "Acosmic",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "witch",
+      "currentItemHash": "1106017703",
+      "curatedReferenceId": "acosmic",
+      "versions": [
+        {
+          "itemHash": "413901114",
+          "name": "Acosmic",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "grenade-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "2353477480",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "witch",
+          "source": {
+            "category": "event",
+            "name": "Festival of the Lost"
+          },
+          "sourceText": "Source: Festival of the Lost",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
+            "traits": [
+              "item.weapon.grenade_launcher",
+              "releases.v400.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5c9a69e2d8aff4af04233d4ea8c760b3.jpg"
+        },
+        {
+          "itemHash": "425681240",
+          "name": "Acosmic",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "grenade-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "2353477480",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "revenant",
+          "source": {
+            "category": "event",
+            "name": "Festival of the Lost"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
+            "traits": [
+              "item.weapon.grenade_launcher",
+              "releases.v400.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5c9a69e2d8aff4af04233d4ea8c760b3.jpg"
+        },
+        {
+          "itemHash": "1106017703",
+          "name": "Acosmic",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "grenade-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "2353477480",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "event",
+            "name": "Festival of the Lost"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.grenade_launcher",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5c9a69e2d8aff4af04233d4ea8c760b3.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "action-item",
+      "name": "Action Item",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "renegades",
+      "currentItemHash": "527989828",
+      "curatedReferenceId": "action-item",
+      "versions": [
+        {
+          "itemHash": "437854388",
+          "name": "Action Item",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.trace_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/241a3375df21195ba6f5ed2be5855dc8.jpg"
+        },
+        {
+          "itemHash": "437854389",
+          "name": "Action Item",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6eeb62a30439cecc7699c22f3e1fb3cf.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.trace_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/b25170b87d78b6cd9292643d625491b0.jpg"
+        },
+        {
+          "itemHash": "437854390",
+          "name": "Action Item",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.trace_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5ce3fb95b5ba70b9d018be9d400a25d0.jpg"
+        },
+        {
+          "itemHash": "437854391",
+          "name": "Action Item",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.trace_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/657ce3fd1c321e9932e29948d44e9923.jpg"
+        },
+        {
+          "itemHash": "527989828",
+          "name": "Action Item",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "trace-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": {
+            "category": "event",
+            "name": "Events"
+          },
+          "sourceText": "Source: Events",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.trace_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/8ce60c72ee3ebad53e299804d1e323a8.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "adhortative",
+      "name": "Adhortative",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "undying",
+      "currentItemHash": "2993554824",
+      "curatedReferenceId": "adhortative",
+      "versions": [
+        {
+          "itemHash": "1167153950",
+          "name": "Adhortative",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "pulse-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "undying",
+          "source": {
+            "category": "seasonal",
+            "name": "Complete seasonal activities during Season of the Undying."
+          },
+          "sourceText": "Source: Complete seasonal activities during Season of the Undying.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b212b58a961f150708bca95095e0ecb.png",
+            "traits": [
+              "item.weapon.pulse_rifle",
+              "releases.v460.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f2222dbe2f7e62c3338369135c874765.jpg"
+        },
+        {
+          "itemHash": "2993554824",
+          "name": "Adhortative",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "pulse-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "wish",
+          "source": {
+            "category": "seasonal",
+            "name": "Season of the Wish Activities"
+          },
+          "sourceText": "Source: Season of the Wish Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6f17d323d81dd683086d88a9268f8106.png",
+            "traits": [
+              "item.weapon.pulse_rifle",
+              "releases.v730.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2b61e17753a2096718ef427bdf37b16e.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "adjudicator",
+      "name": "Adjudicator",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "140914741",
+      "curatedReferenceId": "adjudicator",
+      "versions": [
+        {
+          "itemHash": "140914741",
+          "name": "Adjudicator",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "submachine-gun",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "dungeon",
+            "name": "\"Prophecy\" Dungeon"
+          },
+          "sourceText": "Source: \"Prophecy\" Dungeon",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.submachinegun",
+              "activities.trials",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f1a53b2ec55fdce10fe64683e1e8854f.jpg"
+        },
+        {
+          "itemHash": "1013434963",
+          "name": "Adjudicator",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "submachine-gun",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "wish",
+          "source": {
+            "category": "dungeon",
+            "name": "prophecy (DIM curated source group)"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6f17d323d81dd683086d88a9268f8106.png",
+            "traits": [
+              "item.weapon.submachinegun",
+              "activities.trials",
+              "releases.v730.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f1a53b2ec55fdce10fe64683e1e8854f.jpg"
+        },
+        {
+          "itemHash": "2094938673",
+          "name": "Adjudicator",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "submachine-gun",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "crucible",
+            "name": "Complete Trials tickets and earn rank-up packages from the Emissary of the Nine."
+          },
+          "sourceText": "Source: Complete Trials tickets and earn rank-up packages from the Emissary of the Nine.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "item.weapon.submachinegun",
+              "activities.trials",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f1a53b2ec55fdce10fe64683e1e8854f.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "admetus-d",
+      "name": "Admetus-D",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "heresy",
+      "currentItemHash": "3156551029",
+      "curatedReferenceId": "admetus-d",
+      "versions": [
+        {
+          "itemHash": "3156551029",
+          "name": "Admetus-D",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "scout-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "world-loot",
+            "name": "legendaryengram (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "foundry.hakke",
+              "item.weapon.scout_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/b1bf80940ecc17bb0c2a2291fc623e7f.jpg"
+        },
+        {
+          "itemHash": "3776430252",
+          "name": "Admetus-D",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "scout-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "world-loot",
+            "name": "Open Legendary engrams and earn faction rank-up packages."
+          },
+          "sourceText": "Source: Open Legendary engrams and earn faction rank-up packages.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "foundry.hakke",
+              "item.weapon.scout_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/b1bf80940ecc17bb0c2a2291fc623e7f.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "adverse-possession-ix",
+      "name": "Adverse Possession IX",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "osiris",
+      "currentItemHash": "1890332078",
+      "curatedReferenceId": "adverse-possession-ix",
+      "versions": [
+        {
+          "itemHash": "1531295694",
+          "name": "Adverse Possession IX",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "scout-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "osiris",
+          "source": {
+            "category": "activity",
+            "name": "Earn rank-up packages from Executor Hideo."
+          },
+          "sourceText": "Source: Earn rank-up packages from Executor Hideo.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7ba9d804508dd083ec20fcdb8ba0869d.png",
+            "traits": [
+              "faction.new_monarchy",
+              "foundry.suros",
+              "item.weapon.scout_rifle",
+              "releases.v310.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5080ca92c2f8428071615af77f665d85.jpg"
+        },
+        {
+          "itemHash": "1890332078",
+          "name": "Adverse Possession IX",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "scout-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "echoes",
+          "source": {
+            "category": "world-loot",
+            "name": "Open Legendary engrams and earn faction rank-up packages."
+          },
+          "sourceText": "Source: Open Legendary engrams and earn faction rank-up packages.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/9bfaa5536772e2f3ef1252813a21c4d1.png",
+            "traits": [
+              "foundry.suros",
+              "item.weapon.scout_rifle",
+              "releases.v800.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/5080ca92c2f8428071615af77f665d85.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "afterlight",
+      "name": "Afterlight",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "heresy",
+      "currentItemHash": "3228630258",
+      "curatedReferenceId": "afterlight",
+      "versions": [
+        {
+          "itemHash": "861521336",
+          "name": "Afterlight (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/28a8844830eff75c1a63296fde213fcd.jpg"
+        },
+        {
+          "itemHash": "1834313033",
+          "name": "Afterlight",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/26c1c4635add47d5bc50424a77257304.jpg"
+        },
+        {
+          "itemHash": "3228630258",
+          "name": "Afterlight",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "seasonal",
+            "name": "Episode: Heresy Activities"
+          },
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/26c1c4635add47d5bc50424a77257304.jpg"
+        },
+        {
+          "itemHash": "3953163559",
+          "name": "Afterlight (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/28a8844830eff75c1a63296fde213fcd.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "agamid",
+      "name": "Agamid",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "warmind",
+      "currentItemHash": "1406475890",
+      "curatedReferenceId": "agamid",
+      "versions": [
+        {
+          "itemHash": "1406475890",
+          "name": "Agamid",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "2757685314",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "warmind",
+          "source": {
+            "category": "activity",
+            "name": "Earn rank-up packages from Arach Jalaal."
+          },
+          "sourceText": "Source: Earn rank-up packages from Arach Jalaal.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/da5f961ef97b78293cc498978c10e178.png",
+            "traits": [
+              "faction.dead_orbit",
+              "item.weapon.hand_cannon",
+              "releases.v320.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/cb8233b08dd0d4f77796140aa9857c42.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "agape",
+      "name": "Agape",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "edge-of-fate",
+      "currentItemHash": "4124362340",
+      "curatedReferenceId": "agape",
+      "versions": [
+        {
+          "itemHash": "4124362340",
+          "name": "Agape",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Heavy Burst",
+          "intrinsicHash": "3923638944",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "edge-of-fate",
+          "source": {
+            "category": "activity",
+            "name": "Exploring Kepler"
+          },
+          "sourceText": "Source: Exploring Kepler",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6129365b4fad6754f2b8c4478fc3c4ac.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v900.dlc"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2fa6f8078f2dd6afa358a6f90791f948.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "age-old-bond",
+      "name": "Age-Old Bond",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "424291879",
+      "curatedReferenceId": "age-old-bond",
+      "versions": [
+        {
+          "itemHash": "424291879",
+          "name": "Age-Old Bond",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "deep",
+          "source": {
+            "category": "raid",
+            "name": "Last Wish"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/ae5c7f708a36f754c2f68c65c88ab9aa.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v710.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/f6bea329c6f50d716e6385d59de7bd4c.jpg"
+        },
+        {
+          "itemHash": "601592879",
+          "name": "Age-Old Bond",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "raid",
+            "name": "Last Wish"
+          },
+          "sourceText": "Source: Last Wish raid.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v400.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/bbcfd3be25a188e62ebc82258ec1009e.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "ammit-ar2",
+      "name": "Ammit AR2",
+      "edition": "destiny2",
+      "aliases": [
+        "Ammit"
+      ],
+      "firstReleaseId": "plunder",
+      "currentItemHash": "2119346509",
+      "curatedReferenceId": "ammit-ar2",
+      "versions": [
+        {
+          "itemHash": "2119346509",
+          "name": "Ammit AR2",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "plunder",
+          "source": {
+            "category": "world-loot",
+            "name": "Open Legendary engrams and earn faction rank-up packages."
+          },
+          "sourceText": "Source: Open Legendary engrams and earn faction rank-up packages.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7d815c943977fe71bbf00caf1bd9c514.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.auto_rifle",
+              "releases.v620.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/6498f5e14ba8fa839f6baebd58dc3e6b.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "apex-predator",
+      "name": "Apex Predator",
+      "edition": "destiny2",
+      "aliases": [
+        "Apex",
+        "Predator"
+      ],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "1851777734",
+      "curatedReferenceId": "apex-predator",
+      "versions": [
+        {
+          "itemHash": "1851777734",
+          "name": "Apex Predator",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "rocket-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "deep",
+          "source": {
+            "category": "raid",
+            "name": "Last Wish"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/ae5c7f708a36f754c2f68c65c88ab9aa.png",
+            "traits": [
+              "item.weapon.rocket_launcher",
+              "releases.v710.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/0819f6c7aa9ab0f5b082eee2a24bfb0d.jpg"
+        },
+        {
+          "itemHash": "2545083870",
+          "name": "Apex Predator",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "rocket-launcher",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "raid",
+            "name": "Last Wish"
+          },
+          "sourceText": "Source: Last Wish raid.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
+            "traits": [
+              "item.weapon.rocket_launcher",
+              "releases.v400.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/74e3e47ee5478055a662bd4083774119.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "bxr-55-battler",
+      "name": "BxR-55 Battler",
+      "edition": "destiny2",
+      "aliases": [
+        "BXR",
+        "BXR-55",
+        "Battler"
+      ],
+      "firstReleaseId": "anniversary",
+      "currentItemHash": "2708806099",
+      "curatedReferenceId": "bxr-55-battler",
+      "versions": [
+        {
+          "itemHash": "2708806099",
+          "name": "BxR-55 Battler",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "pulse-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Legacy PR-55 Frame",
+          "intrinsicHash": "4172222323",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "anniversary",
+          "source": {
+            "category": "activity",
+            "name": "X\u00fbr's Treasure Hoard in Eternity"
+          },
+          "sourceText": "Source: X\u00fbr's Treasure Hoard in Eternity",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/bcc26708e314306fb2fc8cb98fcbf47e.png",
+            "traits": [
+              "item.weapon.pulse_rifle",
+              "releases.v540.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/21d013fcb51cf9347592258ab1bbaf3b.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "cataclysmic",
+      "name": "Cataclysmic",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "witch-queen",
+      "currentItemHash": "999767358",
+      "curatedReferenceId": "cataclysmic",
+      "versions": [
+        {
+          "itemHash": "999767358",
+          "name": "Cataclysmic",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "linear-fusion-rifle",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "2057203855",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "witch-queen",
+          "source": {
+            "category": "raid",
+            "name": "\"Vow of the Disciple\" Raid"
+          },
+          "sourceText": "Source: \"Vow of the Disciple\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
+            "traits": [
+              "item.weapon.linear_fusion_rifle",
+              "releases.v600.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a180748fde0e20e450b841663c388833.jpg"
+        },
+        {
+          "itemHash": "2886339027",
+          "name": "Cataclysmic (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "linear-fusion-rifle",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "2057203855",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: \"Vow of the Disciple\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
+            "traits": [
+              "item.weapon.linear_fusion_rifle",
+              "releases.v600.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/1743ef015a30466edce0d45460127552.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "commemoration",
+      "name": "Commemoration",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "beyond-light",
+      "currentItemHash": "4230965989",
+      "curatedReferenceId": "commemoration",
+      "versions": [
+        {
+          "itemHash": "4230965989",
+          "name": "Commemoration",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "beyond-light",
+          "source": {
+            "category": "raid",
+            "name": "\"Deep Stone Crypt\" Raid"
+          },
+          "sourceText": "Source: \"Deep Stone Crypt\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/bce51cf90464e28026140df77c4eb6ce.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "releases.v500.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/9820c9c3714bdd7f6fb7c2b83143041b.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "deliverance",
+      "name": "Deliverance",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "witch-queen",
+      "currentItemHash": "768621510",
+      "curatedReferenceId": "deliverance",
+      "versions": [
+        {
+          "itemHash": "768621510",
+          "name": "Deliverance",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "witch-queen",
+          "source": {
+            "category": "raid",
+            "name": "\"Vow of the Disciple\" Raid"
+          },
+          "sourceText": "Source: \"Vow of the Disciple\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v600.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/b32b09e7a3e0cf827ca1bea39dc71d05.jpg"
+        },
+        {
+          "itemHash": "2943293195",
+          "name": "Deliverance (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "1636108362",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: \"Vow of the Disciple\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v600.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/541f69a657fedd37c46c2d0661f5cc77.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "final-warning",
+      "name": "Final Warning",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "lightfall",
+      "currentItemHash": "3121540812",
+      "curatedReferenceId": "final-warning",
+      "versions": [
+        {
+          "itemHash": "3121540812",
+          "name": "Final Warning",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "sidearm",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "All at Once",
+          "intrinsicHash": "1903618525",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "lightfall",
+          "source": {
+            "category": "quest",
+            "name": "\"The Final Strand\" Exotic Quest"
+          },
+          "sourceText": "Source: \"The Final Strand\" Exotic Quest",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
+            "traits": [
+              "item.weapon.sidearm",
+              "item.weapon.exotic",
+              "releases.v700.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/e8030d75835eaf1c9014f2d63338d518.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "funnelweb",
+      "name": "Funnelweb",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "witch-queen",
+      "currentItemHash": "3341893443",
+      "curatedReferenceId": "funnelweb",
+      "versions": [
+        {
+          "itemHash": "3341893443",
+          "name": "Funnelweb",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "submachine-gun",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Lightweight Frame",
+          "intrinsicHash": "1458010786",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "witch-queen",
+          "source": {
+            "category": "world-loot",
+            "name": "Open Legendary engrams and earn faction rank-up packages."
+          },
+          "sourceText": "Source: Open Legendary engrams and earn faction rank-up packages.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
+            "traits": [
+              "foundry.veist",
+              "item.weapon.submachinegun",
+              "releases.v600.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/d936e6dd748647d394afd71110f48b21.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "gnawing-hunger",
+      "name": "Gnawing Hunger",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "drifter",
+      "currentItemHash": "214545213",
+      "curatedReferenceId": "gnawing-hunger",
+      "versions": [
+        {
+          "itemHash": "214545213",
+          "name": "Gnawing Hunger",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "gambit",
+            "name": "Gambit"
+          },
+          "sourceText": "Gambit",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/115c37f514ec6e4291f57bc4123b80a9.jpg"
+        },
+        {
+          "itemHash": "821154603",
+          "name": "Gnawing Hunger",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "drifter",
+          "source": {
+            "category": "gambit",
+            "name": "Complete Gambit Prime matches and increase your rank."
+          },
+          "sourceText": "Source: Complete Gambit Prime matches and increase your rank.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/2c022e452f395db7b1daec1cb44631fc.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v420.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/115c37f514ec6e4291f57bc4123b80a9.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "hard-light",
+      "name": "Hard Light",
+      "edition": "destiny2",
+      "aliases": [
+        "Hardlight"
+      ],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "4124984448",
+      "curatedReferenceId": "hard-light",
+      "versions": [
+        {
+          "itemHash": "4124984448",
+          "name": "Hard Light",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "auto-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc",
+            "solar",
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Volatile Light",
+          "intrinsicHash": "3610814281",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "world-loot",
+            "name": "Exotic engrams; extremely rare world drops."
+          },
+          "sourceText": "Source: Exotic engrams; extremely rare world drops.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "foundry.omolon",
+              "item.weapon.auto_rifle",
+              "item.weapon.exotic",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/94e6e474b4488d5a198b5dcbad534c3e.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "beyond-light",
+      "currentItemHash": "4248569242",
+      "curatedReferenceId": "heritage",
+      "versions": [
+        {
+          "itemHash": "4248569242",
+          "name": "Heritage",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Pinpoint Slug Frame",
+          "intrinsicHash": "918679156",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "beyond-light",
+          "source": {
+            "category": "raid",
+            "name": "\"Deep Stone Crypt\" Raid"
+          },
+          "sourceText": "Source: \"Deep Stone Crypt\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/bce51cf90464e28026140df77c4eb6ce.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v500.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/07619f9f7115a2295c080f08179deb98.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "leviathans-breath",
+      "name": "Leviathan's Breath",
+      "edition": "destiny2",
+      "aliases": [
+        "Leviathan's Breath",
+        "Leviathans Breath"
+      ],
+      "firstReleaseId": "undying",
+      "currentItemHash": "2591746970",
+      "curatedReferenceId": "leviathans-breath",
+      "versions": [
+        {
+          "itemHash": "2591746970",
+          "name": "Leviathan's Breath",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "combat-bow",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Big-Game Hunter",
+          "intrinsicHash": "1699724249",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "item-definition"
+          },
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "undying",
+          "source": {
+            "category": "quest",
+            "name": "Make Bows, Not War"
+          },
+          "sourceText": "Source: Exotic Archive at the Tower",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0b212b58a961f150708bca95095e0ecb.png",
+            "traits": [
+              "item.weapon.bow",
+              "item.weapon.exotic",
+              "releases.v460.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/fd892bb713040300ad944590892b0e50.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "riptide",
+      "name": "Riptide",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "haunted",
+      "currentItemHash": "2297554989",
+      "curatedReferenceId": "riptide",
+      "versions": [
+        {
+          "itemHash": "1323862250",
+          "name": "Riptide",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a1af4517596c2722904a3bccf6251de2.jpg"
+        },
+        {
+          "itemHash": "2297554989",
+          "name": "Riptide",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": {
+            "category": "crucible",
+            "name": "crucible (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a1af4517596c2722904a3bccf6251de2.jpg"
+        },
+        {
+          "itemHash": "2715240478",
+          "name": "Riptide",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "fusion-rifle",
+          "slot": "kinetic",
+          "ammoType": "special",
+          "damageTypes": [
+            "stasis"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "878286503",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "haunted",
+          "source": {
+            "category": "crucible",
+            "name": "Purchase from Lord Shaxx"
+          },
+          "sourceText": "Source: Purchase from Lord Shaxx",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/75adde12e4e9c9fb237e492d8258eb73.png",
+            "traits": [
+              "item.weapon.fusion_rifle",
+              "releases.v610.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/3c11c148d24883cd480fd67f50bb78b2.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "taipan-4fr",
+      "name": "Taipan-4fr",
+      "edition": "destiny2",
+      "aliases": [
+        "Taipan"
+      ],
+      "firstReleaseId": "plunder",
+      "currentItemHash": "1911060537",
+      "curatedReferenceId": "taipan-4fr",
+      "versions": [
+        {
+          "itemHash": "1911060537",
+          "name": "Taipan-4fr",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "linear-fusion-rifle",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Precision Frame",
+          "intrinsicHash": "2057203855",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "plunder",
+          "source": {
+            "category": "world-loot",
+            "name": "Open Legendary engrams and earn faction rank-up packages."
+          },
+          "sourceText": "Source: Open Legendary engrams and earn faction rank-up packages.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7d815c943977fe71bbf00caf1bd9c514.png",
+            "traits": [
+              "foundry.veist",
+              "item.weapon.linear_fusion_rifle",
+              "releases.v620.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/70bea113574eff7b0211a4f28f54b7a3.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "the-palindrome",
+      "name": "The Palindrome",
+      "edition": "destiny2",
+      "aliases": [
+        "Palindrome"
+      ],
+      "firstReleaseId": "chosen",
+      "currentItemHash": "739029152",
+      "curatedReferenceId": "the-palindrome",
+      "versions": [
+        {
+          "itemHash": "432476743",
+          "name": "The Palindrome",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "chosen",
+          "source": {
+            "category": "nightfall",
+            "name": "Nightfall"
+          },
+          "sourceText": "Source: Nightfall",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7b48b09fbb50634680168d5880b16bc9.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v510.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/dfc092e7b3a9927e2250cfd43177ef0a.jpg"
+        },
+        {
+          "itemHash": "739029152",
+          "name": "The Palindrome",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "nightfall",
+            "name": "nightfall (DIM curated source group)"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/dfc092e7b3a9927e2250cfd43177ef0a.jpg"
+        },
+        {
+          "itemHash": "1481892490",
+          "name": "The Palindrome (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Season of the Chosen Nightfall Grandmaster",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/7b48b09fbb50634680168d5880b16bc9.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v510.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/78ae6b265b88372efa8d30f8a037e4c5.jpg"
+        },
+        {
+          "itemHash": "2876244791",
+          "name": "The Palindrome",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "nightfall",
+            "name": "Nightfall"
+          },
+          "sourceText": "Source: Nightfall",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/dfc092e7b3a9927e2250cfd43177ef0a.jpg"
+        },
+        {
+          "itemHash": "3303271523",
+          "name": "The Palindrome",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/dfc092e7b3a9927e2250cfd43177ef0a.jpg"
+        },
+        {
+          "itemHash": "4077588826",
+          "name": "The Palindrome (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "hand-cannon",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Grandmaster Nightfall",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.hand_cannon",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/be35ab535cfeb7065682cc17545abfdd.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "thunderlord",
+      "name": "Thunderlord",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "3325463374",
+      "curatedReferenceId": "thunderlord",
+      "versions": [
+        {
+          "itemHash": "3325463374",
+          "name": "Thunderlord",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "machine-gun",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Reign Havoc",
+          "intrinsicHash": "4148158229",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "item-definition"
+          },
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "event",
+            "name": "Festival of the Lost 2018 / Exotic quest"
+          },
+          "sourceText": "Source: Exotic engrams; extremely rare world drops.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
+            "traits": [
+              "item.weapon.machinegun",
+              "item.weapon.exotic",
+              "releases.v400.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/4a08027f7b5752f84d183ecc61682c3e.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "trustee",
+      "name": "Trustee",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "beyond-light",
+      "currentItemHash": "1392919471",
+      "curatedReferenceId": "trustee",
+      "versions": [
+        {
+          "itemHash": "1392919471",
+          "name": "Trustee",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "scout-rifle",
+          "slot": "energy",
+          "ammoType": "primary",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Rapid-Fire Frame",
+          "intrinsicHash": "3920852688",
+          "championSuggestion": {
+            "counters": [
+              "overload"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "beyond-light",
+          "source": {
+            "category": "raid",
+            "name": "\"Deep Stone Crypt\" Raid"
+          },
+          "sourceText": "Source: \"Deep Stone Crypt\" Raid",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/bce51cf90464e28026140df77c4eb6ce.png",
+            "traits": [
+              "item.weapon.scout_rifle",
+              "releases.v500.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/575aa36e701cfc4fe4e62a83f423ae97.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "wish-ender",
+      "name": "Wish-Ender",
+      "edition": "destiny2",
+      "aliases": [
+        "Wish Ender",
+        "Wishender"
+      ],
+      "firstReleaseId": "forsaken",
+      "currentItemHash": "814876684",
+      "curatedReferenceId": "wish-ender",
+      "versions": [
+        {
+          "itemHash": "814876684",
+          "name": "Wish-Ender",
+          "variant": "standard",
+          "rarity": "exotic",
+          "weaponType": "combat-bow",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "kinetic"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Queen's Wrath",
+          "intrinsicHash": "1470121888",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "item-definition"
+          },
+          "champion": {
+            "basis": "exotic-intrinsic",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "forsaken",
+          "source": {
+            "category": "dungeon",
+            "name": "The Shattered Throne / Hunter\u2019s Remembrance"
+          },
+          "sourceText": "Source: An Exotic quest or challenge.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
+            "traits": [
+              "item.weapon.bow",
+              "item.weapon.exotic",
+              "releases.v400.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/8e5d7a68305a0d1e53ccade9398c7e8b.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-good-shout",
+      "name": "A Good Shout",
+      "edition": "destiny2",
+      "aliases": [
+        "Shout"
+      ],
+      "firstReleaseId": "renegades",
+      "currentItemHash": "3615748501",
+      "curatedReferenceId": null,
+      "versions": [
+        {
+          "itemHash": "649691506",
+          "name": "A Good Shout",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "combat-bow",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "item.weapon.bow",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/ea7f15145c9e21ca9352deca0d5233c9.jpg"
+        },
+        {
+          "itemHash": "3615748501",
+          "name": "A Good Shout",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "combat-bow",
+          "slot": "power",
+          "ammoType": "heavy",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "High-Impact Frame",
+          "intrinsicHash": "1019291327",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "renegades",
+          "source": {
+            "category": "activity",
+            "name": "Zavala weapon set"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+            "traits": [
+              "item.weapon.bow",
+              "releases.v950.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/ea7f15145c9e21ca9352deca0d5233c9.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "a-sudden-death",
+      "name": "A Sudden Death",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "red-war",
+      "currentItemHash": "2489016648",
+      "curatedReferenceId": null,
+      "versions": [
+        {
+          "itemHash": "1626437786",
+          "name": "A Sudden Death (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Rite of the Nine",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/719c9124945cb044f63666fd54771439.jpg"
+        },
+        {
+          "itemHash": "1879212552",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "solar"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3468089894",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "red-war",
+          "source": {
+            "category": "crucible",
+            "name": "Complete Trials tickets and earn rank-up packages from the Emissary of the Nine."
+          },
+          "sourceText": "Source: Complete Trials tickets and earn rank-up packages from the Emissary of the Nine.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "activities.trials",
+              "releases.v300.annual"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/c41b9fe80c157e104c32cfbfbb90a7b5.jpg"
+        },
+        {
+          "itemHash": "1904170910",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2a2f82deba9d0290e7add267c776b941.jpg"
+        },
+        {
+          "itemHash": "1976481399",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "activity",
+            "name": "Rite of the Nine"
+          },
+          "sourceText": "Source: Rite of the Nine",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/d1b2529d34bb9d395fe22e9dc263878e.jpg"
+        },
+        {
+          "itemHash": "2489016648",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "dungeon",
+            "name": "Prophecy"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a9b9a907af76e7b4c62433838a83afa7.jpg"
+        },
+        {
+          "itemHash": "2764074355",
+          "name": "A Sudden Death (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/2a2f82deba9d0290e7add267c776b941.jpg"
+        },
+        {
+          "itemHash": "2855157553",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "lost",
+          "source": {
+            "category": "dungeon",
+            "name": "\"Prophecy\" Dungeon"
+          },
+          "sourceText": "Source: \"Prophecy\" Dungeon",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/914322d11262322c839a5388db2a4943.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v530.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/c41b9fe80c157e104c32cfbfbb90a7b5.jpg"
+        },
+        {
+          "itemHash": "4097972038",
+          "name": "A Sudden Death",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "shotgun",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "void"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Aggressive Frame",
+          "intrinsicHash": "3983457027",
+          "championSuggestion": {
+            "counters": [
+              "unstoppable"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "unstoppable"
+            ]
+          },
+          "releaseId": "wish",
+          "source": {
+            "category": "dungeon",
+            "name": "prophecy (DIM curated source group)"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/6f17d323d81dd683086d88a9268f8106.png",
+            "traits": [
+              "item.weapon.shotgun",
+              "releases.v730.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/a9b9a907af76e7b4c62433838a83afa7.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "adamantite",
+      "name": "Adamantite",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "heresy",
+      "currentItemHash": "621450049",
+      "curatedReferenceId": null,
+      "versions": [
+        {
+          "itemHash": "601574723",
+          "name": "Adamantite (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Support Frame",
+          "intrinsicHash": "3488129416",
+          "championSuggestion": null,
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/d50d930d81b5c214fb8220b228ea67b7.jpg"
+        },
+        {
+          "itemHash": "621450049",
+          "name": "Adamantite",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Support Frame",
+          "intrinsicHash": "3488129416",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "dungeon",
+            "name": "Pit of Heresy"
+          },
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/1986d831face6f7a188204509383574f.jpg"
+        },
+        {
+          "itemHash": "2987244302",
+          "name": "Adamantite",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Support Frame",
+          "intrinsicHash": "3488129416",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/1986d831face6f7a188204509383574f.jpg"
+        },
+        {
+          "itemHash": "3229982889",
+          "name": "Adamantite",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Support Frame",
+          "intrinsicHash": "3488129416",
+          "championSuggestion": null,
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "overload"
+            ]
+          },
+          "releaseId": "heresy",
+          "source": {
+            "category": "seasonal",
+            "name": "Episode: Heresy Activities"
+          },
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/1986d831face6f7a188204509383574f.jpg"
+        },
+        {
+          "itemHash": "3485029080",
+          "name": "Adamantite (Adept)",
+          "variant": "adept",
+          "rarity": "legendary",
+          "weaponType": "auto-rifle",
+          "slot": "kinetic",
+          "ammoType": "primary",
+          "damageTypes": [
+            "strand"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Support Frame",
+          "intrinsicHash": "3488129416",
+          "championSuggestion": null,
+          "champion": null,
+          "releaseId": null,
+          "source": null,
+          "sourceText": "Source: Episode: Heresy Activities",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
+            "traits": [
+              "item.weapon.auto_rifle",
+              "releases.v820.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/d50d930d81b5c214fb8220b228ea67b7.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "adored",
+      "name": "Adored",
+      "edition": "destiny2",
+      "aliases": [],
+      "firstReleaseId": "beyond-light",
+      "currentItemHash": "1405095983",
+      "curatedReferenceId": null,
+      "versions": [
+        {
+          "itemHash": "891765152",
+          "name": "Adored",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": null,
+          "sourceText": null,
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/320ea9ac0e54173a0aa4f120dedd79c3.jpg"
+        },
+        {
+          "itemHash": "1405095983",
+          "name": "Adored",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "monument",
+          "source": {
+            "category": "activity",
+            "name": "Pinnacle Ops"
+          },
+          "sourceText": "Random Perks: This item cannot be reacquired from Collections.",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v970.core"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/320ea9ac0e54173a0aa4f120dedd79c3.jpg"
+        },
+        {
+          "itemHash": "4184808992",
+          "name": "Adored",
+          "variant": "standard",
+          "rarity": "legendary",
+          "weaponType": "sniper-rifle",
+          "slot": "energy",
+          "ammoType": "special",
+          "damageTypes": [
+            "arc"
+          ],
+          "damageReviewRequired": false,
+          "frame": "Adaptive Frame",
+          "intrinsicHash": "1294026524",
+          "championSuggestion": {
+            "counters": [
+              "barrier"
+            ],
+            "basis": "frame-rule"
+          },
+          "champion": {
+            "basis": "frame",
+            "counters": [
+              "barrier"
+            ]
+          },
+          "releaseId": "beyond-light",
+          "source": {
+            "category": "quest",
+            "name": "\"Forging Your Own Path\" Quest"
+          },
+          "sourceText": "Source: \"Forging Your Own Path\" Quest",
+          "releaseEvidence": {
+            "watermark": "/common/destiny2_content/icons/a5e27dc822aa72787f388bd1fc115803.png",
+            "traits": [
+              "item.weapon.sniper_rifle",
+              "releases.v500.season"
+            ]
+          },
+          "iconUrl": "https://www.bungie.net/common/destiny2_content/icons/320ea9ac0e54173a0aa4f120dedd79c3.jpg"
+        }
+      ],
+      "review": [],
+      "status": "reviewed"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import weaponData from './weapons.json'
 import releaseData from './releases.json'
+import { weaponReadinessIssues } from '../weapon-readiness'
 import type { Release, Weapon, WeaponVersion } from '../../types/weapon'
 
 // JSON shape and cross-references are checked by npm run data:check.
@@ -12,7 +13,7 @@ export function getCurrentVersion(weapon: Weapon): WeaponVersion {
   return version
 }
 
-// Incomplete research entries stay available for editing, but not for guessing.
+// Ready entries are valid guesses; the game separately excludes unreleased answers.
 export const playableWeapons = weapons.filter(
-  (weapon) => getCurrentVersion(weapon).champion.counters !== null,
+  (weapon) => weaponReadinessIssues(weapon, releases).length === 0,
 )

@@ -1,0 +1,2076 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "method": "Read the explicit Shield Piercing, Disruption or Stagger property on the Light.gg page for the exact selected item hash. Missing text remains unverified; absence is never interpreted as no counter.",
+  "checks": [
+    {
+      "id": "alethonym",
+      "name": "Alethonym",
+      "itemHash": "2350354266",
+      "intrinsicHash": "470163129",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2350354266/alethonym/?_=372",
+      "introducedSeason": 25
+    },
+    {
+      "id": "anarchy",
+      "name": "Anarchy",
+      "itemHash": "2376481550",
+      "intrinsicHash": "389268985",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2376481550/anarchy/?_=278",
+      "introducedSeason": 5
+    },
+    {
+      "id": "arbalest",
+      "name": "Arbalest",
+      "itemHash": "2130065553",
+      "intrinsicHash": "2564164194",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2130065553/arbalest/?_=809",
+      "introducedSeason": 6
+    },
+    {
+      "id": "arcane-embrace",
+      "name": "Arcane Embrace",
+      "itemHash": "1813474267",
+      "intrinsicHash": "3923638944",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1813474267/arcane-embrace/?_=742",
+      "introducedSeason": 27
+    },
+    {
+      "id": "bad-juju",
+      "name": "Bad Juju",
+      "itemHash": "2816212794",
+      "intrinsicHash": "4004944400",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "barrow-dyad",
+      "name": "Barrow-Dyad",
+      "itemHash": "1481594633",
+      "intrinsicHash": "4127881474",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1481594633/barrow-dyad/?_=975",
+      "introducedSeason": 26
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "itemHash": "2415517654",
+      "intrinsicHash": "1186480754",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2415517654/bastion/?_=162",
+      "introducedSeason": 9
+    },
+    {
+      "id": "black-talon",
+      "name": "Black Talon",
+      "itemHash": "3766045777",
+      "intrinsicHash": "4072668471",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3766045777/black-talon/?_=193",
+      "introducedSeason": 4
+    },
+    {
+      "id": "borealis",
+      "name": "Borealis",
+      "itemHash": "3141979347",
+      "intrinsicHash": "3081173348",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "brass-attacks",
+      "name": "Brass Attacks",
+      "itemHash": "1291040554",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1291040554/brass-attacks/?_=598",
+      "introducedSeason": 29
+    },
+    {
+      "id": "breachlight",
+      "name": "Breachlight",
+      "itemHash": "2328923181",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2328923181/breachlight/?_=667",
+      "introducedSeason": 24
+    },
+    {
+      "id": "buried-bloodline",
+      "name": "Buried Bloodline",
+      "itemHash": "3886719505",
+      "intrinsicHash": "90392189",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3886719505/buried-bloodline/?_=683",
+      "introducedSeason": 23
+    },
+    {
+      "id": "calus-mini-tool",
+      "name": "CALUS Mini-Tool",
+      "itemHash": "2490988246",
+      "intrinsicHash": "2213377102",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2490988246/calus-mini-tool/?_=718",
+      "introducedSeason": 17
+    },
+    {
+      "id": "centrifuse",
+      "name": "Centrifuse",
+      "itemHash": "1912669214",
+      "intrinsicHash": "1385166695",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1912669214/centrifuse/?_=763",
+      "introducedSeason": null
+    },
+    {
+      "id": "cerberus-1",
+      "name": "Cerberus+1",
+      "itemHash": "1541131350",
+      "intrinsicHash": "3208839961",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1541131350/cerberus1/?_=547",
+      "introducedSeason": null
+    },
+    {
+      "id": "choir-of-one",
+      "name": "Choir of One",
+      "itemHash": "3698448090",
+      "intrinsicHash": "2976676960",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3698448090/choir-of-one/?_=831",
+      "introducedSeason": 24
+    },
+    {
+      "id": "cloudstrike",
+      "name": "Cloudstrike",
+      "itemHash": "2603483885",
+      "intrinsicHash": "2909403175",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2603483885/cloudstrike/?_=358",
+      "introducedSeason": 12
+    },
+    {
+      "id": "coldheart",
+      "name": "Coldheart",
+      "itemHash": "1345867571",
+      "intrinsicHash": "1036269296",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1345867571/coldheart/?_=947",
+      "introducedSeason": 1
+    },
+    {
+      "id": "collective-obligation",
+      "name": "Collective Obligation",
+      "itemHash": "3505113722",
+      "intrinsicHash": "3441203855",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3505113722/collective-obligation/?_=411",
+      "introducedSeason": 16
+    },
+    {
+      "id": "conditional-finality",
+      "name": "Conditional Finality",
+      "itemHash": "3371017761",
+      "intrinsicHash": "3787406018",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3371017761/conditional-finality/?_=503",
+      "introducedSeason": 20
+    },
+    {
+      "id": "crimson",
+      "name": "Crimson",
+      "itemHash": "3437746471",
+      "intrinsicHash": "1030990989",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3437746471/crimson/?_=271",
+      "introducedSeason": 2
+    },
+    {
+      "id": "cryosthesia-77k",
+      "name": "Cryosthesia 77K",
+      "itemHash": "603721696",
+      "intrinsicHash": "986191425",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/603721696/cryosthesia-77k/?_=691",
+      "introducedSeason": 14
+    },
+    {
+      "id": "cull-s-shadow",
+      "name": "Cull's Shadow",
+      "itemHash": "2200470033",
+      "intrinsicHash": "136208450",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2200470033/culls-shadow/?_=27",
+      "introducedSeason": 29
+    },
+    {
+      "id": "d-a-r-c-i",
+      "name": "D.A.R.C.I.",
+      "itemHash": "3141979346",
+      "intrinsicHash": "938999636",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3141979346/darci/?_=980",
+      "introducedSeason": 1
+    },
+    {
+      "id": "dead-man-s-tale",
+      "name": "Dead Man's Tale",
+      "itemHash": "2188764214",
+      "intrinsicHash": "1319823571",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2188764214/dead-mans-tale/?_=887",
+      "introducedSeason": 22
+    },
+    {
+      "id": "dead-messenger",
+      "name": "Dead Messenger",
+      "itemHash": "46125926",
+      "intrinsicHash": "2733244971",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/46125926/dead-messenger/?_=333",
+      "introducedSeason": 22
+    },
+    {
+      "id": "death-by-scorn",
+      "name": "Death by Scorn",
+      "itemHash": "3334276333",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "itemHash": "2232171099",
+      "intrinsicHash": "411799453",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2232171099/deathbringer/?_=370",
+      "introducedSeason": 8
+    },
+    {
+      "id": "delicate-tomb",
+      "name": "Delicate Tomb",
+      "itemHash": "374573733",
+      "intrinsicHash": "2585427437",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/374573733/delicate-tomb/?_=615",
+      "introducedSeason": 18
+    },
+    {
+      "id": "deterministic-chaos",
+      "name": "Deterministic Chaos",
+      "itemHash": "449318888",
+      "intrinsicHash": "1468523096",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/449318888/deterministic-chaos/?_=781",
+      "introducedSeason": 20
+    },
+    {
+      "id": "devil-s-ruin",
+      "name": "Devil's Ruin",
+      "itemHash": "3824106094",
+      "intrinsicHash": "334466122",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3824106094/devils-ruin/?_=719",
+      "introducedSeason": 9
+    },
+    {
+      "id": "divinity",
+      "name": "Divinity",
+      "itemHash": "4103414242",
+      "intrinsicHash": "1797707170",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4103414242/divinity/?_=660",
+      "introducedSeason": 8
+    },
+    {
+      "id": "division",
+      "name": "Division",
+      "itemHash": "2903168058",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2903168058/division/?_=305",
+      "introducedSeason": 26
+    },
+    {
+      "id": "dragon-s-breath",
+      "name": "Dragon's Breath",
+      "itemHash": "17096506",
+      "intrinsicHash": "2440389870",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/17096506/dragons-breath/?_=318",
+      "introducedSeason": 23
+    },
+    {
+      "id": "drang",
+      "name": "Drang",
+      "itemHash": "358190158",
+      "intrinsicHash": "1282254042",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/358190158/drang/?_=351",
+      "introducedSeason": 27
+    },
+    {
+      "id": "drang-baroque",
+      "name": "Drang (Baroque)",
+      "itemHash": "502356570",
+      "intrinsicHash": "1282254042",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/502356570/drang-baroque/",
+      "introducedSeason": 17
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "itemHash": "3460576091",
+      "intrinsicHash": "536517534",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3460576091/duality/?_=559",
+      "introducedSeason": 12
+    },
+    {
+      "id": "edge-of-action",
+      "name": "Edge of Action",
+      "itemHash": "2535142413",
+      "intrinsicHash": "1900919151",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2535142413/edge-of-action/?_=718",
+      "introducedSeason": 16
+    },
+    {
+      "id": "edge-of-concurrence",
+      "name": "Edge of Concurrence",
+      "itemHash": "542203595",
+      "intrinsicHash": "3551884421",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/542203595/edge-of-concurrence/?_=999",
+      "introducedSeason": 16
+    },
+    {
+      "id": "edge-of-intent",
+      "name": "Edge of Intent",
+      "itemHash": "14194600",
+      "intrinsicHash": "3024740338",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/14194600/edge-of-intent/?_=509",
+      "introducedSeason": 16
+    },
+    {
+      "id": "empirical-evidence",
+      "name": "Empirical Evidence",
+      "itemHash": "2607304614",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2607304614/empirical-evidence/?_=216",
+      "introducedSeason": 16
+    },
+    {
+      "id": "ergo-sum",
+      "name": "Ergo Sum",
+      "itemHash": "1681583613",
+      "intrinsicHash": "3551049142",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": 24
+    },
+    {
+      "id": "eriana-s-vow",
+      "name": "Eriana's Vow",
+      "itemHash": "3524313097",
+      "intrinsicHash": "3174300811",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3524313097/erianas-vow/?_=22",
+      "introducedSeason": 8
+    },
+    {
+      "id": "etana-si4",
+      "name": "Etana SI4",
+      "itemHash": "1533499361",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1533499361/etana-si4/",
+      "introducedSeason": 1
+    },
+    {
+      "id": "eulogy-si4",
+      "name": "Eulogy SI4",
+      "itemHash": "2812672357",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2812672357/eulogy-si4/?_=284",
+      "introducedSeason": 2
+    },
+    {
+      "id": "euphony",
+      "name": "Euphony",
+      "itemHash": "3284383335",
+      "intrinsicHash": "3894668351",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3284383335/euphony/",
+      "introducedSeason": 24
+    },
+    {
+      "id": "evening-si4",
+      "name": "Evening SI4",
+      "itemHash": "1763361847",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1763361847/evening-si4/?_=372",
+      "introducedSeason": 28
+    },
+    {
+      "id": "ex-diris",
+      "name": "Ex Diris",
+      "itemHash": "3821409356",
+      "intrinsicHash": "3183537623",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3821409356/ex-diris/?_=935",
+      "introducedSeason": 22
+    },
+    {
+      "id": "eyes-of-tomorrow",
+      "name": "Eyes of Tomorrow",
+      "itemHash": "2399110176",
+      "intrinsicHash": "2200569208",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2399110176/eyes-of-tomorrow/?_=515",
+      "introducedSeason": 12
+    },
+    {
+      "id": "fafnir",
+      "name": "Fafnir",
+      "itemHash": "2197778303",
+      "intrinsicHash": "640169129",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2197778303/fafnir/?_=772",
+      "introducedSeason": 29
+    },
+    {
+      "id": "felwinter-s-lie",
+      "name": "Felwinter's Lie",
+      "itemHash": "218787950",
+      "intrinsicHash": "3054949324",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/218787950/felwinters-lie/?_=612",
+      "introducedSeason": 29
+    },
+    {
+      "id": "fighting-lion",
+      "name": "Fighting Lion",
+      "itemHash": "3549153978",
+      "intrinsicHash": "425960662",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3549153978/fighting-lion/?_=92",
+      "introducedSeason": 1
+    },
+    {
+      "id": "finality-s-auger",
+      "name": "Finality's Auger",
+      "itemHash": "331231237",
+      "intrinsicHash": "626115084",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/331231237/finalitys-auger/?_=592",
+      "introducedSeason": 26
+    },
+    {
+      "id": "forerunner",
+      "name": "Forerunner",
+      "itemHash": "2179048386",
+      "intrinsicHash": "2984682260",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2179048386/forerunner/?_=371",
+      "introducedSeason": 15
+    },
+    {
+      "id": "forgiveness",
+      "name": "Forgiveness",
+      "itemHash": "1552443158",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1552443158/forgiveness/?_=765",
+      "introducedSeason": 27
+    },
+    {
+      "id": "gjallarhorn",
+      "name": "Gjallarhorn",
+      "itemHash": "1363886209",
+      "intrinsicHash": "2962361451",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "grand-overture",
+      "name": "Grand Overture",
+      "itemHash": "1763584999",
+      "intrinsicHash": "2940035732",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1763584999/grand-overture/?_=585",
+      "introducedSeason": null
+    },
+    {
+      "id": "graviton-lance",
+      "name": "Graviton Lance",
+      "itemHash": "3628991658",
+      "intrinsicHash": "3905543891",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3628991658/graviton-lance/?_=464",
+      "introducedSeason": 1
+    },
+    {
+      "id": "graviton-spike",
+      "name": "Graviton Spike",
+      "itemHash": "648595258",
+      "intrinsicHash": "360865966",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/648595258/graviton-spike/?_=704",
+      "introducedSeason": 27
+    },
+    {
+      "id": "hawkmoon",
+      "name": "Hawkmoon",
+      "itemHash": "3856705927",
+      "intrinsicHash": "213689231",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3856705927/hawkmoon/?_=149",
+      "introducedSeason": 12
+    },
+    {
+      "id": "heartshadow",
+      "name": "Heartshadow",
+      "itemHash": "3664831848",
+      "intrinsicHash": "1100877327",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3664831848/heartshadow/?_=883",
+      "introducedSeason": 17
+    },
+    {
+      "id": "heir-apparent",
+      "name": "Heir Apparent",
+      "itemHash": "2084878005",
+      "intrinsicHash": "2608508147",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2084878005/heir-apparent/?_=12",
+      "introducedSeason": 10
+    },
+    {
+      "id": "heirloom",
+      "name": "Heirloom",
+      "itemHash": "1685137410",
+      "intrinsicHash": "1258693557",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1685137410/heirloom/?_=728",
+      "introducedSeason": 28
+    },
+    {
+      "id": "hierarchy-of-needs",
+      "name": "Hierarchy of Needs",
+      "itemHash": "4174431791",
+      "intrinsicHash": "2226793914",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4174431791/hierarchy-of-needs/?_=784",
+      "introducedSeason": 19
+    },
+    {
+      "id": "ice-breaker",
+      "name": "Ice Breaker",
+      "itemHash": "1111334348",
+      "intrinsicHash": "744619683",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1111334348/ice-breaker/?_=275",
+      "introducedSeason": 25
+    },
+    {
+      "id": "izanagi-s-burden",
+      "name": "Izanagi's Burden",
+      "itemHash": "3211806999",
+      "intrinsicHash": "1070100196",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3211806999/izanagis-burden/?_=29",
+      "introducedSeason": 5
+    },
+    {
+      "id": "j-tunn",
+      "name": "Jötunn",
+      "itemHash": "417164956",
+      "intrinsicHash": "1656957541",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/417164956/j%C3%B6tunn/?_=147",
+      "introducedSeason": 5
+    },
+    {
+      "id": "khvostov-7g-0x",
+      "name": "Khvostov 7G-0X",
+      "itemHash": "4129629253",
+      "intrinsicHash": "34498892",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4129629253/khvostov-7g-0x/?_=638",
+      "introducedSeason": 24
+    },
+    {
+      "id": "last-hope",
+      "name": "Last Hope",
+      "itemHash": "3622137132",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3622137132/last-hope/?_=124",
+      "introducedSeason": 9
+    },
+    {
+      "id": "last-of-the-legion",
+      "name": "Last of the Legion",
+      "itemHash": "2084611899",
+      "intrinsicHash": "3449390870",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2084611899/last-of-the-legion/",
+      "introducedSeason": null
+    },
+    {
+      "id": "le-monarque",
+      "name": "Le Monarque",
+      "itemHash": "3588934839",
+      "intrinsicHash": "2186532310",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/fr/items/3588934839/le-monarque/?_=389",
+      "introducedSeason": 5
+    },
+    {
+      "id": "legend-of-acrius",
+      "name": "Legend of Acrius",
+      "itemHash": "3580904580",
+      "intrinsicHash": "372430833",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3580904580/legend-of-acrius/?_=645",
+      "introducedSeason": 1
+    },
+    {
+      "id": "liminal-vigil",
+      "name": "Liminal Vigil",
+      "itemHash": "355893876",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/355893876/liminal-vigil/?_=814",
+      "introducedSeason": 29
+    },
+    {
+      "id": "lodestar",
+      "name": "Lodestar",
+      "itemHash": "3725585710",
+      "intrinsicHash": "3505000148",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3725585710/lodestar/?_=857",
+      "introducedSeason": 26
+    },
+    {
+      "id": "lord-of-wolves",
+      "name": "Lord of Wolves",
+      "itemHash": "3413860063",
+      "intrinsicHash": "481338655",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3413860063/lord-of-wolves/?_=937",
+      "introducedSeason": 4
+    },
+    {
+      "id": "lorentz-driver",
+      "name": "Lorentz Driver",
+      "itemHash": "3761898871",
+      "intrinsicHash": "2881100038",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3761898871/lorentz-driver/?_=637",
+      "introducedSeason": null
+    },
+    {
+      "id": "lumina",
+      "name": "Lumina",
+      "itemHash": "3512014804",
+      "intrinsicHash": "2144092201",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3512014804/lumina/?_=261",
+      "introducedSeason": 7
+    },
+    {
+      "id": "malfeasance",
+      "name": "Malfeasance",
+      "itemHash": "204878059",
+      "intrinsicHash": "1791592647",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/204878059/malfeasance/?_=838",
+      "introducedSeason": 4
+    },
+    {
+      "id": "merciless",
+      "name": "Merciless",
+      "itemHash": "4190156464",
+      "intrinsicHash": "656200654",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4190156464/merciless/?_=256",
+      "introducedSeason": 1
+    },
+    {
+      "id": "microcosm",
+      "name": "Microcosm",
+      "itemHash": "4207066264",
+      "intrinsicHash": "2767894946",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4207066264/microcosm/?_=431",
+      "introducedSeason": 24
+    },
+    {
+      "id": "mida-macro-tool",
+      "name": "MIDA Macro-Tool",
+      "itemHash": "2699423382",
+      "intrinsicHash": "1888623310",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2699423382/mida-macro-tool/",
+      "introducedSeason": 27
+    },
+    {
+      "id": "mida-mini-tool",
+      "name": "MIDA Mini-Tool",
+      "itemHash": "3946054154",
+      "intrinsicHash": "2213377102",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3946054154/mida-mini-tool/",
+      "introducedSeason": 27
+    },
+    {
+      "id": "mida-multi-tool",
+      "name": "MIDA Multi-Tool",
+      "itemHash": "1331482397",
+      "intrinsicHash": "377257911",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1331482397/mida-multi-tool/?_=749",
+      "introducedSeason": null
+    },
+    {
+      "id": "monte-carlo",
+      "name": "Monte Carlo",
+      "itemHash": "4068264807",
+      "intrinsicHash": "1484442054",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4068264807/monte-carlo/?_=197",
+      "introducedSeason": 8
+    },
+    {
+      "id": "necrochasm",
+      "name": "Necrochasm",
+      "itemHash": "1034055198",
+      "intrinsicHash": "4184462049",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1034055198/necrochasm/?_=220",
+      "introducedSeason": 22
+    },
+    {
+      "id": "new-land-beyond",
+      "name": "New Land Beyond",
+      "itemHash": "2581676735",
+      "intrinsicHash": "218281600",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2581676735/new-land-beyond/?_=190",
+      "introducedSeason": 26
+    },
+    {
+      "id": "new-malpais",
+      "name": "New Malpais",
+      "itemHash": "1736135946",
+      "intrinsicHash": "2575933030",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1736135946/new-malpais/?_=163",
+      "introducedSeason": 27
+    },
+    {
+      "id": "no-time-to-explain",
+      "name": "No Time to Explain",
+      "itemHash": "1594120904",
+      "intrinsicHash": "3837077246",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1594120904/no-time-to-explain/?_=67",
+      "introducedSeason": 12
+    },
+    {
+      "id": "one-thousand-voices",
+      "name": "One Thousand Voices",
+      "itemHash": "2069224589",
+      "intrinsicHash": "1657056865",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2069224589/one-thousand-voices/?_=729",
+      "introducedSeason": 4
+    },
+    {
+      "id": "osteo-striga",
+      "name": "Osteo Striga",
+      "itemHash": "46524085",
+      "intrinsicHash": "2965975126",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "outbreak-perfected",
+      "name": "Outbreak Perfected",
+      "itemHash": "400096939",
+      "intrinsicHash": "4208418110",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/400096939/outbreak-perfected/?_=292",
+      "introducedSeason": 6
+    },
+    {
+      "id": "parasite",
+      "name": "Parasite",
+      "itemHash": "2812324400",
+      "intrinsicHash": "1174163613",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "peacebond",
+      "name": "Peacebond",
+      "itemHash": "247984829",
+      "intrinsicHash": "3449390870",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/247984829/peacebond/?_=126",
+      "introducedSeason": 29
+    },
+    {
+      "id": "polaris-lance",
+      "name": "Polaris Lance",
+      "itemHash": "3413074534",
+      "intrinsicHash": "1000724343",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3413074534/polaris-lance/?_=408",
+      "introducedSeason": 3
+    },
+    {
+      "id": "praxic-blade",
+      "name": "Praxic Blade",
+      "itemHash": "3049715579",
+      "intrinsicHash": "89777927",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3049715579/praxic-blade/?_=701",
+      "introducedSeason": 28
+    },
+    {
+      "id": "prometheus-lens",
+      "name": "Prometheus Lens",
+      "itemHash": "19024058",
+      "intrinsicHash": "571267712",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/19024058/prometheus-lens/?_=457",
+      "introducedSeason": 2
+    },
+    {
+      "id": "pure-recollection",
+      "name": "Pure Recollection",
+      "itemHash": "1956186483",
+      "intrinsicHash": "3923638944",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1956186483/pure-recollection/?_=783",
+      "introducedSeason": 27
+    },
+    {
+      "id": "quicksilver-storm",
+      "name": "Quicksilver Storm",
+      "itemHash": "4293613902",
+      "intrinsicHash": "3602718766",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4293613902/quicksilver-storm/?_=500",
+      "introducedSeason": 18
+    },
+    {
+      "id": "rat-king",
+      "name": "Rat King",
+      "itemHash": "2362471601",
+      "intrinsicHash": "2121086290",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2362471601/rat-king/?_=901",
+      "introducedSeason": 1
+    },
+    {
+      "id": "red-death-reformed",
+      "name": "Red Death Reformed",
+      "itemHash": "427899681",
+      "intrinsicHash": "3632437946",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/427899681/red-death-reformed/?_=399",
+      "introducedSeason": 24
+    },
+    {
+      "id": "revision-zero",
+      "name": "Revision Zero",
+      "itemHash": "1473821207",
+      "intrinsicHash": "3834106778",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/pl/items/1473821207/revision-zero/?_=32",
+      "introducedSeason": 19
+    },
+    {
+      "id": "riskrunner",
+      "name": "Riskrunner",
+      "itemHash": "3089417789",
+      "intrinsicHash": "2516532331",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3089417789/riskrunner/?_=528",
+      "introducedSeason": 1
+    },
+    {
+      "id": "ruinous-effigy",
+      "name": "Ruinous Effigy",
+      "itemHash": "1363238943",
+      "intrinsicHash": "1657401727",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "salvation-s-grip",
+      "name": "Salvation's Grip",
+      "itemHash": "370712896",
+      "intrinsicHash": "1315870387",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/370712896/salvations-grip/?_=404",
+      "introducedSeason": 12
+    },
+    {
+      "id": "senuna-si6",
+      "name": "Senuna SI6",
+      "itemHash": "5159537",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/5159537/senuna-si6/?_=464",
+      "introducedSeason": null
+    },
+    {
+      "id": "service-of-luzaku",
+      "name": "Service of Luzaku",
+      "itemHash": "4284533075",
+      "intrinsicHash": "1818108773",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4284533075/service-of-luzaku/?_=654",
+      "introducedSeason": 28
+    },
+    {
+      "id": "skyburner-s-oath",
+      "name": "Skyburner's Oath",
+      "itemHash": "4255268456",
+      "intrinsicHash": "2741975068",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4255268456/skyburners-oath/?_=512",
+      "introducedSeason": 1
+    },
+    {
+      "id": "slayer-s-fang",
+      "name": "Slayer's Fang",
+      "itemHash": "1047932517",
+      "intrinsicHash": "2565885237",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1047932517/slayers-fang/?_=235",
+      "introducedSeason": null
+    },
+    {
+      "id": "sleeper-simulant",
+      "name": "Sleeper Simulant",
+      "itemHash": "4036115577",
+      "intrinsicHash": "3884127242",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4036115577/sleeper-simulant/?_=267",
+      "introducedSeason": 3
+    },
+    {
+      "id": "smuggler-s-word",
+      "name": "Smuggler's Word",
+      "itemHash": "1843044399",
+      "intrinsicHash": "3330548924",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1843044399/smugglers-word/?_=192",
+      "introducedSeason": null
+    },
+    {
+      "id": "still-hunt",
+      "name": "Still Hunt",
+      "itemHash": "2905188646",
+      "intrinsicHash": "928399924",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2905188646/still-hunt/?_=818",
+      "introducedSeason": 24
+    },
+    {
+      "id": "sturm",
+      "name": "Sturm",
+      "itemHash": "2907129556",
+      "intrinsicHash": "507151084",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2907129556/sturm/?_=710",
+      "introducedSeason": 1
+    },
+    {
+      "id": "sunshot",
+      "name": "Sunshot",
+      "itemHash": "2907129557",
+      "intrinsicHash": "4045839491",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2907129557/sunshot/?_=651",
+      "introducedSeason": 1
+    },
+    {
+      "id": "suros-regime",
+      "name": "SUROS Regime",
+      "itemHash": "2856683562",
+      "intrinsicHash": "944506345",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2856683562/suros-regime/?_=782",
+      "introducedSeason": 3
+    },
+    {
+      "id": "sweet-business",
+      "name": "Sweet Business",
+      "itemHash": "1345867570",
+      "intrinsicHash": "3755070117",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "itemHash": "4017959782",
+      "intrinsicHash": "4185339856",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4017959782/symmetry/?_=289",
+      "introducedSeason": 9
+    },
+    {
+      "id": "tarrabah",
+      "name": "Tarrabah",
+      "itemHash": "3110698812",
+      "intrinsicHash": "2540536653",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/pl/items/3110698812/tarrabah/",
+      "introducedSeason": 7
+    },
+    {
+      "id": "telesto",
+      "name": "Telesto",
+      "itemHash": "2208405142",
+      "intrinsicHash": "1927916065",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2208405142/telesto/?_=482",
+      "introducedSeason": 2
+    },
+    {
+      "id": "tessellation",
+      "name": "Tessellation",
+      "itemHash": "3561203890",
+      "intrinsicHash": "2769013282",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3561203890/tessellation/",
+      "introducedSeason": 22
+    },
+    {
+      "id": "the-chaperone",
+      "name": "The Chaperone",
+      "itemHash": "3413860062",
+      "intrinsicHash": "1394384862",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3413860062/the-chaperone/?_=621",
+      "introducedSeason": 4
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony",
+      "itemHash": "3899270607",
+      "intrinsicHash": "3913463509",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "the-fourth-horseman",
+      "name": "The Fourth Horseman",
+      "itemHash": "1665952087",
+      "intrinsicHash": "2223914385",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1665952087/the-fourth-horseman/?_=259",
+      "introducedSeason": 10
+    },
+    {
+      "id": "the-huckleberry",
+      "name": "The Huckleberry",
+      "itemHash": "2286143274",
+      "intrinsicHash": "630329983",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2286143274/the-huckleberry/?_=778",
+      "introducedSeason": 3
+    },
+    {
+      "id": "the-jade-rabbit",
+      "name": "The Jade Rabbit",
+      "itemHash": "3844694310",
+      "intrinsicHash": "3668782036",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3844694310/the-jade-rabbit/?_=655",
+      "introducedSeason": 2
+    },
+    {
+      "id": "the-lament",
+      "name": "The Lament",
+      "itemHash": "3487253372",
+      "intrinsicHash": "2179914730",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3487253372/the-lament/?_=392",
+      "introducedSeason": 12
+    },
+    {
+      "id": "the-last-dance",
+      "name": "The Last Dance",
+      "itemHash": "4045298483",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4045298483/the-last-dance/?_=127",
+      "introducedSeason": null
+    },
+    {
+      "id": "the-last-word",
+      "name": "The Last Word",
+      "itemHash": "1364093401",
+      "intrinsicHash": "2770223582",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1364093401/the-last-word/?_=567",
+      "introducedSeason": 5
+    },
+    {
+      "id": "the-manticore",
+      "name": "The Manticore",
+      "itemHash": "219145368",
+      "intrinsicHash": "228577175",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/219145368/the-manticore/?_=864",
+      "introducedSeason": 19
+    },
+    {
+      "id": "the-navigator",
+      "name": "The Navigator",
+      "itemHash": "1441805468",
+      "intrinsicHash": "3172115769",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1441805468/the-navigator/?_=635",
+      "introducedSeason": 21
+    },
+    {
+      "id": "the-prospector",
+      "name": "The Prospector",
+      "itemHash": "3549153979",
+      "intrinsicHash": "2977709078",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3549153979/the-prospector/?_=983",
+      "introducedSeason": 1
+    },
+    {
+      "id": "the-queenbreaker",
+      "name": "The Queenbreaker",
+      "itemHash": "2044500762",
+      "intrinsicHash": "1531126198",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2044500762/the-queenbreaker/?_=790",
+      "introducedSeason": 4
+    },
+    {
+      "id": "the-vision",
+      "name": "The Vision",
+      "itemHash": "2414141462",
+      "intrinsicHash": "31057037",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2414141462/the-vision/?_=967",
+      "introducedSeason": 14
+    },
+    {
+      "id": "the-wardcliff-coil",
+      "name": "The Wardcliff Coil",
+      "itemHash": "1508896098",
+      "intrinsicHash": "2473404935",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1508896098/the-wardcliff-coil/?_=124",
+      "introducedSeason": 1
+    },
+    {
+      "id": "third-iteration",
+      "name": "Third Iteration",
+      "itemHash": "2973900274",
+      "intrinsicHash": "2144580852",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2973900274/third-iteration/?_=299",
+      "introducedSeason": 27
+    },
+    {
+      "id": "thorn",
+      "name": "Thorn",
+      "itemHash": "3973202132",
+      "intrinsicHash": "1863355414",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3973202132/thorn/?_=317",
+      "introducedSeason": 6
+    },
+    {
+      "id": "ticuu-s-divination",
+      "name": "Ticuu's Divination",
+      "itemHash": "3260753130",
+      "intrinsicHash": "3239299468",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3260753130/ticuus-divination/?_=548",
+      "introducedSeason": 13
+    },
+    {
+      "id": "tommy-s-matchbook",
+      "name": "Tommy's Matchbook",
+      "itemHash": "776191470",
+      "intrinsicHash": "961505134",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/776191470/tommys-matchbook/?_=117",
+      "introducedSeason": 10
+    },
+    {
+      "id": "touch-of-malice",
+      "name": "Touch of Malice",
+      "itemHash": "1802135586",
+      "intrinsicHash": "2724693746",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1802135586/touch-of-malice/?_=750",
+      "introducedSeason": null
+    },
+    {
+      "id": "tractor-cannon",
+      "name": "Tractor Cannon",
+      "itemHash": "3580904581",
+      "intrinsicHash": "1210807262",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3580904581/tractor-cannon/?_=677",
+      "introducedSeason": 1
+    },
+    {
+      "id": "traveler-s-chosen",
+      "name": "Traveler's Chosen",
+      "itemHash": "1853180924",
+      "intrinsicHash": "975429949",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "traveler-s-judgment-5",
+      "name": "Traveler's Judgment 5",
+      "itemHash": "4149758318",
+      "intrinsicHash": "3449390870",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4149758318/travelers-judgment-5/?_=833",
+      "introducedSeason": 9
+    },
+    {
+      "id": "trespasser",
+      "name": "Trespasser",
+      "itemHash": "1234150730",
+      "intrinsicHash": "2641107734",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1234150730/trespasser/?_=347",
+      "introducedSeason": 17
+    },
+    {
+      "id": "trinity-ghoul",
+      "name": "Trinity Ghoul",
+      "itemHash": "814876685",
+      "intrinsicHash": "1573888036",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/814876685/trinity-ghoul/?_=242",
+      "introducedSeason": 4
+    },
+    {
+      "id": "truth",
+      "name": "Truth",
+      "itemHash": "1201830623",
+      "intrinsicHash": "2491817779",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1201830623/truth/?_=88",
+      "introducedSeason": 7
+    },
+    {
+      "id": "turncoat",
+      "name": "Turncoat",
+      "itemHash": "253843484",
+      "intrinsicHash": "1017906546",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/253843484/turncoat/?_=976",
+      "introducedSeason": 29
+    },
+    {
+      "id": "two-tailed-fox",
+      "name": "Two-Tailed Fox",
+      "itemHash": "2694576561",
+      "intrinsicHash": "3649430342",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2694576561/two-tailed-fox/?_=979",
+      "introducedSeason": 4
+    },
+    {
+      "id": "unfall",
+      "name": "Unfall",
+      "itemHash": "738446555",
+      "intrinsicHash": "1615948893",
+      "rarity": "legendary",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/738446555/unfall/?_=824",
+      "introducedSeason": 27
+    },
+    {
+      "id": "verglas-curve",
+      "name": "Verglas Curve",
+      "itemHash": "3659414143",
+      "intrinsicHash": "2636679416",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3659414143/verglas-curve/?_=848",
+      "introducedSeason": 20
+    },
+    {
+      "id": "vex-mythoclast",
+      "name": "Vex Mythoclast",
+      "itemHash": "4289226715",
+      "intrinsicHash": "3610750208",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/4289226715/vex-mythoclast/?_=711",
+      "introducedSeason": 14
+    },
+    {
+      "id": "vexcalibur",
+      "name": "Vexcalibur",
+      "itemHash": "3118061005",
+      "intrinsicHash": "2751656639",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3118061005/vexcalibur/?_=657",
+      "introducedSeason": 20
+    },
+    {
+      "id": "vigilance-wing",
+      "name": "Vigilance Wing",
+      "itemHash": "3628991659",
+      "intrinsicHash": "2307143135",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3628991659/vigilance-wing/?_=459",
+      "introducedSeason": 1
+    },
+    {
+      "id": "wavesplitter",
+      "name": "Wavesplitter",
+      "itemHash": "1852863732",
+      "intrinsicHash": "459441288",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1852863732/wavesplitter/?_=754",
+      "introducedSeason": null
+    },
+    {
+      "id": "whirling-ovation",
+      "name": "Whirling Ovation",
+      "itemHash": "1202007252",
+      "intrinsicHash": "3200860608",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1202007252/whirling-ovation/?_=724",
+      "introducedSeason": null
+    },
+    {
+      "id": "whisper-of-the-worm",
+      "name": "Whisper of the Worm",
+      "itemHash": "1891561814",
+      "intrinsicHash": "281315705",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "barrier"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1891561814/whisper-of-the-worm/?_=642",
+      "introducedSeason": null
+    },
+    {
+      "id": "wicked-implement",
+      "name": "Wicked Implement",
+      "itemHash": "940371471",
+      "intrinsicHash": "1266604956",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/940371471/wicked-implement/?_=151",
+      "introducedSeason": 21
+    },
+    {
+      "id": "winterbite",
+      "name": "Winterbite",
+      "itemHash": "3118061004",
+      "intrinsicHash": "1207608520",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/3118061004/winterbite/?_=588",
+      "introducedSeason": 20
+    },
+    {
+      "id": "wish-keeper",
+      "name": "Wish-Keeper",
+      "itemHash": "2910326942",
+      "intrinsicHash": "214670074",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2910326942/wish-keeper/?_=545",
+      "introducedSeason": null
+    },
+    {
+      "id": "witherhoard",
+      "name": "Witherhoard",
+      "itemHash": "2357297366",
+      "intrinsicHash": "3063320916",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "overload"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/2357297366/witherhoard/?_=301",
+      "introducedSeason": 11
+    },
+    {
+      "id": "wolfsbane",
+      "name": "Wolfsbane",
+      "itemHash": "1753923263",
+      "intrinsicHash": "1303792749",
+      "rarity": "exotic",
+      "status": "not-confirmed",
+      "counters": [],
+      "sourceUrl": null,
+      "introducedSeason": null
+    },
+    {
+      "id": "worldline-zero",
+      "name": "Worldline Zero",
+      "itemHash": "1864563948",
+      "intrinsicHash": "3642491337",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1864563948/worldline-zero/?_=877",
+      "introducedSeason": 3
+    },
+    {
+      "id": "xenophage",
+      "name": "Xenophage",
+      "itemHash": "1395261499",
+      "intrinsicHash": "2261491232",
+      "rarity": "exotic",
+      "status": "verified",
+      "counters": [
+        "unstoppable"
+      ],
+      "sourceUrl": "https://www.light.gg/db/items/1395261499/xenophage/?_=769",
+      "introducedSeason": 8
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-11",
+  "vendorManifestPath": "/common/destiny2_content/json/en/DestinyVendorDefinition-e677f6ea-2a1e-48d4-a8c8-700a39a62585.json",
+  "checks": [
+    {
+      "id": "blast-battue",
+      "name": "Blast Battue",
+      "itemHash": "2453357042",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2453357042/"
+      ]
+    },
+    {
+      "id": "royal-chase",
+      "name": "Royal Chase",
+      "itemHash": "2776503072",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2776503072/"
+      ]
+    },
+    {
+      "id": "shattered-cipher",
+      "name": "Shattered Cipher",
+      "itemHash": "2434225986",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2434225986/"
+      ]
+    },
+    {
+      "id": "albedo-wing",
+      "name": "Albedo Wing",
+      "itemHash": "2274629609",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Dawning Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "3073210840",
+      "previewVendorHash": "1383027445",
+      "rewardHash": "2595269365",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2274629609/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1383027445/"
+      ]
+    },
+    {
+      "id": "alethonym",
+      "name": "Alethonym",
+      "itemHash": "2350354266",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2350354266/"
+      ]
+    },
+    {
+      "id": "appetence",
+      "name": "Appetence",
+      "itemHash": "4153087276",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4153087276/"
+      ]
+    },
+    {
+      "id": "arcane-embrace",
+      "name": "Arcane Embrace",
+      "itemHash": "1813474267",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Eerie Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "69996639",
+      "previewVendorHash": "2701556456",
+      "rewardHash": "3117902614",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1813474267/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2701556456/"
+      ]
+    },
+    {
+      "id": "brigand-s-law",
+      "name": "Brigand's Law",
+      "itemHash": "1298815317",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1298815317/"
+      ]
+    },
+    {
+      "id": "centrifuse",
+      "name": "Centrifuse",
+      "itemHash": "1912669214",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1912669214/"
+      ]
+    },
+    {
+      "id": "compass-rose",
+      "name": "Compass Rose",
+      "itemHash": "2723419129",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Solstice Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1626159000",
+      "previewVendorHash": "1703914293",
+      "rewardHash": "3824201797",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2723419129/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1703914293/"
+      ]
+    },
+    {
+      "id": "crowning-duologue",
+      "name": "Crowning Duologue",
+      "itemHash": "1151307006",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Solstice Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1626159000",
+      "previewVendorHash": "1703914293",
+      "rewardHash": "113825132",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1151307006/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1703914293/"
+      ]
+    },
+    {
+      "id": "dawn-far-off",
+      "name": "Dawn Far Off",
+      "itemHash": "1484294659",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Solstice Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1626159000",
+      "previewVendorHash": "1703914293",
+      "rewardHash": "4029570935",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1484294659/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1703914293/"
+      ]
+    },
+    {
+      "id": "dragon-s-breath",
+      "name": "Dragon's Breath",
+      "itemHash": "17096506",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/17096506/"
+      ]
+    },
+    {
+      "id": "eighty-six",
+      "name": "Eighty-Six",
+      "itemHash": "2344383760",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Seasonal Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1862174896",
+      "previewVendorHash": "4148619005",
+      "rewardHash": "641988886",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2344383760/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4148619005/"
+      ]
+    },
+    {
+      "id": "evening-si4",
+      "name": "Evening SI4",
+      "itemHash": "1763361847",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Fireteam Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "829038281",
+      "previewVendorHash": "3275816382",
+      "rewardHash": "1909563051",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1763361847/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3275816382/"
+      ]
+    },
+    {
+      "id": "ex-diris",
+      "name": "Ex Diris",
+      "itemHash": "3821409356",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3821409356/"
+      ]
+    },
+    {
+      "id": "fafnir",
+      "name": "Fafnir",
+      "itemHash": "2197778303",
+      "source": {
+        "category": "vendor",
+        "name": "Tenet of Bravery"
+      },
+      "vendorHash": "561095104",
+      "soldItemHash": "2197778303",
+      "method": "Exact weapon hash in Tenet vendor inventory",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2197778303/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/"
+      ]
+    },
+    {
+      "id": "firefright",
+      "name": "Firefright",
+      "itemHash": "2778013407",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2778013407/"
+      ]
+    },
+    {
+      "id": "grand-overture",
+      "name": "Grand Overture",
+      "itemHash": "1763584999",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1763584999/"
+      ]
+    },
+    {
+      "id": "hardline-cut",
+      "name": "Hardline Cut",
+      "itemHash": "3461043766",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Lawless: Events Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "2839957195",
+      "previewVendorHash": "3599103484",
+      "rewardHash": "3527802804",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3461043766/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3599103484/"
+      ]
+    },
+    {
+      "id": "hawkmoon",
+      "name": "Hawkmoon",
+      "itemHash": "3856705927",
+      "source": {
+        "category": "vendor",
+        "name": "Acquired from Xûr"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3856705927/"
+      ]
+    },
+    {
+      "id": "horror-story",
+      "name": "Horror Story",
+      "itemHash": "2884070594",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Eerie Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "69996639",
+      "previewVendorHash": "2701556456",
+      "rewardHash": "1004134032",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2884070594/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2701556456/"
+      ]
+    },
+    {
+      "id": "hullabaloo",
+      "name": "Hullabaloo",
+      "itemHash": "2449096504",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Guardian Games Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "733768021",
+      "previewVendorHash": "2076213794",
+      "rewardHash": "2659171150",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2449096504/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2076213794/"
+      ]
+    },
+    {
+      "id": "judgment-of-kelgorath",
+      "name": "Judgment of Kelgorath",
+      "itemHash": "2978226043",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2978226043/"
+      ]
+    },
+    {
+      "id": "lodestar",
+      "name": "Lodestar",
+      "itemHash": "3725585710",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3725585710/"
+      ]
+    },
+    {
+      "id": "mechabre",
+      "name": "Mechabre",
+      "itemHash": "3023280734",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Eerie Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "69996639",
+      "previewVendorHash": "2701556456",
+      "rewardHash": "3223576908",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3023280734/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2701556456/"
+      ]
+    },
+    {
+      "id": "monody-44",
+      "name": "Monody-44",
+      "itemHash": "3201200906",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Seasonal Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1862174896",
+      "previewVendorHash": "4148619005",
+      "rewardHash": "1131793448",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3201200906/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4148619005/"
+      ]
+    },
+    {
+      "id": "mos-athanor-iv",
+      "name": "Mos Athanor IV",
+      "itemHash": "4118334987",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Crucible Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "942380765",
+      "previewVendorHash": "390265306",
+      "rewardHash": "2932445007",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4118334987/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/390265306/"
+      ]
+    },
+    {
+      "id": "motif-41",
+      "name": "Motif-41",
+      "itemHash": "1685533876",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Seasonal Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1862174896",
+      "previewVendorHash": "4148619005",
+      "rewardHash": "2394169626",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1685533876/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/4148619005/"
+      ]
+    },
+    {
+      "id": "new-malpais",
+      "name": "New Malpais",
+      "itemHash": "1736135946",
+      "source": {
+        "category": "season-pass",
+        "name": "Rewards Pass"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1736135946/"
+      ]
+    },
+    {
+      "id": "nox-sidereal-iv",
+      "name": "Nox Sidereal IV",
+      "itemHash": "2875763009",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Fireteam Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "829038281",
+      "previewVendorHash": "3275816382",
+      "rewardHash": "1624245629",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2875763009/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3275816382/"
+      ]
+    },
+    {
+      "id": "oxygen-sr3",
+      "name": "Oxygen SR3",
+      "itemHash": "4104613038",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Pinnacle Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "3009909356",
+      "previewVendorHash": "3653115777",
+      "rewardHash": "1375798748",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4104613038/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3653115777/"
+      ]
+    },
+    {
+      "id": "piece-of-mind",
+      "name": "Piece of Mind",
+      "itemHash": "2097055732",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2097055732/"
+      ]
+    },
+    {
+      "id": "planck-s-stride",
+      "name": "Planck's Stride",
+      "itemHash": "820890091",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/820890091/"
+      ]
+    },
+    {
+      "id": "psi-aeterna-iv",
+      "name": "Psi Aeterna IV",
+      "itemHash": "3556730800",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Fireteam Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "829038281",
+      "previewVendorHash": "3275816382",
+      "rewardHash": "2649091382",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3556730800/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3275816382/"
+      ]
+    },
+    {
+      "id": "rapid-growth",
+      "name": "Rapid Growth",
+      "itemHash": "3448712083",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Solstice Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1626159000",
+      "previewVendorHash": "1703914293",
+      "rewardHash": "2097922398",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3448712083/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1703914293/"
+      ]
+    },
+    {
+      "id": "red-death-reformed",
+      "name": "Red Death Reformed",
+      "itemHash": "427899681",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/427899681/"
+      ]
+    },
+    {
+      "id": "retrofit-escapade",
+      "name": "Retrofit Escapade",
+      "itemHash": "3103325054",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3103325054/"
+      ]
+    },
+    {
+      "id": "ribbontail",
+      "name": "Ribbontail",
+      "itemHash": "3576134513",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Reclamation: Events Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "637891431",
+      "previewVendorHash": "3920765440",
+      "rewardHash": "523288877",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3576134513/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3920765440/"
+      ]
+    },
+    {
+      "id": "sarpedon-d",
+      "name": "Sarpedon-D",
+      "itemHash": "1242785638",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Pinnacle Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "3009909356",
+      "previewVendorHash": "3653115777",
+      "rewardHash": "2869363108",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1242785638/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3653115777/"
+      ]
+    },
+    {
+      "id": "scalar-potential",
+      "name": "Scalar Potential",
+      "itemHash": "2563668388",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2563668388/"
+      ]
+    },
+    {
+      "id": "service-of-luzaku",
+      "name": "Service of Luzaku",
+      "itemHash": "4284533075",
+      "source": {
+        "category": "season-pass",
+        "name": "Rewards Pass"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4284533075/"
+      ]
+    },
+    {
+      "id": "sixth-sense",
+      "name": "Sixth Sense",
+      "itemHash": "3163473092",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Lawless: Events Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "2839957195",
+      "previewVendorHash": "3599103484",
+      "rewardHash": "95938218",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3163473092/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3599103484/"
+      ]
+    },
+    {
+      "id": "something-new",
+      "name": "Something New",
+      "itemHash": "1705150753",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Solstice Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "1626159000",
+      "previewVendorHash": "1703914293",
+      "rewardHash": "166673629",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1705150753/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1703914293/"
+      ]
+    },
+    {
+      "id": "something-something",
+      "name": "Something Something",
+      "itemHash": "3421075982",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Fireteam Ops Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "829038281",
+      "previewVendorHash": "3275816382",
+      "rewardHash": "378750524",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3421075982/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3275816382/"
+      ]
+    },
+    {
+      "id": "stay-frosty",
+      "name": "Stay Frosty",
+      "itemHash": "3910523587",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Dawning Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "3073210840",
+      "previewVendorHash": "1383027445",
+      "rewardHash": "3661266359",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3910523587/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/1383027445/"
+      ]
+    },
+    {
+      "id": "synanceia",
+      "name": "Synanceia",
+      "itemHash": "1823308496",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Reclamation: Events Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "637891431",
+      "previewVendorHash": "3920765440",
+      "rewardHash": "3194298198",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1823308496/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3920765440/"
+      ]
+    },
+    {
+      "id": "taraxippos",
+      "name": "Taraxippos",
+      "itemHash": "4148460558",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Guardian Games Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "733768021",
+      "previewVendorHash": "2076213794",
+      "rewardHash": "950197308",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4148460558/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2076213794/"
+      ]
+    },
+    {
+      "id": "the-manticore",
+      "name": "The Manticore",
+      "itemHash": "219145368",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/219145368/"
+      ]
+    },
+    {
+      "id": "the-title",
+      "name": "The Title",
+      "itemHash": "4106258882",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Guardian Games Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "733768021",
+      "previewVendorHash": "2076213794",
+      "rewardHash": "1891392912",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4106258882/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/2076213794/"
+      ]
+    },
+    {
+      "id": "third-iteration",
+      "name": "Third Iteration",
+      "itemHash": "2973900274",
+      "source": {
+        "category": "season-pass",
+        "name": "Rewards Pass"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/2973900274/"
+      ]
+    },
+    {
+      "id": "thoughtless",
+      "name": "Thoughtless",
+      "itemHash": "4067556514",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/4067556514/"
+      ]
+    },
+    {
+      "id": "threaded-needle",
+      "name": "Threaded Needle",
+      "itemHash": "3075224551",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3075224551/"
+      ]
+    },
+    {
+      "id": "trachinus",
+      "name": "Trachinus",
+      "itemHash": "3635232671",
+      "source": {
+        "category": "tenet-engram",
+        "name": "Tenet of Bravery / Reclamation: Events Weapon Engram"
+      },
+      "vendorHash": "561095104",
+      "engramHash": "637891431",
+      "previewVendorHash": "3920765440",
+      "rewardHash": "1565395555",
+      "method": "Named reward in the weapon engram preview inventory linked from a Tenet vendor",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3635232671/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/561095104/",
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyVendorDefinition/3920765440/"
+      ]
+    },
+    {
+      "id": "trespasser",
+      "name": "Trespasser",
+      "itemHash": "1234150730",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1234150730/"
+      ]
+    },
+    {
+      "id": "turncoat",
+      "name": "Turncoat",
+      "itemHash": "253843484",
+      "source": {
+        "category": "season-pass",
+        "name": "Rewards Pass"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/253843484/"
+      ]
+    },
+    {
+      "id": "verglas-curve",
+      "name": "Verglas Curve",
+      "itemHash": "3659414143",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/3659414143/"
+      ]
+    },
+    {
+      "id": "without-remorse",
+      "name": "Without Remorse",
+      "itemHash": "1478986057",
+      "source": {
+        "category": "season-pass",
+        "name": "Season Pass Reward"
+      },
+      "method": "Explicit collectible acquisition text",
+      "referenceUrls": [
+        "https://www.bungie.net/Platform/Destiny2/Manifest/DestinyInventoryItemDefinition/1478986057/"
+      ]
+    }
+  ]
+}

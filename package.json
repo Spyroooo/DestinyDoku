@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "data:check": "node scripts/validate-weapon-data.mjs",
-    "test": "node --test scripts/test-weapons.mjs"
+    "test": "node --test scripts/test-*.mjs",
+    "data:import": "node scripts/import-weapons.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",
