@@ -1,7 +1,8 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { playableWeapons, releases } from '../../data/destiny2'
 import {
-  canBeAnswer, catalogSignature, columns, createRound, evaluateGuess,
+  canBeAnswer, catalogSignature, columns, createRound, currentVersion, evaluateGuess,
+  formatSourceName, identifyPracticeRound, incorrectGuesses, revealHint, weaponHints,
   normalize, restoreRound, roundStatus, searchWeapons, submitGuess,
 } from './logic'
 import './weapons.css'
@@ -9,6 +10,7 @@ import ClueIcons from './ClueIcons'
 import { assetUrl } from './assets'
 import CategoryHelp from './CategoryHelp'
 import WinSummary from './WinSummary'
+import DailyCounter from './DailyCounter'
 import type { HelpCategory } from './CategoryHelp'
 import type { Round, ShareContext, WeaponMode } from './logic'
 import { createDailyRound, createDevelopmentDailyRound, dailyDate, dailyStorageKey, DEVELOPMENT_DAILY_KEY, nextDailyReset, PRACTICE_STORAGE_KEY, resetCountdown, restoreDailyRound } from './daily'
@@ -17,11 +19,11 @@ const signature = catalogSignature(playableWeapons, releases)
 const matchLabels = { exact: 'Match', partial: 'Partial match', wrong: 'No match' }
 
 function loadRound(mode: WeaponMode, dayKey: string, developmentAnswerId?: string) {
-  const fresh = () => mode === 'daily' ? createDailyRound(dayKey, playableWeapons) : createRound(playableWeapons)
+  const fresh = () => mode === 'daily' ? createDailyRound(dayKey, playableWeapons) : identifyPracticeRound(createRound(playableWeapons))
   if (import.meta.env.DEV) return mode === 'daily' && developmentAnswerId ? { answerId: developmentAnswerId, guessIds: [] } : fresh()
   try {
     if (mode === 'daily') return restoreDailyRound(localStorage.getItem(dailyStorageKey(dayKey)), playableWeapons, signature, dayKey) ?? fresh()
-    return restoreRound(localStorage.getItem(PRACTICE_STORAGE_KEY), playableWeapons, signature) ?? fresh()
+    return identifyPracticeRound(restoreRound(localStorage.getItem(PRACTICE_STORAGE_KEY), playableWeapons, signature) ?? createRound(playableWeapons))
   } catch { return fresh() }
 }
 
@@ -122,11 +124,12 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
       onDateChange()
       return
     }
-    const next = submitGuess(round, weaponId, playableWeapons)
+    let next = submitGuess(round, weaponId, playableWeapons)
     if (next === round) {
       setError('Choose a weapon you haven’t guessed yet.')
       return
     }
+    if (mode === 'practice' && roundStatus(next) === 'won' && next.runId) next = { ...next, completedAt: new Date().toISOString() }
     setRevealingGuessId(weaponId)
     setRound(next)
     setQuery('')
@@ -137,7 +140,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
 
   function playAgain() {
     if (mode !== 'practice') return
-    setRound(createRound(playableWeapons))
+    setRound(identifyPracticeRound(createRound(playableWeapons)))
     setRevealingGuessId(null)
     setQuery('')
     setError('')
@@ -150,6 +153,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
       </div>
       {storageUnavailable && <p className="storage-note">Browser storage is unavailable. This round will not be saved on refresh.</p>}
       {classifiedDiscovery && <p className="classified-discovery" role="status"><strong>Classified discovery.</strong> Even the Cryptarchs couldn’t get this one.</p>}
+      <DailyCounter mode={mode} dayKey={dayKey} completed={status === 'won'} runId={round.runId} completedAt={round.completedAt} />
 
       {status === 'playing' ? (
         <form ref={picker} className="weapon-picker"
@@ -203,6 +207,26 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
           </>}
         </div>
       )}
+
+      {round.guessIds.length > 0 && <section className="weapon-hints" aria-label="Optional weapon hints">
+        {weaponHints.map((hint) => {
+          const revealed = round.revealedHints?.includes(hint.id)
+          const remaining = Math.max(0, hint.after - incorrectGuesses(round))
+          return <div className={`weapon-hint${revealed ? ' is-revealed' : ''}`} key={hint.id}>
+            <h2>{hint.title}</h2>
+            {revealed ? <p className="hint-value">{hint.id === 'first-letter'
+              ? answer.name.match(/[\p{L}\p{N}]/u)?.[0].toLocaleUpperCase() ?? answer.name.charAt(0)
+              : formatSourceName(currentVersion(answer).source.name)}</p>
+              : <button type="button" disabled={remaining > 0 || status !== 'playing'}
+                onClick={() => {
+                  if (mode === 'daily' && dailyDate() !== dayKey) { onDateChange(); return }
+                  setRound((previous) => revealHint(previous, hint.id))
+                }} aria-label={`Reveal ${hint.title.toLowerCase()} hint`}>
+                {remaining > 0 ? `${remaining} more incorrect ${remaining === 1 ? 'guess' : 'guesses'}` : status === 'won' ? 'Round complete' : 'Reveal hint'}
+              </button>}
+          </div>
+        })}
+      </section>}
 
       <div className="table-scroll" role="region" aria-label="Guess comparisons, scroll horizontally for all clues" tabIndex={0}>
         <table className="guess-table">

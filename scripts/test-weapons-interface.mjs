@@ -20,12 +20,12 @@ function harness(development,session=new Map()){
  const jsx=(type,props,key)=>({type,props,key})
  const hot={on:(name,callback)=>events.set(name,callback),off:(name)=>events.delete(name)}
  const math=Object.create(Math);math.random=()=>0
- const modules={react,'react/jsx-runtime':{jsx,jsxs:jsx,Fragment:'fragment'},'../../data/destiny2':{playableWeapons:pool,releases},'./assets':{assetUrl:(path)=>path},'./weapons.css':{},'./ClueIcons':{default:()=>null},'./CategoryHelp':{default:()=>null}}
+ const modules={react,'react/jsx-runtime':{jsx,jsxs:jsx,Fragment:'fragment'},'../../data/destiny2':{playableWeapons:pool,releases},'./assets':{assetUrl:(path)=>path},'./weapons.css':{},'./ClueIcons':{default:()=>null},'./CategoryHelp':{default:()=>null},'./DailyCounter':{default:()=>null}}
  for(const [module,file]of [['./logic','logic.ts'],['./daily','daily.ts'],['./WinSummary','WinSummary.tsx'],['Weapons','Weapons.tsx']]){
   const source=readFileSync(new URL(`../src/games/weapons/${file}`,import.meta.url),'utf8').replaceAll('import.meta.env.DEV','__development').replaceAll('import.meta.hot','__hot')
   const {outputText}=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2023,module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX}})
   const exports={}
-  runInNewContext(outputText,{exports,__development:development,__hot:development?hot:undefined,Math:math,Date,Intl,queueMicrotask,sessionStorage:{getItem:(key)=>session.get(key)??null,setItem:(key,value)=>session.set(key,value)},localStorage:{getItem:(key)=>storage.get(key)??null,setItem:(key,value)=>storage.set(key,value)},document:{addEventListener(){},removeEventListener(){}},window:{setInterval:()=>1,clearInterval(){},addEventListener(){},removeEventListener(){}},require:(name)=>{if(!(name in modules))throw new Error(`Unexpected import ${name}`);return modules[name]}})
+  runInNewContext(outputText,{exports,__development:development,__hot:development?hot:undefined,Math:math,Date,Intl,crypto,queueMicrotask,sessionStorage:{getItem:(key)=>session.get(key)??null,setItem:(key,value)=>session.set(key,value)},localStorage:{getItem:(key)=>storage.get(key)??null,setItem:(key,value)=>storage.set(key,value)},document:{addEventListener(){},removeEventListener(){}},window:{setInterval:()=>1,clearInterval(){},addEventListener(){},removeEventListener(){}},require:(name)=>{if(!(name in modules))throw new Error(`Unexpected import ${name}`);return modules[name]}})
   modules[module]=exports
  }
  const instance=()=>({slots:[],cursor:0,effects:[]})
@@ -74,6 +74,9 @@ test('clicking a search result submits the guess immediately and retains the his
  assert.equal(nodes(tree,(node)=>node.type==='table').length,1)
  assert.equal(nodes(tree,(node)=>node.props?.className==='weapon-rules').length,1)
  assert.equal(nodes(tree,(node)=>node.type==='h2')[0].props.children.join(''),'Identified in 1')
+ const completedCounter=nodes(tree,(node)=>node.props?.mode==='practice'&&node.props?.completed===true)[0]
+ assert(completedCounter.props.runId)
+ assert(Number.isFinite(Date.parse(completedCounter.props.completedAt)))
  const summary=nodes(tree,(node)=>node.type?.name==='WinSummary')[0]
  const result=h.render(h.instance(),summary.type,summary.props)
  assert.equal(nodes(result,(node)=>node.type==='h2')[0].props.children,'Share your run')
@@ -81,6 +84,55 @@ test('clicking a search result submits the guess immediately and retains the his
  assert.equal(nodes(result,(node)=>node.props?.className==='result-share-card').length,0)
  assert.equal(nodes(result,(node)=>node.props?.className==='summary-guess-number').length,1)
  assert.equal(nodes(result,(node)=>node.type==='button')[0].props.children,'Share result')
+})
+
+test('optional hints appear after a guess, unlock at 3 and 5 misses, and persist in both modes',()=>{
+ for(const mode of ['practice','daily']){
+  const h=harness(false),logic=h.modules['./logic'],daily=h.modules['./daily']
+  const dayKey=daily.dailyDate(),initial=mode==='daily'?daily.createDailyRound(dayKey,pool):logic.createRound(pool,()=>0)
+  const key=mode==='daily'?daily.dailyStorageKey(dayKey):daily.PRACTICE_STORAGE_KEY
+  h.storage.set(key,JSON.stringify({version:1,signature:logic.catalogSignature(pool,releases),round:initial,...(mode==='daily'?{dayKey}:{})}))
+  const parent=h.render(h.instance(),h.modules.Weapons.default,{mode}),game=roundNode(parent)
+  const state=h.instance()
+  let tree=h.render(state,game.type,game.props)
+  const hintButtons=()=>nodes(tree,(node)=>node.props?.['aria-label']?.startsWith('Reveal '))
+  const guess=(weapon)=>{
+   input(tree).props.onChange({target:{value:weapon.name}})
+   tree=h.render(state,game.type,game.props)
+   nodes(tree,(node)=>node.type==='form')[0].props.onSubmit({preventDefault(){}})
+   tree=h.render(state,game.type,game.props)
+  }
+  assert.equal(nodes(tree,(node)=>node.props?.className==='weapon-hints').length,0)
+  const wrong=pool.filter((weapon)=>weapon.id!==initial.answerId).slice(0,5)
+  for(let i=0;i<wrong.length;i++){
+   guess(wrong[i])
+   assert.equal(hintButtons()[0].props.disabled,i+1<3)
+   assert.equal(hintButtons()[1]?.props.disabled ?? hintButtons()[0].props.disabled,i+1<5)
+   if(i===0){
+    hintButtons()[0].props.onClick()
+    tree=h.render(state,game.type,game.props)
+    assert.equal(nodes(tree,(node)=>node.props?.className==='hint-value').length,0)
+   }
+  }
+  // Unlocked does not automatically disclose either answer.
+  assert.equal(nodes(tree,(node)=>node.props?.className==='hint-value').length,0)
+  for(const button of hintButtons())button.props.onClick()
+  tree=h.render(state,game.type,game.props)
+  const answer=pool.find((weapon)=>weapon.id===initial.answerId)
+  const values=nodes(tree,(node)=>node.props?.className==='hint-value').map((node)=>node.props.children)
+  assert.equal(values[0],answer.name.match(/[\p{L}\p{N}]/u)?.[0].toLocaleUpperCase() ?? answer.name.charAt(0))
+  assert.equal(values[1],logic.formatSourceName(logic.currentVersion(answer).source.name))
+  const restored=h.render(h.instance(),game.type,game.props)
+  assert.equal(nodes(restored,(node)=>node.props?.className==='hint-value').length,2)
+  guess(answer)
+  const saved=JSON.parse(h.storage.get(key)).round
+  assert.equal(logic.buildShareText(saved,pool,releases).includes('Hints used: 2/2'),true)
+  if(mode==='practice'){
+   nodes(tree,(node)=>node.type==='button'&&node.props.children==='Play again')[0].props.onClick()
+   tree=h.render(state,game.type,game.props)
+   assert.equal(nodes(tree,(node)=>node.props?.className==='weapon-hints').length,0)
+  }
+ }
 })
 
 test('development clears saved wins and remounts on edits; release mode restores saved progress',()=>{

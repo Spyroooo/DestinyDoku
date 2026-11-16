@@ -7,6 +7,8 @@
 .daily-schedule { margin: 16px auto; color: #aab7c9; font-size: 12px; line-height: 1.8; }
 .daily-schedule p { margin: 0; }
 .reset-countdown { color: #e4cf94; font-variant-numeric: tabular-nums; }
+.daily-community-count { margin: 0 0 22px; color: #aab7c9; font-size: 13px; }
+.daily-community-count strong { color: #e4cf94; font-variant-numeric: tabular-nums; }
 .daily-practice-link { display: inline-block; margin-top: 16px; color: #e4cf94; }
 .weapons-description, .round-summary span, .weapon-rules { color: #aab7c9; }
 .round-summary { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin: 28px 0; font-size: 14px; }
@@ -148,6 +150,16 @@ main:has(.weapons-page) { width: min(1220px, 100%); padding-top: 40px; padding-b
 .manual-share textarea { display: block; width: 100%; margin-top: 8px; padding: 10px; background: #080f18; color: #edf1f7; border: 1px solid #6d809a; border-radius: 5px; resize: vertical; font: 12px/1.7 monospace; }
 
 .classified-discovery { padding: 0.8rem 1rem; border-left: 2px solid #c6a24f; background: rgb(198 162 79 / 8%); color: #e4cf94; }
+
+.weapon-hints { display: flex; flex-direction: column; max-width: 520px; margin: 22px auto 0; padding: 4px 20px; border: 1px solid #43546b; border-radius: 8px; background: #101a28ed; text-align: left; }
+.weapon-hint { min-width: 0; padding: 16px 0; }
+.weapon-hint + .weapon-hint { border-top: 1px solid #344255; }
+.weapon-hint h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #d9bb7e; margin: 0 0 12px; }
+.weapons-page .weapon-hint button { width: 100%; padding: 9px 10px; font-size: 12px; background: #1b293b; border-color: #61758e; color: #edf1f7; }
+.weapons-page .weapon-hint button:hover:not(:disabled) { background: #293c52; }
+.weapons-page .weapon-hint button:disabled { background: #141d29; border-color: #344255; color: #9aaac0; cursor: not-allowed; }
+.weapon-hint.is-revealed h2 { color: #e9ce99; }
+.hint-value { color: #edf1f7; font-size: 17px; overflow-wrap: anywhere; }
 
 /* Stable row keys keep earlier guesses from replaying as new rows are added. */
 .guess-reveal > th,

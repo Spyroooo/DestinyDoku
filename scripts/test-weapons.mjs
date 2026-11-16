@@ -59,11 +59,48 @@ test('release arrows point toward answer; reissues use current damage and origin
   assert(logic.evaluateGuess(find('wish-ender'), find('wish-ender'), releases).every((clue) => clue.match === 'exact'))
 })
 
-test('search supports aliases and punctuation and excludes previous guesses', () => {
+test('search matches prefixes in order, supports aliases and punctuation, and excludes previous guesses', () => {
   assert.equal(logic.searchWeapons(pool, 'BXR', [])[0].id, 'bxr-55-battler')
   assert.equal(logic.searchWeapons(pool, "Leviathan's Breath", [])[0].id, 'leviathans-breath')
   assert.equal(logic.searchWeapons(pool, 'BXR', ['bxr-55-battler']).length, 0)
   assert.equal(logic.searchWeapons(pool, 'zzzzz', []).length, 0)
+  const cResults = logic.searchWeapons(pool, 'C', [])
+  assert(cResults.length > 0)
+  assert(!cResults.some((weapon) => weapon.id === 'a-single-clap'))
+  assert(cResults.every((weapon) => [weapon.name, ...weapon.aliases].some((name) => logic.normalize(name).startsWith('c'))))
+  assert(!logic.searchWeapons(pool, 'clap', []).some((weapon) => weapon.id === 'a-single-clap'))
+  assert(logic.searchWeapons(pool, 'a single cl', []).some((weapon) => weapon.id === 'a-single-clap'))
+  assert(!logic.searchWeapons(pool, 'calp', []).some((weapon) => weapon.id === 'a-single-clap'))
+})
+
+test('source hints use readable labels without changing acquisition evidence or saves', () => {
+  assert.equal(logic.formatSourceName('plunder (DIM curated source group)'), 'Season of Plunder')
+  assert.equal(logic.formatSourceName('ironbanner (DIM curated source group)'), 'Iron Banner')
+  assert.equal(logic.formatSourceName('spireofthewatcher (DIM curated source group)'), 'Spire of the Watcher')
+  assert.equal(logic.formatSourceName('future_source (DIM curated source group)'), 'Future Source')
+  assert.equal(logic.formatSourceName('Monument to Lost Lights (Exotic Archive)'), 'Monument to Lost Lights (Exotic Archive)')
+  const signature = logic.catalogSignature(pool, releases)
+  for (const weapon of pool) {
+    const source = logic.currentVersion(weapon).source.name
+    assert(!logic.formatSourceName(source).includes('DIM curated source group'))
+    if (source.endsWith('(DIM curated source group)')) assert.notEqual(logic.formatSourceName(source), source)
+  }
+  assert.equal(logic.catalogSignature(pool, releases), signature)
+})
+
+test('practice identities and completion timestamps survive saves, with a new identity for each run', () => {
+  const first = logic.identifyPracticeRound(logic.createRound(pool, () => 0))
+  const second = logic.identifyPracticeRound(logic.createRound(pool, () => 0))
+  assert.notEqual(first.runId, second.runId)
+  assert.equal(logic.identifyPracticeRound(first), first)
+  assert.equal(first.completedAt, undefined)
+  const completedAt = '2026-11-16T12:00:00.000Z'
+  const won = { ...logic.submitGuess(first, first.answerId, pool), completedAt }
+  const restored = logic.restoreRound(JSON.stringify({ version: 1, signature: logic.catalogSignature(pool, releases), round: won }), pool, logic.catalogSignature(pool, releases))
+  assert.equal(restored.runId, first.runId)
+  assert.equal(restored.completedAt, completedAt)
+  const legacy = { answerId: first.answerId, guessIds: [first.answerId] }
+  assert.equal(logic.identifyPracticeRound(legacy), legacy, 'Old completed saves must not be assigned a new completion identity')
 })
 
 test('save restoration accepts valid rounds and rejects corrupt, stale or impossible progress', () => {

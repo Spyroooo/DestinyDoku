@@ -1,7 +1,12 @@
 import type { Release, Weapon, WeaponVersion } from '../../types/weapon'
 
 export type Match = 'exact' | 'partial' | 'wrong'
-export type Round = { answerId: string; guessIds: string[] }
+export type HintId = 'first-letter' | 'source'
+export type Round = { answerId: string; guessIds: string[]; revealedHints?: HintId[]; runId?: string; completedAt?: string }
+export const weaponHints: { id: HintId; title: string; after: number }[] = [
+  { id: 'first-letter', title: 'First letter', after: 3 },
+  { id: 'source', title: 'Acquisition source', after: 5 },
+]
 export type Status = 'playing' | 'won'
 export type WeaponMode = 'practice' | 'daily'
 export type ShareContext = { mode: 'practice' } | { mode: 'daily'; dayKey: string }
@@ -27,6 +32,29 @@ export function canBeAnswer(weapon: Weapon): boolean {
 
 export function label(value: string): string {
   return value.split('-').map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(' ')
+}
+
+const sourceGroupLabels: Record<string, string> = {
+  blackarmory: 'Black Armory', brave: 'BRAVE Arsenal', crucible: 'Crucible',
+  dreaming: 'Dreaming City', echoes: 'Episode: Echoes', edz: 'European Dead Zone',
+  europa: 'Europa', events: 'Events', evidenceboard: 'Evidence Board',
+  exoticquest: 'Exotic quest', gambit: 'Gambit', haunted: 'Season of the Haunted',
+  heresy: 'Episode: Heresy', ironbanner: 'Iron Banner', legendaryengram: 'Legendary engrams',
+  leviathan: 'Leviathan', mars: 'Mars', mercury: 'Mercury', moon: 'Moon',
+  neomuna: 'Neomuna', nessus: 'Nessus', nightfall: 'Nightfall', pit: 'Pit of Heresy',
+  plunder: 'Season of Plunder', prophecy: 'Prophecy', psiops: 'PsiOps Battlegrounds',
+  raid: 'Raids', revenant: 'Episode: Revenant', rivenslair: 'Riven’s Lair',
+  scourgeofthepast: 'Scourge of the Past', sonar: 'Season of the Deep',
+  spireofthewatcher: 'Spire of the Watcher', strikes: 'Vanguard strikes',
+  sundial: 'The Sundial', trials: 'Trials',
+}
+
+/** Presentation only: retain the original acquisition evidence in the catalogue. */
+export function formatSourceName(name: string): string {
+  const group = name.match(/^(.+?)\s*\(DIM curated source group\)$/i)
+  if (!group) return name
+  const key = group[1].trim()
+  return sourceGroupLabels[key.toLowerCase()] ?? label(key.replace(/[_\s]+/g, '-'))
 }
 
 export function compareSets(guess: string[], answer: string[]): Match {
@@ -74,9 +102,24 @@ export function createRound(pool: Weapon[], random = Math.random): Round {
   return { answerId: answers[Math.min(answers.length - 1, Math.max(0, Math.floor(random() * answers.length)))].id, guessIds: [] }
 }
 
+export function identifyPracticeRound(round: Round): Round {
+  // Legacy completed rounds have no known completion date; do not count them retroactively.
+  return round.runId || roundStatus(round) === 'won' ? round : { ...round, runId: crypto.randomUUID() }
+}
+
 export function submitGuess(round: Round, weaponId: string, pool: Weapon[]): Round {
   if (roundStatus(round) !== 'playing' || round.guessIds.includes(weaponId) || !pool.some((weapon) => weapon.id === weaponId)) return round
   return { ...round, guessIds: [...round.guessIds, weaponId] }
+}
+
+export function incorrectGuesses(round: Round): number {
+  return round.guessIds.filter((id) => id !== round.answerId).length
+}
+
+export function revealHint(round: Round, hintId: HintId): Round {
+  const hint = weaponHints.find((entry) => entry.id === hintId)
+  if (!hint || roundStatus(round) !== 'playing' || incorrectGuesses(round) < hint.after || round.revealedHints?.includes(hintId)) return round
+  return { ...round, revealedHints: [...(round.revealedHints ?? []), hintId] }
 }
 
 export function normalize(value: string): string {
@@ -86,7 +129,7 @@ export function normalize(value: string): string {
 export function searchWeapons(pool: Weapon[], query: string, guessedIds: string[]): Weapon[] {
   const search = normalize(query)
   return pool.filter((weapon) => !guessedIds.includes(weapon.id) &&
-    [weapon.name, ...weapon.aliases].some((name) => normalize(name).includes(search)))
+    [weapon.name, ...weapon.aliases].some((name) => normalize(name).startsWith(search)))
     .sort((a, b) => a.name.localeCompare(b.name))
 }
 
@@ -115,7 +158,15 @@ export function restoreRound(raw: string | null, pool: Weapon[], signature: stri
       new Set(round.guessIds).size !== round.guessIds.length) return null
     const winIndex = round.guessIds.indexOf(round.answerId)
     if (winIndex !== -1 && winIndex !== round.guessIds.length - 1) return null
-    return { answerId: round.answerId, guessIds: [...round.guessIds] }
+    const restored: Round = { answerId: round.answerId, guessIds: [...round.guessIds] }
+    if (typeof round.runId === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(round.runId)) {
+      restored.runId = round.runId
+      if (winIndex !== -1 && typeof round.completedAt === 'string' && Number.isFinite(Date.parse(round.completedAt))) restored.completedAt = round.completedAt
+    }
+    if (Array.isArray(round.revealedHints)) {
+      restored.revealedHints = weaponHints.filter((hint) => round.revealedHints.includes(hint.id) && incorrectGuesses(restored) >= hint.after).map((hint) => hint.id)
+    }
+    return restored
   } catch { return null }
 }
 
@@ -137,5 +188,6 @@ export function buildShareText(round: Round, pool: Weapon[], releases: Release[]
   const rows = buildGuessGrid(round, pool, releases).map((clues) => clues.map((clue) => squares[clue.match]).join(''))
   const title = context.mode === 'daily' ? `Daily ${context.dayKey}` : 'Practice'
   const link = context.mode === 'daily' ? 'https://destinydoku.com/weapons/daily' : 'https://destinydoku.com/weapons'
-  return [`DestinyDoku Weapons · ${title} · ${round.guessIds.length} ${round.guessIds.length === 1 ? 'guess' : 'guesses'}`, ...rows, link].join('\n')
+  const hints = round.revealedHints?.length ? [`Hints used: ${round.revealedHints.length}/2`] : []
+  return [`DestinyDoku Weapons · ${title} · ${round.guessIds.length} ${round.guessIds.length === 1 ? 'guess' : 'guesses'}`, ...hints, ...rows, link].join('\n')
 }

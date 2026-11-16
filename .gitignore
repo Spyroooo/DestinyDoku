@@ -28,3 +28,8 @@ dist-ssr
 
 # Private workstation-only weapon review editor (never commit or deploy)
 /.local/weapon-review/
+
+# Local Cloudflare runtime state and credentials
+.wrangler/
+.dev.vars
+.dev.vars.*
