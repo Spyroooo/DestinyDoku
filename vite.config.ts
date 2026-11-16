@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/DestinyDoku/',
+  base: '/',
   plugins: [react(), {
     name: 'reset-weapons-during-development',
     apply: 'serve',

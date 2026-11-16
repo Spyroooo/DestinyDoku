@@ -1,7 +1,7 @@
 # Weapons modes
 
-- `#/weapons` and `#/weapons/practice`: unlimited practice with random answers.
-- `#/weapons/daily`: one deterministic challenge for each Europe/Zurich date.
+- `/weapons` and `/weapons/practice`: unlimited practice with random answers.
+- `/weapons/daily`: one deterministic challenge for each Europe/Zurich date.
 
 Both modes allow unlimited guesses. Practice can start another round after a win;
 the daily challenge stays completed until the next Zurich midnight. Both use the

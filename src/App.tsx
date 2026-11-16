@@ -1,4 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
+import type { MouseEvent } from 'react'
+import { normalizePath, sitePaths } from './routes'
 import './App.css'
 import Feedback from './Feedback'
 const Weapons = lazy(() => import('./games/weapons/Weapons'))
@@ -55,30 +57,45 @@ const games = [
 ]
 
 function App() {
-  const [page, setPage] = useState(() => window.location.hash.slice(1))
+  const [page, setPage] = useState(() => normalizePath(window.location.pathname))
 
   useEffect(() => {
     function updatePage() {
-      setPage(window.location.hash.slice(1))
+      setPage(normalizePath(window.location.pathname))
     }
 
-    window.addEventListener('hashchange', updatePage)
-    return () => window.removeEventListener('hashchange', updatePage)
+    window.addEventListener('popstate', updatePage)
+    return () => window.removeEventListener('popstate', updatePage)
   }, [])
+
+  function navigate(event: MouseEvent<HTMLDivElement>) {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+    if (!(event.target instanceof Element)) return
+    const link = event.target.closest('a')
+    if (!link || link.hasAttribute('download') || link.target && link.target !== '_self') return
+    const url = new URL(link.href)
+    if (url.origin !== window.location.origin || url.hash || !sitePaths.includes(normalizePath(url.pathname))) return
+    event.preventDefault()
+    if (url.href === window.location.href) return
+    window.history.pushState(null, '', `${url.pathname}${url.search}`)
+    setPage(normalizePath(url.pathname))
+    window.scrollTo(0, 0)
+    document.getElementById('main-content')?.focus()
+  }
 
   const currentGame = games.find((game) => page === `/${game.id}` || game.id === 'weapons' && ['/weapons/practice', '/weapons/daily'].includes(page))
 
   return (
-    <div className="app">
+    <div className="app" onClick={navigate}>
       <header className="site-header">
-        <a className="brand" href="#/" aria-label="DestinyDoku home">
+        <a className="brand" href="/" aria-label="DestinyDoku home">
           Destiny<span>Doku</span>
         </a>
         <nav aria-label="Games">
           {games.map((game) => (
             <a
               key={game.id}
-              href={`#/${game.id}`}
+              href={`/${game.id}`}
               aria-current={currentGame?.id === game.id ? 'page' : undefined}
             >
               {game.title}
@@ -87,7 +104,7 @@ function App() {
         </nav>
       </header>
 
-      <main id="main-content">
+      <main id="main-content" tabIndex={-1}>
         {page === '/feedback' ? <Feedback /> : currentGame?.id === 'weapons' ? (
           <Suspense fallback={<p role="status">Loading weapon challenges…</p>}><Weapons mode={page === '/weapons/daily' ? 'daily' : 'practice'} /></Suspense>
         ) : currentGame ? (
@@ -96,7 +113,14 @@ function App() {
             <h1>{currentGame.title}</h1>
             <p>{currentGame.description}</p>
             <p className="placeholder-note">This challenge is under construction. Check back soon, Guardian.</p>
-            <a className="back-link" href="#/">← All games</a>
+            <a className="back-link" href="/">← All games</a>
+          </section>
+        ) : !sitePaths.includes(page) ? (
+          <section className="game-placeholder">
+            <p className="eyebrow">404</p>
+            <h1>Page not found</h1>
+            <p>This destination doesn’t exist. Head back to choose a challenge.</p>
+            <a className="back-link" href="/">← All games</a>
           </section>
         ) : (
           <>
@@ -107,7 +131,7 @@ function App() {
             </section>
             <section className="games" aria-label="Choose a game">
               {games.map((game) => (
-                <a className="game-card" key={game.id} href={`#/${game.id}`}>
+                <a className="game-card" key={game.id} href={`/${game.id}`}>
                   <span className="game-symbol" aria-hidden="true">{game.symbol}</span>
                   <h2>{game.title}</h2>
                   <p>{game.description}</p>
@@ -121,7 +145,7 @@ function App() {
 
       <footer>
         <p>DestinyDoku · An unofficial Destiny fan project</p>
-        <p className="feedback-prompt">Found a bug, spotted incorrect data, or have an idea? <a href="#/feedback">Send feedback or suggest an improvement →</a></p>
+        <p className="feedback-prompt">Found a bug, spotted incorrect data, or have an idea? <a href="/feedback">Send feedback or suggest an improvement →</a></p>
       </footer>
     </div>
   )

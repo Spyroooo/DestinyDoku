@@ -34,7 +34,7 @@ export default function Feedback() {
           <button type="submit">Send feedback</button>
         </fieldset>
       </form>
-      <a className="back-link" href="#/">← All games</a>
+      <a className="back-link" href="/">← All games</a>
     </section>
   )
 }

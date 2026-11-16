@@ -1,6 +1,6 @@
 # Feedback setup
 
-The footer opens `#/feedback`. The form posts directly to Formspree, which handles delivery and any spam-verification steps. Players need no account. No API key or backend is needed.
+The footer opens `/feedback`. The form posts directly to Formspree, which handles delivery and any spam-verification steps. Players need no account. No API key or backend is needed.
 
 1. Create an account at https://formspree.io and verify your email.
 2. In the dashboard, create a new form named **DestinyDoku feedback**.

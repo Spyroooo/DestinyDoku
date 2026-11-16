@@ -136,6 +136,6 @@ export function buildShareText(round: Round, pool: Weapon[], releases: Release[]
   const squares = { exact: '🟩', partial: '🟨', wrong: '🟥' }
   const rows = buildGuessGrid(round, pool, releases).map((clues) => clues.map((clue) => squares[clue.match]).join(''))
   const title = context.mode === 'daily' ? `Daily ${context.dayKey}` : 'Practice'
-  const link = context.mode === 'daily' ? 'https://Spyroooo.github.io/DestinyDoku/#/weapons/daily' : 'https://Spyroooo.github.io/DestinyDoku/#/weapons'
+  const link = context.mode === 'daily' ? 'https://destinydoku.com/weapons/daily' : 'https://destinydoku.com/weapons'
   return [`DestinyDoku Weapons · ${title} · ${round.guessIds.length} ${round.guessIds.length === 1 ? 'guess' : 'guesses'}`, ...rows, link].join('\n')
 }

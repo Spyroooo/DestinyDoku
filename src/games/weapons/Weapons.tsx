@@ -66,8 +66,8 @@ export default function Weapons({ mode = 'practice' }: { mode?: WeaponMode }) {
       <p className="eyebrow">Destiny 2 · {mode === 'daily' ? 'Daily challenge' : 'Unlimited practice'}</p>
       <h1 id="weapons-title">Weapons</h1>
       <nav className="weapon-mode-tabs" aria-label="Weapons game modes">
-        <a href="#/weapons/practice" aria-current={mode === 'practice' ? 'page' : undefined}>Unlimited practice</a>
-        <a href="#/weapons/daily" aria-current={mode === 'daily' ? 'page' : undefined}>Daily challenge</a>
+        <a href="/weapons/practice" aria-current={mode === 'practice' ? 'page' : undefined}>Unlimited practice</a>
+        <a href="/weapons/daily" aria-current={mode === 'daily' ? 'page' : undefined}>Daily challenge</a>
       </nav>
       <p className="weapons-description">{mode === 'daily' ? 'One weapon for everyone today. Guess until you get it right.' : 'One hidden weapon. Guess until you get it right. Use each comparison to narrow down the arsenal.'}</p>
       {mode === 'daily' && <p className="daily-schedule">Next daily in <span className="reset-countdown">{resetCountdown(resetAt - now)}</span></p>}
@@ -199,7 +199,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
           <p>The answer was {answer.name}.</p>
           {mode === 'practice' ? <button type="button" onClick={playAgain}>Play again</button> : <>
             <p>Daily complete. A new weapon arrives when the countdown reaches zero.</p>
-            <a className="daily-practice-link" href="#/weapons/practice">Keep playing in practice →</a>
+            <a className="daily-practice-link" href="/weapons/practice">Keep playing in practice →</a>
           </>}
         </div>
       )}
@@ -243,7 +243,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
         <p>Damage types match regardless of their order: green means identical sets, yellow means some overlap, and red means no overlap. Release arrows point toward the answer’s release. Release tiles are yellow for different releases in the same calendar year. Matching every attribute does not guarantee the weapon name is correct.</p>
         <p>Practice and daily progress are saved separately on this browser when storage is available. Daily challenges reset when the countdown reaches zero. After a dataset update, incompatible saved rounds start fresh.</p>
       </details>
-      <a className="back-link" href="#/">← All games</a>
+      <a className="back-link" href="/">← All games</a>
       {helpCategory && <CategoryHelp key={helpCategory} category={helpCategory} onClose={() => setHelpCategory(null)} />}
     </>
   )
