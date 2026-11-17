@@ -1,5 +1,5 @@
 import type { Weapon } from '../../types/weapon'
-import { currentVersion } from './logic'
+import { currentVersion, label } from './logic'
 import type { Column } from './logic'
 import { assetUrl } from './assets'
 
@@ -25,9 +25,15 @@ export default function ClueIcons({ column, weapon }: { column: Column; weapon: 
     case 'source': icons = [version.source.category === 'exotic-archive' ? 'collections' : version.source.category === 'tenet-engram' ? 'engram' : version.source.category === 'raid' ? 'raid' : version.source.category === 'quest' || version.source.category === 'dungeon' ? 'quest' : version.source.category === 'nightfall' ? 'strike' : 'ghost']; break
     case 'release': icons = ['collections']; break
   }
+  const multipleDamage = column === 'damage' && icons.length > 1
   return (
-    <span className={`clue-icons icons-${column} ${column === 'ammo' ? `ammo-${version.ammoType}` : ''} ${column === 'rarity' ? `rarity-${weapon.rarity}` : ''}`} aria-hidden="true">
-      {icons.map((icon) => <img key={icon} className={icon === 'damage_stasis' ? 'stasis-symbol' : ['damage_arc', 'damage_solar', 'damage_void', 'damage_strand.png', 'ammo-special', 'ammo-heavy', 'ammo-primary'].includes(icon) ? undefined : 'white-symbol'} src={assetUrl(`images/categories/${icon}${icon.endsWith('.png') ? '' : '.svg'}`)} alt="" width="30" height="30" />)}
+    <span className={`clue-icons icons-${column}${multipleDamage ? ' multi-damage' : ''} ${column === 'ammo' ? `ammo-${version.ammoType}` : ''} ${column === 'rarity' ? `rarity-${weapon.rarity}` : ''}`} aria-hidden="true">
+      {icons.map((icon, index) => {
+        const picture = <img className={icon === 'damage_stasis' ? 'stasis-symbol' : ['damage_arc', 'damage_solar', 'damage_void', 'damage_strand.png', 'ammo-special', 'ammo-heavy', 'ammo-primary'].includes(icon) ? undefined : 'white-symbol'} src={assetUrl(`images/categories/${icon}${icon.endsWith('.png') ? '' : '.svg'}`)} alt="" width="30" height="30" />
+        return multipleDamage
+          ? <span className="damage-item" key={icon}>{picture}<span>{label(version.damageTypes[index])}</span></span>
+          : <span className="clue-icon" key={icon}>{picture}</span>
+      })}
     </span>
   )
 }

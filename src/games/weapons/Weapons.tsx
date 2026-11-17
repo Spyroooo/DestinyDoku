@@ -247,7 +247,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
                   {evaluateGuess(weapon, answer, releases).map((clue, columnIndex) => (
                     <td key={clue.column} className={`clue-${clue.match}`} style={{ animationDelay: `${(columnIndex + 1) * 220}ms` }}>
                       <ClueIcons column={clue.column} weapon={weapon} />
-                      <span className="clue-value">{clue.value}</span>
+                      <span className={clue.column === 'damage' && currentVersion(weapon).damageTypes.length > 1 ? 'sr-only' : 'clue-value'}>{clue.value}</span>
                       <span className={clue.column === 'release' ? "clue-feedback" : "sr-only"}>
                         {clue.direction ? `${clue.direction === 'later' ? '↑' : '↓'} Answer is ${clue.direction}` : `${clue.match === 'exact' ? '✓' : clue.match === 'partial' ? '≈' : '×'} ${matchLabels[clue.match]}`}
                       </span>

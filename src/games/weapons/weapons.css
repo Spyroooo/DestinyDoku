@@ -63,6 +63,10 @@
 .guess-table tbody td.clue-wrong { background: linear-gradient(145deg, #8c3d3e, #642c33); color: #fff; }
 .clue-icons { display: flex; justify-content: center; gap: 5px; margin-bottom: 6px; }
 .clue-icons img { object-fit: contain; width: 24px; height: 24px; }
+.clue-icon { display: inline-flex; }
+.clue-icons.multi-damage { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 3px; width: 100%; margin: 0 auto; }
+.damage-item { display: flex; align-items: center; justify-content: center; gap: 3px; min-width: 0; font-size: 10px; line-height: 1.2; font-weight: 650; white-space: nowrap; }
+.clue-icons.multi-damage img { width: 15px; height: 15px; flex: 0 0 15px; }
 .ammo-special { filter: brightness(0) saturate(100%) invert(86%) sepia(24%) saturate(615%) hue-rotate(65deg); }
 .ammo-heavy, .rarity-legendary { filter: brightness(0) saturate(100%) invert(81%) sepia(39%) saturate(1087%) hue-rotate(206deg); }
 .rarity-exotic { filter: brightness(0) saturate(100%) invert(91%) sepia(60%) saturate(605%) hue-rotate(341deg); }
