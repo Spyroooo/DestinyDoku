@@ -134,9 +134,19 @@ export function weaponSearchNames(weapon: Weapon): string[] {
 
 export function searchWeapons(pool: Weapon[], query: string, guessedIds: string[]): Weapon[] {
   const search = normalize(query)
-  return pool.filter((weapon) => !guessedIds.includes(weapon.id) &&
-    weaponSearchNames(weapon).some((name) => name.startsWith(search)))
-    .sort((a, b) => a.name.localeCompare(b.name))
+  const guessed = new Set(guessedIds)
+  return pool.filter((weapon) => !guessed.has(weapon.id)).map((weapon) => {
+    const [fullName, shortName, ...aliases] = weaponSearchNames(weapon)
+    const names = [fullName, shortName]
+    const rank = names.includes(search) ? 0
+      : aliases.includes(search) ? 1
+      : names.some((name) => name.startsWith(search)) ? 2
+      : aliases.some((name) => name.startsWith(search)) ? 3
+      : Infinity
+    return { weapon, rank, sortName: shortName }
+  }).filter((entry) => Number.isFinite(entry.rank))
+    .sort((a, b) => a.rank - b.rank || a.sortName.localeCompare(b.sortName) || a.weapon.id.localeCompare(b.weapon.id))
+    .map((entry) => entry.weapon)
 }
 
 // Reject saves made against a different clue dataset.

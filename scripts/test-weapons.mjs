@@ -84,6 +84,21 @@ test('search makes a leading The optional without matching arbitrary interior wo
   assert.equal(logic.searchWeapons([thermal], 'rmal', []).length, 0)
 })
 
+test('search ranks weapon-name prefixes above alias prefixes and exact matches above partial matches', () => {
+  const weapons = ['ahab-char', 'chain-of-command', 'chattering-bone', 'the-chaperone'].map(find)
+  assert.deepEqual(logic.searchWeapons(weapons, 'cha', []).map((weapon) => weapon.id), [
+    'chain-of-command', 'the-chaperone', 'chattering-bone', 'ahab-char',
+  ])
+  assert.deepEqual(logic.searchWeapons([...weapons].reverse(), 'CHA', []).map((weapon) => weapon.id), [
+    'chain-of-command', 'the-chaperone', 'chattering-bone', 'ahab-char',
+  ])
+  const partial = { ...find('chattering-bone'), id: 'partial-char', name: 'Charmer', aliases: [] }
+  assert.equal(logic.searchWeapons([partial, find('ahab-char')], 'Char', [])[0].id, 'ahab-char')
+  const alias = { ...partial, id: 'alias-chaperone', name: 'A Different Weapon', aliases: ['Chaperone'] }
+  assert.equal(logic.searchWeapons([alias, find('the-chaperone')], 'Chaperone', [])[0].id, 'the-chaperone')
+  assert.equal(logic.searchWeapons(weapons, 'cha', ['chain-of-command'])[0].id, 'the-chaperone')
+})
+
 test('source hints use readable labels without changing acquisition evidence or saves', () => {
   assert.equal(logic.formatSourceName('plunder (DIM curated source group)'), 'Season of Plunder')
   assert.equal(logic.formatSourceName('ironbanner (DIM curated source group)'), 'Iron Banner')
