@@ -126,10 +126,16 @@ export function normalize(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]/g, '')
 }
 
+export function weaponSearchNames(weapon: Weapon): string[] {
+  return [weapon.name, ...weapon.aliases].flatMap((name) => [
+    normalize(name), normalize(name.trim().replace(/^the\s+/i, '')),
+  ])
+}
+
 export function searchWeapons(pool: Weapon[], query: string, guessedIds: string[]): Weapon[] {
   const search = normalize(query)
   return pool.filter((weapon) => !guessedIds.includes(weapon.id) &&
-    [weapon.name, ...weapon.aliases].some((name) => normalize(name).startsWith(search)))
+    weaponSearchNames(weapon).some((name) => name.startsWith(search)))
     .sort((a, b) => a.name.localeCompare(b.name))
 }
 

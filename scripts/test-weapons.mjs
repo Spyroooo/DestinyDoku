@@ -67,10 +67,21 @@ test('search matches prefixes in order, supports aliases and punctuation, and ex
   const cResults = logic.searchWeapons(pool, 'C', [])
   assert(cResults.length > 0)
   assert(!cResults.some((weapon) => weapon.id === 'a-single-clap'))
-  assert(cResults.every((weapon) => [weapon.name, ...weapon.aliases].some((name) => logic.normalize(name).startsWith('c'))))
+  assert(cResults.every((weapon) => [weapon.name, ...weapon.aliases].some((name) => /^c|^the\s+c/i.test(name))))
   assert(!logic.searchWeapons(pool, 'clap', []).some((weapon) => weapon.id === 'a-single-clap'))
   assert(logic.searchWeapons(pool, 'a single cl', []).some((weapon) => weapon.id === 'a-single-clap'))
   assert(!logic.searchWeapons(pool, 'calp', []).some((weapon) => weapon.id === 'a-single-clap'))
+})
+
+test('search makes a leading The optional without matching arbitrary interior words', () => {
+  const recluse = { ...find('the-recluse'), aliases: [] }
+  assert.equal(logic.searchWeapons([recluse], 'recl', [])[0].id, 'the-recluse')
+  assert.equal(logic.searchWeapons([recluse], 'The Recl', [])[0].id, 'the-recluse')
+  assert.equal(logic.searchWeapons([recluse], 'RECLUSE', [])[0].id, 'the-recluse')
+  assert.equal(logic.searchWeapons([recluse], 'cluse', []).length, 0)
+  assert.equal(logic.searchWeapons([recluse], 'recl', ['the-recluse']).length, 0)
+  const thermal = { ...recluse, name: 'Thermal Erosion' }
+  assert.equal(logic.searchWeapons([thermal], 'rmal', []).length, 0)
 })
 
 test('source hints use readable labels without changing acquisition evidence or saves', () => {

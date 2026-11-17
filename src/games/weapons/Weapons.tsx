@@ -3,7 +3,7 @@ import { playableWeapons, releases } from '../../data/destiny2'
 import {
   canBeAnswer, catalogSignature, columns, createRound, currentVersion, evaluateGuess,
   formatSourceName, identifyPracticeRound, incorrectGuesses, revealHint, weaponHints,
-  normalize, restoreRound, roundStatus, searchWeapons, submitGuess,
+  normalize, restoreRound, roundStatus, searchWeapons, submitGuess, weaponSearchNames,
 } from './logic'
 import './weapons.css'
 import ClueIcons from './ClueIcons'
@@ -165,7 +165,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
             setError('Start typing a weapon name to see matching options.')
             return
           }
-          const exact = matches.find((weapon) => [weapon.name, ...weapon.aliases].some((name) => normalize(name) === normalize(query)))
+          const exact = matches.find((weapon) => weaponSearchNames(weapon).includes(normalize(query)))
           const choice = exact ?? matches[0]
           if (choice) guess(choice.id)
           else setError('No unguessed weapons match your search.')
