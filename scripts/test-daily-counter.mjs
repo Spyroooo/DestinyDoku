@@ -14,6 +14,7 @@ function database() {
   const db = new DatabaseSync(':memory:')
   db.exec(readFileSync(new URL('../cloudflare/daily-counter/migrations/0001_daily_counter.sql', import.meta.url), 'utf8'))
   db.exec(readFileSync(new URL('../cloudflare/daily-counter/migrations/0002_practice_counter.sql', import.meta.url), 'utf8'))
+  db.exec(readFileSync(new URL('../cloudflare/daily-counter/migrations/0003_character_practice_counter.sql', import.meta.url), 'utf8'))
   return {
     db,
     prepare(sql) {
@@ -269,4 +270,45 @@ test('Unlimited counter reports only completed rounds and reads on fresh runs', 
   await flush()
   assert.equal(view.practiceReports.length, 1, 'Starting the next round does not count a completion')
   assert.equal(view.calls.length, 0, 'Practice does not call the daily challenge endpoint')
+})
+
+test('character daily and unlimited completions are isolated from Weapons and deduplicate independently',async()=>{
+ const DB=database(),env={DB}
+ try {
+  for(const game of ['weapons','characters']){
+   for(let retry=0;retry<2;retry++){
+    const daily=await handleRequest(request('POST',{dayKey:day,clientId:id},origin,`/${game}/daily`),env,now)
+    assert.equal(daily.status,200)
+    assert.equal((await daily.json()).count,1)
+    const practice=await handleRequest(request('POST',{runId:id,completedAt:`${day}T11:59:00Z`},origin,`/${game}/practice`),env,now)
+    assert.equal(practice.status,200)
+    assert.equal((await practice.json()).count,1)
+   }
+  }
+  await handleRequest(request('POST',{dayKey:day,clientId:other},origin,'/characters/daily'),env,now)
+  await handleRequest(request('POST',{runId:other,completedAt:`${day}T11:59:00Z`},origin,'/characters/practice'),env,now)
+  for(const mode of ['daily','practice']){
+   assert.equal((await (await handleRequest(request('GET',undefined,origin,`/weapons/${mode}`),env,now)).json()).count,1)
+   assert.equal((await (await handleRequest(request('GET',undefined,origin,`/characters/${mode}`),env,now)).json()).count,2)
+  }
+ } finally { DB.db.close() }
+})
+
+test('browser completion acknowledgements and retry queues are isolated by game',async()=>{
+ const h=clientHarness(),client=h.client
+ const completion={runId:id,completedAt:new Date().toISOString()}
+ client.queuePracticeCompletion(completion)
+ client.queuePracticeCompletion(completion,'characters')
+ assert.equal(client.pendingPracticeCompletions().length,1)
+ assert.equal(client.pendingPracticeCompletions('characters').length,1)
+ client.markCompletionReported(day)
+ assert.equal(client.completionClientId(day),undefined)
+ assert(client.completionClientId(day,'characters'))
+ h.responses.push(Response.json({recorded:true}))
+ await client.submitPracticeCompletion('https://counter.example',completion,undefined,'characters')
+ assert.equal(h.calls.at(-1)[0].pathname,'/characters/practice')
+ assert.equal(client.pendingPracticeCompletions('characters').length,0)
+ assert.equal(client.pendingPracticeCompletions().length,1)
+ client.markCompletionReported(day,'characters')
+ assert.equal(client.completionClientId(day,'characters'),undefined)
 })

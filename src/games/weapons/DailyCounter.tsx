@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react'
 import { communityApiUrl } from '../../config/community'
 import { completionClientId, markCompletionReported, pendingPracticeCompletions, queuePracticeCompletion, requestDailyCount, requestPracticeCount, submitPracticeCompletion } from './community'
+import type { CommunityGame } from './community'
 import type { WeaponMode } from './logic'
 
-export default function DailyCounter({ mode = 'daily', dayKey, completed, runId, completedAt }: { mode?: WeaponMode; dayKey: string; completed: boolean; runId?: string; completedAt?: string }) {
-  const [result, setResult] = useState<{ mode: WeaponMode; dayKey: string; count: number } | null>(null)
+export default function DailyCounter({ game = 'weapons', mode = 'daily', dayKey, completed, runId, completedAt }: { game?: CommunityGame; mode?: WeaponMode; dayKey: string; completed: boolean; runId?: string; completedAt?: string }) {
+  const [result, setResult] = useState<{ game: CommunityGame; mode: WeaponMode; dayKey: string; count: number } | null>(null)
 
   useEffect(() => {
     // Never send testing wins to the live counter, including localhost preview builds.
     if (import.meta.env.DEV || !communityApiUrl || !['destinydoku.com', 'www.destinydoku.com'].includes(window.location.hostname)) return
-    if (mode === 'practice' && completed && runId && completedAt) queuePracticeCompletion({ runId, completedAt })
+    if (mode === 'practice' && completed && runId && completedAt) queuePracticeCompletion({ runId, completedAt }, game)
     let active = true, inFlight = false
     let controller: AbortController | undefined
     async function refresh() {
@@ -18,17 +19,17 @@ export default function DailyCounter({ mode = 'daily', dayKey, completed, runId,
       controller = new AbortController()
       const timeout = window.setTimeout(() => controller?.abort(), 8000)
       try {
-        const clientId = mode === 'daily' && completed ? completionClientId(dayKey) : undefined
+        const clientId = mode === 'daily' && completed ? completionClientId(dayKey, game) : undefined
         // A previous run's queued completion survives Play again, refreshes, and failed requests.
-        for (const entry of pendingPracticeCompletions()) {
-          await submitPracticeCompletion(communityApiUrl, entry, controller.signal)
+        for (const entry of pendingPracticeCompletions(game)) {
+          await submitPracticeCompletion(communityApiUrl, entry, controller.signal, game)
         }
         const count = mode === 'daily'
-          ? await requestDailyCount(communityApiUrl, dayKey, clientId, controller.signal)
-          : await requestPracticeCount(communityApiUrl, dayKey, controller.signal)
+          ? await requestDailyCount(communityApiUrl, dayKey, clientId, controller.signal, game)
+          : await requestPracticeCount(communityApiUrl, dayKey, controller.signal, game)
         if (active) {
-          if (clientId) markCompletionReported(dayKey)
-          setResult({ mode, dayKey, count })
+          if (clientId) markCompletionReported(dayKey, game)
+          setResult({ game, mode, dayKey, count })
         }
       } catch {
         if (active) setResult(null)
@@ -47,12 +48,12 @@ export default function DailyCounter({ mode = 'daily', dayKey, completed, runId,
       window.clearInterval(interval)
       document.removeEventListener('visibilitychange', onVisible)
     }
-  }, [mode, dayKey, completed, runId, completedAt])
+  }, [game, mode, dayKey, completed, runId, completedAt])
 
-  if (import.meta.env.DEV || !result || result.dayKey !== dayKey || result.mode !== mode) return null
+  if (import.meta.env.DEV || !result || result.game !== game || result.dayKey !== dayKey || result.mode !== mode) return null
   return <p className="daily-community-count" role="status">
     <strong>{result.count.toLocaleString()}</strong> {mode === 'daily'
-      ? `${result.count === 1 ? 'Guardian has' : 'Guardians have'} identified today’s weapon`
+      ? `${result.count === 1 ? 'Guardian has' : 'Guardians have'} identified today’s ${game === 'characters' ? 'character' : 'weapon'}`
       : `Unlimited ${result.count === 1 ? 'run' : 'runs'} completed today`}
   </p>
 }

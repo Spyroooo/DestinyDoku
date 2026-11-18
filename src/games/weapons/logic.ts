@@ -91,7 +91,7 @@ export function evaluateGuess(guess: Weapon, answer: Weapon, releases: Release[]
   ]
 }
 
-export function roundStatus(round: Round): Status {
+export function roundStatus(round: Pick<Round, 'answerId' | 'guessIds'>): Status {
   if (round.guessIds.includes(round.answerId)) return 'won'
   return 'playing'
 }
@@ -112,7 +112,7 @@ export function submitGuess(round: Round, weaponId: string, pool: Weapon[]): Rou
   return { ...round, guessIds: [...round.guessIds, weaponId] }
 }
 
-export function incorrectGuesses(round: Round): number {
+export function incorrectGuesses(round: Pick<Round, 'answerId' | 'guessIds'>): number {
   return round.guessIds.filter((id) => id !== round.answerId).length
 }
 

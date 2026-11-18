@@ -9,6 +9,7 @@ export default defineConfig({
     apply: 'serve',
     handleHotUpdate({ server }) {
       server.ws.send({ type: 'custom', event: 'destinydoku:reset-weapons' })
+      server.ws.send({ type: 'custom', event: 'destinydoku:reset-characters' })
     },
   }],
 })

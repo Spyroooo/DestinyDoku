@@ -1,0 +1,5914 @@
+{
+  "schemaVersion": 2,
+  "researchedAt": "2026-11-18",
+  "scope": "Approved 67-character Destiny 2 research roster; not a playable pool.",
+  "fieldOrder": [
+    "species",
+    "gender",
+    "guardianClass",
+    "affiliations",
+    "roles",
+    "debutGame",
+    "firstDestiny2Release"
+  ],
+  "releaseCatalog": [
+    {
+      "id": "red-war",
+      "name": "The Red War",
+      "year": 2017,
+      "order": 100,
+      "seasonNumber": 1
+    },
+    {
+      "id": "osiris",
+      "name": "Curse of Osiris",
+      "year": 2017,
+      "order": 200,
+      "seasonNumber": 2
+    },
+    {
+      "id": "warmind",
+      "name": "Warmind",
+      "year": 2018,
+      "order": 300,
+      "seasonNumber": 3
+    },
+    {
+      "id": "forsaken",
+      "name": "Forsaken / Season of the Outlaw",
+      "year": 2018,
+      "order": 400,
+      "seasonNumber": 4
+    },
+    {
+      "id": "forge",
+      "name": "Season of the Forge",
+      "year": 2018,
+      "order": 500,
+      "seasonNumber": 5
+    },
+    {
+      "id": "undying",
+      "name": "Shadowkeep / Season of the Undying",
+      "year": 2019,
+      "order": 800,
+      "seasonNumber": 8
+    },
+    {
+      "id": "dawn",
+      "name": "Season of Dawn",
+      "year": 2019,
+      "order": 900,
+      "seasonNumber": 9
+    },
+    {
+      "id": "beyond-light",
+      "name": "Beyond Light / Season of the Hunt",
+      "year": 2020,
+      "order": 1200,
+      "seasonNumber": 12
+    },
+    {
+      "id": "chosen",
+      "name": "Season of the Chosen",
+      "year": 2021,
+      "order": 1300,
+      "seasonNumber": 13
+    },
+    {
+      "id": "splicer",
+      "name": "Season of the Splicer",
+      "year": 2021,
+      "order": 1400,
+      "seasonNumber": 14
+    },
+    {
+      "id": "lost",
+      "name": "Season of the Lost",
+      "year": 2021,
+      "order": 1500,
+      "seasonNumber": 15
+    },
+    {
+      "id": "anniversary",
+      "name": "Bungie 30th Anniversary",
+      "year": 2021,
+      "order": 1550,
+      "seasonNumber": 15
+    },
+    {
+      "id": "witch-queen",
+      "name": "The Witch Queen / Season of the Risen",
+      "year": 2022,
+      "order": 1600,
+      "seasonNumber": 16
+    },
+    {
+      "id": "haunted",
+      "name": "Season of the Haunted",
+      "year": 2022,
+      "order": 1700,
+      "seasonNumber": 17
+    },
+    {
+      "id": "plunder",
+      "name": "Season of Plunder",
+      "year": 2022,
+      "order": 1800,
+      "seasonNumber": 18
+    },
+    {
+      "id": "lightfall",
+      "name": "Lightfall / Season of Defiance",
+      "year": 2023,
+      "order": 2000,
+      "seasonNumber": 20
+    },
+    {
+      "id": "deep",
+      "name": "Season of the Deep",
+      "year": 2023,
+      "order": 2100,
+      "seasonNumber": 21
+    },
+    {
+      "id": "witch",
+      "name": "Season of the Witch",
+      "year": 2023,
+      "order": 2200,
+      "seasonNumber": 22
+    },
+    {
+      "id": "final-shape",
+      "name": "The Final Shape",
+      "year": 2024,
+      "order": 2350,
+      "seasonNumber": 24
+    },
+    {
+      "id": "edge-of-fate",
+      "name": "The Edge of Fate / Reclamation",
+      "year": 2025,
+      "order": 2700,
+      "seasonNumber": 27
+    },
+    {
+      "id": "renegades",
+      "name": "Renegades",
+      "year": 2025,
+      "order": 2800,
+      "seasonNumber": 28
+    }
+  ],
+  "characters": [
+    {
+      "id": "commander-zavala",
+      "edition": "destiny2",
+      "name": "Commander Zavala",
+      "aliases": [
+        "Zavala"
+      ],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Commander_Zavala"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "ikora-rey",
+      "edition": "destiny2",
+      "name": "Ikora Rey",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "The Hidden"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Leader",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ikora_Rey"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "cayde-6",
+      "edition": "destiny2",
+      "name": "Cayde-6",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Exo",
+            "status": "proposed",
+            "note": "Exo as the recognizable incarnation; the Pale Heart version was a construct of Light."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": "Current or former established Guardian class; loss of Light or a changed body does not erase class history."
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Cayde-6"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "crow-uldren-sov",
+      "edition": "destiny2",
+      "name": "Crow / Uldren Sov",
+      "aliases": [
+        "Crow",
+        "Uldren Sov",
+        "Uldren"
+      ],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Royal Awoken Guard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": "Merged identity: counts Uldren in Forsaken; Crow returns as a Guardian in Season of the Hunt."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Uldren_Sov"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "saint-14",
+      "edition": "destiny2",
+      "name": "Saint-14",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Pilgrim Guard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "dawn",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": "User selected S9 / Season of Dawn for his living introduction rather than the corpse in Curse of Osiris.",
+          "previousResearch": {
+            "value": "osiris",
+            "status": "proposed",
+            "note": "Counts the dead body in the Infinite Forest. If only living interactions count, use Season of Dawn instead."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Saint-14"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "osiris",
+      "edition": "destiny2",
+      "name": "Osiris",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": "Current or former established Guardian class; loss of Light or a changed body does not erase class history."
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "osiris",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Neomuna"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Osiris"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "the-drifter",
+      "edition": "destiny2",
+      "name": "The Drifter",
+      "aliases": [
+        "Drifter",
+        "Dredgen Hope",
+        "Germaine"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Rogue Lightbearer",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": "User-confirmed class/category. The field includes broader Lightbearer categories as well as the three traditional Guardian classes.",
+          "previousResearch": {
+            "value": "Unclassified",
+            "status": "proposed",
+            "note": "Unclassified proposed because he does not adhere to the three traditional classes; do not infer a class from his clothing."
+          },
+          "confirmedBy": "user"
+        },
+        "affiliations": {
+          "value": [
+            "Gambit",
+            "The Coalition"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Lightbearer",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Drifter"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "eris-morn",
+      "edition": "destiny2",
+      "name": "Eris Morn",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Human",
+            "status": "proposed",
+            "note": "Human origin; temporarily transformed into a Hive god. Proposed base-species rule excludes temporary transformations."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": "Current or former established Guardian class; loss of Light or a changed body does not erase class history."
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "The Hidden"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "undying",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": "Shadowkeep launch shares S8 with Season of the Undying; the reused release ID is undying."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Moon"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eris_Morn"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "lord-shaxx",
+      "edition": "destiny2",
+      "name": "Lord Shaxx",
+      "aliases": [
+        "Shaxx"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Crucible"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Shaxx"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "lord-saladin",
+      "edition": "destiny2",
+      "name": "Lord Saladin",
+      "aliases": [
+        "Saladin Forge",
+        "Saladin",
+        "Valus Forge"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Iron Lords",
+            "Imperial Cabal"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Saladin_Forge"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "amanda-holliday",
+      "edition": "destiny2",
+      "name": "Amanda Holliday",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Pilot",
+            "Shipwright"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Amanda_Holliday"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "suraya-hawthorne",
+      "edition": "destiny2",
+      "name": "Suraya Hawthorne",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Last City",
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Scout"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Suraya_Hawthorne"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "the-speaker",
+      "edition": "destiny2",
+      "name": "The Speaker",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Last City",
+            "Consensus"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Spiritual guide"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Speaker"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "banshee-44",
+      "edition": "destiny2",
+      "name": "Banshee-44",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Gunsmith"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Banshee-44"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "ada-1",
+      "edition": "destiny2",
+      "name": "Ada-1",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Black Armory"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Curator"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forge",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ada-1"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "master-rahool",
+      "edition": "destiny2",
+      "name": "Master Rahool",
+      "aliases": [
+        "Rahool"
+      ],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Last City"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Cryptarch"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rahool"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "tess-everis",
+      "edition": "destiny2",
+      "name": "Tess Everis",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Eververse Trading Company"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Tess_Everis"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "eva-levante",
+      "edition": "destiny2",
+      "name": "Eva Levante",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Event host"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forge",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": "Counts the Dawning during Season of the Forge, not base Destiny 2 lore mentions."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eva_Levante"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "xur",
+      "edition": "destiny2",
+      "name": "Xûr",
+      "aliases": [
+        "Xur"
+      ],
+      "fields": {
+        "species": {
+          "value": "Unknown",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Jovian",
+            "status": "proposed",
+            "note": "Jovian is the reference label; its meaning and origin are obscure. Confirm whether to retain this category or use an explicit unknown-being category."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Nine"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Agent"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower",
+            "Eternity"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/X%C3%BBr"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "devrim-kay",
+      "edition": "destiny2",
+      "name": "Devrim Kay",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "City Militia",
+            "Royal Awoken Guard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Scout"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "European Dead Zone"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Devrim_Kay"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "failsafe",
+      "edition": "destiny2",
+      "name": "Failsafe",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "AI",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": "Artificial Intelligence normalized to AI."
+        },
+        "gender": {
+          "value": "Female",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": "User retained the proposed gender value.",
+          "previousResearch": {
+            "value": "Female",
+            "status": "proposed",
+            "note": "Normalized from feminine/male programming; this describes presentation rather than biological sex."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Exodus Black"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Ship AI"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Nessus"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Failsafe"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "sloane",
+      "edition": "destiny2",
+      "name": "Sloane",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Human",
+            "status": "proposed",
+            "note": "Human with partial Taken corruption. Proposed base-species rule excludes temporary/partial transformations."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Titan"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sloane"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "asher-mir",
+      "edition": "destiny2",
+      "name": "Asher Mir",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Awoken",
+            "status": "proposed",
+            "note": "Awoken origin, partially converted and later integrated into the Vex network. Confirm the snapshot rather than treating Awoken as his undisputed current form."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Gensym Scribes"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Researcher",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Io"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Asher_Mir"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "variks",
+      "edition": "destiny2",
+      "name": "Variks",
+      "aliases": [
+        "Variks, the Loyal"
+      ],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "House of Judgment"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Scribe"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Europa"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Variks,_the_Loyal"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "shaw-han",
+      "edition": "destiny2",
+      "name": "Shaw Han",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Cosmodrome"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Shaw_Han"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "fynch",
+      "edition": "destiny2",
+      "name": "Fynch",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "witch-queen",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Savathûn's Throne World"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Fynch"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "nimbus",
+      "edition": "destiny2",
+      "name": "Nimbus",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Non-binary",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Neomuna"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Cloud Strider",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "lightfall",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Neomuna"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nimbus"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "rohan",
+      "edition": "destiny2",
+      "name": "Rohan",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Neomuna"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Cloud Strider",
+            "Mentor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "lightfall",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Neomuna"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rohan"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "mara-sov",
+      "edition": "destiny2",
+      "name": "Mara Sov",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Reef",
+            "The Coalition"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Dreaming City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Mara_Sov"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "petra-venj",
+      "edition": "destiny2",
+      "name": "Petra Venj",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Royal Awoken Guard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Dreaming City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Petra_Venj"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "ana-bray",
+      "edition": "destiny2",
+      "name": "Ana Bray",
+      "aliases": [
+        "Anastasia Bray"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "House Bray"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "warmind",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Ana_Bray"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "elsie-bray-the-exo-stranger",
+      "edition": "destiny2",
+      "name": "Elsie Bray / The Exo Stranger",
+      "aliases": [
+        "Elsie Bray",
+        "Elisabeth Bray",
+        "Exo Stranger",
+        "The Exo Stranger"
+      ],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Coalition"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Mentor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Europa"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Elisabeth_Bray"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "rasputin",
+      "edition": "destiny2",
+      "name": "Rasputin",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "AI",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": "Artificial Intelligence normalized to AI."
+        },
+        "gender": {
+          "value": "Male",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": "User retained the proposed gender value.",
+          "previousResearch": {
+            "value": "Male",
+            "status": "proposed",
+            "note": "Normalized from feminine/male programming; this describes presentation rather than biological sex."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Humanity"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Warmind"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "warmind",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": "User selected S3 / Warmind rather than the earlier Io fragment/communications.",
+          "previousResearch": {
+            "value": "red-war",
+            "status": "proposed",
+            "note": "Proposes Red War for the Io Warmind fragment/communications, rather than the full Warmind expansion introduction. Confirm this satisfies actual appearance/voice."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Mars"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rasputin"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "clovis-brays-exo-ai",
+      "edition": "destiny2",
+      "name": "Clovis Bray’s Exo AI",
+      "aliases": [
+        "Clovis Bray AI",
+        "Clovis AI"
+      ],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "AI",
+            "status": "proposed",
+            "note": "Proposed AI for the Europa head, separately from Banshee-44. The reference classifies Clovis as Exo; choose AI or Exo for this incarnation."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Clovis Bray"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Europa"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Clovis_Bray_I"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "mithrax",
+      "edition": "destiny2",
+      "name": "Mithrax",
+      "aliases": [
+        "Misraaks",
+        "Kell of Light"
+      ],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "House of Light",
+            "The Last City"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Splicer"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "The Last City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Mithrax,_Kell_of_Light"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "eido",
+      "edition": "destiny2",
+      "name": "Eido",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "House of Light"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Scribe",
+            "Apothecary",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "splicer",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": "Counts audio recordings in Season of the Splicer; earlier lore mentions are excluded."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "The Last City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eido"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "empress-caiatl",
+      "edition": "destiny2",
+      "name": "Empress Caiatl",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Cabal",
+            "status": "proposed",
+            "note": "Player-facing Cabal label. The reference uses Barant for the biological species; confirm which label you want the game to use."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Imperial Cabal"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "chosen",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Imperial Land Tank"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Caiatl"
+          ],
+          "note": "Proposed named Cabal base; she travels extensively. Confirm whether to use this, Torobatl as a historical association, or another location."
+        }
+      }
+    },
+    {
+      "id": "the-spider",
+      "edition": "destiny2",
+      "name": "The Spider",
+      "aliases": [
+        "Spider",
+        "Rakis"
+      ],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "House of Spider"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "The Last City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Spider"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "micah-10",
+      "edition": "destiny2",
+      "name": "Micah-10",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hunter",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Six Coyotes"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Guide"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "final-shape",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": "Counts The Final Shape voice/communications; earlier lore mentions are excluded."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Pale Heart"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Micah-10"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "orin",
+      "edition": "destiny2",
+      "name": "Orin",
+      "aliases": [
+        "The Emissary",
+        "Orin the Lost"
+      ],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Titan",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": "Current or former established Guardian class; loss of Light or a changed body does not erase class history."
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": "User confirmed Vanguard as the gameplay affiliation.",
+          "previousResearch": {
+            "value": [
+              "Vanguard"
+            ],
+            "status": "proposed",
+            "note": "Vanguard is listed in the reference, while The Nine is former. Confirm the preferred affiliation after her resignation as Emissary."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Lightbearer",
+            "Guide"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Unknown Space"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Orin"
+          ],
+          "note": "Historical Emissary/Trials association; confirm whether to keep this after her departure from the Nine."
+        }
+      }
+    },
+    {
+      "id": "immaru",
+      "edition": "destiny2",
+      "name": "Immaru",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Lucent Brood"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion",
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "witch-queen",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Savathûn's Throne World"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Immaru"
+          ],
+          "note": "Throne World is a principal historical association; his later custody changes his physical location."
+        }
+      }
+    },
+    {
+      "id": "ghost-the-players-ghost",
+      "edition": "destiny2",
+      "name": "Ghost (the player’s Ghost)",
+      "aliases": [
+        "Ghost",
+        "Little Light"
+      ],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": null,
+          "status": "missing",
+          "sources": [
+            "https://www.destinypedia.com/The_Ghost"
+          ],
+          "note": "Travels with the player. No stable base selected; decide whether to use an explicit No fixed location category."
+        }
+      }
+    },
+    {
+      "id": "dominus-ghaul",
+      "edition": "destiny2",
+      "name": "Dominus Ghaul",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Cabal",
+            "status": "proposed",
+            "note": "Player-facing Cabal label. The reference uses Barant for the biological species; confirm which label you want the game to use."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Red Legion"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "The Almighty",
+            "The Immortal"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Dominus_Ghaul"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "emperor-calus",
+      "edition": "destiny2",
+      "name": "Emperor Calus",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Cabal",
+            "status": "proposed",
+            "note": "Player-facing Cabal label. The reference uses Barant for the biological species; confirm which label you want the game to use."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Loyalists",
+            "Shadow Legion"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Disciple",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Leviathan",
+            "Typhon Imperator"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Emperor_Calus"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "eramis",
+      "edition": "destiny2",
+      "name": "Eramis",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": null,
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": "User requested an intentionally empty affiliation. No faction selected; not awaiting manual review.",
+          "previousResearch": {
+            "value": null,
+            "status": "missing",
+            "note": "House of Salvation is listed as former; no unambiguous current group selected. Please supply the intended current/last-established faction."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Europa",
+            "Riis"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Eramis,_Kell_of_Darkness"
+          ],
+          "note": "Europa is historical; Riis reflects later story developments. Confirm whether both should count."
+        }
+      }
+    },
+    {
+      "id": "savathun",
+      "edition": "destiny2",
+      "name": "Savathûn",
+      "aliases": [
+        "Savathun",
+        "The Witch Queen"
+      ],
+      "fields": {
+        "species": {
+          "value": "Hive",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hive Lightbearer",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": "User-confirmed class/category. The field includes broader Lightbearer categories as well as the three traditional Guardian classes.",
+          "previousResearch": {
+            "value": "Not applicable",
+            "status": "proposed",
+            "note": "Not applicable under the proposed Guardian-only field. Decide whether Hive Lightbearers should instead receive a Guardian-style class."
+          },
+          "confirmedBy": "user"
+        },
+        "affiliations": {
+          "value": [
+            "Lucent Brood"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Lightbearer",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "lost",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": "User selected S15 / Season of the Lost for her revealed identity rather than her earlier impersonation of Osiris.",
+          "previousResearch": {
+            "value": "beyond-light",
+            "status": "proposed",
+            "note": "Counts her impersonation of Osiris beginning in Season of the Hunt (S12). If only her revealed identity counts, use Season of the Lost; the standalone expansion is The Witch Queen."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Savathûn's Throne World"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Savath%C3%BBn,_the_Witch_Queen"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "xivu-arath",
+      "edition": "destiny2",
+      "name": "Xivu Arath",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Hive",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Xivu Arath's Horde",
+            "Wrathborn"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "deep",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": "User confirmed this release for the first Destiny 2 appearance clue.",
+          "previousResearch": {
+            "value": "deep",
+            "status": "proposed",
+            "note": "Reference lists Season of the Deep as first appearance; narration/depiction versus a direct character appearance needs manual confirmation."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Black Terrace"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Xivu_Arath,_God_of_War"
+          ],
+          "note": "Historical throne world association; she was cut off from it. Confirm the intended location snapshot."
+        }
+      }
+    },
+    {
+      "id": "the-witness",
+      "edition": "destiny2",
+      "name": "The Witness",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Unknown",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Collective entity",
+            "status": "proposed",
+            "note": "A collective paracausal entity formed from many minds; this is a proposed game category rather than a canonical named species."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": null,
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": "User retained the empty gender value; no gender classification selected. This is an intentional blank, not a pending review item.",
+          "previousResearch": {
+            "value": null,
+            "status": "missing",
+            "note": "No reliable gender classification established. Do not infer one from voice actors or plural pronouns."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Black Fleet",
+            "Dread"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "witch-queen",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": "User selected S16 / The Witch Queen for the revealed character rather than the Shadowkeep player double.",
+          "previousResearch": {
+            "value": "undying",
+            "status": "proposed",
+            "note": "Counts the Shadowkeep ending through the player double. Confirm whether a proxy appearance counts; otherwise use The Witch Queen."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Pale Heart"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Witness"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "oryx",
+      "edition": "destiny2",
+      "name": "Oryx",
+      "aliases": [
+        "The Taken King"
+      ],
+      "fields": {
+        "species": {
+          "value": "Hive",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Blood of Oryx",
+            "Taken"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "plunder",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": "User selected S18 / Season of Plunder, including the reprised King’s Fall raid.",
+          "previousResearch": {
+            "value": "deep",
+            "status": "proposed",
+            "note": "Proposes the canonical corpse in Ghosts of the Deep. The reprised King’s Fall launched in Season of Plunder but is not a new canonical encounter; choose whether reprised raids count."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Dreadnaught"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Oryx,_the_Taken_King"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "rhulk",
+      "edition": "destiny2",
+      "name": "Rhulk",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Lubraean",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Black Fleet"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": "Black Fleet is a game-facing grouping inferred from service to the Witness."
+        },
+        "roles": {
+          "value": [
+            "Disciple",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "witch-queen",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Savathûn's Throne World"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Rhulk,_Disciple_of_the_Witness"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "nezarec",
+      "edition": "destiny2",
+      "name": "Nezarec",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Tormentor",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": "User selected Tormentor as the gameplay being type; this is not a claim that his original biological species is established.",
+          "previousResearch": {
+            "value": null,
+            "status": "missing",
+            "note": "Original species not established by the reference. Tormentor-like appearance does not establish a species."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Black Fleet"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": "Black Fleet is a game-facing grouping inferred from service to the Witness."
+        },
+        "roles": {
+          "value": [
+            "Disciple",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": "Uses first actual game appearance, including speech or a recognizable depiction; earlier Destiny 1 lore mentions alone do not make this Destiny 1."
+        },
+        "firstDestiny2Release": {
+          "value": "lightfall",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Essence"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nezarec,_Final_God_of_Pain"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "fikrul",
+      "edition": "destiny2",
+      "name": "Fikrul",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Scorn",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": "Scorn chosen over the underlying Eliksni origin for recognizability."
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Scorn",
+            "Revenant Scorn"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tangled Shore",
+            "Revenant Fortress"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Fikrul,_the_Fanatic"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "riven",
+      "edition": "destiny2",
+      "name": "Riven",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ahamkara",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": null,
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": "User requested an intentionally empty affiliation. No faction selected; not awaiting manual review.",
+          "previousResearch": {
+            "value": [
+              "Mara Sov"
+            ],
+            "status": "proposed",
+            "note": "Mara Sov is an individual rather than a faction, and the relationship involved captivity. Confirm a suitable affiliation clue; do not label her a willing Taken ally."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Wish-granter",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Dreaming City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Riven"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "lodi",
+      "edition": "destiny2",
+      "name": "Lodi",
+      "aliases": [
+        "Louis Yero"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Human",
+            "status": "proposed",
+            "note": "Human origin is explicit, but transformation into the Emissary complicates current being type. Confirm whether Human is the desired clue."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Nine"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Emissary"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "edge-of-fate",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Kepler"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Lodi"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "aunor-mahal",
+      "edition": "destiny2",
+      "name": "Aunor Mahal",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "The Hidden",
+            "Praxic Order"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Investigator"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "renegades",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": "Counts her Renegades appearance; Season of the Drifter letters and lore do not count as an in-game appearance."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tharsis Outpost"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Aunor_Mahal"
+          ],
+          "note": "Proposed Renegades hub association. Confirm whether Tharsis Outpost or the Tower is the better stable clue."
+        }
+      }
+    },
+    {
+      "id": "dredgen-bael",
+      "edition": "destiny2",
+      "name": "Dredgen Bael",
+      "aliases": [
+        "Bael",
+        "Nazaire Bizet"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": "User-confirmed class/category. The field includes broader Lightbearer categories as well as the three traditional Guardian classes.",
+          "previousResearch": {
+            "value": null,
+            "status": "missing",
+            "note": "The source calls him a non-Lightbearer Dredgen, not a Titan, Hunter or Warlock. Leave empty until you confirm whether Not applicable is the desired mapping."
+          },
+          "confirmedBy": "user"
+        },
+        "affiliations": {
+          "value": [
+            "Barant Imperium",
+            "VI"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Dredgen",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael",
+            "https://www.bungie.net/7/en/News/Article/system_most_wanted"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "renegades",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Nightfall Station"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Dredgen_Bael"
+          ],
+          "note": "Proposed Renegades association. Confirm Nightfall Station as the principal location rather than a visited mission setting."
+        }
+      }
+    },
+    {
+      "id": "premier-lume",
+      "edition": "destiny2",
+      "name": "Premier Lume",
+      "aliases": [
+        "Bracus Lume",
+        "Lume"
+      ],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Cabal",
+            "status": "proposed",
+            "note": "Player-facing Cabal label. The reference uses Barant for the biological species; confirm which label you want the game to use."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Barant Imperium"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume",
+            "https://www.bungie.net/7/en/News/Article/system_most_wanted"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "haunted",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": "Counts Bracus Lume in Sever: Rage / Resolve during Season of the Haunted; the Premier identity appears later in Renegades."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Nightfall Station"
+          ],
+          "status": "proposed",
+          "sources": [
+            "https://www.destinypedia.com/Premier_Lume"
+          ],
+          "note": "Proposed Renegades association. Confirm Nightfall Station as the principal location rather than a visited mission setting."
+        }
+      }
+    },
+    {
+      "id": "toland",
+      "edition": "destiny2",
+      "name": "Toland",
+      "aliases": [
+        "Toland, the Shattered"
+      ],
+      "fields": {
+        "species": {
+          "value": "Ascendant Soul",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Human",
+            "status": "proposed",
+            "note": "Human origin; current manifestation is a disembodied consciousness. Confirm Human versus a separate spirit/entity category."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": "Current or former established Guardian class; loss of Light or a changed body does not erase class history."
+        },
+        "affiliations": {
+          "value": [
+            "First Crota Fireteam"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Guide",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forsaken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Ascendant Plane",
+            "Moon"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Toland,_the_Shattered"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "sagira",
+      "edition": "destiny2",
+      "name": "Sagira",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Osiris"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "osiris",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Mercury"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sagira"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "glint",
+      "edition": "destiny2",
+      "name": "Glint",
+      "aliases": [
+        "Pulled Pork"
+      ],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Crow"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forge",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": "Counts the Uldren resurrection cutscene released during Season of the Forge, not the Forsaken expansion launch or the later Crow/Glint introduction in Hunt."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Glint"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "targe",
+      "edition": "destiny2",
+      "name": "Targe",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Zavala"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": "User confirmed this release for the first Destiny 2 appearance clue.",
+          "previousResearch": {
+            "value": "red-war",
+            "status": "proposed",
+            "note": "Appearance list includes base Destiny 2. Confirm the earliest identifiable on-screen Targe rather than his first named speaking role."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Targe"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "brother-vance",
+      "edition": "destiny2",
+      "name": "Brother Vance",
+      "aliases": [
+        "Vance"
+      ],
+      "fields": {
+        "species": {
+          "value": "Human",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Cult of Osiris"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "osiris",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Mercury"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Vance"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "tyra-karn",
+      "edition": "destiny2",
+      "name": "Tyra Karn",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Awoken",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Warlock",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Guardian",
+            "Vendor",
+            "Cryptarch"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "The Farm"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Tyra_Karn"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "luzaku",
+      "edition": "destiny2",
+      "name": "Luzaku",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Hive",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Hive Lightbearer",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": "User-confirmed class/category. The field includes broader Lightbearer categories as well as the three traditional Guardian classes.",
+          "previousResearch": {
+            "value": "Not applicable",
+            "status": "proposed",
+            "note": "Not applicable under the proposed Guardian-only field. She is a Hive Lightbearer Wizard with Warlock-like abilities. Decide whether this field should include Hive classes; if so, propose Warlock."
+          },
+          "confirmedBy": "user"
+        },
+        "affiliations": {
+          "value": [
+            "Lucent Brood"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Lightbearer",
+            "Guide"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "final-shape",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": "Counts The Final Shape; The Witch Queen lore-book mention is excluded."
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Pale Heart"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Luzaku"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "sundance",
+      "edition": "destiny2",
+      "name": "Sundance",
+      "aliases": [],
+      "fields": {
+        "species": {
+          "value": "Ghost",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Vanguard",
+            "Cayde-6"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Companion"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": "User confirmed this release for the first Destiny 2 appearance clue.",
+          "previousResearch": {
+            "value": "red-war",
+            "status": "proposed",
+            "note": "Appearance list includes base Destiny 2. Confirm the earliest identifiable Sundance rather than assuming her Forsaken death was her debut."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Tower"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sundance"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "crota",
+      "edition": "destiny2",
+      "name": "Crota, Son of Oryx",
+      "aliases": [
+        "Crota",
+        "Eater of Hope"
+      ],
+      "fields": {
+        "species": {
+          "value": "Hive",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": "Knight is a Hive combat morph, not a Guardian class."
+        },
+        "affiliations": {
+          "value": [
+            "Blood of Oryx"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": "First actual appearance is in The Dark Below in Destiny 1; earlier mentions do not change the game label."
+        },
+        "firstDestiny2Release": {
+          "value": "witch",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": "User selected S22 / Season of the Witch for the reprised Crota’s End raid. Earlier Nightmare and Dares manifestations are excluded from this clue.",
+          "previousResearch": {
+            "value": "undying",
+            "status": "proposed",
+            "note": "Proposes Shadowkeep / S8 for the Nightmare of Crota. Confirm whether Nightmares count as appearances of the named character; otherwise consider the Dares of Eternity version in the 30th Anniversary Pack / S15 or the reprised raid in Season of the Witch / S22."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Moon",
+            "Oversoul Throne"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Crota"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "starhorse",
+      "edition": "destiny2",
+      "name": "Starhorse",
+      "aliases": [
+        "Star Horse",
+        "The Starhorse"
+      ],
+      "fields": {
+        "species": {
+          "value": "Paracausal entity",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": "User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.",
+          "previousResearch": {
+            "value": "Paracausal entity",
+            "status": "proposed",
+            "note": "Proposed broad being-type label, not a known biological species. Confirm Paracausal entity or choose an explicit Unknown category; do not classify it as an ordinary horse."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": "User retained the proposed gender value.",
+          "previousResearch": {
+            "value": "Male",
+            "status": "proposed",
+            "note": "The reference infobox says Male, but lacks a supporting inline citation and the article also uses they/it. Confirm Male, Not applicable or an explicit Unknown category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "Not applicable",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Nine"
+          ],
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Event host"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "anniversary",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse",
+            "https://mundogamer.community/en/articles/destiny-2s-space-horse-raises-questions-nobody-can-answer"
+          ],
+          "note": "User selected the named Dares vendor introduction in S15 / 30th Anniversary Pack rather than earlier horse manifestations.",
+          "previousResearch": {
+            "value": "red-war",
+            "status": "proposed",
+            "note": "Proposes Red War / S1 for the horse manifestation in the Trials of the Nine flawless room. Confirm that manifestation counts as this character. Later appearances include Season of the Drifter / S6 and the named Dares vendor in the 30th Anniversary Pack / S15."
+          },
+          "confirmedBy": "user"
+        }
+      },
+      "backgroundResearch": {
+        "locations": {
+          "value": [
+            "Eternity"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Starhorse"
+          ],
+          "note": ""
+        }
+      }
+    }
+  ],
+  "reviewDecisions": {
+    "confirmedBy": "user",
+    "locationClue": "Removed; historical research retained under backgroundResearch.locations.",
+    "emptyValues": "Null fields with confirmed status are intentional blanks, not unresolved research.",
+    "appearanceRule": "Use the user-selected release for each character. Living/revealed introductions and reprised raids can take precedence over earlier corpses, proxies or Nightmares."
+  }
+}

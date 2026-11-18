@@ -4,6 +4,7 @@ import { normalizePath, sitePaths } from './routes'
 import './App.css'
 import Feedback from './Feedback'
 const Weapons = lazy(() => import('./games/weapons/Weapons'))
+const Characters = lazy(() => import('./games/characters/Characters'))
 
 const games = [
   {
@@ -83,7 +84,7 @@ function App() {
     document.getElementById('main-content')?.focus()
   }
 
-  const currentGame = games.find((game) => page === `/${game.id}` || game.id === 'weapons' && ['/weapons/practice', '/weapons/daily'].includes(page))
+  const currentGame = games.find((game) => page === `/${game.id}` || ['weapons', 'characters'].includes(game.id) && [`/${game.id}/practice`, `/${game.id}/daily`].includes(page))
 
   return (
     <div className="app" onClick={navigate}>
@@ -107,6 +108,8 @@ function App() {
       <main id="main-content" tabIndex={-1}>
         {page === '/feedback' ? <Feedback /> : currentGame?.id === 'weapons' ? (
           <Suspense fallback={<p role="status">Loading weapon challenges…</p>}><Weapons mode={page === '/weapons/daily' ? 'daily' : 'practice'} /></Suspense>
+        ) : currentGame?.id === 'characters' ? (
+          <Suspense fallback={<p role="status">Loading character challenges…</p>}><Characters mode={page === '/characters/daily' ? 'daily' : 'practice'} /></Suspense>
         ) : currentGame ? (
           <section className="game-placeholder" key={currentGame.id}>
             <p className="eyebrow">Destiny 2 · Coming soon</p>

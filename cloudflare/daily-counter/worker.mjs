@@ -17,8 +17,11 @@ export async function handleRequest(request, env, now = Date.now()) {
   if (origin && allowed.includes(origin)) headers['Access-Control-Allow-Origin'] = origin
   const json = (data, status = 200) => Response.json(data, { status, headers })
   if (origin && !allowed.includes(origin)) return json({ error: 'Origin not allowed' }, 403)
-  const practice = url.pathname === '/weapons/practice'
-  if (!practice && url.pathname !== '/weapons/daily') return json({ error: 'Not found' }, 404)
+  const route = url.pathname.match(/^\/(weapons|characters)\/(practice|daily)$/)
+  if (!route) return json({ error: 'Not found' }, 404)
+  const game = route[1], practice = route[2] === 'practice'
+  const practiceTable = game === 'characters' ? 'character_practice_completions' : 'practice_completions'
+  const practiceTotals = game === 'characters' ? 'character_practice_totals' : 'practice_totals'
   if (request.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: {
       ...headers, 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
@@ -61,22 +64,22 @@ export async function handleRequest(request, env, now = Date.now()) {
         if (!result.success) return json({ error: 'Too many requests' }, 429)
       }
       // Practice IDs are unique across dates; daily browser IDs are unique within a date.
-      const input = practice ? `practice:${identifier.toLowerCase()}` : `weapons:${today}:${identifier.toLowerCase()}`
+      const input = practice ? `${game === 'weapons' ? '' : 'characters:'}practice:${identifier.toLowerCase()}` : `${game}:${today}:${identifier.toLowerCase()}`
       const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(input))
       const token = Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('')
       if (practice) {
-        await env.DB.prepare('INSERT INTO practice_completions (run_hash, day_key) VALUES (?, ?) ON CONFLICT DO NOTHING')
+        await env.DB.prepare(`INSERT INTO ${practiceTable} (run_hash, day_key) VALUES (?, ?) ON CONFLICT DO NOTHING`)
           .bind(token, counterDate(Math.min(completedAt, now))).run()
       } else {
         await env.DB.prepare('INSERT INTO daily_completions (game, day_key, browser_hash) VALUES (?, ?, ?) ON CONFLICT DO NOTHING')
-          .bind('weapons', today, token).run()
+          .bind(game, today, token).run()
       }
     } else if (url.searchParams.has('day') && url.searchParams.get('day') !== today) {
       return json({ error: 'Challenge expired', dayKey: today }, 409)
     }
     const row = practice
-      ? await env.DB.prepare('SELECT completions FROM practice_totals WHERE day_key = ?').bind(today).first()
-      : await env.DB.prepare('SELECT completions FROM daily_totals WHERE game = ? AND day_key = ?').bind('weapons', today).first()
+      ? await env.DB.prepare(`SELECT completions FROM ${practiceTotals} WHERE day_key = ?`).bind(today).first()
+      : await env.DB.prepare('SELECT completions FROM daily_totals WHERE game = ? AND day_key = ?').bind(game, today).first()
     return json({ dayKey: today, count: row?.completions ?? 0, ...(practice && request.method === 'POST' ? { recorded: true } : {}) })
   } catch {
     return json({ error: 'Counter temporarily unavailable' }, 503)

@@ -1,0 +1,1514 @@
+{
+  "characters": [
+    {
+      "id": "commander-zavala",
+      "edition": "destiny2",
+      "name": "Commander Zavala",
+      "aliases": [
+        "Zavala"
+      ],
+      "icon": "/images/characters/commander-zavala.jpg",
+      "species": "Awoken",
+      "gender": "Male",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Leader"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "ikora-rey",
+      "edition": "destiny2",
+      "name": "Ikora Rey",
+      "aliases": [],
+      "icon": "/images/characters/ikora-rey.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "Vanguard",
+        "The Hidden"
+      ],
+      "roles": [
+        "Guardian",
+        "Leader",
+        "Researcher"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "cayde-6",
+      "edition": "destiny2",
+      "name": "Cayde-6",
+      "aliases": [],
+      "icon": "/images/characters/cayde-6.jpg",
+      "species": "Exo",
+      "gender": "Male",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Leader"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "crow-uldren-sov",
+      "edition": "destiny2",
+      "name": "Crow / Uldren Sov",
+      "aliases": [
+        "Crow",
+        "Uldren Sov",
+        "Uldren"
+      ],
+      "icon": "/images/characters/crow-uldren-sov.jpg",
+      "species": "Awoken",
+      "gender": "Male",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard",
+        "Royal Awoken Guard"
+      ],
+      "roles": [
+        "Guardian",
+        "Leader"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "saint-14",
+      "edition": "destiny2",
+      "name": "Saint-14",
+      "aliases": [],
+      "icon": "/images/characters/saint-14.jpg",
+      "species": "Exo",
+      "gender": "Male",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Vanguard",
+        "Pilgrim Guard"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "dawn"
+    },
+    {
+      "id": "osiris",
+      "edition": "destiny2",
+      "name": "Osiris",
+      "aliases": [],
+      "icon": "/images/characters/osiris.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Researcher"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "osiris"
+    },
+    {
+      "id": "the-drifter",
+      "edition": "destiny2",
+      "name": "The Drifter",
+      "aliases": [
+        "Drifter",
+        "Dredgen Hope",
+        "Germaine"
+      ],
+      "icon": "/images/characters/the-drifter.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "Rogue Lightbearer",
+      "affiliations": [
+        "Gambit",
+        "The Coalition"
+      ],
+      "roles": [
+        "Lightbearer",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "eris-morn",
+      "edition": "destiny2",
+      "name": "Eris Morn",
+      "aliases": [],
+      "icon": "/images/characters/eris-morn.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard",
+        "The Hidden"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor",
+        "Researcher"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "undying"
+    },
+    {
+      "id": "lord-shaxx",
+      "edition": "destiny2",
+      "name": "Lord Shaxx",
+      "aliases": [
+        "Shaxx"
+      ],
+      "icon": "/images/characters/lord-shaxx.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Vanguard",
+        "Crucible"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "lord-saladin",
+      "edition": "destiny2",
+      "name": "Lord Saladin",
+      "aliases": [
+        "Saladin Forge",
+        "Saladin",
+        "Valus Forge"
+      ],
+      "icon": "/images/characters/lord-saladin.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Iron Lords",
+        "Imperial Cabal"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor",
+        "Leader"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "amanda-holliday",
+      "edition": "destiny2",
+      "name": "Amanda Holliday",
+      "aliases": [],
+      "icon": "/images/characters/amanda-holliday.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Pilot",
+        "Shipwright"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "suraya-hawthorne",
+      "edition": "destiny2",
+      "name": "Suraya Hawthorne",
+      "aliases": [],
+      "icon": "/images/characters/suraya-hawthorne.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Last City",
+        "Vanguard"
+      ],
+      "roles": [
+        "Vendor",
+        "Scout"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "the-speaker",
+      "edition": "destiny2",
+      "name": "The Speaker",
+      "aliases": [],
+      "icon": "/images/characters/the-speaker.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Last City",
+        "Consensus"
+      ],
+      "roles": [
+        "Leader",
+        "Spiritual guide"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "banshee-44",
+      "edition": "destiny2",
+      "name": "Banshee-44",
+      "aliases": [],
+      "icon": "/images/characters/banshee-44.jpg",
+      "species": "Exo",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Vendor",
+        "Gunsmith"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "ada-1",
+      "edition": "destiny2",
+      "name": "Ada-1",
+      "aliases": [],
+      "icon": "/images/characters/ada-1.jpg",
+      "species": "Exo",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Black Armory"
+      ],
+      "roles": [
+        "Vendor",
+        "Curator"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forge"
+    },
+    {
+      "id": "master-rahool",
+      "edition": "destiny2",
+      "name": "Master Rahool",
+      "aliases": [
+        "Rahool"
+      ],
+      "icon": "/images/characters/master-rahool.jpg",
+      "species": "Awoken",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Last City"
+      ],
+      "roles": [
+        "Vendor",
+        "Cryptarch"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "tess-everis",
+      "edition": "destiny2",
+      "name": "Tess Everis",
+      "aliases": [],
+      "icon": "/images/characters/tess-everis.jpg",
+      "species": "Awoken",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Eververse Trading Company"
+      ],
+      "roles": [
+        "Vendor"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "eva-levante",
+      "edition": "destiny2",
+      "name": "Eva Levante",
+      "aliases": [],
+      "icon": "/images/characters/eva-levante.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Vendor",
+        "Event host"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "forge"
+    },
+    {
+      "id": "xur",
+      "edition": "destiny2",
+      "name": "Xûr",
+      "aliases": [
+        "Xur"
+      ],
+      "icon": "/images/characters/xur.jpg",
+      "species": "Unknown",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Nine"
+      ],
+      "roles": [
+        "Vendor",
+        "Agent"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "devrim-kay",
+      "edition": "destiny2",
+      "name": "Devrim Kay",
+      "aliases": [],
+      "icon": "/images/characters/devrim-kay.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "City Militia",
+        "Royal Awoken Guard"
+      ],
+      "roles": [
+        "Vendor",
+        "Scout"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "failsafe",
+      "edition": "destiny2",
+      "name": "Failsafe",
+      "aliases": [],
+      "icon": "/images/characters/failsafe.jpg",
+      "species": "AI",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Exodus Black"
+      ],
+      "roles": [
+        "Vendor",
+        "Ship AI"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "sloane",
+      "edition": "destiny2",
+      "name": "Sloane",
+      "aliases": [],
+      "icon": "/images/characters/sloane.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Leader"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "asher-mir",
+      "edition": "destiny2",
+      "name": "Asher Mir",
+      "aliases": [],
+      "icon": "/images/characters/asher-mir.jpg",
+      "species": "Awoken",
+      "gender": "Male",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "Vanguard",
+        "Gensym Scribes"
+      ],
+      "roles": [
+        "Guardian",
+        "Researcher",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "variks",
+      "edition": "destiny2",
+      "name": "Variks",
+      "aliases": [
+        "Variks, the Loyal"
+      ],
+      "icon": "/images/characters/variks.jpg",
+      "species": "Eliksni",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "House of Judgment"
+      ],
+      "roles": [
+        "Vendor",
+        "Scribe"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "shaw-han",
+      "edition": "destiny2",
+      "name": "Shaw Han",
+      "aliases": [],
+      "icon": "/images/characters/shaw-han.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "fynch",
+      "edition": "destiny2",
+      "name": "Fynch",
+      "aliases": [],
+      "icon": "/images/characters/fynch.jpg",
+      "species": "Ghost",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Companion",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "witch-queen"
+    },
+    {
+      "id": "nimbus",
+      "edition": "destiny2",
+      "name": "Nimbus",
+      "aliases": [],
+      "icon": "/images/characters/nimbus.jpg",
+      "species": "Human",
+      "gender": "Non-binary",
+      "guardianClass": "None",
+      "affiliations": [
+        "Neomuna"
+      ],
+      "roles": [
+        "Cloud Strider",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "lightfall"
+    },
+    {
+      "id": "rohan",
+      "edition": "destiny2",
+      "name": "Rohan",
+      "aliases": [],
+      "icon": "/images/characters/rohan.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Neomuna"
+      ],
+      "roles": [
+        "Cloud Strider",
+        "Mentor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "lightfall"
+    },
+    {
+      "id": "mara-sov",
+      "edition": "destiny2",
+      "name": "Mara Sov",
+      "aliases": [],
+      "icon": "/images/characters/mara-sov.jpg",
+      "species": "Awoken",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Reef",
+        "The Coalition"
+      ],
+      "roles": [
+        "Leader"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "petra-venj",
+      "edition": "destiny2",
+      "name": "Petra Venj",
+      "aliases": [],
+      "icon": "/images/characters/petra-venj.jpg",
+      "species": "Awoken",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Royal Awoken Guard"
+      ],
+      "roles": [
+        "Leader",
+        "Vendor"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "ana-bray",
+      "edition": "destiny2",
+      "name": "Ana Bray",
+      "aliases": [
+        "Anastasia Bray"
+      ],
+      "icon": "/images/characters/ana-bray.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard",
+        "House Bray"
+      ],
+      "roles": [
+        "Guardian",
+        "Researcher"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "warmind"
+    },
+    {
+      "id": "elsie-bray-the-exo-stranger",
+      "edition": "destiny2",
+      "name": "Elsie Bray / The Exo Stranger",
+      "aliases": [
+        "Elsie Bray",
+        "Elisabeth Bray",
+        "Exo Stranger",
+        "The Exo Stranger"
+      ],
+      "icon": "/images/characters/elsie-bray-the-exo-stranger.jpg",
+      "species": "Exo",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Coalition"
+      ],
+      "roles": [
+        "Vendor",
+        "Mentor"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "rasputin",
+      "edition": "destiny2",
+      "name": "Rasputin",
+      "aliases": [],
+      "icon": "/images/characters/rasputin.jpg",
+      "species": "AI",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Humanity"
+      ],
+      "roles": [
+        "Warmind"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "warmind"
+    },
+    {
+      "id": "clovis-brays-exo-ai",
+      "edition": "destiny2",
+      "name": "Clovis Bray’s Exo AI",
+      "aliases": [
+        "Clovis Bray AI",
+        "Clovis AI"
+      ],
+      "icon": "/images/characters/clovis-brays-exo-ai.jpg",
+      "species": "Exo",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Clovis Bray"
+      ],
+      "roles": [
+        "Researcher"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "mithrax",
+      "edition": "destiny2",
+      "name": "Mithrax",
+      "aliases": [
+        "Misraaks",
+        "Kell of Light"
+      ],
+      "icon": "/images/characters/mithrax.jpg",
+      "species": "Eliksni",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "House of Light",
+        "The Last City"
+      ],
+      "roles": [
+        "Leader",
+        "Splicer"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "eido",
+      "edition": "destiny2",
+      "name": "Eido",
+      "aliases": [],
+      "icon": "/images/characters/eido.jpg",
+      "species": "Eliksni",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "House of Light"
+      ],
+      "roles": [
+        "Scribe",
+        "Apothecary",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "splicer"
+    },
+    {
+      "id": "empress-caiatl",
+      "edition": "destiny2",
+      "name": "Empress Caiatl",
+      "aliases": [],
+      "icon": "/images/characters/empress-caiatl.jpg",
+      "species": "Cabal",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Imperial Cabal"
+      ],
+      "roles": [
+        "Leader"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "chosen"
+    },
+    {
+      "id": "the-spider",
+      "edition": "destiny2",
+      "name": "The Spider",
+      "aliases": [
+        "Spider",
+        "Rakis"
+      ],
+      "icon": "/images/characters/the-spider.jpg",
+      "species": "Eliksni",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "House of Spider"
+      ],
+      "roles": [
+        "Leader",
+        "Vendor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "micah-10",
+      "edition": "destiny2",
+      "name": "Micah-10",
+      "aliases": [],
+      "icon": "/images/characters/micah-10.jpg",
+      "species": "Exo",
+      "gender": "Female",
+      "guardianClass": "Hunter",
+      "affiliations": [
+        "Vanguard",
+        "Six Coyotes"
+      ],
+      "roles": [
+        "Guardian",
+        "Guide"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "final-shape"
+    },
+    {
+      "id": "orin",
+      "edition": "destiny2",
+      "name": "Orin",
+      "aliases": [
+        "The Emissary",
+        "Orin the Lost"
+      ],
+      "icon": "/images/characters/orin.jpg",
+      "species": "Awoken",
+      "gender": "Female",
+      "guardianClass": "Titan",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Lightbearer",
+        "Guide"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "immaru",
+      "edition": "destiny2",
+      "name": "Immaru",
+      "aliases": [],
+      "icon": "/images/characters/immaru.jpg",
+      "species": "Ghost",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Lucent Brood"
+      ],
+      "roles": [
+        "Companion",
+        "Leader"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "witch-queen"
+    },
+    {
+      "id": "ghost-the-players-ghost",
+      "edition": "destiny2",
+      "name": "Ghost (the player’s Ghost)",
+      "aliases": [
+        "Ghost",
+        "Little Light"
+      ],
+      "icon": "/images/characters/ghost-the-players-ghost.jpg",
+      "species": "Ghost",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Companion"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "dominus-ghaul",
+      "edition": "destiny2",
+      "name": "Dominus Ghaul",
+      "aliases": [],
+      "icon": "/images/characters/dominus-ghaul.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Red Legion"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "emperor-calus",
+      "edition": "destiny2",
+      "name": "Emperor Calus",
+      "aliases": [],
+      "icon": "/images/characters/emperor-calus.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Loyalists",
+        "Shadow Legion"
+      ],
+      "roles": [
+        "Leader",
+        "Disciple",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "eramis",
+      "edition": "destiny2",
+      "name": "Eramis",
+      "aliases": [],
+      "icon": "/images/characters/eramis.jpg",
+      "species": "Eliksni",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": null,
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "savathun",
+      "edition": "destiny2",
+      "name": "Savathûn",
+      "aliases": [
+        "Savathun",
+        "The Witch Queen"
+      ],
+      "icon": "/images/characters/savathun.jpg",
+      "species": "Hive",
+      "gender": "Female",
+      "guardianClass": "Hive Lightbearer",
+      "affiliations": [
+        "Lucent Brood"
+      ],
+      "roles": [
+        "Leader",
+        "Lightbearer",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "lost"
+    },
+    {
+      "id": "xivu-arath",
+      "edition": "destiny2",
+      "name": "Xivu Arath",
+      "aliases": [],
+      "icon": "/images/characters/xivu-arath.jpg",
+      "species": "Hive",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Xivu Arath's Horde",
+        "Wrathborn"
+      ],
+      "roles": [
+        "Leader"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "deep"
+    },
+    {
+      "id": "the-witness",
+      "edition": "destiny2",
+      "name": "The Witness",
+      "aliases": [],
+      "icon": "/images/characters/the-witness.jpg",
+      "species": "Unknown",
+      "gender": null,
+      "guardianClass": "None",
+      "affiliations": [
+        "Black Fleet",
+        "Dread"
+      ],
+      "roles": [
+        "Leader"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "witch-queen"
+    },
+    {
+      "id": "oryx",
+      "edition": "destiny2",
+      "name": "Oryx",
+      "aliases": [
+        "The Taken King"
+      ],
+      "icon": "/images/characters/oryx.jpg",
+      "species": "Hive",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Blood of Oryx",
+        "Taken"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "plunder"
+    },
+    {
+      "id": "rhulk",
+      "edition": "destiny2",
+      "name": "Rhulk",
+      "aliases": [],
+      "icon": "/images/characters/rhulk.jpg",
+      "species": "Lubraean",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Black Fleet"
+      ],
+      "roles": [
+        "Disciple",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "witch-queen"
+    },
+    {
+      "id": "nezarec",
+      "edition": "destiny2",
+      "name": "Nezarec",
+      "aliases": [],
+      "icon": "/images/characters/nezarec.jpg",
+      "species": "Tormentor",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Black Fleet"
+      ],
+      "roles": [
+        "Disciple",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "lightfall"
+    },
+    {
+      "id": "fikrul",
+      "edition": "destiny2",
+      "name": "Fikrul",
+      "aliases": [],
+      "icon": "/images/characters/fikrul.jpg",
+      "species": "Scorn",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Scorn",
+        "Revenant Scorn"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "riven",
+      "edition": "destiny2",
+      "name": "Riven",
+      "aliases": [],
+      "icon": "/images/characters/riven.jpg",
+      "species": "Ahamkara",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": null,
+      "roles": [
+        "Wish-granter",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "lodi",
+      "edition": "destiny2",
+      "name": "Lodi",
+      "aliases": [
+        "Louis Yero"
+      ],
+      "icon": "/images/characters/lodi.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Nine"
+      ],
+      "roles": [
+        "Emissary"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "edge-of-fate"
+    },
+    {
+      "id": "aunor-mahal",
+      "edition": "destiny2",
+      "name": "Aunor Mahal",
+      "aliases": [],
+      "icon": "/images/characters/aunor-mahal.jpg",
+      "species": "Human",
+      "gender": "Female",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "Vanguard",
+        "The Hidden",
+        "Praxic Order"
+      ],
+      "roles": [
+        "Guardian",
+        "Investigator"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "renegades"
+    },
+    {
+      "id": "dredgen-bael",
+      "edition": "destiny2",
+      "name": "Dredgen Bael",
+      "aliases": [
+        "Bael",
+        "Nazaire Bizet"
+      ],
+      "icon": "/images/characters/dredgen-bael.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Barant Imperium",
+        "VI"
+      ],
+      "roles": [
+        "Leader",
+        "Dredgen",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "renegades"
+    },
+    {
+      "id": "premier-lume",
+      "edition": "destiny2",
+      "name": "Premier Lume",
+      "aliases": [
+        "Bracus Lume",
+        "Lume"
+      ],
+      "icon": "/images/characters/premier-lume.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Barant Imperium"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "haunted"
+    },
+    {
+      "id": "toland",
+      "edition": "destiny2",
+      "name": "Toland",
+      "aliases": [
+        "Toland, the Shattered"
+      ],
+      "icon": "/images/characters/toland.jpg",
+      "species": "Ascendant Soul",
+      "gender": "Male",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "First Crota Fireteam"
+      ],
+      "roles": [
+        "Guardian",
+        "Guide",
+        "Researcher"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "forsaken"
+    },
+    {
+      "id": "sagira",
+      "edition": "destiny2",
+      "name": "Sagira",
+      "aliases": [],
+      "icon": "/images/characters/sagira.jpg",
+      "species": "Ghost",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Osiris"
+      ],
+      "roles": [
+        "Companion"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "osiris"
+    },
+    {
+      "id": "glint",
+      "edition": "destiny2",
+      "name": "Glint",
+      "aliases": [
+        "Pulled Pork"
+      ],
+      "icon": "/images/characters/glint.jpg",
+      "species": "Ghost",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard",
+        "Crow"
+      ],
+      "roles": [
+        "Companion"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forge"
+    },
+    {
+      "id": "targe",
+      "edition": "destiny2",
+      "name": "Targe",
+      "aliases": [],
+      "icon": "/images/characters/targe.jpg",
+      "species": "Ghost",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard",
+        "Zavala"
+      ],
+      "roles": [
+        "Companion"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "brother-vance",
+      "edition": "destiny2",
+      "name": "Brother Vance",
+      "aliases": [
+        "Vance"
+      ],
+      "icon": "/images/characters/brother-vance.jpg",
+      "species": "Human",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Cult of Osiris"
+      ],
+      "roles": [
+        "Vendor",
+        "Researcher"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "osiris"
+    },
+    {
+      "id": "tyra-karn",
+      "edition": "destiny2",
+      "name": "Tyra Karn",
+      "aliases": [],
+      "icon": "/images/characters/tyra-karn.jpg",
+      "species": "Awoken",
+      "gender": "Female",
+      "guardianClass": "Warlock",
+      "affiliations": [
+        "Vanguard"
+      ],
+      "roles": [
+        "Guardian",
+        "Vendor",
+        "Cryptarch"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "luzaku",
+      "edition": "destiny2",
+      "name": "Luzaku",
+      "aliases": [],
+      "icon": "/images/characters/luzaku.jpg",
+      "species": "Hive",
+      "gender": "Female",
+      "guardianClass": "Hive Lightbearer",
+      "affiliations": [
+        "Lucent Brood"
+      ],
+      "roles": [
+        "Lightbearer",
+        "Guide"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "final-shape"
+    },
+    {
+      "id": "sundance",
+      "edition": "destiny2",
+      "name": "Sundance",
+      "aliases": [],
+      "icon": "/images/characters/sundance.jpg",
+      "species": "Ghost",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Vanguard",
+        "Cayde-6"
+      ],
+      "roles": [
+        "Companion"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "crota",
+      "edition": "destiny2",
+      "name": "Crota, Son of Oryx",
+      "aliases": [
+        "Crota",
+        "Eater of Hope"
+      ],
+      "icon": "/images/characters/crota.jpg",
+      "species": "Hive",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Blood of Oryx"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "witch"
+    },
+    {
+      "id": "starhorse",
+      "edition": "destiny2",
+      "name": "Starhorse",
+      "aliases": [
+        "Star Horse",
+        "The Starhorse"
+      ],
+      "icon": "/images/characters/starhorse.jpg",
+      "species": "Paracausal entity",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Nine"
+      ],
+      "roles": [
+        "Vendor",
+        "Event host"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "anniversary"
+    }
+  ],
+  "releases": [
+    {
+      "id": "red-war",
+      "name": "The Red War",
+      "year": 2017,
+      "order": 100,
+      "seasonNumber": 1
+    },
+    {
+      "id": "osiris",
+      "name": "Curse of Osiris",
+      "year": 2017,
+      "order": 200,
+      "seasonNumber": 2
+    },
+    {
+      "id": "warmind",
+      "name": "Warmind",
+      "year": 2018,
+      "order": 300,
+      "seasonNumber": 3
+    },
+    {
+      "id": "forsaken",
+      "name": "Forsaken / Season of the Outlaw",
+      "year": 2018,
+      "order": 400,
+      "seasonNumber": 4
+    },
+    {
+      "id": "forge",
+      "name": "Season of the Forge",
+      "year": 2018,
+      "order": 500,
+      "seasonNumber": 5
+    },
+    {
+      "id": "undying",
+      "name": "Shadowkeep / Season of the Undying",
+      "year": 2019,
+      "order": 800,
+      "seasonNumber": 8
+    },
+    {
+      "id": "dawn",
+      "name": "Season of Dawn",
+      "year": 2019,
+      "order": 900,
+      "seasonNumber": 9
+    },
+    {
+      "id": "beyond-light",
+      "name": "Beyond Light / Season of the Hunt",
+      "year": 2020,
+      "order": 1200,
+      "seasonNumber": 12
+    },
+    {
+      "id": "chosen",
+      "name": "Season of the Chosen",
+      "year": 2021,
+      "order": 1300,
+      "seasonNumber": 13
+    },
+    {
+      "id": "splicer",
+      "name": "Season of the Splicer",
+      "year": 2021,
+      "order": 1400,
+      "seasonNumber": 14
+    },
+    {
+      "id": "lost",
+      "name": "Season of the Lost",
+      "year": 2021,
+      "order": 1500,
+      "seasonNumber": 15
+    },
+    {
+      "id": "anniversary",
+      "name": "Bungie 30th Anniversary",
+      "year": 2021,
+      "order": 1550,
+      "seasonNumber": 15
+    },
+    {
+      "id": "witch-queen",
+      "name": "The Witch Queen / Season of the Risen",
+      "year": 2022,
+      "order": 1600,
+      "seasonNumber": 16
+    },
+    {
+      "id": "haunted",
+      "name": "Season of the Haunted",
+      "year": 2022,
+      "order": 1700,
+      "seasonNumber": 17
+    },
+    {
+      "id": "plunder",
+      "name": "Season of Plunder",
+      "year": 2022,
+      "order": 1800,
+      "seasonNumber": 18
+    },
+    {
+      "id": "lightfall",
+      "name": "Lightfall / Season of Defiance",
+      "year": 2023,
+      "order": 2000,
+      "seasonNumber": 20
+    },
+    {
+      "id": "deep",
+      "name": "Season of the Deep",
+      "year": 2023,
+      "order": 2100,
+      "seasonNumber": 21
+    },
+    {
+      "id": "witch",
+      "name": "Season of the Witch",
+      "year": 2023,
+      "order": 2200,
+      "seasonNumber": 22
+    },
+    {
+      "id": "final-shape",
+      "name": "The Final Shape",
+      "year": 2024,
+      "order": 2350,
+      "seasonNumber": 24
+    },
+    {
+      "id": "edge-of-fate",
+      "name": "The Edge of Fate / Reclamation",
+      "year": 2025,
+      "order": 2700,
+      "seasonNumber": 27
+    },
+    {
+      "id": "renegades",
+      "name": "Renegades",
+      "year": 2025,
+      "order": 2800,
+      "seasonNumber": 28
+    }
+  ]
+}

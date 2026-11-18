@@ -1,0 +1,14 @@
+/* Reuse the Weapons presentation so refinements stay consistent across modes. */
+.characters-page .guess-table { min-width: 1000px; }
+.characters-page .clue-value { font-size: 11px; }
+.characters-page .weapon-portrait > img { object-position: center 20%; }
+.characters-page .weapon-suggestion > img { object-position: center 20%; }
+.characters-page .summary-squares { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.characters-page .guess-table tbody td.clue-unknown { background: linear-gradient(145deg, #455365, #2d3848); color: #edf1f7; }
+.characters-page .square-unknown { background: #68778a; }
+.character-clue-icon { color: #fff; min-height: 30px; align-items: center; flex-wrap: wrap; }
+.character-clue-icon img { width: 28px; height: 28px; }
+.character-clue-icon svg { flex: 0 0 auto; }
+.character-icons-guardianClass img { width: 36px; height: 36px; }
+.character-icons-affiliations img { width: 25px; height: 25px; }
+.character-game-symbol { display: inline-flex; align-items: center; gap: 5px; font-size: 17px; font-weight: 700; }

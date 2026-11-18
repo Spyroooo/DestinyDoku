@@ -1,6 +1,6 @@
 // The build emits an entry document for each route so GitHub Pages can serve it.
 export const sitePaths = [
-  '/', '/weapons', '/weapons/practice', '/weapons/daily', '/characters',
+  '/', '/weapons', '/weapons/practice', '/weapons/daily', '/characters', '/characters/practice', '/characters/daily',
   '/encounters', '/locations', '/music', '/who-said-it', '/exotics',
   '/destiny-grid', '/feedback',
 ]
