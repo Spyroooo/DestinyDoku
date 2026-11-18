@@ -162,3 +162,23 @@ test('development clears saved wins and remounts on edits; release mode restores
   }
  }
 })
+
+
+test('category dialogs focus their invoking button before opening, including Safari pointer clicks',()=>{
+ const h=harness(true),parent=h.render(h.instance(),h.modules.Weapons.default,{mode:'practice'}),game=roundNode(parent)
+ const state=h.instance()
+ let tree=h.render(state,game.type,game.props)
+ const buttons=nodes(tree,(node)=>node.props?.className==='category-heading')
+ for(const button of buttons){
+  let focused=false
+  const trigger={focus(options){focused=true;assert.equal(options.preventScroll,true)}}
+  button.props.onClick({currentTarget:trigger})
+  assert(focused,'The native dialog must remember this button rather than the scrollable table')
+  tree=h.render(state,game.type,game.props)
+  const dialog=nodes(tree,(node)=>typeof node.props?.onClose==='function')[0]
+  assert(dialog,'Click still opens category help')
+  dialog.props.onClose()
+  tree=h.render(state,game.type,game.props)
+  assert.equal(nodes(tree,(node)=>typeof node.props?.onClose==='function').length,0)
+ }
+})

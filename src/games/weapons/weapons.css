@@ -94,11 +94,15 @@ main:has(.weapons-page) { width: min(1220px, 100%); padding-top: 40px; padding-b
 .clue-icons img.stasis-symbol { filter: brightness(0) saturate(100%) invert(42%) sepia(83%) saturate(1248%) hue-rotate(200deg) brightness(92%) contrast(98%); }
 .weapons-page .category-heading { background: none; border: 0; color: inherit; padding: 4px 0; font-size: inherit; letter-spacing: inherit; text-transform: inherit; border-radius: 0; width: 100%; }
 .weapons-page .category-heading:hover { background: none; color: #e9ce99; }
+.weapons-page .category-heading:focus { outline: none; }
+.weapons-page .category-heading:focus-visible { color: #e9ce99; }
 .category-heading span { color: #d9bb7e; font-size: 12px; }
 .category-dialog { width: min(800px, calc(100% - 32px)); max-height: calc(100svh - 48px); padding: 0; border: 1px solid #b99c58; background: #0c1118; color: #edf1f7; text-align: left; box-shadow: 0 24px 100px #0009; overflow-y: auto; }
 .category-dialog::backdrop { background: #02060cbb; backdrop-filter: blur(5px); }
 .category-dialog-content { padding: 32px; }
 .category-dialog h2 { font-size: 30px; margin: 12px 0 18px; }
+/* The static heading receives screen-reader focus, but is not a control. */
+.category-dialog h2[tabindex="-1"]:focus { outline: none; }
 .category-dialog p { color: #b8c0cb; line-height: 1.75; }
 .category-dialog ul { padding-left: 22px; margin: 24px 0; }
 .category-dialog li { padding-left: 5px; margin: 14px 0; }

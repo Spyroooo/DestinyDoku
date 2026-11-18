@@ -1,4 +1,5 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import type { MouseEvent } from 'react'
 import { playableWeapons, releases } from '../../data/destiny2'
 import {
   canBeAnswer, catalogSignature, columns, createRound, currentVersion, evaluateGuess,
@@ -146,6 +147,13 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
     setError('')
   }
 
+  function openCategory(event: MouseEvent<HTMLButtonElement>, category: HelpCategory) {
+    // Safari does not focus buttons on pointer click. Give the native dialog
+    // an explicit return target instead of the enclosing scrollable table.
+    event.currentTarget.focus({ preventScroll: true })
+    setHelpCategory(category)
+  }
+
   return (
     <>
       <div className="round-summary" role="status">
@@ -231,7 +239,7 @@ const WeaponRound = memo(function WeaponRound({ mode, dayKey, onDateChange, deve
       <div className="table-scroll" role="region" aria-label="Guess comparisons, scroll horizontally for all clues" tabIndex={0}>
         <table className="guess-table">
           <caption>Guess history · {round.guessIds.length} guesses · Newest first</caption>
-          <thead><tr><th scope="col"><button className="category-heading" onClick={() => setHelpCategory('weapon')} aria-haspopup="dialog">Weapon <span aria-hidden="true">ⓘ</span></button></th>{columns.map((column) => <th scope="col" key={column.id}><button className="category-heading" onClick={() => setHelpCategory(column.id)} aria-haspopup="dialog">{column.label} <span aria-hidden="true">ⓘ</span></button></th>)}</tr></thead>
+          <thead><tr><th scope="col"><button className="category-heading" onClick={(event) => openCategory(event, 'weapon')} aria-haspopup="dialog">Weapon <span aria-hidden="true">ⓘ</span></button></th>{columns.map((column) => <th scope="col" key={column.id}><button className="category-heading" onClick={(event) => openCategory(event, column.id)} aria-haspopup="dialog">{column.label} <span aria-hidden="true">ⓘ</span></button></th>)}</tr></thead>
           <tbody>
             {[...round.guessIds].reverse().map((id, index) => {
               const weapon = playableWeapons.find((entry) => entry.id === id)!
