@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "researchedAt": "2026-11-18",
-  "scope": "Approved 67-character Destiny 2 research roster; not a playable pool.",
+  "scope": "Approved 82-character Destiny 2 research roster with user-reviewed raid final bosses and Tower NPCs.",
   "fieldOrder": [
     "species",
     "gender",
@@ -46,6 +46,20 @@
       "year": 2018,
       "order": 500,
       "seasonNumber": 5
+    },
+    {
+      "id": "drifter",
+      "name": "Season of the Drifter",
+      "year": 2019,
+      "order": 600,
+      "seasonNumber": 6
+    },
+    {
+      "id": "opulence",
+      "name": "Season of Opulence",
+      "year": 2019,
+      "order": 700,
+      "seasonNumber": 7
     },
     {
       "id": "undying",
@@ -143,6 +157,13 @@
       "name": "The Final Shape",
       "year": 2024,
       "order": 2350,
+      "seasonNumber": 24
+    },
+    {
+      "id": "echoes",
+      "name": "Episode: Echoes",
+      "year": 2024,
+      "order": 2400,
       "seasonNumber": 24
     },
     {
@@ -5903,12 +5924,1198 @@
           "note": ""
         }
       }
+    },
+    {
+      "id": "the-consul",
+      "edition": "destiny2",
+      "name": "The Consul",
+      "aliases": [
+        "Consul"
+      ],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": "Cabal is the agreed player-facing label; the reference uses Barant."
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Red Legion",
+            "Praetorate"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Advisor",
+            "Mentor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/The_Consul"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "taniks",
+      "edition": "destiny2",
+      "name": "Taniks",
+      "aliases": [
+        "Taniks, the Scarred",
+        "Taniks Reborn",
+        "Taniks, Reborn",
+        "Taniks, the Abomination",
+        "Taniks Perfected"
+      ],
+      "fields": {
+        "species": {
+          "value": "Eliksni",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "House of Salvation"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": "Uses the Beyond Light mercenary association with House of Salvation. Earlier employers and speculative House of Scar affiliation are excluded."
+        },
+        "roles": {
+          "value": [
+            "Mercenary",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "beyond-light",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Taniks,_the_Scarred"
+          ],
+          "note": "Uses his actual return in Beyond Light / S12, excluding the earlier Shadowkeep Nightmare, consistent with choosing Crota’s raid rather than Nightmare introduction."
+        }
+      }
+    },
+    {
+      "id": "the-nine",
+      "edition": "destiny2",
+      "name": "The Nine",
+      "aliases": [
+        "Nine",
+        "IX",
+        "Ennead"
+      ],
+      "fields": {
+        "species": {
+          "value": "Dark matter entities",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": "Dark matter entities",
+            "status": "curated",
+            "note": "Proposed Dark matter entities as a collective gameplay label. Confirm this description versus Paracausal entity or Unknown; it is not a biological species name."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank for the collective as a whole. Confirm keeping it unrecorded versus Not applicable."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Nine"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Collective",
+            "Event host"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "drifter",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Nine"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": "drifter",
+            "status": "researched",
+            "note": "Proposed S6 / Season of the Drifter for direct appearances listed by the reference. Earlier Trials representation through the Emissary is excluded. Confirm S6 versus S1 if you want the indirect Trials presence to count."
+          },
+          "confirmedBy": "user"
+        }
+      }
+    },
+    {
+      "id": "maya-sundaresh-the-conductor",
+      "edition": "destiny2",
+      "name": "Maya Sundaresh / The Conductor",
+      "aliases": [
+        "Maya Sundaresh",
+        "Maya",
+        "The Conductor",
+        "Conductor",
+        "MSund12",
+        "MSund-12",
+        "Maya Sunderesh"
+      ],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": "Uses the Conductor’s Exo incarnation, not the original Human researcher or every Vex simulation. Lakshmi-2 remains a separate playable identity."
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Nessian Schism"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Researcher"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": "Earlier Destiny 1 Grimoire and Destiny 2 references are mentions; the actual Conductor appears in Episode: Echoes."
+        },
+        "firstDestiny2Release": {
+          "value": "echoes",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Maya_Sundaresh"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "lakshmi-2",
+      "edition": "destiny2",
+      "name": "Lakshmi-2",
+      "aliases": [
+        "Lakshmi",
+        "Lakshimi-2"
+      ],
+      "fields": {
+        "species": {
+          "value": "Exo",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Female",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Future War Cult",
+            "Consensus"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Vendor"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Lakshmi-2"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "atheon",
+      "edition": "destiny2",
+      "name": "Atheon",
+      "aliases": [
+        "Atheon, Time's Conflux",
+        "Atheon, Times Conflux"
+      ],
+      "fields": {
+        "species": {
+          "value": "Vex",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank: no gender established in the consulted reference. Confirm leaving the Vex Minds and Servitor unrecorded, or choose an explicit Not applicable category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": null,
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux",
+            "https://www.destinypedia.com/Hezen_Protective",
+            "https://www.destinypedia.com/Vault_of_Glass_(location)"
+          ],
+          "note": "User requested an intentionally empty affiliation; no faction is selected.",
+          "previousResearch": {
+            "value": [
+              "Hezen Protective"
+            ],
+            "status": "curated",
+            "note": "Proposed narrower Hezen Protective affiliation based on the Vault of Glass and collective references. The individual Atheon reference does not explicitly name a collective. Confirm this mapping versus the previous broad Vex grouping."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "splicer",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Atheon,_Time%27s_Conflux"
+          ],
+          "note": "Uses the reprised Vault of Glass / S14, following the user’s decision to count raid reprises for Oryx and Crota."
+        }
+      }
+    },
+    {
+      "id": "the-traveler",
+      "edition": "destiny2",
+      "name": "The Traveler",
+      "aliases": [
+        "Traveler",
+        "Traveller",
+        "The Traveller",
+        "The Great Machine"
+      ],
+      "fields": {
+        "species": {
+          "value": "Paracausal entity",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": "Paracausal entity is the broad gameplay description, matching the existing category used for Starhorse."
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank. The reference describes Female as implied rather than definitive. Confirm keeping the blank versus Female or Not applicable."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Light"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Source of Light"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": "Uses the first game appearance, Destiny 1; promotional appearances outside the games do not change the label."
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Traveler"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "argos",
+      "edition": "destiny2",
+      "name": "Argos, Planetary Core",
+      "aliases": [
+        "Argos"
+      ],
+      "fields": {
+        "species": {
+          "value": "Vex",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank: no gender established in the consulted reference. Confirm leaving the Vex Minds and Servitor unrecorded, or choose an explicit Not applicable category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Sol Collective"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "osiris",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Argos,_Planetary_Core"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "val-cauor",
+      "edition": "destiny2",
+      "name": "Val Ca'uor",
+      "aliases": [
+        "Val Cauor",
+        "Ca'uor",
+        "Cauor"
+      ],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": "Cabal",
+            "status": "curated",
+            "note": "Uses original Cabal raid incarnation. The later Salvage incarnation is Taken; confirm original Cabal rather than latest Taken form."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Red Legion"
+          ],
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": [
+              "Red Legion"
+            ],
+            "status": "curated",
+            "note": "Uses the original raid’s Red Legion affiliation, rather than the later Taken incarnation’s Xivu Arath’s Horde. Confirm the original-incarnation rule for both being type and affiliation."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Leader",
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "warmind",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Val_Ca%27uor"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "insurrection-prime",
+      "edition": "destiny2",
+      "name": "INSURRECTION PRIME, Kell’s Scourge",
+      "aliases": [
+        "Insurrection Prime",
+        "Insurrection",
+        "Kells Scourge"
+      ],
+      "fields": {
+        "species": {
+          "value": "Servitor/Brig",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": "Servitor",
+            "status": "curated",
+            "note": "Proposed gameplay label Servitor for the core inside the Brig chassis. The reference lists Fallen as the enemy species/faction grouping. Confirm Servitor versus AI or another label; do not silently treat it as an ordinary biological Eliksni."
+          },
+          "confirmedBy": "user"
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank: no gender established in the consulted reference. Confirm leaving the Vex Minds and Servitor unrecorded, or choose an explicit Not applicable category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Kell’s Scourge"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "forge",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "gahlran",
+      "edition": "destiny2",
+      "name": "Gahlran, the Sorrow-Bearer",
+      "aliases": [
+        "Gahlran",
+        "Sorrow-Bearer"
+      ],
+      "fields": {
+        "species": {
+          "value": "Cabal",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": "Original Cabal raid identity. The later Nightmare is a manifestation rather than a separate playable character."
+        },
+        "gender": {
+          "value": "Male",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": ""
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Savathûn's Brood"
+          ],
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": [
+              "Savathûn's Brood"
+            ],
+            "status": "curated",
+            "note": "Proposed Savathûn’s Brood during the Crown of Sorrow encounter; the source lists Loyalists as former. Confirm this alone versus adding his Calus/Loyalist origin as another affiliation."
+          },
+          "confirmedBy": "user"
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "opulence",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "sanctified-mind",
+      "edition": "destiny2",
+      "name": "Sanctified Mind, Sol Inherent",
+      "aliases": [
+        "Sanctified Mind",
+        "Sanctified"
+      ],
+      "fields": {
+        "species": {
+          "value": "Vex",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank: no gender established in the consulted reference. Confirm leaving the Vex Minds and Servitor unrecorded, or choose an explicit Not applicable category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Sol Divisive"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "undying",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent"
+          ],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "koregos",
+      "edition": "destiny2",
+      "name": "Koregos, the Worldline",
+      "aliases": [
+        "Koregos",
+        "Koregos, Fractured in Time",
+        "Koregos Fractured in Time",
+        "The Worldline"
+      ],
+      "fields": {
+        "species": {
+          "value": "Vex",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": ""
+        },
+        "gender": {
+          "value": "Not applicable",
+          "status": "confirmed",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": "User confirmed the selected value after reviewing the raid-boss expansion.",
+          "previousResearch": {
+            "value": null,
+            "status": "curated",
+            "note": "Proposed intentional blank: no gender established in the consulted reference. Confirm leaving the Vex Minds and Servitor unrecorded, or choose an explicit Not applicable category."
+          },
+          "confirmedBy": "user"
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Nessian Schism"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Boss"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "edge-of-fate",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Koregos,_the_Worldline"
+          ],
+          "note": "Uses the original Edge of Fate raid release, not the later Epic version. The Worldline and Fractured in Time are one character."
+        }
+      }
+    },
+    {
+      "id": "kadi-55-30",
+      "edition": "destiny2",
+      "name": "Kadi 55-30",
+      "aliases": [
+        "Kadi",
+        "Kadi-55-30",
+        "The Postmaster",
+        "Postmaster"
+      ],
+      "fields": {
+        "species": {
+          "value": "Frame",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": "A Frame is a manufactured robot, not a Human-derived Exo."
+        },
+        "gender": {
+          "value": "Female",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": "Feminine programming normalized to Female, consistent with the existing AI-presentation rule."
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "The Last City"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": ""
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Postmaster"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30",
+            "https://help.bungie.net/hc/en-us/articles/45546622514580--5-What-is-the-Tower"
+          ],
+          "note": ""
+        },
+        "debutGame": {
+          "value": "destiny1",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Kadi_55-30"
+          ],
+          "note": "Base Destiny 2 / S1. Kadi also appeared in Destiny 1."
+        }
+      }
+    },
+    {
+      "id": "benedict-99-40",
+      "edition": "destiny2",
+      "name": "Benedict 99-40",
+      "aliases": [
+        "Benedict",
+        "Benedict-99-40",
+        "Sweeper Bot",
+        "Sweeperbot",
+        "Tower Sweeper",
+        "Cleaning Bot"
+      ],
+      "fields": {
+        "species": {
+          "value": "Frame",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": "Manufactured Frame, not an Exo."
+        },
+        "gender": {
+          "value": "Male",
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": "Masculine programming normalized to Male, consistent with the AI-presentation rule."
+        },
+        "guardianClass": {
+          "value": "None",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": ""
+        },
+        "affiliations": {
+          "value": [
+            "Loyalists"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": "Uses the real Calus/Loyalist allegiance rather than the Last City cover identity."
+        },
+        "roles": {
+          "value": [
+            "Vendor",
+            "Agent",
+            "Custodian"
+          ],
+          "status": "curated",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": "Former Leviathan raid vendor and Calus agent, initially encountered as a sweeper. This entry is Benedict specifically, not every ordinary Tower sweeper frame."
+        },
+        "debutGame": {
+          "value": "destiny2",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": ""
+        },
+        "firstDestiny2Release": {
+          "value": "red-war",
+          "status": "researched",
+          "sources": [
+            "https://www.destinypedia.com/Benedict_99-40"
+          ],
+          "note": "Original Destiny 2 / S1 Leviathan-era vendor, before the Season of Opulence relocation."
+        }
+      }
     }
   ],
   "reviewDecisions": {
     "confirmedBy": "user",
     "locationClue": "Removed; historical research retained under backgroundResearch.locations.",
-    "emptyValues": "Null fields with confirmed status are intentional blanks, not unresolved research.",
+    "emptyValues": "Null fields with confirmed status are user-selected blanks. Curated nulls require an explanation and represent deliberately unrecorded information rather than a pending missing clue.",
     "appearanceRule": "Use the user-selected release for each character. Living/revealed introductions and reprised raids can take precedence over earlier corpses, proxies or Nightmares."
   }
 }

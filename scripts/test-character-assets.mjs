@@ -42,7 +42,7 @@ test('absolute and relative asset paths stay on the site origin at root and nest
   }
 })
 
-test('all 67 portrait URLs resolve to local images, without a second-host request', () => {
+test('all 82 portrait URLs resolve to local images, without a second-host request', () => {
   const assetUrl = assetHelper()
   for (const character of characters) {
     const url = new URL(assetUrl(character.icon), 'https://destinydoku.example/characters')

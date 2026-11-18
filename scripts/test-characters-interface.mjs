@@ -225,8 +225,8 @@ test('character daily answers are stable, saves reject corrupt progress, and sha
  assert.notEqual(daily.PRACTICE_STORAGE_KEY,'destinydoku:weapons:practice:v1')
 })
 
-test('all 67 characters have local JPEG portraits and valid introductions',()=>{
- assert.equal(pool.length,67)
+test('all 82 characters have local JPEG portraits and valid introductions',()=>{
+ assert.equal(pool.length,82)
  for(const character of pool){
   const image=readFileSync(new URL(`../public${character.icon}`,import.meta.url))
   assert.equal(image[0],0xff,character.name)
@@ -253,4 +253,65 @@ test('category dialogs focus their invoking button before opening, including Saf
   tree=h.render(state,game.type,game.props)
   assert.equal(nodes(tree,(node)=>typeof node.props?.onClose==='function').length,0)
  }
+})
+
+test('expanded roster keeps distinct identities, agreed introduction rules and safe unknown values',()=>{
+ const logic=harness(false).modules['./logic']
+ const expected=[
+  ['Consul','The Consul','red-war'],['Taniks Reborn','Taniks','beyond-light'],
+  ['IX','The Nine','drifter'],['Maya Sunderesh','Maya Sundaresh / The Conductor','echoes'],
+  ['Lakshimi-2','Lakshmi-2','red-war'],['Atheon','Atheon','splicer'],['Traveller','The Traveler','red-war'],
+ ]
+ for(const [query,name,release] of expected){
+  const character=logic.searchCharacters(pool,query,[])[0]
+  assert.equal(character?.name,name)
+  assert.equal(character.firstReleaseId,release)
+ }
+ const nine=pool.find((c)=>c.name==='The Nine'),atheon=pool.find((c)=>c.name==='Atheon'),traveler=pool.find((c)=>c.name==='The Traveler')
+ for(const character of [nine,atheon,traveler])assert.equal(character.gender,'Not applicable')
+ assert.equal(logic.evaluateGuess(nine,traveler,releases).find((c)=>c.column==='gender').match,'exact')
+ assert.equal(pool.filter((c)=>c.aliases.some((name)=>name.includes('Taniks'))).length,1)
+ assert.notEqual(pool.find((c)=>c.name.startsWith('Maya')).id,pool.find((c)=>c.name==='Lakshmi-2').id)
+})
+
+test('all approved raid final bosses are playable with portraits, aliases and original raid releases',()=>{
+ const logic=harness(false).modules['./logic']
+ for(const [query,id,release] of [
+  ['Argos','argos','osiris'],['Val Cauor','val-cauor','warmind'],
+  ['Insurrection Prime','insurrection-prime','forge'],['Gahlran','gahlran','opulence'],
+  ['Sanctified Mind','sanctified-mind','undying'],['Koregos Fractured in Time','koregos','edge-of-fate'],
+ ]){
+  const character=logic.searchCharacters(pool,query,[])[0]
+  assert.equal(character?.id,id)
+  assert.equal(character.firstReleaseId,release)
+  assert(character.roles.includes('Boss'))
+  const round=logic.submitGuess({answerId:id,guessIds:[]},id,pool)
+  assert.equal(logic.roundStatus(round),'won')
+  assert(logic.evaluateGuess(character,character,releases).every((clue)=>clue.match==='exact'))
+ }
+ assert(!pool.some((character)=>character.name.includes('Aksis')),'Destiny 1-only candidate stays excluded')
+})
+
+test('reviewed raid choices and Tower NPC identities are reflected in the playable roster',()=>{
+ const logic=harness(false).modules['./logic'],find=(id)=>pool.find((character)=>character.id===id)
+ assert.equal(find('insurrection-prime').species,'Servitor/Brig')
+ assert.equal(find('atheon').affiliations,null)
+ assert.equal(find('val-cauor').species,'Cabal')
+ assert.equal(find('val-cauor').affiliations.join(','),'Red Legion')
+ assert.equal(find('gahlran').affiliations.join(','),"Savathûn's Brood")
+ assert.equal(find('the-nine').species,'Dark matter entities')
+ assert.equal(find('the-nine').firstReleaseId,'drifter')
+ for(const id of ['atheon','argos','sanctified-mind','koregos','insurrection-prime','the-nine','the-traveler'])assert.equal(find(id).gender,'Not applicable')
+ assert.equal(logic.searchCharacters(pool,'Postmaster',[])[0].id,'kadi-55-30')
+ assert.equal(logic.searchCharacters(pool,'Sweeper Bot',[])[0].id,'benedict-99-40')
+ assert.equal(logic.searchCharacters(pool,'Cleaning Bot',[])[0].id,'benedict-99-40')
+ for(const id of ['kadi-55-30','benedict-99-40']){
+  assert.equal(find(id).species,'Frame')
+  assert.equal(find(id).guardianClass,'None')
+  assert.equal(find(id).firstReleaseId,'red-war')
+ }
+ assert.equal(find('kadi-55-30').debutGame,'destiny1')
+ assert.equal(find('benedict-99-40').debutGame,'destiny2')
+ const research=JSON.parse(readFileSync(new URL('../data/character-research/candidates.json',import.meta.url),'utf8'))
+ assert(research.characters.every((character)=>Object.values(character.fields).every((field)=>!field.reviewRequired)))
 })

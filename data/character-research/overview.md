@@ -2,7 +2,7 @@
 
 Generated from [candidates.json](candidates.json). Edit that file, then run `node scripts/character-research.mjs --write`.
 
-`⚠` = proposed: double-check. `❓` = missing: manual research needed. `—` without a marker is an intentional blank confirmed by the user. Other values are user decisions, researched facts or editorial mappings. Location is excluded from clues; its notes remain in `backgroundResearch.locations`.
+`⚠` = proposed value or editorial choice needing review. `❓` = missing: manual research needed. `—` without a marker is an intentional blank documented in its field note. Other values are user decisions, researched facts or editorial mappings. Location is excluded from clues; its notes remain in `backgroundResearch.locations`.
 
 | Character | Being type | Gender | Guardian class | Affiliation | Role | Debut game | First D2 appearance |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -73,6 +73,21 @@ Generated from [candidates.json](candidates.json). Edit that file, then run `nod
 | [Sundance](https://www.destinypedia.com/Sundance) | Ghost | Female | Not applicable | Vanguard, Cayde-6 | Companion | Destiny 1 | S1: The Red War (2017) |
 | [Crota, Son of Oryx](https://www.destinypedia.com/Crota) | Hive | Male | Not applicable | Blood of Oryx | Leader, Boss | Destiny 1 | S22: Season of the Witch (2023) |
 | [Starhorse](https://www.destinypedia.com/Starhorse) | Paracausal entity | Male | Not applicable | The Nine | Vendor, Event host | Destiny 2 | S15: Bungie 30th Anniversary (2021) |
+| [The Consul](https://www.destinypedia.com/The_Consul) | Cabal | Male | None | Red Legion, Praetorate | Advisor, Mentor | Destiny 2 | S1: The Red War (2017) |
+| [Taniks](https://www.destinypedia.com/Taniks,_the_Scarred) | Eliksni | Male | None | House of Salvation | Mercenary, Boss | Destiny 1 | S12: Beyond Light / Season of the Hunt (2020) |
+| [The Nine](https://www.destinypedia.com/Nine) | Dark matter entities | Not applicable | None | The Nine | Collective, Event host | Destiny 2 | S6: Season of the Drifter (2019) |
+| [Maya Sundaresh / The Conductor](https://www.destinypedia.com/Maya_Sundaresh) | Exo | Female | None | Nessian Schism | Leader, Researcher | Destiny 2 | S24: Episode: Echoes (2024) |
+| [Lakshmi-2](https://www.destinypedia.com/Lakshmi-2) | Exo | Female | None | Future War Cult, Consensus | Leader, Vendor | Destiny 1 | S1: The Red War (2017) |
+| [Atheon](https://www.destinypedia.com/Atheon,_Time%27s_Conflux) | Vex | Not applicable | None | — | Boss | Destiny 1 | S14: Season of the Splicer (2021) |
+| [The Traveler](https://www.destinypedia.com/Traveler) | Paracausal entity | Not applicable | None | The Light | Source of Light | Destiny 1 | S1: The Red War (2017) |
+| [Argos, Planetary Core](https://www.destinypedia.com/Argos,_Planetary_Core) | Vex | Not applicable | None | Sol Collective | Boss | Destiny 2 | S2: Curse of Osiris (2017) |
+| [Val Ca'uor](https://www.destinypedia.com/Val_Ca%27uor) | Cabal | Male | None | Red Legion | Leader, Boss | Destiny 2 | S3: Warmind (2018) |
+| [INSURRECTION PRIME, Kell’s Scourge](https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge) | Servitor/Brig | Not applicable | None | Kell’s Scourge | Boss | Destiny 2 | S5: Season of the Forge (2018) |
+| [Gahlran, the Sorrow-Bearer](https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer) | Cabal | Male | None | Savathûn's Brood | Boss | Destiny 2 | S7: Season of Opulence (2019) |
+| [Sanctified Mind, Sol Inherent](https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent) | Vex | Not applicable | None | Sol Divisive | Boss | Destiny 2 | S8: Shadowkeep / Season of the Undying (2019) |
+| [Koregos, the Worldline](https://www.destinypedia.com/Koregos,_the_Worldline) | Vex | Not applicable | None | Nessian Schism | Boss | Destiny 2 | S27: The Edge of Fate / Reclamation (2025) |
+| [Kadi 55-30](https://www.destinypedia.com/Kadi_55-30) | Frame | Female | None | The Last City | Vendor, Postmaster | Destiny 1 | S1: The Red War (2017) |
+| [Benedict 99-40](https://www.destinypedia.com/Benedict_99-40) | Frame | Male | None | Loyalists | Vendor, Agent, Custodian | Destiny 2 | S1: The Red War (2017) |
 
 ## Field notes
 
@@ -264,4 +279,78 @@ These explain identity, date and classification choices, including researched va
 - **Being type:** User-confirmed gameplay being-type label. Earlier research and alternative classifications are retained in previousResearch.
 - **Gender:** User retained the proposed gender value.
 - **First D2 appearance:** User selected the named Dares vendor introduction in S15 / 30th Anniversary Pack rather than earlier horse manifestations.
+
+### The Consul
+
+- **Being type:** Cabal is the agreed player-facing label; the reference uses Barant.
+
+### Taniks
+
+- **Affiliation:** Uses the Beyond Light mercenary association with House of Salvation. Earlier employers and speculative House of Scar affiliation are excluded.
+- **First D2 appearance:** Uses his actual return in Beyond Light / S12, excluding the earlier Shadowkeep Nightmare, consistent with choosing Crota’s raid rather than Nightmare introduction.
+
+### The Nine
+
+- **Being type:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **First D2 appearance:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### Maya Sundaresh / The Conductor
+
+- **Being type:** Uses the Conductor’s Exo incarnation, not the original Human researcher or every Vex simulation. Lakshmi-2 remains a separate playable identity.
+- **Debut game:** Earlier Destiny 1 Grimoire and Destiny 2 references are mentions; the actual Conductor appears in Episode: Echoes.
+
+### Atheon
+
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **Affiliation:** User requested an intentionally empty affiliation; no faction is selected.
+- **First D2 appearance:** Uses the reprised Vault of Glass / S14, following the user’s decision to count raid reprises for Oryx and Crota.
+
+### The Traveler
+
+- **Being type:** Paracausal entity is the broad gameplay description, matching the existing category used for Starhorse.
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **Debut game:** Uses the first game appearance, Destiny 1; promotional appearances outside the games do not change the label.
+
+### Argos, Planetary Core
+
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### Val Ca'uor
+
+- **Being type:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **Affiliation:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### INSURRECTION PRIME, Kell’s Scourge
+
+- **Being type:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### Gahlran, the Sorrow-Bearer
+
+- **Being type:** Original Cabal raid identity. The later Nightmare is a manifestation rather than a separate playable character.
+- **Affiliation:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### Sanctified Mind, Sol Inherent
+
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+
+### Koregos, the Worldline
+
+- **Gender:** User confirmed the selected value after reviewing the raid-boss expansion.
+- **First D2 appearance:** Uses the original Edge of Fate raid release, not the later Epic version. The Worldline and Fractured in Time are one character.
+
+### Kadi 55-30
+
+- **Being type:** A Frame is a manufactured robot, not a Human-derived Exo.
+- **Gender:** Feminine programming normalized to Female, consistent with the existing AI-presentation rule.
+- **First D2 appearance:** Base Destiny 2 / S1. Kadi also appeared in Destiny 1.
+
+### Benedict 99-40
+
+- **Being type:** Manufactured Frame, not an Exo.
+- **Gender:** Masculine programming normalized to Male, consistent with the AI-presentation rule.
+- **Affiliation:** Uses the real Calus/Loyalist allegiance rather than the Last City cover identity.
+- **Role:** Former Leviathan raid vendor and Calus agent, initially encountered as a sweeper. This entry is Benedict specifically, not every ordinary Tower sweeper frame.
+- **First D2 appearance:** Original Destiny 2 / S1 Leviathan-era vendor, before the Season of Opulence relocation.
 

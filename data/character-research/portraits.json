@@ -467,5 +467,110 @@
     "path": "/images/characters/starhorse.jpg",
     "sourcePage": "https://www.destinypedia.com/Starhorse",
     "sourceImage": "https://destiny.wiki.gallery/images/thumb/a/a1/Starhorse.jpg/300px-Starhorse.jpg"
+  },
+  {
+    "id": "the-consul",
+    "name": "The Consul",
+    "path": "/images/characters/the-consul.jpg",
+    "sourcePage": "https://www.destinypedia.com/The_Consul",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/8/89/TheConsulInfobox.jpg/300px-TheConsulInfobox.jpg"
+  },
+  {
+    "id": "taniks",
+    "name": "Taniks",
+    "path": "/images/characters/taniks.jpg",
+    "sourcePage": "https://www.destinypedia.com/Taniks,_the_Scarred",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/7/7c/Taniks_the_Scarred.jpg/300px-Taniks_the_Scarred.jpg"
+  },
+  {
+    "id": "the-nine",
+    "name": "The Nine",
+    "path": "/images/characters/the-nine.jpg",
+    "sourcePage": "https://www.destinypedia.com/Nine",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/a/a8/Nine.png/300px-Nine.png"
+  },
+  {
+    "id": "maya-sundaresh-the-conductor",
+    "name": "Maya Sundaresh / The Conductor",
+    "path": "/images/characters/maya-sundaresh-the-conductor.jpg",
+    "sourcePage": "https://www.destinypedia.com/Maya_Sundaresh",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/8/8c/Maya_Cutscene_Infobox.png/300px-Maya_Cutscene_Infobox.png"
+  },
+  {
+    "id": "lakshmi-2",
+    "name": "Lakshmi-2",
+    "path": "/images/characters/lakshmi-2.jpg",
+    "sourcePage": "https://www.destinypedia.com/Lakshmi-2",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/4/46/Destiny_2_Lakshmi-2.png/300px-Destiny_2_Lakshmi-2.png"
+  },
+  {
+    "id": "atheon",
+    "name": "Atheon",
+    "path": "/images/characters/atheon.jpg",
+    "sourcePage": "https://www.destinypedia.com/Atheon,_Time%27s_Conflux",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/e/ec/AtheonTimesConfluxGrimoireCard.jpg/300px-AtheonTimesConfluxGrimoireCard.jpg"
+  },
+  {
+    "id": "the-traveler",
+    "name": "The Traveler",
+    "path": "/images/characters/the-traveler.jpg",
+    "sourcePage": "https://www.destinypedia.com/Traveler",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/8/89/BeyondLightTraveler.jpg/325px-BeyondLightTraveler.jpg"
+  },
+  {
+    "id": "argos",
+    "name": "Argos, Planetary Core",
+    "path": "/images/characters/argos.jpg",
+    "sourcePage": "https://www.destinypedia.com/Argos,_Planetary_Core",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/5/54/ArgosInfobox.jpg/300px-ArgosInfobox.jpg"
+  },
+  {
+    "id": "val-cauor",
+    "name": "Val Ca'uor",
+    "path": "/images/characters/val-cauor.jpg",
+    "sourcePage": "https://www.destinypedia.com/Val_Ca%27uor",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/3/3a/Val_Ca%27uor.png/300px-Val_Ca%27uor.png"
+  },
+  {
+    "id": "insurrection-prime",
+    "name": "INSURRECTION PRIME, Kell’s Scourge",
+    "path": "/images/characters/insurrection-prime.jpg",
+    "sourcePage": "https://www.destinypedia.com/INSURRECTION_PRIME,_Kell%27s_Scourge",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/a/a3/Insurrection_Prime_Kells_Scourge.jpg/300px-Insurrection_Prime_Kells_Scourge.jpg"
+  },
+  {
+    "id": "gahlran",
+    "name": "Gahlran, the Sorrow-Bearer",
+    "path": "/images/characters/gahlran.jpg",
+    "sourcePage": "https://www.destinypedia.com/Gahlran,_the_Sorrow-Bearer",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/4/4a/GahlranInfobox.jpg/300px-GahlranInfobox.jpg"
+  },
+  {
+    "id": "sanctified-mind",
+    "name": "Sanctified Mind, Sol Inherent",
+    "path": "/images/characters/sanctified-mind.jpg",
+    "sourcePage": "https://www.destinypedia.com/Sanctified_Mind,_Sol_Inherent",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/c/ce/Sanctified_Mind_Sol_Inherent.jpg/300px-Sanctified_Mind_Sol_Inherent.jpg"
+  },
+  {
+    "id": "koregos",
+    "name": "Koregos, the Worldline",
+    "path": "/images/characters/koregos.jpg",
+    "sourcePage": "https://www.destinypedia.com/Koregos,_the_Worldline",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/e/e2/KoregosInfobox.jpg/300px-KoregosInfobox.jpg"
+  },
+  {
+    "id": "kadi-55-30",
+    "name": "Kadi 55-30",
+    "path": "/images/characters/kadi-55-30.jpg",
+    "sourcePage": "https://www.destinypedia.com/Kadi_55-30",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/a/a5/Grimoire_Kadi_55-30.jpg/300px-Grimoire_Kadi_55-30.jpg"
+  },
+  {
+    "id": "benedict-99-40",
+    "name": "Benedict 99-40",
+    "path": "/images/characters/benedict-99-40.jpg",
+    "sourcePage": "https://www.destinypedia.com/Benedict_99-40",
+    "sourceImage": "https://destiny.wiki.gallery/images/thumb/9/9c/Benedict99Infobox.jpg/300px-Benedict99Infobox.jpg"
   }
 ]

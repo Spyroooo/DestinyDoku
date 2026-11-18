@@ -102,5 +102,13 @@
   {
     "path": "/images/characters/symbols/hive.svg",
     "source": "https://raw.githubusercontent.com/justrealmilk/destiny-icons/master/races/hive.svg"
+  },
+  {
+    "path": "/images/characters/symbols/vex.svg",
+    "source": "https://raw.githubusercontent.com/justrealmilk/destiny-icons/master/races/vex.svg"
+  },
+  {
+    "path": "/images/characters/symbols/faction_fwc.svg",
+    "source": "https://raw.githubusercontent.com/justrealmilk/destiny-icons/master/factions/faction_fwc.svg"
   }
 ]

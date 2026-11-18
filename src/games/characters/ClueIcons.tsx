@@ -13,19 +13,21 @@ const factionSymbols: Record<string, string> = {
   'Iron Lords': 'faction_ironbanner.svg', 'Cult of Osiris': 'faction_osiris.svg',
   'Royal Awoken Guard': 'faction_queens_wrath.svg', Reef: 'faction_queens_wrath.svg',
   'The Nine': 'faction_thenine.svg', VI: 'faction_thenine.svg',
+  'Future War Cult': 'faction_fwc.svg',
   'Black Armory': 'black_armory.svg', 'Clovis Bray': 'clovis_bray.svg', 'House Bray': 'clovis_bray.svg',
   'House of Judgment': 'fallen_judgement.svg', 'House of Light': 'fallen_light.svg',
   'House of Spider': 'fallen_spider.svg', 'Red Legion': 'faction_red_legion.svg',
   Scorn: 'fallen_scorn.svg', 'Revenant Scorn': 'fallen_scorn.svg',
 }
-const speciesSymbols: Record<string, string> = { Hive: 'hive.svg', Cabal: 'cabal-gold.svg', Scorn: 'fallen_scorn.svg' }
-const speciesGlyphs: Record<string, string> = { Human: 'person', Awoken: 'awoken', Exo: 'exo', AI: 'ai', Unknown: 'unknown', 'Ascendant Soul': 'soul' }
+const speciesSymbols: Record<string, string> = { Hive: 'hive.svg', Cabal: 'cabal-gold.svg', Scorn: 'fallen_scorn.svg', Vex: 'vex.svg' }
+const speciesGlyphs: Record<string, string> = { Human: 'person', Awoken: 'awoken', Exo: 'exo', Frame: 'exo', AI: 'ai', Servitor: 'servitor', 'Servitor/Brig': 'servitor', Unknown: 'unknown', 'Ascendant Soul': 'soul' }
 const releaseSymbols: Record<string, string> = { warmind: 'warmind.svg', forge: 'black_armory.svg', splicer: 'splicer.svg' }
 const paths: Record<string, string> = {
   person: 'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8',
   awoken: 'M15 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M19 3l1.5 3L23 7.5 20.5 9 19 12l-1.5-3L15 7.5 17.5 6 19 3Z',
   exo: 'M5 6h14v14H5V6Zm7 0V2m-5 9h3m4 0h3m-8 5h6M2 10v6m20-6v6',
   ai: 'M6 6h12v12H6V6Zm3 3h6v6H9V9ZM9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4',
+  servitor: 'M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Zm0-6a4 4 0 1 0 0-8 4 4 0 0 0 0 8M2 12h6m8 0h6M12 2v6m0 8v6',
   male: 'M17 2h5v5m0-5-7 7M10 21a7 7 0 1 0 0-14 7 7 0 0 0 0 14',
   female: 'M12 14a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 0v8m-4-4h8',
   nonbinary: 'M12 22a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0-12V1m-4 1 8 6m0-6-8 6',
@@ -55,7 +57,7 @@ export default function ClueIcons({ column, character }: { column: Column; chara
         : character.guardianClass === 'Rogue Lightbearer' ? <Pictures names={['light.svg']} /> : <Glyph name="none" />
       break
     case 'gender':
-      content = <Glyph name={character.gender === 'Male' ? 'male' : character.gender === 'Female' ? 'female' : character.gender === 'Non-binary' ? 'nonbinary' : 'unknown'} />
+      content = <Glyph name={character.gender === 'Male' ? 'male' : character.gender === 'Female' ? 'female' : character.gender === 'Non-binary' ? 'nonbinary' : character.gender === 'Not applicable' ? 'none' : 'unknown'} />
       break
     case 'species': {
       const image = speciesSymbols[character.species]

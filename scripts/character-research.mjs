@@ -10,6 +10,8 @@ const releases = new Map(data.releaseCatalog.map(release => [release.id, release
 const ids = new Set()
 const totals = Object.fromEntries([...statuses].map(status => [status, 0]))
 let flaggedCharacters = 0
+let editorialReviews = 0
+const needsReview = field => ['proposed', 'missing'].includes(field.status) || field.reviewRequired === true
 for (const release of releases.values()) {
   assert(Number.isInteger(release.seasonNumber) && release.seasonNumber > 0, 'Season number required')
   assert(Number.isInteger(release.year), 'Release year required')
@@ -26,7 +28,7 @@ function display(key, field) {
   return text.replaceAll('|', '\\|')
 }
 
-assert.equal(data.characters.length, 67, 'Keep all 67 approved characters')
+assert.equal(data.characters.length, 82, 'Keep all 82 approved characters')
 assert.deepEqual(data.fieldOrder, fields)
 for (const character of data.characters) {
   assert(character.id && character.name && !ids.has(character.id), 'Unique ID and name required')
@@ -38,13 +40,16 @@ for (const character of data.characters) {
     const field = character.fields[key]
     assert(statuses.has(field.status), `${character.name}: invalid ${key} status`)
     if (field.status === 'missing') assert.equal(field.value, null, `${character.name}: missing values must be null`)
-    if (field.value === null) assert(['missing', 'confirmed'].includes(field.status), `${character.name}: blank must be missing or explicitly confirmed`)
+    if (field.value === null) assert(['missing', 'confirmed', 'curated'].includes(field.status), `${character.name}: blank must be missing, explicitly confirmed or documented as curated`)
+    if (field.value === null && field.status === 'curated') assert(field.note.trim(), 'Explain an intentionally unrecorded curated value')
     if (field.status === 'confirmed') {
       assert.equal(field.confirmedBy, 'user', 'Confirmed values require a user decision')
       assert(field.note.trim(), 'Explain confirmed classification or intentional blank')
     }
     assert(field.sources.length && field.sources.every(source => source.startsWith('https://')), 'Source required')
-    if (['proposed', 'missing'].includes(field.status)) {
+    if (field.reviewRequired !== undefined) assert.equal(typeof field.reviewRequired, 'boolean', 'Review marker must be boolean')
+    if (field.reviewRequired && !['proposed', 'missing'].includes(field.status)) editorialReviews++
+    if (needsReview(field)) {
       assert(field.note.trim(), `${character.name}: explain ${key} review requirement`)
       flagged = true
     }
@@ -61,25 +66,25 @@ for (const character of data.characters) {
 }
 
 let overview = '# Character overview\n\nGenerated from [candidates.json](candidates.json). Edit that file, then run `node scripts/character-research.mjs --write`.\n\n'
-overview += '`⚠` = proposed: double-check. `❓` = missing: manual research needed. `—` without a marker is an intentional blank confirmed by the user. Other values are user decisions, researched facts or editorial mappings. Location is excluded from clues; its notes remain in `backgroundResearch.locations`.\n\n'
+overview += '`⚠` = proposed value or editorial choice needing review. `❓` = missing: manual research needed. `—` without a marker is an intentional blank documented in its field note. Other values are user decisions, researched facts or editorial mappings. Location is excluded from clues; its notes remain in `backgroundResearch.locations`.\n\n'
 overview += `| Character | ${labels.join(' | ')} |\n| ${Array(fields.length + 1).fill('---').join(' | ')} |\n`
-let review = '# Manual review checklist\n\nGenerated from [candidates.json](candidates.json). Only proposed and missing values appear here.\n\n'
-review += `${data.characters.length} characters; ${flaggedCharacters} have at least one review item. ${totals.proposed} proposed values and ${totals.missing} empty values need attention.\n\n`
+let review = '# Manual review checklist\n\nGenerated from [candidates.json](candidates.json). Includes proposed values, missing data and editorial choices explicitly marked for review.\n\n'
+review += `${data.characters.length} characters; ${flaggedCharacters} have at least one review item. ${totals.proposed} proposed values, ${totals.missing} missing values and ${editorialReviews} editorial field decisions need attention.\n\n`
 if (flaggedCharacters === 0) review += 'All previously flagged clue fields have user decisions. Intentional blanks and excluded location research do not require further review.\n\n'
 let notes = '\n## Field notes\n\nThese explain identity, date and classification choices, including researched values with important caveats.\n\n'
 for (const character of data.characters) {
   overview += `| [${character.name}](${character.fields.species.sources[0]}) | `
   overview += fields.map(key => {
     const field = character.fields[key]
-    const marker = field.status === 'proposed' ? ' ⚠' : field.status === 'missing' ? ' ❓' : ''
+    const marker = field.status === 'missing' ? ' ❓' : needsReview(field) ? ' ⚠' : ''
     return display(key, field) + marker
   }).join(' | ') + ' |\n'
-  const flagged = fields.filter(key => ['proposed', 'missing'].includes(character.fields[key].status))
+  const flagged = fields.filter(key => needsReview(character.fields[key]))
   if (flagged.length) {
     review += `## ${character.name}\n\n`
     for (const key of flagged) {
       const field = character.fields[key]
-      review += `- [ ] **${labels[fields.indexOf(key)]}: ${display(key, field)}** (${field.status}). ${field.note} [Source](${field.sources[0]})\n`
+      review += `- [ ] **${labels[fields.indexOf(key)]}: ${display(key, field)}** (${field.reviewRequired ? 'editorial review' : field.status}). ${field.note} [Source](${field.sources[0]})\n`
     }
     review += '\n'
   }
@@ -98,4 +103,4 @@ if (process.argv.includes('--write')) {
     assert.equal(await readFile(new URL(file, directory), 'utf8'), contents, `${file} is stale; run with --write`)
   }
 }
-console.log(`Character research valid: ${ids.size} characters, ${totals.proposed} proposed fields, ${totals.missing} missing fields (${flaggedCharacters} characters to review).`)
+console.log(`Character research valid: ${ids.size} characters, ${totals.proposed} proposed fields, ${totals.missing} missing fields, ${editorialReviews} editorial decisions (${flaggedCharacters} characters to review).`)

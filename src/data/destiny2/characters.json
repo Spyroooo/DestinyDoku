@@ -1360,6 +1360,349 @@
       ],
       "debutGame": "destiny2",
       "firstReleaseId": "anniversary"
+    },
+    {
+      "id": "the-consul",
+      "edition": "destiny2",
+      "name": "The Consul",
+      "aliases": [
+        "Consul"
+      ],
+      "icon": "/images/characters/the-consul.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Red Legion",
+        "Praetorate"
+      ],
+      "roles": [
+        "Advisor",
+        "Mentor"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "taniks",
+      "edition": "destiny2",
+      "name": "Taniks",
+      "aliases": [
+        "Taniks, the Scarred",
+        "Taniks Reborn",
+        "Taniks, Reborn",
+        "Taniks, the Abomination",
+        "Taniks Perfected"
+      ],
+      "icon": "/images/characters/taniks.jpg",
+      "species": "Eliksni",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "House of Salvation"
+      ],
+      "roles": [
+        "Mercenary",
+        "Boss"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "beyond-light"
+    },
+    {
+      "id": "the-nine",
+      "edition": "destiny2",
+      "name": "The Nine",
+      "aliases": [
+        "Nine",
+        "IX",
+        "Ennead"
+      ],
+      "icon": "/images/characters/the-nine.jpg",
+      "species": "Dark matter entities",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Nine"
+      ],
+      "roles": [
+        "Collective",
+        "Event host"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "drifter"
+    },
+    {
+      "id": "maya-sundaresh-the-conductor",
+      "edition": "destiny2",
+      "name": "Maya Sundaresh / The Conductor",
+      "aliases": [
+        "Maya Sundaresh",
+        "Maya",
+        "The Conductor",
+        "Conductor",
+        "MSund12",
+        "MSund-12",
+        "Maya Sunderesh"
+      ],
+      "icon": "/images/characters/maya-sundaresh-the-conductor.jpg",
+      "species": "Exo",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Nessian Schism"
+      ],
+      "roles": [
+        "Leader",
+        "Researcher"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "echoes"
+    },
+    {
+      "id": "lakshmi-2",
+      "edition": "destiny2",
+      "name": "Lakshmi-2",
+      "aliases": [
+        "Lakshmi",
+        "Lakshimi-2"
+      ],
+      "icon": "/images/characters/lakshmi-2.jpg",
+      "species": "Exo",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "Future War Cult",
+        "Consensus"
+      ],
+      "roles": [
+        "Leader",
+        "Vendor"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "atheon",
+      "edition": "destiny2",
+      "name": "Atheon",
+      "aliases": [
+        "Atheon, Time's Conflux",
+        "Atheon, Times Conflux"
+      ],
+      "icon": "/images/characters/atheon.jpg",
+      "species": "Vex",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": null,
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "splicer"
+    },
+    {
+      "id": "the-traveler",
+      "edition": "destiny2",
+      "name": "The Traveler",
+      "aliases": [
+        "Traveler",
+        "Traveller",
+        "The Traveller",
+        "The Great Machine"
+      ],
+      "icon": "/images/characters/the-traveler.jpg",
+      "species": "Paracausal entity",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Light"
+      ],
+      "roles": [
+        "Source of Light"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "argos",
+      "edition": "destiny2",
+      "name": "Argos, Planetary Core",
+      "aliases": [
+        "Argos"
+      ],
+      "icon": "/images/characters/argos.jpg",
+      "species": "Vex",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "Sol Collective"
+      ],
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "osiris"
+    },
+    {
+      "id": "val-cauor",
+      "edition": "destiny2",
+      "name": "Val Ca'uor",
+      "aliases": [
+        "Val Cauor",
+        "Ca'uor",
+        "Cauor"
+      ],
+      "icon": "/images/characters/val-cauor.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Red Legion"
+      ],
+      "roles": [
+        "Leader",
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "warmind"
+    },
+    {
+      "id": "insurrection-prime",
+      "edition": "destiny2",
+      "name": "INSURRECTION PRIME, Kell’s Scourge",
+      "aliases": [
+        "Insurrection Prime",
+        "Insurrection",
+        "Kells Scourge"
+      ],
+      "icon": "/images/characters/insurrection-prime.jpg",
+      "species": "Servitor/Brig",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "Kell’s Scourge"
+      ],
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "forge"
+    },
+    {
+      "id": "gahlran",
+      "edition": "destiny2",
+      "name": "Gahlran, the Sorrow-Bearer",
+      "aliases": [
+        "Gahlran",
+        "Sorrow-Bearer"
+      ],
+      "icon": "/images/characters/gahlran.jpg",
+      "species": "Cabal",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Savathûn's Brood"
+      ],
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "opulence"
+    },
+    {
+      "id": "sanctified-mind",
+      "edition": "destiny2",
+      "name": "Sanctified Mind, Sol Inherent",
+      "aliases": [
+        "Sanctified Mind",
+        "Sanctified"
+      ],
+      "icon": "/images/characters/sanctified-mind.jpg",
+      "species": "Vex",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "Sol Divisive"
+      ],
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "undying"
+    },
+    {
+      "id": "koregos",
+      "edition": "destiny2",
+      "name": "Koregos, the Worldline",
+      "aliases": [
+        "Koregos",
+        "Koregos, Fractured in Time",
+        "Koregos Fractured in Time",
+        "The Worldline"
+      ],
+      "icon": "/images/characters/koregos.jpg",
+      "species": "Vex",
+      "gender": "Not applicable",
+      "guardianClass": "None",
+      "affiliations": [
+        "Nessian Schism"
+      ],
+      "roles": [
+        "Boss"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "edge-of-fate"
+    },
+    {
+      "id": "kadi-55-30",
+      "edition": "destiny2",
+      "name": "Kadi 55-30",
+      "aliases": [
+        "Kadi",
+        "Kadi-55-30",
+        "The Postmaster",
+        "Postmaster"
+      ],
+      "icon": "/images/characters/kadi-55-30.jpg",
+      "species": "Frame",
+      "gender": "Female",
+      "guardianClass": "None",
+      "affiliations": [
+        "The Last City"
+      ],
+      "roles": [
+        "Vendor",
+        "Postmaster"
+      ],
+      "debutGame": "destiny1",
+      "firstReleaseId": "red-war"
+    },
+    {
+      "id": "benedict-99-40",
+      "edition": "destiny2",
+      "name": "Benedict 99-40",
+      "aliases": [
+        "Benedict",
+        "Benedict-99-40",
+        "Sweeper Bot",
+        "Sweeperbot",
+        "Tower Sweeper",
+        "Cleaning Bot"
+      ],
+      "icon": "/images/characters/benedict-99-40.jpg",
+      "species": "Frame",
+      "gender": "Male",
+      "guardianClass": "None",
+      "affiliations": [
+        "Loyalists"
+      ],
+      "roles": [
+        "Vendor",
+        "Agent",
+        "Custodian"
+      ],
+      "debutGame": "destiny2",
+      "firstReleaseId": "red-war"
     }
   ],
   "releases": [
@@ -1397,6 +1740,20 @@
       "year": 2018,
       "order": 500,
       "seasonNumber": 5
+    },
+    {
+      "id": "drifter",
+      "name": "Season of the Drifter",
+      "year": 2019,
+      "order": 600,
+      "seasonNumber": 6
+    },
+    {
+      "id": "opulence",
+      "name": "Season of Opulence",
+      "year": 2019,
+      "order": 700,
+      "seasonNumber": 7
     },
     {
       "id": "undying",
@@ -1494,6 +1851,13 @@
       "name": "The Final Shape",
       "year": 2024,
       "order": 2350,
+      "seasonNumber": 24
+    },
+    {
+      "id": "echoes",
+      "name": "Episode: Echoes",
+      "year": 2024,
+      "order": 2400,
       "seasonNumber": 24
     },
     {

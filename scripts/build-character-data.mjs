@@ -23,9 +23,11 @@ for (const candidate of research.characters) {
     debutGame: fields.debutGame.value, firstReleaseId: fields.firstDestiny2Release.value,
   })
 }
-assert.equal(characters.length, 67, 'All 67 approved characters must be included')
+assert.equal(characters.length, 82, 'All 82 approved characters must be included')
 const output = `${JSON.stringify({ characters, releases: research.releaseCatalog }, null, 2)}\n`
 const target = new URL('src/data/destiny2/characters.json', root)
 if (process.argv.includes('--check')) assert.equal(await readFile(target, 'utf8'), output, 'Character data is stale; run node scripts/build-character-data.mjs')
 else await writeFile(target, output)
-console.log(`${characters.length} playable characters ${process.argv.includes('--check') ? 'validated' : 'generated'} with portraits and approved clues.`)
+console.log(`${characters.length} playable characters ${process.argv.includes('--check') ? 'validated' : 'generated'} with portraits and documented clues.`)
+const pending = research.characters.flatMap(character => Object.values(character.fields).filter(field => field.reviewRequired))
+if (pending.length) console.log(`${pending.length} editorial clue decisions remain marked for review before posting; see data/character-research/review.md.`)
